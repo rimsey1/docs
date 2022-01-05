@@ -7,16 +7,16 @@ tags: [connector]
 
 ## Partner Setup
 
-**Many of the Microsoft Teams endpoints are protected, due to handling sensitive data. This means you need to apply for permission via [this request form](https://docs.microsoft.com/en-us/graph/teams-protected-apis). 
-Do note that this can take up to a week to get approved, during which you cannot use the protected methods.**
+**Many of the Microsoft Teams endpoints are protected, due to them handling sensitive data. This requires you to apply for permission to use them from Microsoft via [this request form](https://docs.microsoft.com/en-us/graph/teams-protected-apis). 
+Do note that this process can take up to a week to get approved, during which you cannot use the protected methods.**
 
-The following methods in the connector are protected:
+The following methods on the connector are protected:
 - List (Updated) Channel Messages
 - Get Channel Message
 - Get Team Chats (webhook)
 - Get Channel Chats (webhook)
 
-Microsoft Teams uses OAuth 2.0. Please sign up for an application on Microsoft first and get an OAuth client ID, client secret.
+Microsoft Teams uses OAuth 2.0 authentication.  You must therefore create an App within your Microsoft Azure portal (described below) to obtain a Client ID and Client Secret.
 
 ### Azure Active Directory OAuth Application
 
@@ -35,9 +35,9 @@ To Summarize the above documentation:
 
    The URL is:
 
-   * https://``Your Service Domain``/connector/callback 
+   * https://``Your Cyclr Service Domain``/connector/callback 
 
-   Your service domain can be found in your Cyclr console under Settings > General Settings > Service Domain.
+   Your Service Domain can be found in your Cyclr console under Settings > General Settings > Service Domain.
 
    **Multi-tenanted**: Yes
 
@@ -68,14 +68,15 @@ From the Application view (after the creation of the Application in step 3), nav
 | Channel                  | Application | Channel.ReadBasic.All         |
 
 More information: https://docs.microsoft.com/en-us/graph/permissions-reference
+
 ### Cyclr Setup
 
 Setup your Microsoft Teams App within Cyclr:
 
 *   Go to your **Cyclr Console**
 *   Click the **Connectors** menu along the top
-*   Choose Connector Library
-*   Scroll down to **Microsoft Teams**
+*   Choose **Application Connector Library**
+*   Locate the **Microsoft Teams** entry
 *   Click the **Setup** button
 
 Enter the following values:
