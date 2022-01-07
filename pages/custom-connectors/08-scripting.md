@@ -336,7 +336,7 @@ Function to convert JSON to XML.
         "heading": "Reminder",
         "body": "Dont forget me this weekend!"
     }
-};
+  };
   var jsonObjAsXml = cyclr_xml_serialize(jsonObj);
 
   // Output:
