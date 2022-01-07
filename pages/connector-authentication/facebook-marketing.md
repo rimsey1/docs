@@ -66,11 +66,11 @@ The "Promoted Object" is required for certain campaign objectives. The below tab
 
 | Optimization Goal     | Promoted Object Field |
 | :-------------------- | :-------------------- |
-| CONVERSIONS           | <ul><li>Pixel ID (Conversion pixel ID)</li><li>Pixel ID (Facebook pixel ID) and Custom Event Type</li><li>Pixel ID (Facebook pixel ID), Pixel Rule and Custom Event Type</li><li>Event ID (Facebook event ID) and Custom Event Type</li><li>Application ID, Object Store URL, and Custom Event Type for mobile app events</li><li>Offline Conversion Data Set ID (Offline dataset ID) and Custom Event Type for offline conversions</li></ul> |
-| PAGE_LIKES            | <ul><li>Page ID</li></ul> |
-| OFFER_CLAIMS          | <ul><li>Page ID</li></ul> |
-| LINK_CLICKS           | <ul><li>Application ID and Object Store URL for mobile app or Canvas app engagement link clicks</li></ul> |
-| APP_INSTALLS          | <ul><li>Application ID and Object Store URL</li></ul> |
-| OFFSITE_CONVERSIONS   | <ul><li>Application ID, Object Store URL, and Custom Event Type (Standard Events)</li></ul> |
-| PRODUCT_CATALOG_SALES | <ul><li>Product Set ID</li><li>Product Set ID and Custom Event Type</li></ul> |
-| LEAD_GENERATION       | <ul><li>Page ID</li></ul> |
+| CONVERSIONS           | Pixel ID (Conversion pixel ID)<br/>Pixel ID (Facebook pixel ID) and Custom Event Type<br/>Pixel ID (Facebook pixel ID), Pixel Rule and Custom Event Type<br/>Event ID (Facebook event ID) and Custom Event Type<br/>Application ID, Object Store URL, and Custom Event Type for mobile app events<br/>Offline Conversion Data Set ID (Offline dataset ID) and Custom Event Type for offline conversions |
+| PAGE_LIKES            | Page ID |
+| OFFER_CLAIMS          | Page ID |
+| LINK_CLICKS           | Application ID and Object Store URL for mobile app or Canvas app engagement link clicks |
+| APP_INSTALLS          | Application ID and Object Store URL |
+| OFFSITE_CONVERSIONS   | Application ID, Object Store URL, and Custom Event Type (Standard Events) |
+| PRODUCT_CATALOG_SALES | Product Set ID<br/>Product Set ID and Custom Event Type |
+| LEAD_GENERATION       | Page ID |
