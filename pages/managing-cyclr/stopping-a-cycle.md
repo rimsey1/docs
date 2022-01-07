@@ -5,7 +5,7 @@ permalink: stopping-a-cycle
 keywords: [cycle,stop,stopping]
 ---
 
-This article refers to Cycles, but the same applies to Templates as Cyclr processes them in the same way.
+__**This article refers to Cycles, but the same applies to Templates.**__
 
 When you stop a running Cycle you have two choices: **Stop**, or **Finish and Stop**
 ![Deactivate Cycle Popup](./images/deactivate-cycle.png)
@@ -21,7 +21,7 @@ Any transactions that are currently being processed will be stopped where they a
 
 Any transactions that are waiting to be processed however, will wait for the Cycle to be resumed.
 
-If a Cycle is stopped for 24 hours or more, any waiting transactions will be dropped.
+If a Cycle is stopped for 24 hours or more, all of its waiting transactions will automatically be dropped.
 
 #### Finish and Stop
 
@@ -33,6 +33,7 @@ The Cycle will stop once all currently processing/queued transactions have compl
 To check for transactions that are either queued or currently being executed, go to the **Transactions** page for the Cycle and use the filtering options on the cog button in the top right to display only "In Progress Transactions":
 
 ![In Progress Transactions Filter](./images/in-progress-txns.png)
+\
 
 While it is possible to delete In Progress Transactions here, that can cause issues as they are currently being processed so the recommended way is instead to follow the steps below in the **Manually Dropping Transactions** section.
 
@@ -46,4 +47,4 @@ If you have transactions in progress/queued that you want to stop and not contin
 2. Make a copy of the Cycle.
 3. Delete the *original* Cycle which will also delete all of its existing transactions.
 
-Your new Cycle will start with no transactions queued/waiting.
+Your new Cycle won't have any existing transactions.
