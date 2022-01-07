@@ -321,7 +321,45 @@ var csv = '1,2,3\na,b,c';
 var delimiter = ',';
 var hasHeader = false;
 
-var csvRecords =  cyclr_csv_parse(csv, delimiter, hasHeader);;
+var csvRecords =  cyclr_csv_parse(csv, delimiter, hasHeader);
+```
+
+#### cyclr_xml_serialize
+
+Function to convert JSON to XML.
+
+```javascript
+  var jsonObj = {
+    "note": {
+        "to": "Tove",
+        "from": "Jani",
+        "heading": "Reminder",
+        "body": "Dont forget me this weekend!"
+    }
+};
+  var jsonObjAsXml = cyclr_xml_serialize(jsonObj);
+
+  // Output:
+  //<note><to>Tove</to><from>Jani</from><heading>Reminder</heading><body>Dont forget me this weekend!</body></note>
+```
+
+#### cyclr_xml_deserialize
+
+Function to convert XML to JSON.
+
+```javascript
+  var xmlStr = '<note><to>Tove</to><from>Jani</from><heading>Reminder</heading><body>Dont forget me this weekend!</body></note>';
+  var xmlAsJson = cyclr_xml_deserialize(example);
+
+// Output:
+//   {
+//     "note": {
+//         "to": "Tove",
+//         "from": "Jani",
+//         "heading": "Reminder",
+//         "body": "Dont forget me this weekend!"
+//     }
+//   }        
 ```
 
 #### Storage Functions
