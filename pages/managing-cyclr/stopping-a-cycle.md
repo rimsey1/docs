@@ -5,7 +5,7 @@ permalink: stopping-a-cycle
 keywords: [cycle,stop,stopping]
 ---
 
-__**This article refers to Cycles, but the same applies to Templates.**__
+_**This article refers to Cycles, but the same applies to Templates.**_
 
 When you stop a running Cycle you have two choices: **Stop**, or **Finish and Stop**
 ![Deactivate Cycle Popup](./images/deactivate-cycle.png)
@@ -33,7 +33,7 @@ The Cycle will stop once all currently processing/queued transactions have compl
 To check for transactions that are either queued or currently being executed, go to the **Transactions** page for the Cycle and use the filtering options on the cog button in the top right to display only "In Progress Transactions":
 
 ![In Progress Transactions Filter](./images/in-progress-txns.png)
-\
+<br />
 
 While it is possible to delete In Progress Transactions here, that can cause issues as they are currently being processed so the recommended way is instead to follow the steps below in the **Manually Dropping Transactions** section.
 
