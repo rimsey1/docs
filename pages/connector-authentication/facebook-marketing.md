@@ -7,7 +7,6 @@ tags: [connector]
 
 # Facebook Marketing API #
 
-
 Facebook Marketing API uses OAuth 2. You should sign up for an application on Facebook first and get an OAuth client ID and client secret.
 
 > Note: The process of having your app approved by Facebook may be lengthy (~5 days).
@@ -60,3 +59,18 @@ Your Facebook Marketing API connector is now set up! You can test it by installi
 Official Facebook Documentation
 ---------
 [https://developers.facebook.com/docs/apps/register](https://developers.facebook.com/docs/apps/register)
+
+## Create Ad Set "Promoted Object"
+
+The "Promoted Object" is required for certain campaign objectives. The below table outlines the required Promoted Object fields based on the Optimization Goal.
+
+| Optimization Goal     | Promoted Object Field |
+| :-------------------- | :-------------------- |
+| CONVERSIONS           | <ul><li>Pixel ID (Conversion pixel ID)</li><li>Pixel ID (Facebook pixel ID) and Custom Event Type</li><li>Pixel ID (Facebook pixel ID), Pixel Rule and Custom Event Type</li><li>Event ID (Facebook event ID) and Custom Event Type</li><li>Application ID, Object Store URL, and Custom Event Type for mobile app events</li><li>Offline Conversion Data Set ID (Offline dataset ID) and Custom Event Type for offline conversions</li></ul> |
+| PAGE_LIKES            | <ul><li>Page ID</li></ul> |
+| OFFER_CLAIMS          | <ul><li>Page ID</li></ul> |
+| LINK_CLICKS           | <ul><li>Application ID and Object Store URL for mobile app or Canvas app engagement link clicks</li></ul> |
+| APP_INSTALLS          | <ul><li>Application ID and Object Store URL</li></ul> |
+| OFFSITE_CONVERSIONS   | <ul><li>Application ID, Object Store URL, and Custom Event Type (Standard Events)</li></ul> |
+| PRODUCT_CATALOG_SALES | <ul><li>Product Set ID</li><li>Product Set ID and Custom Event Type</li></ul> |
+| LEAD_GENERATION       | <ul><li>Page ID</li></ul> |
