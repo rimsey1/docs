@@ -5,8 +5,9 @@ permalink: stopping-a-cycle
 keywords: [cycle,stop,stopping]
 ---
 
-When you stop a Cycle you have two choices:
-**Stop**, or **Finish and Stop**.
+This article refers to Cycles, but the same applies to Templates as Cyclr processes them in the same way.
+
+When you stop a running Cycle you have two choices: **Stop**, or **Finish and Stop**
 ![Deactivate Cycle Popup](./images/deactivate-cycle.png)
 
 
@@ -14,26 +15,35 @@ When you stop a Cycle you have two choices:
 
 What happens to your transactions depends on which option you choose:
 
-#### 1. Stop
+#### Stop
 
-Any transactions that are currently being processed will be dropped.  Any that are already *queued* however, will wait for the Cyclr to be resumed.
+Any transactions that are currently being processed will be stopped where they are and won't continue if the Cycle is resumed.
 
-#### 2. Finish and Stop
+Any transactions that are waiting to be processed however, will wait for the Cycle to be resumed.
 
-The cycle will stop once all currently processing/queued transactions have completed.
+If a Cycle is stopped for 24 hours or more, any waiting transactions will be dropped.
+
+#### Finish and Stop
+
+The Cycle will stop once all currently processing/queued transactions have completed.
+
 
 ### In Progress Transactions
 
-To check for transactions currently in progress, go to the Transactions page for the Cycle and filter by In Progress Transactions:
+To check for transactions that are either queued or currently being executed, go to the **Transactions** page for the Cycle and use the filtering options on the cog button in the top right to display only "In Progress Transactions":
 
 ![In Progress Transactions Filter](./images/in-progress-txns.png)
 
-### Manually dropping transactions
+While it is possible to delete In Progress Transactions here, that can cause issues as they are currently being processed so the recommended way is instead to follow the steps below in the **Manually Dropping Transactions** section.
 
-If you have transactions in progress/queued that you want to drop so you can start fresh, you should:
+Completed Transactions can be deleted without issue.
 
-1. Stop your cycle.
-2. Make a copy of the cycle.
-3. Delete the *original* cycle.
+### Manually Dropping Transactions
 
-Your new cycle will start with no transactions queued/waiting.
+If you have transactions in progress/queued that you want to stop and not continue processing for any reason, you should:
+
+1. Stop your Cycle by using the "Stop" option so it stops immediately.
+2. Make a copy of the Cycle.
+3. Delete the *original* Cycle which will also delete all of its existing transactions.
+
+Your new Cycle will start with no transactions queued/waiting.
