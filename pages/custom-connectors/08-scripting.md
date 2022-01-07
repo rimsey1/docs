@@ -13,7 +13,7 @@ Cyclr supports Javascript as its scripting language, allowing you to manipulate 
 
 Script can be used when building a Connector and on Steps in a Template or Cycle.
 
-If you're working on a Cycle in the Builder and need to perform a change to some data, click the Step Setup button on a Step then either use Inline Script in a Mapping for something simple, or expand the Advanced Settings area and enter some Script to tie in to Cyclr's [Events](https://docs.cyclr.com/custom-connector-scripting#events) as described below.
+If you're working on a Cycle in the Builder and need to perform a change to some data, click the Step Setup button on a Step then either use Inline Script in a Mapping for something simple, or expand the Advanced Settings area and enter some Script to tie in to Cyclr's [Events](#events) as described below.
 
 For Inline Script, you must prefix the Javascript code with "=" (an equals sign), e.g.:
 ```javascript
