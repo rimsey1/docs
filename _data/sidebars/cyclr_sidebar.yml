@@ -98,7 +98,11 @@ entries:
           - title: Sub Accounts
             url: /sub-accounts
             output: web, pdf
-
+            
+          - title: Stopping a Cycle
+            url: /stopping-a-cycle
+            output: web, pdf
+            
           - title: Performance Tips
             url: /performance-tips
             output: web, pdf
