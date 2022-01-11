@@ -66,6 +66,7 @@ From the Application view (after the creation of the Application in step 3), nav
 | Directory                | Application | Directory.Read.All            |
 |                          | Application | Directory.ReadWrite.All       |
 | Channel                  | Application | Channel.ReadBasic.All         |
+| Chat                     | Application | Chat.Read.All                 |
 
 More information: https://docs.microsoft.com/en-us/graph/permissions-reference
 
