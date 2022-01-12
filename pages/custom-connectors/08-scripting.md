@@ -42,7 +42,7 @@ function before_action() {
 }
 ```
 
-Event handlers entered at the Connector level will be called for all of its Methods.  Event handlers entered at the Method level will only be called for that Method.
+When working on a Custom Connector, event handlers entered at the Connector level will be called for all of its Methods.  Event handlers entered at the Method level will only be called for that Method.  Event handlers entered through a Step's Step Setup will only be called for that one Step.
 
 If you need to pass a value from a **before_action** handler to an **after_action** handler and you're not able to put it in the **method_request** object as part of the Request (the API being called might object to it), you can use the **method_request_mergefields** object as it's persisted across those two events. The **script_parameters** object, for example, is not persisted across any events.
 
