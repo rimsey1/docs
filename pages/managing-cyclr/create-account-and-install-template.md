@@ -29,9 +29,9 @@ curl -X POST --header 'Content-Type: application/json' --header 'Accept: applica
 
 Depending on the template being installed, there may be more to specify in this call, but this  is the minimum.
 
-### 3. Authenticate connector (OAuth)
+## 3. Authenticate connector (OAuth)
 
-#### 3a. Get Sign-in Token
+### 3a. Get Sign-in Token
 
 ```curl
 curl -X POST --header 'Content-Type: application/json' --header 'Accept:  application/json' -d '{ \
@@ -39,14 +39,14 @@ curl -X POST --header 'Content-Type: application/json' --header 'Accept:  applic
  }' 'https://api.cyclr.com/v1.0/accounts/ACCOUNT ID FROM STEP 1/signintoken'
 ```
 
-#### 3b. List Account Connectors
+### 3b. List Account Connectors
 
 ```curl
 curl -X GET --header 'Accept: application/json' --header 'X-Cyclr-Account: ACCOUNT ID FROM PREVIOUS STEP'  
 'https://api.cyclr.com/v1.0/account/connectors'
 ```
 
-#### 3c. Update Connector Auth
+### 3c. Update Connector Auth
 
 ```curl
 curl --request POST \
@@ -61,15 +61,15 @@ Your service domain can be found by visiting General Settings in your Cyclr cons
 
 ``targetOrigin`` should be either the origin of another browser window for the  JavaScript callback event to be dispatched to, or a URL to redirect the user to.
 
-### 4. Make call to a Connector Method 
+## 4. Make call to a Connector Method 
 
-#### 4a. List Connector Methods 
+### 4a. List Connector Methods 
 
 ```curl
 curl -X GET --header 'Accept: application/json' --header 'X-Cyclr-Account: Account  ID from Previous Step' 'https://api.cyclr.com/v1.0/connectors/NAME OF  CONNECTOR/methods'
 ```
 
-#### 4b. Call Method
+### 4b. Call Method
 
 ```curl
  curl -X POST --header 'Content-Type: application/json' --header 'Accept:  application/json' --header 'X-Cyclr-Account: Account ID from Previous Step' -d '{ \  "Parameters": {}, \ 
@@ -78,7 +78,7 @@ curl -X GET --header 'Accept: application/json' --header 'X-Cyclr-Account: Accou
  }' 'https://api.cyclr.com/v1.0/account/connectors/Account Connector ID from Step  3B/methods/Method ID'
 ```
 
-### 5. Start Cycle
+## 5. Start Cycle
 
 ```curl
 curl -X PUT --header 'Content-Type: application/json' --header 'Accept: application/json' -- header 'X-Cyclr-Account: Account ID' -d '{ \ 
