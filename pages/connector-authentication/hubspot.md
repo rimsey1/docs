@@ -80,9 +80,9 @@ Navigate to Cyclr Console > Connectors > Application Connector Library > Hubspot
 Copy the Webhook URL to your clipboard. e.g. ```https://<yourserivcedomain>/api/partnerwebhook/xxxxxx``` (Note:do not user the webhook url from the builder, but this one under the partner console)
 
 You will now need to setup the Hubspot application to send webhooks. This has three steps:
- 1) Enter the URL
- 2) Select events to subscribe to
- 3) Activate the events
+ 1. Enter the URL
+ 2. Select events to subscribe to
+ 3. Activate the events
 
 1
 * Navigate to the Hubspot Developers App [Dashboard](https://app.hubspot.com/developer), and select the application you use with Cyclr.
