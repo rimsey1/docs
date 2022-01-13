@@ -70,3 +70,39 @@ Useful if accessing this Connector via the API.  Property Names given here are i
 | ----------- | -----------    |
 | Scopes      | The scopes of the connector. Default value is `crm.objects.contacts.read`,`crm.objects.deals.read`,`crm.objects.companies.read`. |
 | OptionalScopes   | The optional scopes of the connector. Default value is "content reports e-commerce forms" |
+
+
+### Webhook Setup
+Hubspot webhooks utilise a single webhook URL, this requires some configuration of your Hubspot application.
+
+Navigate to Cyclr Console > Connectors > Application Connector Library > Hubspot > Setup
+
+Copy the Webhook URL to your clipboard. e.g. ```https://<yourserivcedomain>/api/partnerwebhook/xxxxxx``` (Note:do not user the webhook url from the builder, but this one under the partner console)
+
+You will now need to setup the Hubspot application to send webhooks. This has three steps:
+ 1) Enter the URL
+ 2) Select events to subscribe to
+ 3) Activate the events
+
+1
+* Navigate to the Hubspot Developers App [Dashboard](https://app.hubspot.com/developer), and select the application you use with Cyclr.
+* Within this application, navigate to Webhooks.
+* Paste the Webhook URL from your clipboard, into the "target URL"
+* Click Save (bottom of screen)
+
+2
+* Click Create Subscription
+* Select the objects and events that you wish to send to Cyclr
+* Click Subscribe
+
+3
+* Under event subscriptions 
+* Hover over the line with mouse and view subscriptions button will be shown, click this button
+* Hover over the line with mouse and  activate" button will be shown, click this button to activate the sending of the webhook
+
+Your application is now set up for Webhooks using Cyclr.
+
+Webhook Usage
+* Drag the Webhook step from the sidebar into the Builder.
+* Connect the Webhook to another step.
+* Click Run to start the Cycle.
