@@ -38,9 +38,9 @@ Depending on the template being installed, there may be more to specify in this 
 See **Install a Template** docs for more details: [Click Here](/install-from-template)
 
 
-### 3. Authenticate connector (OAuth)
+## 3. Authenticate connector (OAuth)
 
-#### 3a. Get Sign-in Token
+### 3a. Get Sign-in Token
 
 ```curl
 curl -X POST --header 'Content-Type: application/json' --header 'Accept:  application/json' -d '{ \
@@ -48,7 +48,7 @@ curl -X POST --header 'Content-Type: application/json' --header 'Accept:  applic
  }' 'https://api.cyclr.com/v1.0/accounts/ACCOUNT ID FROM STEP 1/signintoken'
 ```
 
-#### 3b. Update Connector Auth
+### 3b. Update Connector Auth
 
 ```curl
 curl --request POST \
@@ -65,7 +65,7 @@ Your service domain can be found by visiting General Settings in your Cyclr cons
 
 See our docs for more on authenticating via OAuth: [Click Here](/oauth-authentication).  Documentation for other auth routes is also available.
 
-### 4. Set Step Field Mapping
+## 4. Set Step Field Mapping
 
 ```curl
 curl -X PUT --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'X-Cyclr-Account: ACCOUNT ID FROM STEP 1' -d '{ \ 
@@ -79,7 +79,7 @@ curl -X PUT --header 'Content-Type: application/json' --header 'Accept: applicat
 
 See **Set Step Field Mapping** in our documentation for more details: [Click Here](/set-step-field-mapping)
 
-### 5. Start Cycle
+## 5. Start Cycle
 
 ```curl
 curl -X PUT --header 'Content-Type: application/json' --header 'Accept: application/json' -- header 'X-Cyclr-Account: Account ID' -d '{ \ 
