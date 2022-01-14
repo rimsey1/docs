@@ -7,10 +7,10 @@ tags: [Create an Account and Install a Template]
 
 This document describes how to approach the following use case via API calls 
 
-1. Create an Account
-2. Install a Template into it
-3. Authenticate the Connector
-4. Set Step Field Mapping
+1. Creating an Account
+2. Installing a Template into it
+3. Authenticating the Connector
+4. Setting the Step Field Mapping
 
 Note: Throughout this document, the domain used in the example requests is ```api.cyclr.com```.
 
