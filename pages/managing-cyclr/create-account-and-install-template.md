@@ -74,7 +74,7 @@ curl -X PUT --header 'Content-Type: application/json' --header 'Accept: applicat
      }, \ 
      "MappingType": "StaticValue", \ 
      "Value": "string" \ 
- }' 'https://api.eu.cyclr.com/v1.0/steps/STEP-ID-FROM-STEP-2/fieldmappings/FIELD-ID-FROM-STEP-2'
+ }' 'https://api.cyclr.com/v1.0/steps/STEP-ID-FROM-STEP-2/fieldmappings/FIELD-ID-FROM-STEP-2'
 ```
 
 See **Set Step Field Mapping** in our documentation for more details: [Click Here](/set-step-field-mapping)
