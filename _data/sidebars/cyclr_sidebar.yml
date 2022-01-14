@@ -275,6 +275,7 @@ entries:
             url: /marketplace-webhook-callback
             output: web, pdf
 
+
       - title: LAUNCH
         output: web, pdf
         folderitems:
@@ -789,4 +790,11 @@ entries:
 
           - title: Zoho
             url: /zoho
+            output: web, pdf
+
+      - title: Cyclr API Examples
+        output: web, pdf
+        folderitems:
+          - title: Create Account & Install Template
+            url: /create-account-and-install-template
             output: web, pdf
