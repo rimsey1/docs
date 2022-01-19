@@ -15,5 +15,6 @@ If your Cyclr Partner Console is hosted on one of our shared stacks, you should 
 | US (North Virginia) | my.cyclr.com | 52.22.119.215 |
 | UK (London) | my.cyclr.uk | 52.56.244.97 |
 | EU (Frankfurt) | eu.cyclr.com | 18.185.231.228 |
+| APAC (Syndney) | apac.cyclr.com | 54.66.28.210 |
 
 If your Cyclr Partner Console is in a private cloud then please contact Cyclr Support.
