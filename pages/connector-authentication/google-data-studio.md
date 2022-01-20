@@ -35,9 +35,8 @@ Here are the parameters for setting up the Cyclr Data Source:
 
 - Cyclr Domain: Choose the Cyclr domain you are using
 - Client ID: Find your client ID in the Console -> Settings -> OAuth Client Credentials
+- Client Secret: Find your client ID in the Console -> Settings -> OAuth Client Credentials and view the secret to copy
 - Account ID: Find the account ID in the Cyclr Console or by making a *List Accounts* API call to Cyclr
-- Username: Username for the user who has access to the account. You can create users and add them to a specified account in the Cyclr Console or by calling the Cyclr API
-- Password: Password for the user who has access to the account. You can set up a password using the Cyclr API
 - Account Connector: Select the connector you would like to get data from. Make sure the connector you selected is authenticated in Cyclr
 - Method: Select the method to call
 - Additional Parameters: Depending on the method you selected, you may need to set up additional parameters e.g. Email Campaign ID
