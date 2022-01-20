@@ -57,7 +57,7 @@ function after_action_paging() {
 
 3\. Having set the **Connector Fields** to match the example in step 2...
 * ```[].cyclr_field_location```
-* ```[].cyclr.display_name```
+* ```[].cyclr_display_name```
 * etc
 
 ...you now need to set the **System Fields** appropriately.
@@ -68,7 +68,7 @@ In the response of the method, set the **System Fields** to match [the table bel
 
 ![](./images/basic-mappings.png)
 
-4\. The only **required** fields are ```[].cyclr_field_location``` and ```[].cyclr.display_name```.
+4\. The only **required** fields are ```[].cyclr_field_location``` and ```[].cyclr_display_name```.
 
 If you are mapping **data types** from the object description, you will need to add some scripting to the method.  
 
