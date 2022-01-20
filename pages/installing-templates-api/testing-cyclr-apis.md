@@ -16,6 +16,7 @@ Cyclr Console Location | API Domain | Interactive API Reference
 my.cyclr.com | https://api.cyclr.com | [US API Reference](https://api.cyclr.com/docs/index)
 my.cyclr.uk | https://api.cyclr.uk | [UK API Reference](https://api.cyclr.uk/docs/index)
 eu.cyclr.com | https://api.eu.cyclr.com | [EU API Reference](https://api.eu.cyclr.com/docs/index)
+apac.cyclr.com | https://api.apac.cyclr.com | [APAC API Reference](https://api.apac.cyclr.com/docs/index)
 
 ### API Reference Authorization
 
