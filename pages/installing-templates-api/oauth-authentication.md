@@ -59,7 +59,7 @@ To handle the **callbackMessage**, your system's webpage should use `window.addE
 
 ### Providing Client ID and Client Secret Values
 
-Typically, systems using OAuth allow you to create a single App which you can use with Cyclr to access all of your customer's accounts.  Some systems however, require the use of separate Apps for each cutomer.  The correct setup should be described in each Connector's Cyclr Connector Guide.
+Typically, systems using OAuth allow you to create a single App which you can use with Cyclr to access all of your customer's accounts.  Some systems however, require the use of separate Apps for each customer.  The correct setup should be described in each Connector's Cyclr Connector Guide.
 
 For systems that allow a single App for all customers, you should set the Client ID and Client Secret values of that App in your Cyclr Console's Application Connector Library entry.
 
