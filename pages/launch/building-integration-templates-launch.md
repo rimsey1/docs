@@ -77,7 +77,7 @@ For example:
   
 “Data will be exported to the spreadsheet you select below. The data will be appended to any existing data that spreadsheet contains.”
 
-“Launch Visible” toggle
+“User configuration” toggle
 
 n/a
 
@@ -87,14 +87,14 @@ Where a value is selected, that will be presented to your end user as the defaul
   
 Where no value is selected, your user will be responsible for specifying a value or mapping before they can proceed.  
   
-Where “Launch Visible” is not selected, the value or mapping specified in the template will be used. Your end user will not be able to amend.
+Where “User configuration” is not selected, the value or mapping specified in the template will be used. Your end user will not be able to amend.
 
 Cycle-level Parameters
 ----------------------
 
 If the same request parameters is required in a number of steps within your template, Cycle-level Parameters can be used as a way to ensure your end user is only asked to specify the value once during the LAUNCH flow.
 
-Make sure any Cycle-level parameters that your user should specify are marked as “_Launch Visible_” before publishing your template.
+Make sure any Cycle-level parameters that your user should specify are marked as “_User configuration_” before publishing your template.
 
 Template tagging
 ----------------
