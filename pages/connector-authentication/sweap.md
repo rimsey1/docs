@@ -1,17 +1,17 @@
 ---
-title: Mate Authentication
+title: Sweap Authentication
 sidebar: cyclr_sidebar
-permalink: mate-connector
+permalink: sweap-connector
 tags: [connector]
 ---
 
-### Mate
+### Sweap
 
-*   Speak to your Mate Administrator to obtain Client ID, Secret, Event ID.
+*   Speak to your Sweap Administrator to obtain Client ID, Secret, Event ID.
 
 ### Cyclr Setup
 
-Setup your Mate Connecector within Cyclr:
+Setup your **Sweap** Connector within Cyclr:
 
 After installing the connector enter:
  * Client ID
