@@ -341,6 +341,11 @@ NJ88GGgv79V79VvYFBBTHUIGu</td>
         <td>A value to pass through to the final page of the LAUNCH flow.</td>
         <td></td>
     </tr>
+    <tr>
+        <td>Wizard</td>
+        <td>Defaults to false.  Whether Cyclr displays mappings to the user as a step-by-step wizard (true), or all at once as a single form (false).</td>
+        <td>true</td>
+    </tr>
 </table>
 
 ### Response
