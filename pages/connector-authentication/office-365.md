@@ -69,5 +69,5 @@ Go to Cyclr Console (https://yourCyclrInstance/console) > Connectors > Applicati
 
    **Client Secret**: Create a Password under Microsoft Azure portal > Azure Active Directory > App Registrations > Your Application > API Access > Keys. Copy and paste the password as the client secret. 
 
-The Microsoft Office 365 Connector is now set up! You can test it by installing the Conneector and calling some Methods.
+You are now ready to install the Connector.  When you do so you will need the **Tenant ID**.  This is the Directory ID found below the **Client ID** in the portal.
 
