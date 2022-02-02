@@ -28,7 +28,7 @@ Please refer to this guide to obtain your client ID, Client Secret and API Key.
 
 > Note: When creating OAuth credentials you should select **Tenant Client Credentials** for the flow.
 
-Tenant ID is visibile in Developer Hub under "status" - it's the number after the firm name.
+Tenant ID is visibile in Developer Hub under "status" (the number after the firm name).
 
 ![Tenant ID location](./images/tenant_id.png)
 
