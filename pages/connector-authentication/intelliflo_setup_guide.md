@@ -22,7 +22,7 @@ Please refer to this guide to create an App in the Intelliflo system.
 
 ### Obtaining Credentials
 
-Please refer to this guide to obtain your client ID, Client Secret and API Key.
+Please refer to this guide to obtain your Client ID, Client Secret and API Key.
 
 [Credential management](https://developer.gb.intelliflo.net/docs/CredentialManagement)
 
