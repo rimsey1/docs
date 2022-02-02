@@ -31,9 +31,9 @@ Depending the app you’re connecting to and the field you are using, only some 
 | Lookup | Cycler will connect to the Destination app to retrieve a list of possible mapping values. For example, a mailing lists in an email marketing platform. |
 | Select a Value | There may be a pre-configured list of values from which you can choose a mapping. |
 
-## User configuration
+## User Configurable
 
-Setting the field to be **User configuration** means that this mapping will be finalised by the user when the Template in installed into an Account.  For the purposes of testing a value may be provided but this value will NOT be copied over on Template installation.
+Setting the field to be **User Configurable** means that this mapping will be finalised by the user when the Template in installed into an Account.  For the purposes of testing a value may be provided but this value will NOT be copied over on Template installation.
 
 ## System mergefields
 
