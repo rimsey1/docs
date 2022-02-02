@@ -16,13 +16,13 @@ To authenticate the Intelliflo connector you will need:
 
 ### App Setup
 
-Please refer to this guide on creating an App in the Intelliflo system.
+Please refer to this guide to create an App in the Intelliflo system.
 
 [App setup guide](https://developer.gb.intelliflo.net/docs/AppDevelopment)
 
 ### Obtaining Credentials
 
-Please refer to this guide on obtaining your client ID, Client Secret and API Key.
+Please refer to this guide to obtain your client ID, Client Secret and API Key.
 
 [Credential management](https://developer.gb.intelliflo.net/docs/CredentialManagement)
 
