@@ -26,7 +26,7 @@ Please refer to this guide to obtain your Client ID, Client Secret and API Key.
 
 [Credential management](https://developer.gb.intelliflo.net/docs/CredentialManagement)
 
-> Note: When creating OAuth credentials you should select **Tenant Client Credentials** for the flow.
+> NB: When creating OAuth credentials you should select **Tenant Client Credentials** for the flow.
 
 Tenant ID is visibile in Developer Hub under "status" (the number after the firm name).
 
