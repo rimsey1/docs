@@ -283,6 +283,10 @@ entries:
             url: /launch-overview
             output: web, pdf
 
+          - title: Building Integration Templates
+            url: /building-integration-templates-launch
+            output: web, pdf
+            
           - title: User Experience
             url: /launch-user-experience
             output: web, pdf
