@@ -161,8 +161,8 @@ cyclr_default_value | The default value to use for the custom field *(optional)*
 cyclr_description | The description of the custom field *(optional)*
 cyclr_is_optional | Indicates if the custom field is optional when part of a request *(optional)*
 cyclr_is_readonly | Indicates if the custom field is read-only, if it is it won't be added to any requests *(optional)*
-cyclr_field_values | A list of values and their labels for a field *(optional)*
 cyclr_is_hidden | Indicates if the custom field should be hidden when part of a request. Often used in conjunction with a default value (cyclr_default_value) *(optional)*
+cyclr_field_values | A list of values and their labels for a field *(optional)*
 
 #### cyclr_field_values
 There are 2 formats supported for `cyclr_field_values`:
