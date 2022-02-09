@@ -1,0 +1,16 @@
+[
+  {
+    "Description": "Active Campaign is a powerful email marketing platform.",
+    "Id": 12608,
+    "Name": "ActiveCampaign",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12608",
+    "Categories": [
+      "CRMs",
+      "Email Marketing",
+      "Sales",
+      "SMS"
+    ]
+  }
+]

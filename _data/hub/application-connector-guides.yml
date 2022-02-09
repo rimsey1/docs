@@ -1,0 +1,8 @@
+title: Application Connector Guides
+text: This is the content for the hub page
+icon: book
+sections: 
+  - title: Authorisation
+    items: 
+      - text: Find out more about our connectors, including how to setup OAuth with your credentials.
+    display: true

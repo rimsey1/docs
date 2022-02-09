@@ -1,0 +1,27 @@
+# Managing Cyclr
+title: Managing Cyclr
+text: This is the content for the Managing Cyclr hub page
+icon: edit
+sections: 
+  - title: Section 1
+    items:
+      - text: Whatever section 1 content there is
+      - text: Content allows for arbitary number of paragraphs
+      - text: Use fluid filters to render text from yml with markup?
+    display: true
+  - title: Section 2
+    items:
+      - text: Whatever section 2 content there is
+    display: true
+  - title: Section 3
+    items:
+      - text: Whatever section 3 content there is
+    display: true
+  - title: Section 4
+    items:
+      - text: Whatever section 4 content there is
+      - text: |
+          1. this is the content with new lines preserved
+          2. an ordered list 
+          3. of three items
+    display: true

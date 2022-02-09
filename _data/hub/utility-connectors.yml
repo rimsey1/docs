@@ -1,0 +1,29 @@
+title: Utility Connectors
+text: This is the content for the Utility Connectors hub page
+icon: wrench
+sections: 
+  - title: Generic utilities 
+    items: 
+      - text: Many integrations are triggered when details of an updated record in one application are sent to a second application to keep the data in sync.
+      - text: There are occasions when this process needs to be bi-directional and this can result in an infinite cross-updating loop where System A updates System B, which causes System B to update System A, and so on.  This continual triggering of updates isn't useful and will eat into your monthly Task Allowance, as well as cause unnecessary updates in both systems.
+      - text: The Cyclr **Cross Updating Preventer** (or "XUP" for short) is designed to avoid this situation.  It can be used to make sure that an inbound update to an application does not result in a returning outbound update.
+    display: true
+  - title: Overview
+    items:
+      - text: Whatever section 2 content there is
+    display: true
+  - title: Installation
+    items:
+      - text: Whatever section 3 content there is
+    display: true
+  - title: Next steps
+    items:
+      - text: Whatever section 4 content there is
+      - text: |
+          * using the markdownify function to render
+          * this content 
+          * as an unordered list
+          * for all content
+          * this md preserves the newlines
+          * as they are in the yml file
+    display: true
