@@ -23,7 +23,7 @@ If you have additional shared information for both entities, it can be added as 
 
 ## Custom Category Object  
 
-Categories can be copied to help organise references. References will be only accessable within the copied category.
+Categories can be copied to help organise references. References will be only accessible within the copied category.
 
 In the builder, go to connector settings. Expand the table category and, at the top of the methods, click on the copy category button. A Copy Category modal will open up. You will then be able to name your copied category.
 
