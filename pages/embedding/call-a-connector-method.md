@@ -84,7 +84,9 @@ Each Connector Method in Cyclr has a *MethodUniqueIdentifier* value. You can get
 
 ### Call a Connector Method
 
-You can now call a connector method and get the raw response from the third-party application.
+You can now call a Connector Method and get the response from the third-party application.
+
+Some Connector Methods may alter the response returned by the third-party API, such as changing the structure to improve how Cyclr can work with it.  If you're familiar with an application's API, you may notice some Responses look a little different.
 
 #### Request
 
@@ -121,7 +123,7 @@ X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
 
 ### Call a Connector Method with Parameters
 
-If the method you are calling requires any values to be passed, they must be included in your Request Body as follows:
+If the method you are calling requires any values to be passed, they can be included in your Request Body as follows:
 
 #### Request
 
