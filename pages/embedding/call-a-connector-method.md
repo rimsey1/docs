@@ -9,7 +9,7 @@ tags: [embedding]
 
 In this guide, you will use the Cyclr API to call a connector method. Cyclr will act as a proxy and pass your request to the external application.
 
-Before you start, make sure you have created an end user account and authenticated a connector.
+Before you start, you'll need to have created a Cyclr Account and have installed and authenticated an Account Connector within it.
 
 ### Get Account Connectors
 
@@ -48,7 +48,7 @@ X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
 ]
 ```
 
-In the response, **123** is an account connector ID. **1** is the ID for the underlying connector.
+In the response, **123** is an Account Connector ID. **1** is the ID for the underlying Cyclr Connector.
 
 ### Identify the Connector Method to Call
 
