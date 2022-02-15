@@ -2,7 +2,7 @@
 title: Jotform
 sidebar: cyclr_sidebar
 permalink: jotform
-tags: [connector-tag,connector-tag,huconnectorb-tag]
+tags: [connector-tag,connector-tag,hub-tag]
 layout: default
 ymlfile: jotform
 ---

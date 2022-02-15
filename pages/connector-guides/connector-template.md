@@ -2,7 +2,7 @@
 title: Page heading
 sidebar: cyclr_sidebar
 permalink: connector-permalink
-tags: [connector-tag,connector-tag,huconnectorb-tag]
+tags: [connector-tag,connector-tag,hub-tag]
 layout: default
 ymlfile: connector-yml-file
 ---

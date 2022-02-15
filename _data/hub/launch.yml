@@ -1,28 +1,36 @@
 title: LAUNCH
-text: This is the content for the hub page
+text: Learn how to publish your integrations inside your SaaS app using our ready made integration setup tool - LAUNCH.
 icon: rocket
 sections: 
-  - title: Section 1 
-    items: 
-      - text: content line 1 this can contain markdown
-      - text: content **line 2** with bold text
+  - title: Customising The Appearance of Launch
+    url: /customising-launch
     display: true
-  - title: Section 2
+  - title: Handling Launch Call
+    url: /handling-callback
     items:
-      - text: Whatever section 2 content there is
     display: true
-  - title: Section 3
+  - title: LAUNCH Deployment
+    url: /launch-deployment
     items:
-      - text: Whatever section 3 content there is
+      - text: 
     display: true
-  - title: Section 4
+  - title: Launch Overview
+    url: /launch-overview
     items:
-      - text: This content includes a bulleted list
-      - text: |
-          * using the markdownify function to render
-          * this content 
-          * as an unordered list
-          * for all content
-          * this md preserves the newlines
-          * as they are in the yml file
+      - text: 
+    display: true
+  - title:  ORBIT
+    url: /orbit
+    items:
+      - text: 
+    display: true
+  - title:  Install a Partner Connector with LAUNCH or Marketplace
+    url: /partner-connector
+    items:
+      - text: 
+    display: true
+  - title:  Launch User Experience
+    url: /launch-user-experience
+    items:
+      - text: 
     display: true

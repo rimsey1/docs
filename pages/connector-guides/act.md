@@ -2,7 +2,7 @@
 title: Act!
 sidebar: cyclr_sidebar
 permalink: act
-tags: [connector-tag,connector-tag,huconnectorb-tag]
+tags: [connector-tag,connector-tag,hub-tag]
 layout: default
 ymlfile: act
 ---

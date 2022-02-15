@@ -2,7 +2,7 @@
 title: ActiveCampaign
 sidebar: cyclr_sidebar
 permalink: activecampaign
-tags: [connector-tag,connector-tag,huconnectorb-tag]
+tags: [connector-tag,connector-tag,hub-tag]
 layout: default
 ymlfile: activecampaign
 ---
