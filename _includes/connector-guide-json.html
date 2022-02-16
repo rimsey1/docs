@@ -13,7 +13,7 @@
 	<div class="col-12">
 		{% if connectordata[0].PartnerSetup %}
 		<div class="section">
-			<h3 class="card-title">Partner Setup</h3>
+			<h2 class="card-title">Partner Setup</h2>
 			<div class="connector">
 				{{ connectordata[0].PartnerSetup | markdownify }}
 			</div>
@@ -21,7 +21,7 @@
 		{% endif %}
 		{% if connectordata[0].ApiKey %}
 		<div class="section">
-			<h3 class="card-title">API Key</h3>
+			<h2 class="card-title">API Key</h2>
 			<div class="connector">
 				{{ connectordata[0].ApiKey | markdownify }}
 			</div>
@@ -29,7 +29,7 @@
 		{% endif %}
 		{% if connectordata[0].CyclrSetup %}
 		<div class="section">
-			<h3 class="card-title">Cyclr Setup</h3>
+			<h2 class="card-title">Cyclr Setup</h2>
 			<div class="connector">
 				{{ connectordata[0].CyclrSetup | markdownify }}
 			</div>
