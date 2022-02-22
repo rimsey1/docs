@@ -1,0 +1,52 @@
+{
+    "Description": "PagerDuty gives you real-time visibility into your critical apps and services all in one place, driven by our full-service ownership model.",
+    "Id": 13404,
+    "Name": "PagerDuty",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/13404",
+    "Categories": [
+        "Data Tools",
+        "Developer Tools",
+        "DevOps"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "List Audit Records for User",
+                    "Description": "Lists the audit records with changes to the identified user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Users",
+                    "Description": "List the users.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Users Sessions",
+                    "Description": "List active sessions of a PagerDuty user.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Incidents",
+            "Methods": [
+                {
+                    "Name": "Create Incident",
+                    "Description": "Creates an Incident",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

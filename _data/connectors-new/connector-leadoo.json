@@ -1,0 +1,54 @@
+{
+    "Description": "Leadoo converts more visitors to customers from your existing website traffic. Understand and improve upon user intent, behavior, marketing channels and company information.",
+    "Id": 14940,
+    "Name": "Leadoo",
+    "Version": "1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14940",
+    "Categories": [
+        "Marketing",
+        "Customer Experience"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Leads",
+            "Methods": [
+                {
+                    "Name": "New Lead",
+                    "MethodType": "Webhook"
+                }
+            ]
+        },
+        {
+            "Category": "Internal",
+            "Methods": [
+                {
+                    "Name": "Send Lead To Endpoint",
+                    "Description": "Post JSON to another endpoint.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Lead Fields",
+                    "Description": "Get fields of a Lead object",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Companies",
+            "Methods": [
+                {
+                    "Name": "New Company Profile",
+                    "MethodType": "Webhook"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

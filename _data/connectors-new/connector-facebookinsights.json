@@ -1,0 +1,124 @@
+{
+    "Description": "This insights edge provides a single, consistent interface to retrieve an ad's statistics.",
+    "Id": 16391,
+    "Name": "Facebook Insights",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16391",
+    "Categories": [
+        "Social Media"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Ad Accounts",
+            "Methods": [
+                {
+                    "Name": "List Ad Accounts",
+                    "Description": "Gets the advertising accounts to which you have access.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get My Accounts",
+                    "Description": "Gets the accounts to which you have access.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Ad Account Creatives",
+                    "Description": "Get all the ad creatives from the ad account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Account Insights By Time Range",
+                    "Description": "Gets a Account statistics.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Personal Ad Accounts",
+                    "Description": "LIsts the advertising accounts for the specified account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Account Insights",
+                    "Description": "Gets a Account statistics.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Ad set",
+            "Methods": [
+                {
+                    "Name": "Get Ad set Insights By Time Range",
+                    "Description": "Gets a Ad set statistics.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Ad sets ",
+                    "Description": "Gets a list of Ad sets for the Campaign ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Ad set Insights",
+                    "Description": "Gets a Ad's statistics.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Ads",
+            "Methods": [
+                {
+                    "Name": "List Ads",
+                    "Description": "Retrieves all ads.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Ad Insights By Time Range",
+                    "Description": "Gets a Ad statistics.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Adset Ads",
+                    "Description": "Gets a list of Ad for the Ad Set ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Ad Insights",
+                    "Description": "Gets the specified ad's statistics.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Ad Creative Preview",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Campaigns",
+            "Methods": [
+                {
+                    "Name": "Get Campaign Insights By Time Range",
+                    "Description": "Gets Campaigns statistics.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Campaign Insights",
+                    "Description": "Gets a campaign's statistics.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Campaigns",
+                    "Description": "Gets the ad campaigns of an ad account.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://cyclr.com/docs/connector-authentication/facebook-marketing"
+}

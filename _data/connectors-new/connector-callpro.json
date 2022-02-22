@@ -1,0 +1,32 @@
+{
+    "Description": null,
+    "Id": 900,
+    "Name": "CallPro",
+    "Version": "1",
+    "Status": "Beta",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/900",
+    "Categories": [
+        "CRMs",
+        "Email Marketing",
+        "Sales"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Accounts",
+            "Methods": [
+                {
+                    "Name": "Create Account",
+                    "Description": "Create a new account inside CallPro CRM.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": "https://cyclr.com/integrate/callpro",
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

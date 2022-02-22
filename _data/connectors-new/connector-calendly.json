@@ -1,0 +1,68 @@
+{
+    "Description": "Calendly is the modern scheduling platform that makes \u201cfinding time\u201d a breeze. When connecting is easy, your teams can get more done.",
+    "Id": 14166,
+    "Name": "Calendly",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14166",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Webhooks",
+            "Methods": [
+                {
+                    "Name": "Invitee Created",
+                    "Description": "Receives information of an invitee created event.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Invitee Cancelled",
+                    "Description": "Receives information of an invitee cancelled event.",
+                    "MethodType": "Webhook"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "Get Current User",
+                    "Description": "Returns basic information about your user account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get User",
+                    "Description": "Returns information about a specified User.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Organizations",
+            "Methods": [
+                {
+                    "Name": "List Organization Memberships",
+                    "Description": "Returns the membership details for an organization or user.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Event Types",
+            "Methods": [
+                {
+                    "Name": "List Event Types",
+                    "Description": "Returns all Event Types associated with a specified User.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/calendly-connector"
+}

@@ -1,0 +1,549 @@
+[
+  {
+    "Description": "Active Campaign is a powerful email marketing platform.",
+    "Id": 12608,
+    "Name": "ActiveCampaign",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12608",
+    "Categories": [
+      "CRMs",
+      "Email Marketing",
+      "Sales",
+      "SMS"
+    ],
+    "MethodCategories": [
+      {
+        "Category": "Contacts",
+        "Methods": [
+          {
+            "Name": "List Contacts",
+            "Description": "Gets all Contacts",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Get Contact",
+            "Description": "Gets a single contact",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Update Contact",
+            "Description": "Updates a contact record",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Delete Contact",
+            "Description": "Deletes a contact",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Get Contact by Email",
+            "Description": "Gets a contact by their email address.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Create Contact",
+            "Description": "Add a new Contact.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "UPSERT Contact",
+            "Description": "Adds or Updates a Contact Record",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "List New Contacts",
+            "Description": "Get new contacts since last run.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "List Updated Contacts",
+            "Description": "Get updated contacts since last run.",
+            "MethodType": "Action"
+          }
+        ]
+      },
+      {
+        "Category": "Deals",
+        "Methods": [
+          {
+            "Name": "List Deals",
+            "Description": "Get all existing deals.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Get Deal",
+            "Description": "Get a single deal.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Delete Deal",
+            "Description": "Delete an existing deal.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Update Deal",
+            "Description": "Update an existing deal.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "List Updated Deals",
+            "Description": "Get updated/modified deals since last run.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "List New Deals",
+            "Description": "Get new deals since last run.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Create Deal",
+            "Description": "Create a new deal.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "List Pipelines",
+            "Description": "Retrieve all existing pipelines.",
+            "MethodType": "Action"
+          }
+        ]
+      },
+      {
+        "Category": "Lists",
+        "Methods": [
+          {
+            "Name": "Delete List",
+            "Description": "Deletes a list.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Get List",
+            "Description": "Retrieves a list.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Get Lists",
+            "Description": "Gets all Lists",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Update Contact Subscription Status",
+            "Description": "Subscribe a contact to a list or unsubscribe a contact from a list.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Create List",
+            "Description": "Create a new list.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Create List Group Permission",
+            "Description": "Associate a list with a group permission.",
+            "MethodType": "Action"
+          }
+        ]
+      },
+      {
+        "Category": "Deal Notes",
+        "Methods": [
+          {
+            "Name": "Create Deal Note",
+            "Description": "Create a new note for a deal.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Update Deal Note",
+            "Description": "Update an existing note for a deal.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Get Deal Notes",
+            "Description": "Get all Notes attached to a deal",
+            "MethodType": "Action"
+          }
+        ]
+      },
+      {
+        "Category": "Accounts",
+        "Methods": [
+          {
+            "Name": "Get Account",
+            "Description": "Retrieve an existing account",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Update Account",
+            "Description": "Update an existing account",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Delete Account",
+            "Description": "Delete an existing account",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "List Accounts",
+            "Description": "Get all existing accounts.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Create Account",
+            "Description": "Create a new account.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "List New Accounts",
+            "Description": "Get new accounts since last run.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "List Updated Accounts",
+            "Description": "Get updated accounts since last run.",
+            "MethodType": "Action"
+          }
+        ]
+      },
+      {
+        "Category": "Account Notes",
+        "Methods": [
+          {
+            "Name": "Create Account Note",
+            "Description": "Add a note to an account.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Update Account Note",
+            "Description": "Update a note's content.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Get Account Notes",
+            "Description": "List all Notes attached to an Account",
+            "MethodType": "Action"
+          }
+        ]
+      },
+      {
+        "Category": "Contact Tags",
+        "Methods": [
+          {
+            "Name": "List Contact Tags",
+            "Description": "List all Tags attached to a Contact",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Get Contact Tag",
+            "Description": "Retrieve a Tag by ID",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Delete Contact Tag",
+            "Description": "Remove a tag from a contact",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Add Tag To Contact",
+            "Description": "Create a contact tag object.",
+            "MethodType": "Action"
+          }
+        ]
+      },
+      {
+        "Category": "Contact Custom Field Values",
+        "Methods": [
+          {
+            "Name": "List Contact Custom Field Values",
+            "Description": "List contact custom field values.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Get Contact Custom Field Value",
+            "Description": "Get a contact custom field value.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Update Contact Custom Field Value",
+            "Description": "Update a contact custom field value.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Delete Contact Custom Field Value",
+            "Description": "Delete a contact custom field value.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "List New Contact Custom Field Values",
+            "Description": "List new contact custom field values.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "List Updated Contact Custom Field Values",
+            "Description": "List updated contact custom field values.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Set Custom Field Value",
+            "Description": "Set a contact custom field value.",
+            "MethodType": "Action"
+          }
+        ]
+      },
+      {
+        "Category": "Contact Custom Fields",
+        "Methods": [
+          {
+            "Name": "Get Contact Custom Field",
+            "Description": "Get a contact custom field.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Update Contact Custom Field",
+            "Description": "Update a contact custom field.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Delete Contact Custom Field",
+            "Description": "Delete a contact custom field.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "List Contact Custom Fields",
+            "Description": "List contact custom fields.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Create Contact Custom Field",
+            "Description": "Create a custom field for contacts.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "List New Contact Custom Fields",
+            "Description": "List new contact custom fields.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "List Updated Contact Custom Fields",
+            "Description": "List updated contact custom fields.",
+            "MethodType": "Action"
+          }
+        ]
+      },
+      {
+        "Category": "Deals Custom Fields",
+        "Methods": [
+          {
+            "Name": "Get Deal Custom Field",
+            "Description": "Get a deal custom field.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Update Deal Custom Field",
+            "Description": "Update a deal custom field.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Delete Deal Custom Field",
+            "Description": "Delete a deal custom field.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "List Custom Fields for Specific Deal",
+            "Description": "List custom fields for a specific deal.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "List New Custom Fields for Specific Deal",
+            "Description": "List new custom fields for a specific deal.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "List Updated Custom Fields for Specific Deal",
+            "Description": "List updated custom fields for a specific deal.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Create Deal Custom Field",
+            "Description": "Create a deal custom field.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "List Deal Custom Fields",
+            "Description": "List deal custom fields.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "List New Deal Custom Fields",
+            "Description": "List new deal custom fields.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "List Updated Deal Custom Fields",
+            "Description": "List updated deal custom fields.",
+            "MethodType": "Action"
+          }
+        ]
+      },
+      {
+        "Category": "Deals Custom Field Values",
+        "Methods": [
+          {
+            "Name": "Get Deal Custom Field Value",
+            "Description": "Get a deal custom field value.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Update Deal Custom Field Value",
+            "Description": "Update a deal custom field value.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Delete Deal Custom Field Value",
+            "Description": "Delete a deal custom field value.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "List Deal Custom Field Values",
+            "Description": "List deal custom field values.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "List New Deal Custom Field Values",
+            "Description": "List new deal custom field values.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "List Updated Deal Custom Field Values",
+            "Description": "List updated deal custom field values.",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Set Deal Custom Field Value",
+            "Description": "Set a deal custom field value.",
+            "MethodType": "Action"
+          }
+        ]
+      },
+      {
+        "Category": "Tags",
+        "Methods": [
+          {
+            "Name": "List Tags",
+            "Description": "List all available Tags",
+            "MethodType": "Action"
+          }
+        ]
+      },
+      {
+        "Category": "Users",
+        "Methods": [
+          {
+            "Name": "List Users",
+            "Description": "List all ActiveCampaign Users attached to site",
+            "MethodType": "Action"
+          }
+        ]
+      },
+      {
+        "Category": "User Groups",
+        "Methods": [
+          {
+            "Name": "List User Groups",
+            "Description": "Retrieve all existing groups.",
+            "MethodType": "Action"
+          }
+        ]
+      },
+      {
+        "Category": "Webhooks",
+        "Methods": [
+          {
+            "Name": "Create a \"Contact Added\" Webhook",
+            "Description": "Create a new \"contact added\" webhook",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "List Webhooks",
+            "Description": "List all existing webhooks",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Create a \"Contact Updated\" Webhook",
+            "Description": "Create a new \"contact updated\" webhook",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Create an \"Email Bounced\" Webhook",
+            "Description": "Create a new \"email bounced\" webhook",
+            "MethodType": "Action"
+          },
+          {
+            "Name": "Create a \"Contact Unsubscribed\" Webhook",
+            "Description": "Create a new \"contact unsubscribed\" webhook",
+            "MethodType": "Action"
+          }
+        ]
+      },
+      {
+        "Category": "Notifications",
+        "Methods": [
+          {
+            "Name": "Contact Added",
+            "Description": "Event fired when new contact detected.",
+            "MethodType": "Webhook"
+          },
+          {
+            "Name": "Contact Unsubscribed",
+            "Description": "Event fired when contact unsubscribed.",
+            "MethodType": "Webhook"
+          },
+          {
+            "Name": "Contact Updated",
+            "Description": "Event fired when contact updated.",
+            "MethodType": "Webhook"
+          },
+          {
+            "Name": "Email Bounced",
+            "Description": "Event fired when email bounces.",
+            "MethodType": "Webhook"
+          }
+        ]
+      },
+      {
+        "Category": "Deal Stages",
+        "Methods": [
+          {
+            "Name": "List Deal Stages",
+            "Description": "Retrieve all existing stages",
+            "MethodType": "Action"
+          }
+        ]
+      },
+      {
+        "Category": "Automations",
+        "Methods": [
+          {
+            "Name": "List Automations",
+            "Description": "List all of your automations.",
+            "MethodType": "Action"
+          }
+        ]
+      },
+      {
+        "Category": "Campaigns",
+        "Methods": [
+          {
+            "Name": "List Campaigns",
+            "Description": "Get all existing campaigns.",
+            "MethodType": "Action"
+          }
+        ]
+      }
+    ],
+    "MetaTile": "ActiveCampaign Connector | Email Marketing Connector | Cyclr",
+    "MetaDescription": "Connect ActiveCampaign to your essential business applications or integrate it with your own application, within your own interface",
+    "Content": "<p>ActiveCampaign is an advanced email marketing platform with flexible marketing automation functionality.</p><p>Integrate ActiveCampaign with your own application and give your users advanced automations that can be installed in a couple of clicks!</p>",
+    "WebsiteUrl": "https://cyclr.com/integrate/activecampaign",
+    "DocumentationUrl": "https://www.activecampaign.com/support/",
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/activecampaign-connector"
+  }
+]

@@ -1,0 +1,32 @@
+{
+    "Description": "Google Search Console allows you to monitor and control the optimization and indexing of your website",
+    "Id": 3852,
+    "Name": "Google Search Console",
+    "Version": "v3",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/3852",
+    "Categories": [
+        "Marketing",
+        "Dashboarding",
+        "Analytics",
+        "Data Tools"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Search Analytics",
+            "Methods": [
+                {
+                    "Name": "Query",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://cyclr.com/docs/connector-authentication/google"
+}
