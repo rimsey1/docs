@@ -12,7 +12,7 @@ To use your own domain as Cyclr Service Domain, follow these steps:
 * You must provide us with an SSL certificate for the domain you wish to use with Cyclr, e.g. ```integration.mydomain.com```, which we will install on our web servers.
 * You must create a CNAME DNS record pointing ```integration.mydomain.com``` to the Cyclr Instance you're hosted on. If you're on the US Instance for example, that will be `my.cyclr.com`.  Get in touch if you're not sure.
 * Contact Cyclr Support once the above tasks have been completed and we'll perform some setup on your Cyclr Console.
-* You will need to provide details of a new SSL certificate before the existing one expires (we plan to make this less manual in future).
+* You will need to provide details of a new SSL certificate before the existing one expires (we plan to make this less manual in future).  We will also need the private keys for any certificates you provide.
 
 ***IMPORTANT: Changing your Service Domain will require you to update any referenced Webhook or App Callback/Redirect URLs.***
 
