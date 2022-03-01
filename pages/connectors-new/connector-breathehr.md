@@ -4,6 +4,8 @@ sidebar: cyclr_sidebar
 permalink: breathehr-auto
 tags: [connector]
 toc: false
+icon: https://my.cyclr.com/api/ConnectorIcon/12263
+category: All
 ---
 {% assign connectordata = site.data.connectors-new.connector-breathehr %}
 {% include connector-new.html %}	

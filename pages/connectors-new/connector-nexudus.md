@@ -4,6 +4,8 @@ sidebar: cyclr_sidebar
 permalink: nexudus-auto
 tags: [connector]
 toc: false
+icon: https://my.cyclr.com/api/ConnectorIcon/12594
+category: CRMs
 ---
 {% assign connectordata = site.data.connectors-new.connector-nexudus %}
 {% include connector-new.html %}	

@@ -22,21 +22,37 @@ if response.status_code == 200 :
 	for item in json_data:
 		# derive the connector filenames 
 		connector_name = item['Name']
+		connector_icon = item['Icon']
+		connector_description = item['Description']
+		connector_category = 'All'
 		file_name = re.sub("[^a-zA-Z0-9]", "", connector_name).lower()
 		file_md = '../pages/connectors-new/connector-'+file_name+'.md'
 		file_md_full = os.path.join(os.path.dirname(__file__), file_md)
 		file_json = "../_data/connectors-new/connector-"+file_name+".json"
 		file_json_full = os.path.join(os.path.dirname(__file__), file_json)
 		# print("Write md "+file_md_full+" and json "+file_json_full)
-
+		if type(item['Categories']) is list and item['Categories']:
+			connector_category = item['Categories'][0]
 		# inject the connector name into the md template
 		# open the template file and the new file
 		with open(template_md,'r') as fromfile, open(file_md_full,'a') as tofile:
 			for line in fromfile:
-				# replace text 
+				# omit description from front matter if no value
+				if "connectordescription" in line and connector_description is None:
+					continue					
+				elif "connectordescription" in line:
+					newline = re.sub("connectordescription", connector_description, line)
+				elif "connectortitle" in line:
+					newline = re.sub("connectortitle", connector_name, line)
+				elif "connectoricon" in line:
+					newline = re.sub("connectoricon", connector_icon, line)
+				elif "connectorcategory" in line:
+					newline = re.sub("connectorcategory", connector_category, line)
+				elif "connectorname" in line:
+					newline = re.sub("connectorname", file_name, line)
+				else:
+					newline = line
 				# append to new md
-				newline = re.sub("connectortitle", connector_name,line)
-				newline = re.sub("connectorname", file_name,newline)
 				tofile.write(newline)
 
 		# write the connector object to the json file

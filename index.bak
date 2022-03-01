@@ -9,4 +9,3 @@ folder: cyclrdoc
 ---
 
 {% include shuffle.html %}
-{% include cyclrdocs.html %}					

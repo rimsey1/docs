@@ -1,26 +1,24 @@
-{% if connectordata.Description %}
 <section>
-	<p>{{ connectordata.Description }}</p>
+    <div>
+      <p>{{ connectordata.Description }}</p>
+    </div>
 </section>
-{% endif %}
+
 
 {% if connectordata.Authentication %}
+<section>
 <h2>Authentication</h2>
 <table>
   <tbody>
-	{% for item in connectordata.Authentication %}
+	{% for prop in connectordata.Authentication %}
     <tr>
-      <td>{{ item[0] }}</td>
-      <td>{{ item[1] }}</td>
+      <td>{{ prop[0] }}</td><td>{{ prop[1] | raw }}</td>
     </tr>
 	{% endfor %}
   </tbody>
 </table> 
+</section>
 {% endif %}
-
-<h2>Content</h2>
-{{ connectordataContent | raw }}
-
 
 {% if connectordata.Documentation %}
 	{% for section in connectordata.Documentation %}
@@ -32,6 +30,7 @@
 </section>
 	{% endfor %}
 {% endif %}
+
 
 
 <h2>Categories</h2>

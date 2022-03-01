@@ -1,10 +1,28 @@
 ---
 layout: default
 ---
-
-<div class="post-header">
+{% if page.icon %}
+<div class="post-header mt-4">
+    <div class="d-flex flex-column justify-content-between">
+        <div class="d-flex flex-row">
+            <div class="col-2">
+                <img class="img-fluid" src="{{ page.icon }}" alt="{{ page.title }} icon"/>
+            </div>
+            <div class="col-10">
+                <h1 class="post-title-main">{{ page.title }}</h1>
+                <h2>{{ page.category }}</h2>
+                {% if page.description %}
+                <p>{{ page.description }}</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% else %}
+<div class="post-header mt-4">
     <h1 class="post-title-main">{{ page.title }}</h1>
 </div>
+{% endif %}
 
 {% if page.simple_map == true %}
 
