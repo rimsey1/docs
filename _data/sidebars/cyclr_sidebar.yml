@@ -723,6 +723,10 @@ entries:
           - title: Pipedrive
             url: /pipedrive-connector.html
             output: web, pdf
+            
+          - title: Pipedrive (OAuth2.0)
+            url: /pipedrive-oauth-connector
+            output: web, pdf
 
           - title: Profitwell
             url: /profitwell
