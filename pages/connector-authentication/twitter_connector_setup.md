@@ -7,7 +7,7 @@ tags: [connector]
 
 ## Obtaining Authentication Credentials
 
-To authenticate the Twitter connector you will need a Twitter Developer account and to have created a developer app.
+To authenticate the Twitter connector you will need a Twitter developer account and to have created a developer app.
 
 Please refer to the [official Twitter documentation](https://developer.twitter.com/en/docs/platform-overview) for a comprehensive guide on setting up API access.
 
@@ -37,6 +37,6 @@ To summarize:
 
 3. Enter your Consumer Key and Consumer Secret, click 'Next'
 
-4. You will be presented with a twitter Login modal. Log in and authorize the connector's access
+4. You will be presented with a twitter login modal. Log in and authorise the connector's access
 
 You will then be redirected to Cyclr where the connector is now authenticated and ready to use.
