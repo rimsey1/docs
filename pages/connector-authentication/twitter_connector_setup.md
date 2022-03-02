@@ -9,10 +9,6 @@ tags: [connector]
 
 To authenticate the Twitter connector you will need a Twitter Developer account and to have created a developer app.
 
-The following official documentation details the steps to carry out.
-
-To summarize:
-
 1. If you don't already have one, you can sign up for a developer account [here](https://developer.twitter.com/en/portal/petition/essential/basic-info)
 
 2. When you have a developer account set up, go to your [App dashboard](https://developer.twitter.com/en/apps)
