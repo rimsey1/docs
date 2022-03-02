@@ -27,7 +27,7 @@ To summarize:
 
 7. Make a note of the API Key and Secret (also known as Consumer Key and Secret) as these are what you will need to authenticate the connector
 
-### Connector Setup
+## Connector Setup
 
 1. Locate the Twitter connector
 
