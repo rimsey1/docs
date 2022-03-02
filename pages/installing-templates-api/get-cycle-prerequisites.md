@@ -45,4 +45,28 @@ In this example, there are the following pre-requisites:
 *   Two Connectors that are unauthenticated
 *   A Step with a missing field mapping
 
+<hr>
+
+## Full list of potential prerequisites
+
+| ReasonCode | Reason |
+| ---------- | ------ |
+|0|Unknown|
+|10|Cycle must have at least two steps|
+|11|All steps must be connected together and only one step can be the trigger|
+|20|Unauthenticated connector|
+|30|Missing mapping|
+|31|Missing decision criteria|
+|32|Missing delay time period|
+|33|Missing date to wait until|
+|40|Missing parameter mapping|
+|41|Missing field mapping|
+|42|Missing collection key mapping|
+|43|Missing webhook key mapping|
+|50|Missing left operand|
+|51|Missing right operand|
+|60| Missing delay unit|
+|61| Missing delay interval|
+|70| Missing wait until date|
+
 [How to Authenticate Account Connector](./authenticate-account-connector)
