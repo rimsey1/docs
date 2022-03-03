@@ -21,7 +21,7 @@ To summarize:
 
 4. Of most importance are the Callback URL and permissions
 
-5. The Callback URL for the App should be https://{{Your Cyclr service domain e.g. <span>app-h.cyclr.</span>com}}/connector/callback
+5. The Callback URL for the App should be https://{Your Cyclr service domain e.g. <span>app-h.cyclr.</span>com}/connector/callback
 
 6. The permissions for the App should be "Read, write, and Direct Messages"
 
