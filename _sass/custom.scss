@@ -1,0 +1,83 @@
+/*
+ * custom styles
+ */
+
+.bg-dark {
+    background-color: $dark;
+    color: $body-color-light;
+    h1,h2,h3,h4,h5,h6 {
+        color: $body-color-light;
+    }
+    p, dl, ol, ul {
+        color: $body-color-light;
+    }
+    a {
+     color: $link-color-light;
+    }
+}
+
+
+.bg-transparent {
+    background-color: transparent !important;
+}
+
+
+.card {
+    min-height: 200px;
+    border: 1px solid $red;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 1px rgba(226,53,84,0.5);
+}
+
+.card-img-top {
+    flex: 1 0 auto;
+}
+
+.card-body {
+    flex: 0 0 auto;    
+}
+
+.card-title {
+    margin: 0;
+    padding: 0;
+    display: block;
+    a.btn {
+        display: block;
+        margin: 0;
+        padding: 10px;
+        border-radius: 0 0 5px 5px;
+    }
+}
+
+.d-flex {
+    flex: 0 0 25%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-stretch {
+    align-items: stretch;
+}
+
+.flex-auto {
+    flex: 0 0 auto;
+}
+
+.flex-grow {
+    flex: 1 0 auto;
+}
+
+.flex-shrink {
+    flex: 0 1 auto;
+}
+
+@media (min-width: $screen-sm-min) {
+    .flex-sm-25 {
+        flex: 0 0 25%;
+    }
+}

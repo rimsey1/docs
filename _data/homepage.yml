@@ -3,39 +3,59 @@ title: Cyclr Documentation
 subtitle: For developers and teams
 text: Create integration solutions effectively with Cyclr.
 sections:
-  - title: Managing Cyclr
-    text: Learn about managing the Cyclr console
-    url: /managing-cyclr
-    icon: edit
-    linktext: Find out more
-    display: true
+  - title: Getting started with Cyclr
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id nullam turpis sodales id nibh condimentum. Elit tempus aliquam egestas proin quam in odio justo. Gravida elementum sit risus faucibus mollis pellentesque at ultrices fames.
+    tiles: 
+      - title: Managing Cyclr
+        icon: edit
+        url: /managing-cyclr
+      - title: Community Site 
+        url: /community-site
+        icon: rocket
+      - title: Using Cyclr 
+        url: /using-cyclr
+        icon: cogs
+  - title: Connectors
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id nullam turpis sodales id nibh condimentum. Elit tempus aliquam egestas proin quam in odio justo. Gravida elementum sit risus faucibus mollis pellentesque at ultrices fames.
+    tiles: 
+      - title: Application Connector Guides
+        icon: book
+        url: /application-connector-guides
+      - title: Utility Connectors 
+        url: /community-site
+        icon: rocket
+      - title: Plugins 
+        url: /using-cyclr
+        icon: cogs
   - title: Embedding Cyclr
-    text: A set of guides to introduce you to how to work with and embed Cyclr
-    url: /embedding-cyclr
-    icon: cogs
-    linktext: Find out more
-    display: true
-  - title: Using Cyclr
-    text: You can build your own connectors inside the Cyclr platform. Learn about connectors' components and build your own
-    url: /using-cyclr
-    icon: code
-    linktext: Find out more
-    display: true
-  - title: Application Connector Guides
-    text: Find out more about our connectors, including how to setup OAuth with your credentials
-    url: /application-connector-guides
-    icon: book
-    linktext: Find out more
-    display: true
-  - title: Deployment Methods
-    text: Learn how to publish your integrations inside your SaaS app using our Marketplaces feature
-    url: /deployment-methods
-    icon: bullhorn
-    linktext: Find out more
-    display: false
-  - title: Community Site 
-    text: Learn how to publish your integrations inside your SaaS app using our ready made integration setup tool - LAUNCH
-    url: /community-site
-    icon: rocket
-    linktext: Find out more
-    display: true
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id nullam turpis sodales id nibh condimentum. Elit tempus aliquam egestas proin quam in odio justo. Gravida elementum sit risus faucibus mollis pellentesque at ultrices fames.
+    cta-text: Embedding Overview
+    cta-url: /using-cyclr
+    tiles: 
+      - title: Custom UI
+        icon: user
+        url: /application-connector-guides
+      - title: Embedded Marketplace 
+        url: /application-connector-guides
+        icon: bank
+      - title: LAUNCH 
+        url: /launch
+        icon: rocket
+  - title: The Cyclr APIs
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id nullam turpis sodales id nibh condimentum. Elit tempus aliquam egestas proin quam in odio justo. Gravida elementum sit risus faucibus mollis pellentesque at ultrices fames.
+    cta-text: Embedding Overview
+    cta-url: /using-cyclr
+    tiles: 
+      - title: API Reference
+        icon: book
+        url: /application-connector-guides
+      - title: API Examples 
+        url: /application-connector-guides
+        icon: search
+      - title: TBC 
+        url: /application-connector-guides
+        icon: question
+
+
+
+

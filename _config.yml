@@ -30,6 +30,20 @@ port: 4000
 exclude:
   - .idea/
   - .gitignore
+  - _data/connectors-bak/
+  - pages/connector-authentication/
+  - pages/connectors-bak/
+  - pages/connector-guides-new/
+  - pages/installing-templates-api/
+  - pages/integration-plugin/
+  - pages/integration-tools/
+  - pages/launch/
+  - pages/managing-cyclr/
+  - pages/marketplaces/
+  - pages/templates/
+  - pages/utility-connectors/
+  - indexold.md
+
 # these are the files and directories that jekyll will exclude from the build
 
 incremental: false
@@ -81,6 +95,9 @@ defaults:
 
 sidebars:
   - cyclr_sidebar
+
+sass:
+  style: compressed
 
 description: "Documentation for Cyclr."
 # the description is used in the feed.xml file

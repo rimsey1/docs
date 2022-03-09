@@ -11,16 +11,21 @@
 <section class="{{ bgcycle }}">
 	<div class="container">
 		<div class="{{ textcycle }}">
-			<div class="">
-				<span class="fa-stack fa-4x">
-					<i class="fa fa-circle fa-stack-2x text-primary"></i>
-					<i class="fa fa-{{ section.icon }} fa-stack-1x fa-inverse"></i>
-				</span>
-			</div>
-			<h3 class="{{ textcycle }}">{{ section.title }}</h3>
+			<h2 class="text-center {{ textcycle }}">{{ section.title }}</h2>
 			<a class="anchorjs-link {{ textcycle }}" aria-label="Anchor" data-anchorjs-icon="" href="#{{ section.title | slugify | downcase }}" style="font: 1em / 1  anchorjs-icons; padding-left: 0.375em;"></a>
 			<p class="py-0 {{ textcycle }}">{{ section.text }}</p>
-			<a href="{{section.url}}" class="btn btn-primary">{{section.linktext}}</a>
+			<div class="d-flex justify-content-between align-items-stretch">
+			{% for tile in section.tiles %}
+				<div class="card flex-auto flex-sm-25">
+					<div class="card-img-top">
+						<i class="fa fa-{{ tile.icon }}"></i>
+					</div>
+					<div class="card-body">
+						<h3 class="card-title"><a href="{{tile.url}}" class="btn btn-primary">{{tile.title}}</a></h3>
+					</div>
+				</div>
+			{% endfor %}
+			</div>
 		</div>
 	</div>
 </section>
