@@ -103,6 +103,10 @@ entries:
             url: /stopping-a-cycle
             output: web, pdf
             
+          - title: Types of Cyclr User
+            url: /types-of-cyclr-user
+            output: web, pdf
+            
           - title: Performance Tips
             url: /performance-tips
             output: web, pdf
