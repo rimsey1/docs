@@ -5,7 +5,7 @@ permalink: open-bom-connector
 tags: [connector]
 ---
 
-## Obtaining Authentication Credentials
+### Obtaining Authentication Credentials
 
 To authenticate the OpenBOM connector you will need your OpenBOM username and password, and an API Key.
 
