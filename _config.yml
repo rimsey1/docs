@@ -34,12 +34,14 @@ exclude:
   - pages/connector-authentication/
   - pages/connectors-bak/
   - pages/connector-guides-new/
+  - pages/embedding/
   - pages/installing-templates-api/
   - pages/integration-plugin/
   - pages/integration-tools/
   - pages/launch/
   - pages/managing-cyclr/
   - pages/marketplaces/
+  - pages/tags/
   - pages/templates/
   - pages/utility-connectors/
   - indexold.md

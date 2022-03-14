@@ -15,20 +15,38 @@ $gray-800:				#343B46;
 $dark:					$gray-800;
 $link-color:			$red;
 $link-color-light:      $red;
-$primary:               $red;
+$primary:               $pink;
 $secondary:             $yellow;
 
+
+$brand-primary:         $pink;
+$brand-success:         $yellow;
+$brand-info:            $pink;
+$brand-warning:         $red;
+$brand-danger:          $red;
+
+
 // typography
-$h1-font-size:				36px;
-$h2-font-size:				32px;
-$h3-font-size:				28px;
-$h4-font-size:				24px;
-$h5-font-size:				18px;
-$h6-font-size:				16px;
+$font-size-h1:				36px;
+$font-size-h2:				32px;
+$font-size-h3:				28px;
+$font-size-h4:				24px;
+$font-size-h5:				18px;
+$font-size-h6:				16px;
+
 $headings-font-family: 		$font-family-sans-serif;
 $headings-color:			$gray-800;
-
 $body-color:				$gray-800;
 $body-color-light:          $white;
 
+// spacing
+$spacing-1:              16px;
+$spacing-2:              18px;
+$spacing-3:              24px;
+$spacing-4:              28px;
+$spacing-5:              32px;
+$spacing-6:              36px;
+
 @import "bootstrap/variables";
+
+

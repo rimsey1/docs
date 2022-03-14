@@ -1,6 +1,6 @@
 
 <section class="bg-dark">
-	<div class="container">
+	<div class="container text-center">
 		<h1 class="text-light">{{ site.data.homepage.subtitle }}</h1>
 		<h2 class="text-light">{{ site.data.homepage.text }}</h2>
 	</div>
@@ -8,20 +8,28 @@
 {% for section in site.data.homepage.sections %}
 {% capture bgcycle %}{% cycle 'bg-light', 'bg-dark' %}{% endcapture %}
 {% capture textcycle %}{% cycle 'text-dark', 'text-light' %}{% endcapture %}
-<section class="{{ bgcycle }}">
+<section class="{{ bgcycle }} py-4">
 	<div class="container">
 		<div class="{{ textcycle }}">
 			<h2 class="text-center {{ textcycle }}">{{ section.title }}</h2>
-			<a class="anchorjs-link {{ textcycle }}" aria-label="Anchor" data-anchorjs-icon="" href="#{{ section.title | slugify | downcase }}" style="font: 1em / 1  anchorjs-icons; padding-left: 0.375em;"></a>
-			<p class="py-0 {{ textcycle }}">{{ section.text }}</p>
-			<div class="d-flex justify-content-between align-items-stretch">
+			<div class="intro my-3">
+				<p class="py-0 {{ textcycle }}">{{ section.text }}</p>
+			</div>
+			{% if section.cta-text %}
+			<div class="text-center my-6">
+				<a href="{{ section.cta-url }}" class="btn btn-cta">{{ section.cta-text }}</a>
+			</div>
+			{% endif %}
+			<div class="d-flex justify-content-between my-5">
 			{% for tile in section.tiles %}
-				<div class="card flex-auto flex-sm-25">
-					<div class="card-img-top">
-						<i class="fa fa-{{ tile.icon }}"></i>
-					</div>
-					<div class="card-body">
-						<h3 class="card-title"><a href="{{tile.url}}" class="btn btn-primary">{{tile.title}}</a></h3>
+				<div class="card flex-auto flex-sm-25 my-4">
+					<div class="card-body d-flex flex-column">
+						<div class="flex-grow-1 d-flex align-items-center justify-content-center">
+							<i class="fa fa-{{ tile.icon }} fa-5x"></i>
+						</div>
+						<a href="{{tile.url}}" class="btn btn-primary d-flex align-items-center justify-content-center">
+							<span>{{tile.title}}</span>
+						</a>
 					</div>
 				</div>
 			{% endfor %}
@@ -30,3 +38,4 @@
 	</div>
 </section>
 {% endfor %}
+

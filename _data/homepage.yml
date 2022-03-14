@@ -43,8 +43,6 @@ sections:
         icon: rocket
   - title: The Cyclr APIs
     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id nullam turpis sodales id nibh condimentum. Elit tempus aliquam egestas proin quam in odio justo. Gravida elementum sit risus faucibus mollis pellentesque at ultrices fames.
-    cta-text: Embedding Overview
-    cta-url: /using-cyclr
     tiles: 
       - title: API Reference
         icon: book
