@@ -1,6 +1,21 @@
 /*
  * custom styles
  */
+::-webkit-input-placeholder { /* Edge */
+  color: $placeholder-color;
+}
+
+:-ms-input-placeholder { /* Internet Explorer */
+  color: $placeholder-color;
+}
+
+::placeholder {
+  color: $placeholder-color;
+}
+
+.w-auto {
+    width: auto;
+}
 
 .bg-dark {
     background-color: $dark;
@@ -18,6 +33,23 @@
 
 .bg-transparent {
     background-color: transparent !important;
+}
+
+.hero {
+    h1 {
+        text-transform: $hero-text-transform-h1;
+        font-size: $hero-font-size-h1;
+        font-weight: $hero-font-weight-h1;
+        line_height: $hero-text-transform-h1;
+
+    }
+    h2 {
+        text-transform: $hero-text-transform-h2;
+        font-size: $hero-font-size-h2;
+        font-weight: $hero-font-weight-h2;
+        line_height: $hero-text-transform-h2;
+
+    }
 }
 
 .intro {
@@ -78,8 +110,154 @@
     }
 }
 
+.flex-50 {
+    flex: 0 0 50%;
+}
+
+.list-nostyle {
+    list-style: none;
+}
+
+// navbar
+.navbar {
+    .navbar-nav {
+        li {
+            font-size: $navbar-font-size;
+            line-height: $navbar-line-height;
+            font-weight: $navbar-font-weight;
+            font-style: $navbar-font-style;
+            a {
+                font-size: $navbar-font-size;
+                line-height: $navbar-line-height;
+                font-weight: $navbar-font-weight;
+                font-style: $navbar-font-style;
+                &:hover {
+                
+                }
+                &:active {
+                
+                }
+            }
+        }
+    }
+}
+// search 
+#search-container {
+    ul#results-container {
+    }
+    #search-input {
+        background-color: $search-input-bg;
+        color: $search-input-color;
+        font-size: $search-input-font-size;
+        font-weight: $search-input-font-weight;
+        line-height: $search-input-line-height;
+        border-radius: $search-input-border-radius;
+        width: 100%;
+    }
+}
+
+// algolia earch 
+.algolia-autocomplete {
+    display: block;
+    width: 100%;
+    .algolia-docsearch-footer--logo,
+    .ds-dropdown-menu .ds-suggestions {
+        background-color: $white;
+        &:hover {
+            background-color: $white;
+        }
+    }
+}
+
+// sidebar
+#tg-sb-sidebar {
+    background: transparent;
+}
+
+ul#mysidebar {
+    border-radius: 0;
+    background-color: $sidebar-bg;
+    color: $sidebar-color;
+    li {
+        background-color: transparent;
+        color: $sidebar-color;
+        font-size: $sidebar-font-size;
+        font-weight: $sidebar-font-weight;
+        line-height: $sidebar-line-height;
+        a {
+            background-color: transparent;
+            border-color: $sidebar-link-border-color;
+            border-width: $sidebar-link-border-width;
+            color: $sidebar-link-color;
+            font-size: $sidebar-font-size;
+            font-weight: $sidebar-font-weight;
+            line-height: $sidebar-line-height;
+            &:hover {
+                color: $sidebar-link-color-hover;
+            }
+            &:active,
+            &.active {
+                color: $sidebar-link-color-active;
+            }
+        }
+        ul {
+            li {
+                font-size: $sidebar-submenu-font-size;
+                font-weight: $sidebar-submenu-font-weight;
+                line-height: $sidebar-submenu-line-height;
+                a {
+                    font-size: $sidebar-submenu-font-size;
+                    font-weight: $sidebar-submenu-font-weight;
+                    line-height: $sidebar-submenu-line-height;
+                }
+            }
+        }
+    }
+}
+
+// footer {
+footer {
+    background-color: $footer-bg;
+    color: $footer-color;
+    font-size: $footer-font-size;
+    font-weight: $footer-font-weight;
+    line-height: $footer-line-height;
+    a {
+        color: $footer-link-color;
+        font-size: $footer-font-size;
+        font-weight: $footer-font-weight;
+        line-height: $footer-line-height;
+        display: inline-block;
+        &:hover {
+            color: $footer-link-color-hover;
+        }
+    }
+}   
+
 @media (min-width: $screen-sm-min) {
     .flex-sm-25 {
         flex: 0 0 25%;
     }
+    .navbar .nav {
+        float: none;
+    }
 }
+
+@media (max-width: $screen-sm-max) {
+    #mysidebar {
+        position: relative;
+    }
+}
+
+@media (min-width: $screen-md-min) {
+    ul#mysidebar {
+        width: 307px;
+    }
+}
+
+@media (max-width: $screen-sm-max) {
+    ul#mysidebar {
+        max-width: 100%;
+    }
+}
+

@@ -85,10 +85,10 @@
                 {% assign content_col_size = "col-md-12" %}
                 {% unless page.hide_sidebar %}
                 <!-- Sidebar Column -->
-                <div class="col-md-3" id="tg-sb-sidebar">
+                <div class="col-md-2 m-0" id="tg-sb-sidebar">
                     {% include sidebar.html %}
                 </div>
-                {% assign content_col_size = "col-md-9" %}
+                {% assign content_col_size = "col-md-10" %}
                 {% endunless %}
 
                 <!-- Content Column -->
@@ -97,6 +97,7 @@
                 </div>
                 <!-- /.row -->
             </div>
+            {% include footer.html %}
             <!-- /.container -->
         </div>
         <!-- /#main -->

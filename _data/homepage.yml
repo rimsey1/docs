@@ -1,6 +1,8 @@
 # Cyclr doc tiles
 title: Cyclr Documentation
 subtitle: For developers and teams
+herosearch: true
+navsearch: false
 text: Create integration solutions effectively with Cyclr.
 sections:
   - title: Getting started with Cyclr

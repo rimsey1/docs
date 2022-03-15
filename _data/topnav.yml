@@ -5,18 +5,24 @@ topnav:
     items:
       - title: Cyclr Website
         external_url: https://cyclr.com
+        active: false
 
 #Topnav dropdowns
 topnav_dropdowns:
   - title: Topnav dropdowns
     folders:
       - title: Resources
+        active: true
         folderitems:
           - title: API Reference
             url: /testing-cyclr-api
+            active: true
           - title: Connector Library
             external_url: https://cyclr.com/connectors
+            active: true
           - title: Changelog
             external_url: https://cyclr.com/changelog
+            active: false
           - title: Blog
             external_url: https://cyclr.com/blog
+            active: true

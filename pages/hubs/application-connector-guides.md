@@ -3,8 +3,9 @@ title: Application Connector Guides
 sidebar: cyclr_sidebar
 permalink: application-connector-guides
 tags: [application-connector-guides]
-layout: default
+layout: page
 ymlfile: application-connector-guides
+toc: false
 ---
 {% assign hubdata = site.data.hub.application-connector-guides %}
 {% assign connectors = site.data.connectors.connectors %}
