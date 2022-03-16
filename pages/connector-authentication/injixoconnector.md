@@ -15,10 +15,8 @@ Copy your Personal Access Token to use when setting up your connector.
 
 ### Cyclr Setup
 
-Setup your Injixo within Cyclr:
+Setup your Injixo within Cyclr when installing on an account in Cyclr.
 
-When installing on an account in Cyclr.
-
-**API Key**: Enter your Injixo Personal Access Token.
+Enter your Injixo Personal Access Token when asked to enter **API Key**
 
 Your Injxo Connector is now setup! You can test it by executing one of the methods to confirm it can return some data.
