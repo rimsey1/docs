@@ -79,21 +79,28 @@
     {% else %}
     {% assign sbclass='sb'%}
     {% endif %}
+    {% if page.layout == "homepage" %}
+    {% assign containerclass=''%}
+    {% else %}
+    {% assign containerclass='container '%}
+    {% endif %}
 
-<body class="d-md-flex flex-md-column {{sbclass}}">
+<body class="d-lg-flex flex-lg-column {{sbclass}} layout-{{page.layout}}">
     {% include topnav.html %}
-    <div class="flex-grow-1 flex-shrink-0 d-md-flex flex-content-md-between align-items-md-start">
+    <div class="flex-grow-1 flex-shrink-0 d-lg-flex">
         {% unless page.hide_sidebar == true %}
-        <aside class="sidebar flex-grow-0 flex-shrink-0 flex-md-column justify-content-md-between align-self-md-stretch" id="tg-sb-sidebar">
+        <aside class="sidebar flex-grow-0 flex-shrink-0 flex-lg-column justify-content-lg-between align-self-lg- stretch" id="tg-sb-sidebar">
             {% include sidebar.html %}
         </aside>
         {% endunless %}
         <!-- Page Content -->
-        <main  class="flex-grow-1 flex-shrink-0">
+        <div class="flex-grow-1 flex-shrink-0 d-flex flex-column">
+            <main class="{{containerclass}}post flex-grow-1">
             {{content}}
-        </main>
+            </main>
+            {% include footer.html %}
+        </div>
     </div>
-    {% include footer.html %}
 </body>
 {% if site.google_analytics %}
 {% include google_analytics.html %}

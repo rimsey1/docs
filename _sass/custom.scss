@@ -123,9 +123,21 @@ body {
     min-height: 100vh;
 }
 
+.img-fluid {
+    max-width:  100%;
+    max-height: 100%;
+}
+
 // navbar
 .navbar {
     height: $navbar-height;
+    padding: 0 $sidebar-nav-spacing;
+    .logo {
+        .img-responsive {
+            height: calc(#{$navbar-height} - (#{$sidebar-nav-spacing}*2));
+            width: auto;
+        }
+    }
     .navbar-nav {
         li {
             font-size: $navbar-font-size;
@@ -257,6 +269,7 @@ footer {
     font-size: $footer-font-size;
     font-weight: $footer-font-weight;
     line-height: $footer-line-height;
+    padding: $sidebar-nav-spacing;
     a {
         color: $footer-link-color;
         font-size: $footer-font-size;
@@ -266,6 +279,18 @@ footer {
         &:hover {
             color: $footer-link-color-hover;
         }
+    }
+    .copyright {
+        padding-top: $sidebar-nav-spacing;
+    }
+    .footer-links {
+        flex-basis: 65%;
+        li {
+            flex-basis: 45%;
+        }
+    }
+    .footer-logo {
+        flex-basis: 35%;
     }
 }   
 
@@ -281,10 +306,25 @@ footer {
 @media (max-width: $screen-sm-max) {
     #mysidebar {
         position: relative;
+        max-width: 100%;
     }
 }
 
 @media (min-width: $screen-md-min) {
+    .img-fluid {
+            max-width:  70%;
+            max-height: 70%;
+    }
+    main.container,
+    .footer-content.container {
+        max-width: calc(#{$screen-md-min} - #{$sidebar_width_media_md} - (#{$sidebar-nav-spacing} * 2));
+    }
+    nav.navbar {
+        .logo {
+            width: $sidebar_width_media_md;
+            padding: $sidebar-nav-spacing;
+        }
+    }
     aside.sidebar {
         width: $sidebar_width_media_md;
         display: flex;
@@ -304,15 +344,22 @@ footer {
             }
         }
     }
-    .footer-content  {
-        margin-left: $sidebar_width_media_md;
-
-    }
 }
 
-@media (max-width: $screen-sm-max) {
-    ul#mysidebar {
-        max-width: 100%;
+@media (min-width: $screen-lg-min) {
+    main.container,
+    .footer-content.container  {
+        max-width: calc(#{$screen-lg-min} - #{$sidebar_width_media_md} - (#{$sidebar-nav-spacing} * 2));
+    }
+    footer {
+        .footer-links {
+            flex-basis: auto;
+            li {
+            flex-basis: 32%;
+            }
+        }
+        .footer-logo {
+            flex-basis: auto;
+        }
     }
 }
-
