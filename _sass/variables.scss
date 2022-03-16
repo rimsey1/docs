@@ -104,6 +104,7 @@ $footer-line-height:                        22px;
 $footer-font-weight:                        500;
 
 // sidebar 
+$sidebar_width_media_md:                    307px;
 $sidebar-color:                             $white;
 $sidebar-bg:                                $pink;
 $sidebar-font-size:                         18px;
@@ -120,6 +121,7 @@ $sidebar-submenu-line-height:               20px;
 $sidebar-submenu-link-color:                $white;
 $sidebar-submenu-link-color-hover:          $white;
 $sidebar-submenu-link-color-active:         $white;
+$sidebar-nav-spacing:                       25px;
 
 
 @import "bootstrap/variables";

@@ -74,35 +74,26 @@
     {% endif %}
 
 </head>
+    {% if page.hide_sidebar == true %}
+    {% assign sbclass='no-sb'%}
+    {% else %}
+    {% assign sbclass='sb'%}
+    {% endif %}
 
-<body>
+<body class="d-md-flex flex-md-column {{sbclass}}">
     {% include topnav.html %}
-    <!-- Page Content -->
-    <div class="">
-        <div id="main">
-            <!-- Content Row -->
-            <div class="row">
-                {% assign content_col_size = "col-md-12" %}
-                {% unless page.hide_sidebar %}
-                <!-- Sidebar Column -->
-                <div class="col-md-2 m-0" id="tg-sb-sidebar">
-                    {% include sidebar.html %}
-                </div>
-                {% assign content_col_size = "col-md-10" %}
-                {% endunless %}
-
-                <!-- Content Column -->
-                <div class="{{content_col_size}}" id="tg-sb-content">
-                    {{content}}
-                </div>
-                <!-- /.row -->
-            </div>
-            {% include footer.html %}
-            <!-- /.container -->
-        </div>
-        <!-- /#main -->
+    <div class="flex-grow-1 flex-shrink-0 d-md-flex flex-content-md-between align-items-md-start">
+        {% unless page.hide_sidebar == true %}
+        <aside class="sidebar flex-grow-0 flex-shrink-0 flex-md-column justify-content-md-between align-self-md-stretch" id="tg-sb-sidebar">
+            {% include sidebar.html %}
+        </aside>
+        {% endunless %}
+        <!-- Page Content -->
+        <main  class="flex-grow-1 flex-shrink-0">
+            {{content}}
+        </main>
     </div>
-
+    {% include footer.html %}
 </body>
 {% if site.google_analytics %}
 {% include google_analytics.html %}

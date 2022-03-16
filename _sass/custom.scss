@@ -117,9 +117,15 @@
 .list-nostyle {
     list-style: none;
 }
+// layout
+body {
+    padding-top: $navbar-height;
+    min-height: 100vh;
+}
 
 // navbar
 .navbar {
+    height: $navbar-height;
     .navbar-nav {
         li {
             font-size: $navbar-font-size;
@@ -171,13 +177,16 @@
 
 // sidebar
 #tg-sb-sidebar {
-    background: transparent;
 }
 
-ul#mysidebar {
-    border-radius: 0;
+aside.sidebar {
     background-color: $sidebar-bg;
     color: $sidebar-color;
+
+}
+ul#mysidebar {
+    border-radius: 0;
+    background-color: transparent;
     li {
         background-color: transparent;
         color: $sidebar-color;
@@ -201,6 +210,8 @@ ul#mysidebar {
             }
         }
         ul {
+            list-style-type: disc;
+            margin: $sidebar-nav-spacing 0 0;
             li {
                 font-size: $sidebar-submenu-font-size;
                 font-weight: $sidebar-submenu-font-weight;
@@ -210,6 +221,30 @@ ul#mysidebar {
                     font-weight: $sidebar-submenu-font-weight;
                     line-height: $sidebar-submenu-line-height;
                 }
+            }
+        }
+    }
+    > li {
+        > a {
+            display: block;
+            position: relative;
+            &:after {
+                content: "\f0d9";
+                font-family: "Font Awesome 6 Free";
+                font-weight: $sidebar-font-weight;
+                font-size: $sidebar-font-size;
+                line-height: $sidebar-line-height;
+                position: absolute;
+                display: block;
+                right: 0;
+                top: 0;
+                pointer-events: none;
+                transition: transform 0.5s
+            }
+        }
+        &.active {
+            > a:after {
+                transform: rotate(-90deg)
             }
         }
     }
@@ -250,8 +285,28 @@ footer {
 }
 
 @media (min-width: $screen-md-min) {
+    aside.sidebar {
+        width: $sidebar_width_media_md;
+        display: flex;
+    }
     ul#mysidebar {
-        width: 307px;
+        width: $sidebar_width_media_md;
+        top: $navbar-height;
+        bottom: 0px;
+        overflow-y: overlay;
+        margin: 0;
+        padding: $sidebar-nav-spacing $sidebar-nav-spacing 0 $sidebar-nav-spacing;
+        li {
+            margin: 0 0 $sidebar-nav-spacing;
+            padding: 0;
+            a {
+                padding: 0;
+            }
+        }
+    }
+    .footer-content  {
+        margin-left: $sidebar_width_media_md;
+
     }
 }
 
