@@ -7,7 +7,7 @@ tags: [connector]
 
 ## Partner Setup
 
-#### Injixo Personal Access Token
+### Injixo Personal Access Token
 
 Follow Injixo guide <a href="https://help.injixo.com/injixo-api#authorization-personal-access-token" target="_blank">here.</a> To generate and obtain your Personal Access Token. (You will need a user with Admin access to Injixo)
 
