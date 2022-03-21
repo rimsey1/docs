@@ -67,6 +67,25 @@
         border-color: $dark;
         box-shadow: none;
     }
+    &.hub-link {
+        flex: 0 0 254px;
+        .card-body {
+            padding: 20px;
+        }
+        .btn-icon {
+            border-radius: 10px;
+            height: 85px;
+            width: 85px;
+        }
+        .img-icon {
+            margin: 10%;
+            width: 80%;
+            height: auto;
+        }
+        .card-title {
+            flex: 0 0 2.25em;
+        }
+    }
 }
 
 .card-body {
@@ -128,6 +147,11 @@ body {
     max-height: 100%;
 }
 
+section {
+    &.tiles {
+        margin: 0 -1.5rem;
+    }
+}
 // navbar
 .navbar {
     height: $navbar-height;
@@ -330,6 +354,8 @@ footer {
         display: flex;
     }
     ul#mysidebar {
+        position: fixed;
+        height: calc(100vh - #{$navbar-height});
         width: $sidebar_width_media_md;
         top: $navbar-height;
         bottom: 0px;

@@ -9,7 +9,7 @@ tiles:
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: analytics
       url: /analytics
-    - title: Billing/Payment
+    - title: Billing / Payment
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: billing-payment
       url: /billing-payment
@@ -73,11 +73,11 @@ tiles:
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: forms
       url: /forms
-    - title: Healthcare/Wellness
+    - title: Healthcare / Wellness
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: healthcare-wellness
       url: /healthcare-wellness
-    - title: HR/Payroll
+    - title: HR / Payroll
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: hr-payroll
       url: /hr-payroll
