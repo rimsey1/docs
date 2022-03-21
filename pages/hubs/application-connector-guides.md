@@ -1,7 +1,7 @@
 ---
 title: Application Connector Guides
 sidebar: cyclr_sidebar
-permalink: application-connector-guides
+permalink: application-connector-guides-old
 tags: [application-connector-guides]
 layout: page
 ymlfile: application-connector-guides
