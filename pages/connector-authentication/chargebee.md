@@ -91,7 +91,7 @@ Make sure to add these fields to all required methods e.g GET & UPDATE.
 
 - Multiline text: 'Text' (maximum character limit is 250).
 
-- Dropdown: 'Text' (can only ).
+- Dropdown: 'Text'
 
 - Checkbox: 'Boolean'
 
