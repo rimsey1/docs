@@ -1,0 +1,20 @@
+<section class="blocks">
+	<div class="d-flex flex-row flex-wrap m-0 p-0 justify-content-start align-items-stretch">
+	{% for block in hubdata.blocks %}
+		<div class="hub-link card text-left p-0 m-4">
+			<div class="card-body">
+				<div class="d-flex flex-column justify-content-start align-items-start ">
+					<i class="fa-solid fa-{{block.icon}}"></i>
+					<h3 class="card-title my-3 p-0">{{ block.title  }}</h3>
+					<p class="p-0 ">{{ block.text }}</p>
+				</div>
+			</div>
+		</div>
+	{% endfor %}
+	</div>
+	<div class="blocks-footer">
+		{{ hubdata.blocksfooter }}
+	</div>
+</section>
+
+	

@@ -6,6 +6,7 @@ tags: [connector]
 toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12363
 category: Customer Experience
+categories: [Customer Experience,Email Marketing]
 ---
 {% assign connectordata = site.data.connectors-new.connector-adobecampaign %}
 {% include connector-new.html %}	

@@ -6,6 +6,7 @@ tags: [connector]
 toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/15982
 category: Product Management
+categories: [Product Management,Project Management]
 ---
 {% assign connectordata = site.data.connectors-new.connector-asana %}
 {% include connector-new.html %}	

@@ -6,6 +6,7 @@ tags: [connector]
 toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/11435
 category: Developer Tools
+categories: [Developer Tools,DevOps]
 ---
 {% assign connectordata = site.data.connectors-new.connector-amazonec2 %}
 {% include connector-new.html %}	

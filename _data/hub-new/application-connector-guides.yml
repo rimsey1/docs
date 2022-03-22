@@ -4,129 +4,129 @@ tiles:
     - title: Accounting
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: accounting
-      url: /accounting
+      url: /accounting-connector-guides
     - title: Analytics
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: analytics
-      url: /analytics
+      url: /analytics-connector-guides
     - title: Billing / Payment
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: billing-payment
-      url: /billing-payment
+      url: /billing-payment-connector-guides
     - title: Blogs
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: blogs
-      url: /blogs
+      url: /blogs-connector-guides
     - title: Calendars
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: calendars
-      url: /calendars
+      url: /calendars-connector-guides
     - title: Chat
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: chat
-      url: /chat
+      url: /chat-connector-guides
     - title: Collaboration
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: collaboration
-      url: /collaboration
+      url: /collaboration-connector-guides
     - title: CRMs
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: crms
-      url: /crms
+      url: /crms-connector-guides
     - title: Customer Experience
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: customer-experience
-      url: /customer-experience
+      url: /customer-experience-connector-guides
     - title: Dashboarding
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: dashboarding
-      url: /dashboarding
+      url: /dashboarding-connector-guides
     - title: Data Tools
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: data-tools
-      url: /data-tools
+      url: /data-tools-connector-guides
     - title: Databases
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: databases
-      url: /databases
+      url: /databases-connector-guides
     - title: Developer Tools
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: developer-tools
-      url: /developer-tools
+      url: /developer-tools-connector-guides
     - title: DevOps
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: devops
-      url: /devops
+      url: /devops-connector-guides
     - title: Ecommerce
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: ecommerce
-      url: /ecommerce
+      url: /ecommerce-connector-guides
     - title: Email Marketing
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: email-marketing
-      url: /email-marketing
+      url: /email-marketing-connector-guides
     - title: ERP
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: erp
-      url: /erp
+      url: /erp-connector-guides
     - title: Forms
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: forms
-      url: /forms
+      url: /forms-connector-guides
     - title: Healthcare / Wellness
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: healthcare-wellness
-      url: /healthcare-wellness
+      url: /healthcare-wellness-connector-guides
     - title: HR / Payroll
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: hr-payroll
-      url: /hr-payroll
+      url: /hr-payroll-connector-guides
     - title: IoT
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: iot
-      url: /iot
+      url: /iot-connector-guides
     - title: Marketing
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: marketing
-      url: /marketing
+      url: /marketing-connector-guides
     - title: Miscellaneous
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: miscellaneous
-      url: /miscellaneous
+      url: /miscellaneous-connector-guides
     - title: POS
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: pos
-      url: /pos
+      url: /pos-connector-guides
     - title: Product Management
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: product-management
-      url: /product-management
+      url: /product-management-connector-guides
     - title: Project Management
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: project-management
-      url: /project-management
+      url: /project-management-connector-guides
     - title: Sales
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: sales
-      url: /sales
+      url: /sales-connector-guides
     - title: SMS
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: sms
-      url: /sms
+      url: /sms-connector-guides
     - title: Social Media
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: social-media
-      url: /social-media
+      url: /social-media-connector-guides
     - title: Support
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: support
-      url: /support
+      url: /support-connector-guides
     - title: Surveys
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: surveys
-      url: /surveys
+      url: /surveys-connector-guides
     - title: Utility Connectors
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       icon: utility-connectors
-      url: /utility-connectors
+      url: /utility-connectors-connector-guides
 

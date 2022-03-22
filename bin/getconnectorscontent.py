@@ -5,6 +5,7 @@
 # Add temp section to append placeholder json until fields added and populated in the connectors db/API response
 # Confirm naming conventions
 # Confirm permalinks
+# windows cli : python getconnectorscontent.py
 
 import requests
 import re
@@ -25,6 +26,7 @@ if response.status_code == 200 :
 		connector_icon = item['Icon']
 		connector_description = item['Description']
 		connector_category = 'All'
+		connector_categories = ",".join(item['Categories'])
 		file_name = re.sub("[^a-zA-Z0-9]", "", connector_name).lower()
 		file_md = '../pages/connectors-new/connector-'+file_name+'.md'
 		file_md_full = os.path.join(os.path.dirname(__file__), file_md)
@@ -48,6 +50,8 @@ if response.status_code == 200 :
 					newline = re.sub("connectoricon", connector_icon, line)
 				elif "connectorcategory" in line:
 					newline = re.sub("connectorcategory", connector_category, line)
+				elif "connectorcategories" in line:
+					newline = re.sub("connectorcategories", "["+connector_categories+"]", line)
 				elif "connectorname" in line:
 					newline = re.sub("connectorname", file_name, line)
 				else:

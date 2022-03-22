@@ -6,6 +6,7 @@ tags: [connector]
 toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/15136
 category: Collaboration
+categories: [Collaboration,Developer Tools]
 ---
 {% assign connectordata = site.data.connectors-new.connector-airtable %}
 {% include connector-new.html %}	
