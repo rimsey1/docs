@@ -1,0 +1,12 @@
+---
+title: Social Media
+sidebar: cyclr_sidebar
+permalink: social-media
+tags: [category]
+layout: page
+toc: false
+category: Social Media
+---
+{% assign hubdata = site.data.v2.categories.social-media %}
+{% include icontiles.html %}	
+{% include iconblocks.html %}	
