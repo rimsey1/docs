@@ -3,7 +3,10 @@ title: Console Security
 sidebar: cyclr_sidebar
 permalink: console-security
 tags: [managing-cyclr]
-
+menus:
+  managing-cyclr:
+    title: Console Security
+    url: /console-security
 ---
 
 ## Console Administrators

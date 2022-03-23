@@ -6,6 +6,10 @@ tags: [category]
 layout: page
 toc: false
 category: Chat
+menus:
+  application-connector-guides:
+    title: Chat
+    url: /chat
 ---
 {% assign hubdata = site.data.v2.categories.chat %}
 {% include icontiles.html %}	

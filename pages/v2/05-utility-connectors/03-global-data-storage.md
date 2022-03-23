@@ -3,7 +3,11 @@ title: Global Data Storage
 sidebar: cyclr_sidebar
 permalink: global-data-storage
 tags: [utility-connector]
----
+menus:
+  utility-connectors:
+    title: Global Data Storage
+    url: /global-data-storage
+------
 
 ## Purpose
 

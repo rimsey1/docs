@@ -3,6 +3,10 @@ title: Global Object Storage
 sidebar: cyclr_sidebar
 permalink: global-object-storage
 tags: [utility-connector]
+menus:
+  utility-connectors:
+    title: Global Object Storage
+    url: /global-object-storage
 ---
 
 ## Purpose

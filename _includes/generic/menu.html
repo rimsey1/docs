@@ -1,0 +1,27 @@
+{% if menu %}
+{% if menuid %}
+<ul id="{{menuid}}">
+{% else %}
+<ul>
+{% endif %}
+{% for item in menu %}
+  {% if page.url == item.url %}
+  {% capture itemclass %}class="active"{% endcapture %}
+  {% else %}
+  {% capture itemclass %}{% endcapture %}
+  {% endif %}
+  <li {{itemclass}}>
+    {% if item.toggleonly %}
+    <a href="#" title="Go to {{ item.title }}">{{ item.title }}</a>
+    {% else %}
+    <a href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
+    {% endif %}
+    {% if item.children %}
+      {% assign menu = item.children %}
+      {% assign menuid = false %}
+      {% include /generic/menu.html %}
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>
+{% endif %}

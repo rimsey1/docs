@@ -6,6 +6,10 @@ tags: [category]
 layout: page
 toc: false
 category: IoT
+menus:
+  application-connector-guides:
+    title: IoT
+    url: /iot
 ---
 {% assign hubdata = site.data.v2.categories.iot %}
 {% include icontiles.html %}	

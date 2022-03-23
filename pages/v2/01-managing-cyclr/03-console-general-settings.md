@@ -3,7 +3,10 @@ title: Console General Settings
 sidebar: cyclr_sidebar
 permalink: console-general-settings
 tags: [managing-cyclr]
-
+menus:
+  managing-cyclr:
+    title: Console General Settings
+    url: /console-general-settings
 ---
 
 | Option | Documentation |

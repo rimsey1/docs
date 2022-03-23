@@ -6,6 +6,10 @@ tags: [category]
 layout: page
 toc: false
 category: Miscellaneous
+menus:
+  application-connector-guides:
+    title: Miscellaneous
+    url: /miscellaneous
 ---
 {% assign hubdata = site.data.v2.categories.miscellaneous %}
 {% include icontiles.html %}	

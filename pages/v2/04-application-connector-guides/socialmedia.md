@@ -6,6 +6,10 @@ tags: [category]
 layout: page
 toc: false
 category: Social Media
+menus:
+  application-connector-guides:
+    title: Social Media
+    url: /social-media
 ---
 {% assign hubdata = site.data.v2.categories.social-media %}
 {% include icontiles.html %}	

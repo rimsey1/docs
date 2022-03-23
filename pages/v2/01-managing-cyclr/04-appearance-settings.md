@@ -3,7 +3,10 @@ title: Console Appearance Settings
 sidebar: cyclr_sidebar
 permalink: console-appearance-settings
 tags: [managing-cyclr]
-
+menus:
+  managing-cyclr:
+    title: Console Appearance Settings
+    url: /console-appearance-settings
 ---
 
 Theses settings allow you to change the appearance of Cyclr when in Accounts, using LAUNCH or Marketplaces.

@@ -3,6 +3,10 @@ title: Cross Updating Preventer
 sidebar: cyclr_sidebar
 permalink: cross-updating-preventer
 tags: [utility-connector]
+menus:
+  utility-connectors:
+    title: Cross Updating Preventer
+    url: /cross-updating-preventer
 ---
 
 ## Purpose

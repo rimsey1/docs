@@ -6,6 +6,10 @@ tags: [category]
 layout: page
 toc: false
 category: SMS
+menus:
+  application-connector-guides:
+    title: SMS
+    url: /sms
 ---
 {% assign hubdata = site.data.v2.categories.sms %}
 {% include icontiles.html %}	

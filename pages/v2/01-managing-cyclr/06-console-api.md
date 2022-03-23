@@ -3,7 +3,10 @@ title: Accessing the Cyclr API
 sidebar: cyclr_sidebar
 permalink: console-api
 tags: [managing-cyclr]
-
+menus:
+  managing-cyclr:
+    title: Accessing the Cyclr API
+    url: /console-api
 ---
 
 ## OAuth Client Credentials

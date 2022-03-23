@@ -4,6 +4,10 @@ sidebar: cyclr_sidebar
 permalink: cyclr-ip-allowlist
 tags: [managing-cyclr]
 redirect_from: /cyclr-ip-whitelisting
+menus:
+  managing-cyclr:
+    title: Cyclr IP Allowlist
+    url: /cyclr-ip-allowlist
 ---
 
 If you are setting up a Connector that requires an IP to be allowed, you can find the addresses that Cyclr *sends* API requests from below.

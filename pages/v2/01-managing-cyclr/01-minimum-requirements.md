@@ -3,12 +3,13 @@ title: Minimum Requirements
 sidebar: cyclr_sidebar
 permalink: minimum-requirements
 tags: [managing-cyclr]
-
+menus:
+  managing-cyclr:
+    title: Managing Cyclr
+    url: /minimum-requirements
 ---
 
-## Supported browsers
-
-Cyclr’s workflow builder is very powerful and as such we do suggest that you run the latest versions of our supported browsers:
+## Supported browse is very powerful and as such we do suggest that you run the latest versions of our supported browsers:
 
 *   Chrome
 *   Firefox

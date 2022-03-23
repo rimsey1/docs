@@ -6,6 +6,10 @@ tags: [category]
 layout: page
 toc: false
 category: Accounting
+menus:
+  application-connector-guides:
+    title: Accounting
+    url: /accounting
 ---
 {% assign hubdata = site.data.v2.categories.accounting %}
 {% include icontiles.html %}	

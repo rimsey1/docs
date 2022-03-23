@@ -33,18 +33,8 @@ exclude:
   - .gitignore
   - _data/connectors-bak/
   - pages/connector-authentication/
-  - pages/connectors-bak/
   - pages/connector-guides-new/
-  - pages/embedding/
-  - pages/installing-templates-api/
-  - pages/integration-plugin/
-  - pages/integration-tools/
-  - pages/launch/
-  - pages/managing-cyclr/
-  - pages/marketplaces/
   - pages/tags/
-  - pages/templates/
-  - pages/utility-connectors/
   - indexold.md
 
 # these are the files and directories that jekyll will exclude from the build
@@ -112,6 +102,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-toc
+  - jekyll-menus
+
 # plugin to add metadata tags for search engines and social networks to better index and display site's content
 
 # needed for sitemap.xml file only

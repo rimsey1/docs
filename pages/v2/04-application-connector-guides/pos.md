@@ -6,6 +6,10 @@ tags: [category]
 layout: page
 toc: false
 category: POS
+menus:
+  application-connector-guides:
+    title: POS
+    url: /pos
 ---
 {% assign hubdata = site.data.v2.categories.pos %}
 {% include icontiles.html %}	

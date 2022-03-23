@@ -1,8 +1,12 @@
 ---
 title: Entity Cross Ref Storage
 sidebar: cyclr_sidebar
-permalink: entity-cross-reference-connector
+permalink: entity-cross-reference
 tags: [utility-connector]
+menus:
+  utility-connectors:
+    title: Entity Cross Ref Storage
+    url: /entity-cross-reference
 ---
 
 ## Entity Cross Ref Storage Use Case

@@ -6,6 +6,10 @@ tags: [category]
 layout: page
 toc: false
 category: Ecommerce
+menus:
+  application-connector-guides:
+    title: Ecommerce
+    url: /ecommerce
 ---
 {% assign hubdata = site.data.v2.categories.ecommerce %}
 {% include icontiles.html %}	

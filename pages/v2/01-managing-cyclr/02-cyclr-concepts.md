@@ -3,7 +3,10 @@ title: Cyclr Glossary
 sidebar: cyclr_sidebar
 permalink: cyclr-glossary
 tags: [managing-cyclr concepts terms]
-
+menus:
+  managing-cyclr:
+    title: Cyclr Glossary
+    url: /cyclr-glossary
 ---
 
 ### Accounts

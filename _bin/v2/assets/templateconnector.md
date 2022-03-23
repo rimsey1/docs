@@ -1,7 +1,7 @@
 ---
 title: connectortitle
 sidebar: cyclr_sidebar
-permalink: connectorname-auto
+permalink: connectorname
 tags: [connector]
 toc: false
 icon: connectoricon
