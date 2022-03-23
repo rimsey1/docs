@@ -11,7 +11,7 @@ tags: [connector]
 
 To authenticate the connector you need your Chargebee [Domain name](https://www.chargebee.com/docs/2.0/sites-intro.html) and [API Key](https://www.chargebee.com/docs/2.0/api_keys.html).
 
-You will obtain your Domain name once you've signed up to Chargebee. A ‘Complete Account Setup' email will be sent to your email ID. Click the link in the email to setup your password and domain name.
+You will obtain your Domain name once you've signed up to Chargebee. A "Complete Account Setup" email will be sent to your email ID. Click the link in the email to setup your password and domain name.
 
 Once you've signed into your account you will be able to get your API Key by selecting 'Settings' > 'Configure Chargebee' > 'API Keys and Webhooks' > 'API Keys'. Any existing API keys are listed.
 
@@ -47,7 +47,7 @@ To setup custom fields within Chargebee use the steps below, you can find the of
 2. Click **Settings** in the left side menu
 3. Choose **Configue Chargebee**
 4. Scroll down and click on **Custom fields**
-   1. Choose where to create the Custom fields by selecting the drop down button in the top left **E.g Customer, Subscriptions...**
+   1. Choose where to create the Custom fields by selecting the drop down button in the top left **e.g Customer, Subscriptions...**
    2. Select the **field type** and fill in the details in the field creation screen that appears.
       **Field Label**: Text that will appear on the UI for hosted pages and invoices.
       **API Name**: Field reference for API calls and merges.
@@ -125,7 +125,7 @@ Make sure to add these fields to all required methods e.g GET & UPDATE.
 
 4. The following needs to be specified:
 
-   - **Field Location** - Needs to be in this format "meta_data.{{key}}". This supports nested objects.
+   - **Field Location** - Needs to be in this format "meta_data.`key`". This supports nested objects.
 
    - **Display Name** - This is the “friendly” name as it will be shown in the user interface.
 
