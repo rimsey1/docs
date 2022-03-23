@@ -91,7 +91,7 @@ Some Connector Methods may alter the response returned by the third-party API, s
 #### Request
 
 ```http
-POST https://yourCyclrInstance/v1.0/account/connectors/{account connector ID}/methods/{method ID}
+POST https://yourCyclrInstance/v1.0/account/connectors/{account connector ID}/methods/{method ID or Method Unique Identifier}
 Authorization: Bearer ****************************************************************
 Content-Type: application/json
 X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
@@ -128,7 +128,7 @@ If the method you are calling requires any values to be passed, they can be incl
 #### Request
 
 ```http
-POST https://yourCyclrInstance/v1.0/account/connectors/{account connector ID}/methods/{method ID}
+POST https://yourCyclrInstance/v1.0/account/connectors/{account connector ID}/methods/{method ID or Method Unique Identifier}
 Authorization: Bearer ****************************************************************
 Content-Type: application/json
 X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
@@ -142,6 +142,8 @@ X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
     }
 }
 ```
+
+> <h3>The Method ID changes between releases of the Connector and may be deprecated over time, so we recommend using the Method Unique Identifier in these calls.</h3>
 
 ### IP Restriction
 
