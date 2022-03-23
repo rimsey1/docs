@@ -75,7 +75,7 @@ Make sure to add these fields to all required methods e.g GET & UPDATE.
 
 4. The following needs to be specified:
 
-   - **Field Location** - These need to be named exactly the same as in ChargeBee, with the format "<API_Name>" e.g. “cf_plan_id”.
+   - **Field Location** - These need to be named exactly the same as in ChargeBee, with the format "`API_Name`" e.g. “cf_plan_id”.
 
    - **Display Name** - This is the “friendly” name as it will be shown in the user interface.
 
