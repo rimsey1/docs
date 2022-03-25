@@ -5,10 +5,7 @@ permalink: freshdesk-connector
 tags: [connector]
 ---
 
-Freshdesk Setup
----------------
-
-Please use your Freshdesk API key for the username and leave the password **blank**.
+## Freshdesk Setup
 
 To find your API key:
 
@@ -17,7 +14,13 @@ To find your API key:
 3. Select **Profile Settings**
 4. You will now see your API key on the right.
 
----------------
+
+## Connector Setup
+
+When the connector is setup on an account you will need to provide:
+* **Freshdesk Domain**: The name of your Freshdesk domain, e.g. "myaccount.freshdesk.com" without "https://" or a trailing forward slash.  Must be a freshdesk.com domain; custom domains are not allowed.
+* **API Key**: See above steps on where this can be found.
+
 
 ## Webhooks
 
