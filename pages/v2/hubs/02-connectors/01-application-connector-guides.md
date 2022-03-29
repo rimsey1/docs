@@ -7,4 +7,4 @@ layout: page
 toc: false
 ---
 {% assign hubdata = site.data.v2.hub.application-connector-guides %}
-{% include hub/hubtiles.html %}	
+{% include /hub/hubtiles.html %}	

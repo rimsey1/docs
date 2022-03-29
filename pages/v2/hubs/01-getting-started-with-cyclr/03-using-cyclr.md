@@ -7,4 +7,4 @@ layout: page
 toc: false
 ---
 {% assign hubdata = site.data.v2.hub.using-cyclr %}
-{% include hub/hubtables.html %}
+{% include /hub/hubtables.html %}
