@@ -4,7 +4,7 @@
 		<h2 class="text-light mx-0 mt-3 mb-5 p-0 flex-grow-0 flex-shrink-1">{{ site.data.homepage.text }}</h2>
 	{% if site.data.homepage.herosearch %}
 		<div class="flex-grow-1 p-0 mx-0 mt-3 mb-5">
-			{% include search.html %}
+			{% include /generic/search.html %}
 		</div>
 	</div>
 	{% endif %}
@@ -31,9 +31,15 @@
 						<div class="flex-grow-1 d-flex align-items-center justify-content-center">
 							<i class="fa fa-{{ tile.icon }} fa-5x"></i>
 						</div>
+						{% if tile.externalurl %}
+						<a href="{{tile.externalurl}}" target="_blank" class="btn btn-primary d-flex align-items-center justify-content-center">
+							<span>{{tile.title}}</span>
+						</a>
+						{% else %}
 						<a href="{{tile.url}}" class="btn btn-primary d-flex align-items-center justify-content-center">
 							<span>{{tile.title}}</span>
 						</a>
+						{% endif %}
 					</div>
 				</div>
 			{% endfor %}

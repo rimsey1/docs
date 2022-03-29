@@ -5,10 +5,6 @@ permalink: application-connector-guides
 tags: [application-connector-guides]
 layout: page
 toc: false
-menus:
-  mainmenu:
-    title: Application Connector Guides
-    identifier: application-connector-guides
-    toggleonly: true
-    weight: 4
 ---
+{% assign hubdata = site.data.v2.hub.application-connector-guides %}
+{% include hub/hubtiles.html %}	

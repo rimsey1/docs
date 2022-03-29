@@ -5,7 +5,7 @@ permalink: minimum-requirements
 tags: [managing-cyclr]
 menus:
   managing-cyclr:
-    title: Managing Cyclr
+    title: Minimum Requirements
     url: /minimum-requirements
 ---
 

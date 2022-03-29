@@ -1,6 +1,6 @@
 {% if menu %}
 {% if menuid %}
-<ul id="{{menuid}}">
+<ul id="{{menuid}}" class="list-unstyled menulevel-{{menulevel}}">
 {% else %}
 <ul>
 {% endif %}
@@ -12,9 +12,13 @@
   {% endif %}
   <li {{itemclass}}>
     {% if item.toggleonly %}
-    <a href="#" title="Go to {{ item.title }}">{{ item.title }}</a>
+    <a class="menu-toggle" title="{{ item.title }}">{{ item.title }}</a>
     {% else %}
-    <a href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
+      {% if item.externalurl %}
+    <a class="menu-link" target="_blank" href="{{ item.externalurl }}" title="{{ item.title }}">{{ item.title }}</a>
+      {% else %}
+    <a class="menu-link" href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a>
+      {% endif %}
     {% endif %}
     {% if item.children %}
       {% assign menu = item.children %}

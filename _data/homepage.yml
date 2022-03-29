@@ -9,14 +9,14 @@ sections:
     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id nullam turpis sodales id nibh condimentum. Elit tempus aliquam egestas proin quam in odio justo. Gravida elementum sit risus faucibus mollis pellentesque at ultrices fames.
     tiles: 
       - title: Managing Cyclr
-        icon: edit
+        icon: list-check
         url: /managing-cyclr
       - title: Community Site 
-        url: /community-site
-        icon: rocket
+        icon: bullhorn
+        externalurl: https://community.cyclr.com/
       - title: Using Cyclr 
-        url: /using-cyclr
         icon: cogs
+        url: /using-cyclr
   - title: Connectors
     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id nullam turpis sodales id nibh condimentum. Elit tempus aliquam egestas proin quam in odio justo. Gravida elementum sit risus faucibus mollis pellentesque at ultrices fames.
     tiles: 
@@ -24,37 +24,37 @@ sections:
         icon: book
         url: /application-connector-guides
       - title: Utility Connectors 
-        url: /community-site
-        icon: rocket
+        icon: wrench
+        url: /utility-connectors
       - title: Plugins 
-        url: /using-cyclr
-        icon: cogs
+        icon: plug
+        url: /plugins
   - title: Embedding Cyclr
     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id nullam turpis sodales id nibh condimentum. Elit tempus aliquam egestas proin quam in odio justo. Gravida elementum sit risus faucibus mollis pellentesque at ultrices fames.
     cta-text: Embedding Overview
     cta-url: /using-cyclr
     tiles: 
       - title: Custom UI
-        icon: user
-        url: /application-connector-guides
+        icon: sliders
+        url: /custom-ui
       - title: Embedded Marketplace 
-        url: /application-connector-guides
         icon: bank
+        url: /embedded-marketplace
       - title: LAUNCH 
-        url: /launch
         icon: rocket
+        url: /launch
   - title: The Cyclr APIs
     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id nullam turpis sodales id nibh condimentum. Elit tempus aliquam egestas proin quam in odio justo. Gravida elementum sit risus faucibus mollis pellentesque at ultrices fames.
     tiles: 
       - title: API Reference
         icon: book
-        url: /application-connector-guides
+        url: /api-reference
       - title: API Examples 
-        url: /application-connector-guides
         icon: search
+        url: /api-examples
       - title: TBC 
-        url: /application-connector-guides
         icon: question
+        url: /tbc
 
 
 

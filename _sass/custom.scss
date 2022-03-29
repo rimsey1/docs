@@ -142,9 +142,6 @@
     flex: 0 0 50%;
 }
 
-.list-nostyle {
-    list-style: none;
-}
 // layout
 body {
     padding-top: $navbar-height;
@@ -253,6 +250,11 @@ ul#mysidebar {
             &.active {
                 color: $sidebar-link-color-active;
             }
+            &.menu-toggle {
+                &:hover {
+                    cursor: pointer;
+                }
+            }
         }
         ul {
             list-style-type: disc;
@@ -266,6 +268,11 @@ ul#mysidebar {
                     font-weight: $sidebar-submenu-font-weight;
                     line-height: $sidebar-submenu-line-height;
                 }
+            }
+        }
+        &.active {
+            > a.menu-link {
+                text-decoration: underline;
             }
         }
     }

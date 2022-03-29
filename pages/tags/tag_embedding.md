@@ -7,6 +7,6 @@ sidebar: cyclr_sidebar
 folder: tags
 ---
 
-{% include taglogic.html %}
+{% include /tags/taglogic.html %}
 
-{% include links.html %}
+{% include /tags/links.html %}
