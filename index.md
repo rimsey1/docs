@@ -5,4 +5,4 @@ layout: homepage
 hide_sidebar: true
 hide_search: true
 ---
-{% include cyclrdocs.html %}					
+{% include v2/cyclrdocs.html %}					
