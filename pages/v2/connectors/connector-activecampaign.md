@@ -9,4 +9,4 @@ category: CRMs
 categories: [CRMs,Email Marketing,Sales,SMS]
 ---
 {% assign connectordata = site.data.connectors-new.connector-activecampaign %}
-{% include connector-new.html %}	
+{% include v2/connector/connector-new.html %}	

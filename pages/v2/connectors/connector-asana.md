@@ -9,4 +9,4 @@ category: Product Management
 categories: [Product Management,Project Management]
 ---
 {% assign connectordata = site.data.connectors-new.connector-asana %}
-{% include connector-new.html %}	
+{% include v2/connector/connector-new.html %}	

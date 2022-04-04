@@ -3,6 +3,11 @@ title: HTTP Basic Authentication
 sidebar: cyclr_sidebar
 permalink: basic-authentication
 tags: [installing]
+menus:
+  installing-templates:
+    title: HTTP Basic Authentication
+    url: /basic-authentication
+    weight: 9
 ---
 
 _**For connectors that use HTTP Basic authentication.**_

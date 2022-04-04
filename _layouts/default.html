@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    {% include generic/head.html %}
+    {% include v2/generic/head.html %}
     {% seo %}
     <script>
         $(document).ready(function() {
@@ -86,11 +86,11 @@
     {% endif %}
 
 <body class="d-lg-flex flex-lg-column {{sbclass}} layout-{{page.layout}}">
-    {% include generic/topnav.html %}
+    {% include v2/generic/topnav.html %}
     <div class="flex-grow-1 flex-shrink-0 d-lg-flex">
         {% unless page.hide_sidebar == true %}
         <aside class="sidebar flex-grow-0 flex-shrink-0 flex-lg-column justify-content-lg-between align-self-lg- stretch" id="tg-sb-sidebar">
-            {% include generic/sidebar.html %}
+            {% include v2/generic/sidebar.html %}
         </aside>
         {% endunless %}
         <!-- Page Content -->
@@ -98,12 +98,12 @@
             <main class="{{containerclass}}post flex-grow-1">
             {{content}}
             </main>
-            {% include generic/footer.html %}
+            {% include v2/generic/footer.html %}
         </div>
     </div>
 </body>
 {% if site.google_analytics %}
-{% include generic/google_analytics.html %}
+{% include v2/generic/google_analytics.html %}
 {% endif %}
 
 </html>

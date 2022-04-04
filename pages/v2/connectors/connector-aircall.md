@@ -9,4 +9,4 @@ category: Chat
 categories: [Chat,Customer Experience,Ecommerce,Sales,SMS,Support]
 ---
 {% assign connectordata = site.data.connectors-new.connector-aircall %}
-{% include connector-new.html %}	
+{% include v2/connector/connector-new.html %}	

@@ -9,4 +9,4 @@ category: Marketing
 categories: [Marketing]
 ---
 {% assign connectordata = site.data.connectors-new.connector-adpage %}
-{% include connector-new.html %}	
+{% include v2/connector/connector-new.html %}	

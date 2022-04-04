@@ -9,4 +9,4 @@ category: Dashboarding
 categories: [Dashboarding,Data Tools,Project Management]
 ---
 {% assign connectordata = site.data.connectors-new.connector-autotask %}
-{% include connector-new.html %}	
+{% include v2/connector/connector-new.html %}	

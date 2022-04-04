@@ -3,6 +3,11 @@ title: Get Cycle Prerequisites
 sidebar: cyclr_sidebar
 permalink: get-cycle-prerequisites
 tags: [installing]
+menus:
+  installing-templates:
+    title: Get Cycle Prerequisites
+    url: /get-cycle-prerequisites
+    weight: 6
 ---
 
 **_A Cycle installed in an Account from a Template may have prerequisites that need to be fulfilled before the Cycle can be activated._**

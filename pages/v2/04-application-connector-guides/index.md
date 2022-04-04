@@ -1,7 +1,6 @@
 ---
 title: Application Connector Guides
 sidebar: cyclr_sidebar
-permalink: application-connector-guides
 tags: [application-connector-guides]
 layout: page
 toc: false

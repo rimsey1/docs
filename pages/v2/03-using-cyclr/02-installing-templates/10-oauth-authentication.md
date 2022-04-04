@@ -3,6 +3,11 @@ title: OAuth Authentication
 sidebar: cyclr_sidebar
 permalink: oauth-authentication
 tags: [installing]
+menus:
+  installing-templates:
+    title: OAuth Authentication
+    url: /oauth-authentication
+    weight: 10
 ---
 
 **_For connectors that require your user to be taken through an OAuth flow._**

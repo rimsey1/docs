@@ -9,4 +9,4 @@ category: Customer Experience
 categories: [Customer Experience,Sales]
 ---
 {% assign connectordata = site.data.connectors-new.connector-airship %}
-{% include connector-new.html %}	
+{% include v2/connector/connector-new.html %}	

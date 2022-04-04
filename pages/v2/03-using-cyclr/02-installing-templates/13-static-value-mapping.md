@@ -3,6 +3,11 @@ title: Static Value Field Mapping
 sidebar: cyclr_sidebar
 permalink: static-value-mapping
 tags: [installing]
+menus:
+  installing-templates:
+    title: Static Value Field Mapping
+    url: /static-value-mapping
+    weight: 13
 ---
 
 _**A static value can be set as the field mapping, a static value is a value that will never change.**_

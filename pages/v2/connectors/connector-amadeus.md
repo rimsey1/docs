@@ -9,4 +9,4 @@ category: Miscellaneous
 categories: [Miscellaneous]
 ---
 {% assign connectordata = site.data.connectors-new.connector-amadeus %}
-{% include connector-new.html %}	
+{% include v2/connector/connector-new.html %}	

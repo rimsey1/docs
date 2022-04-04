@@ -12,5 +12,5 @@ menus:
     url: /billing-payment
 ---
 {% assign hubdata = site.data.v2.categories.billing-payment %}
-{% include icontiles.html %}	
-{% include iconblocks.html %}	
+{% include v2/generic/icontiles.html %}	
+{% include v2/generic/iconblocks.html %}	

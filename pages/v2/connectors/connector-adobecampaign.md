@@ -9,4 +9,4 @@ category: Customer Experience
 categories: [Customer Experience,Email Marketing]
 ---
 {% assign connectordata = site.data.connectors-new.connector-adobecampaign %}
-{% include connector-new.html %}	
+{% include v2/connector/connector-new.html %}	

@@ -6,5 +6,5 @@ menus:
     title: Custom Connector Creation
     identifier: custom-connector-creation
     toggleonly: true
-    weight: 2
+    weight: 3
 ---

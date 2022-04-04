@@ -3,6 +3,11 @@ title: Set Step Field Mapping
 sidebar: cyclr_sidebar
 permalink: set-step-field-mapping
 tags: [installing]
+menus:
+  installing-templates:
+    title: Set Step Field Mapping
+    url: /set-step-field-mapping
+    weight: 17
 ---
 
 _**Field Mappings are passed to the third party API as the request body.**_

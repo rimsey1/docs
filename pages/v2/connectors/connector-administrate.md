@@ -9,4 +9,4 @@ category: CRMs
 categories: [CRMs]
 ---
 {% assign connectordata = site.data.connectors-new.connector-administrate %}
-{% include connector-new.html %}	
+{% include v2/connector/connector-new.html %}	

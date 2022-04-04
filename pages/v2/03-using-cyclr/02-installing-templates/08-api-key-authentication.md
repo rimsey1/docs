@@ -3,6 +3,11 @@ title: API Key Authentication
 sidebar: cyclr_sidebar
 permalink: api-key-authentication
 tags: [installing]
+menus:
+  installing-templates:
+    title: API Key Authentication
+    url: /api-key-authentication
+    weight: 8
 ---
 
 _**For connectors that are authenticated using an API key provided by the 3rd party app.**_

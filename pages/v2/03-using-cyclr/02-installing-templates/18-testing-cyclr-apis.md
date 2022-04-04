@@ -3,6 +3,11 @@ title: Cyclr's APIs
 sidebar: cyclr_sidebar
 permalink: testing-cyclr-api
 tags: [api]
+menus:
+  installing-templates:
+    title: Cyclr's APIs
+    url: /testing-cyclr-api
+    weight: 18
 ---
 
 Cyclr's interactive API references can be used to try things out, and to help you while testing and creating your own native deployment or working with data on demand.

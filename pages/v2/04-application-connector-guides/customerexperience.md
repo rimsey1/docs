@@ -12,5 +12,5 @@ menus:
     url: /customer-experience
 ---
 {% assign hubdata = site.data.v2.categories.customer-experience %}
-{% include icontiles.html %}	
-{% include iconblocks.html %}	
+{% include v2/generic/icontiles.html %}	
+{% include v2/generic/iconblocks.html %}	

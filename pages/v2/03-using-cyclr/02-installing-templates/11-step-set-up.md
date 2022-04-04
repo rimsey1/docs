@@ -3,6 +3,11 @@ title: Step Setup
 sidebar: cyclr_sidebar
 permalink: step-set-up
 tags: [installing]
+menus:
+  installing-templates:
+    title: Step Setup
+    url: /step-set-up
+    weight: 11
 ---
 
 _**Templates in Cyclr may include steps that require mapping or parameter values that are specific to your end user’s use of those templates.**_

@@ -9,4 +9,4 @@ category: Developer Tools
 categories: [Developer Tools,DevOps]
 ---
 {% assign connectordata = site.data.connectors-new.connector-amazonec2 %}
-{% include connector-new.html %}	
+{% include v2/connector/connector-new.html %}	

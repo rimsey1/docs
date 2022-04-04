@@ -3,6 +3,11 @@ title: Create Account
 sidebar: cyclr_sidebar
 permalink: create-account
 tags: [installing]
+menus:
+  installing-templates:
+    title: Create Account
+    url: /create-account
+    weight: 3
 ---
 
 _**A Cyclr account contains Account Connectors and Integrations and will typically have a one to one relationship with an account in your application.**_

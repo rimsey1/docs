@@ -8,4 +8,4 @@ toc: false
 ---
 ---
 {% assign hubdata = site.data.v2.hub.custom-ui %}
-{% include /hub/hubtables.html %}  
+{% include /v2/hub/hubtables.html %}  

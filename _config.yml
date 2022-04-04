@@ -31,7 +31,6 @@ port: 4000
 exclude:
   - .idea/
   - .gitignore
-  - _data/connectors-bak/
   - pages/connector-authentication/
   - pages/connector-guides-new/
   - pages/tags/

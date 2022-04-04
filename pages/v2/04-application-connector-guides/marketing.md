@@ -12,5 +12,5 @@ menus:
     url: /marketing
 ---
 {% assign hubdata = site.data.v2.categories.marketing %}
-{% include icontiles.html %}	
-{% include iconblocks.html %}	
+{% include v2/generic/icontiles.html %}	
+{% include v2/generic/iconblocks.html %}	

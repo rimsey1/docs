@@ -12,5 +12,5 @@ menus:
     url: /healthcare-wellness
 ---
 {% assign hubdata = site.data.v2.categories.healthcare-wellness %}
-{% include icontiles.html %}	
-{% include iconblocks.html %}	
+{% include v2/generic/icontiles.html %}	
+{% include v2/generic/iconblocks.html %}	

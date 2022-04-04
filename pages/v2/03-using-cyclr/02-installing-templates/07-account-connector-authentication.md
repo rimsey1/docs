@@ -3,6 +3,11 @@ title: Authenticate Account Connector
 sidebar: cyclr_sidebar
 permalink: authenticate-account-connector
 tags: [installing]
+menus:
+  installing-templates:
+    title: Authenticate Account Connector
+    url: /authenticate-account-connector
+    weight: 7
 ---
 
 _**Your users will be required to provide authentication information before Cycles can be run.**_

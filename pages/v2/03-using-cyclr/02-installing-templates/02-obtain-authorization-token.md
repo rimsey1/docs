@@ -3,6 +3,11 @@ title: API Authorization
 sidebar: cyclr_sidebar
 permalink: obtain-authorization-token
 tags: [installing]
+menus:
+  installing-templates:
+    title: API Authorization
+    url: /obtain-authorization-token
+    weight: 2
 ---
 
 _**Before using the Cyclr API an OAuth token must be obtained.**_

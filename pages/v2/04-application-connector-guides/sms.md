@@ -12,5 +12,5 @@ menus:
     url: /sms
 ---
 {% assign hubdata = site.data.v2.categories.sms %}
-{% include icontiles.html %}	
-{% include iconblocks.html %}	
+{% include v2/generic/icontiles.html %}	
+{% include v2/generic/iconblocks.html %}	

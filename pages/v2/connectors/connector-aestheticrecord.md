@@ -9,4 +9,4 @@ category: CRMs
 categories: [CRMs,Healthcare/Wellness]
 ---
 {% assign connectordata = site.data.connectors-new.connector-aestheticrecord %}
-{% include connector-new.html %}	
+{% include v2/connector/connector-new.html %}	

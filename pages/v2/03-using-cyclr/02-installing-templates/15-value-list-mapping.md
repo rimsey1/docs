@@ -3,6 +3,11 @@ title: Value List Mapping
 sidebar: cyclr_sidebar
 permalink: value-list-mapping
 tags: [installing]
+menus:
+  installing-templates:
+    title: Value List Mapping
+    url: /value-list-mapping
+    weight: 15
 ---
 
 **_Fields within a step may contain a set of pre-defined values that can be selected from, returned in the “Values” array below:_**

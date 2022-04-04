@@ -3,6 +3,11 @@ title: List Available Templates
 sidebar: cyclr_sidebar
 permalink: list-available-templates
 tags: [installing]
+menus:
+  installing-templates:
+    title: List Available Templates
+    url: /list-available-templates
+    weight: 4
 ---
 
 _**Templates are integrations built by you in the Console’s drag-and-drop builder, they can be installed in your end user’s account. Your app would present a list or library of available templates to your end users.**_

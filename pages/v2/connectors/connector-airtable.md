@@ -9,4 +9,4 @@ category: Collaboration
 categories: [Collaboration,Developer Tools]
 ---
 {% assign connectordata = site.data.connectors-new.connector-airtable %}
-{% include connector-new.html %}	
+{% include v2/connector/connector-new.html %}	

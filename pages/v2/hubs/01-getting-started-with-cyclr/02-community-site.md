@@ -7,4 +7,4 @@ layout: page
 toc: false
 ---
 {% assign hubdata = site.data.v2.hub.community-site %}
-{% include /hub/hubtiles.html %}	
+{% include /v2/hub/hubtiles.html %}

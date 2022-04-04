@@ -3,6 +3,11 @@ title: Field Mapping with Step Data
 sidebar: cyclr_sidebar
 permalink: field-mapping-with-step-data
 tags: [installing]
+menus:
+  installing-templates:
+    title: Field Mapping with Step Data
+    url: /field-mapping-with-step-data
+    weight: 14
 ---
 
 **_A Step Data mapping uses a value from a previous step response as the value for this steps request._**

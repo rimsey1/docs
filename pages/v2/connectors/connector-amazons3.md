@@ -9,4 +9,4 @@ category: Analytics
 categories: [Analytics,Databases,Data Tools,Developer Tools,DevOps]
 ---
 {% assign connectordata = site.data.connectors-new.connector-amazons3 %}
-{% include connector-new.html %}	
+{% include v2/connector/connector-new.html %}	

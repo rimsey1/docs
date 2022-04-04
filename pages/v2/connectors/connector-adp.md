@@ -9,4 +9,4 @@ category: HR/Payroll
 categories: [HR/Payroll]
 ---
 {% assign connectordata = site.data.connectors-new.connector-adp %}
-{% include connector-new.html %}	
+{% include v2/connector/connector-new.html %}	

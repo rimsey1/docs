@@ -12,5 +12,5 @@ menus:
     url: /crms
 ---
 {% assign hubdata = site.data.v2.categories.crms %}
-{% include icontiles.html %}	
-{% include iconblocks.html %}	
+{% include v2/generic/icontiles.html %}	
+{% include v2/generic/iconblocks.html %}	

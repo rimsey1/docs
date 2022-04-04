@@ -9,4 +9,4 @@ category: Customer Experience
 categories: [Customer Experience,Developer Tools,Support]
 ---
 {% assign connectordata = site.data.connectors-new.connector-answerbase %}
-{% include connector-new.html %}	
+{% include v2/connector/connector-new.html %}	

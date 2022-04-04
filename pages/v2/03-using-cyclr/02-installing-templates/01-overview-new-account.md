@@ -3,6 +3,11 @@ title: Overview
 sidebar: cyclr_sidebar
 permalink: overview-new-account
 tags: 
+menus:
+  installing-templates:
+    title: Overview
+    url: /overview-new-account
+    weight: 1
 ---
 
 This article gives an overview on setting up a new Cyclr Account using the Cyclr API.

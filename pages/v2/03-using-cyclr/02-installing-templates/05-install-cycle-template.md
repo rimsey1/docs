@@ -3,6 +3,11 @@ title: Install a Template
 sidebar: cyclr_sidebar
 permalink: install-from-template
 tags: [installing]
+menus:
+  installing-templates:
+    title: Install a Template
+    url: /install-from-template
+    weight: 5
 ---
 
 _**A Cycle is an instance of a Template installed within an Account.**_
