@@ -23,9 +23,13 @@ if response.status_code == 200 :
 		category_name = item
 		category_slug = slugify(item)
 		file_name = re.sub("[^a-zA-Z0-9]", "", category_name).lower()
-		file_md = '../../pages/v2/04-application-connector-guides/'+file_name+'.md'
+		file_name = re.sub("[^a-zA-Z0-9]", "", category_name).lower()
+		file_name_slug = category_slug
+		# file_md = '../../pages/v2/04-application-connector-guides/'+file_name+'.md'
+		file_md = '../../pages/v2/04-application-connector-guides/'+file_name_slug+'.md'
 		file_md_full = os.path.join(os.path.dirname(__file__), file_md)
-		file_yml = '../../_data/v2/categories/'+file_name+'.yml'
+		# file_yml = '../../_data/v2/categories/'+file_name+'.yml'
+		file_yml = '../../_data/v2/categories/'+file_name_slug+'.yml'
 		file_yml_full = os.path.join(os.path.dirname(__file__), file_yml)
 		# print("Write md "+file_md_full)
 		# inject the category strings into the md template

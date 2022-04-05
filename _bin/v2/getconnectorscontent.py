@@ -11,6 +11,7 @@ import requests
 import re
 import os
 import json
+from slugify import slugify
 
 response = requests.get('https://my.cyclr.com/api/connectors?pageSize=1000&details=true')
 if response.status_code == 200 :
@@ -23,11 +24,13 @@ if response.status_code == 200 :
 	for item in json_data:
 		# derive the connector filenames 
 		connector_name = item['Name']
+		connector_slug = slugify(connector_name)
 		connector_icon = item['Icon']
 		connector_description = item['Description']
 		connector_category = 'All'
 		connector_categories = ",".join(item['Categories'])
-		file_name = re.sub("[^a-zA-Z0-9]", "", connector_name).lower()
+		# file_name = re.sub("[^a-zA-Z0-9]", "", connector_name).lower()
+		file_name = connector_slug
 		file_md = '../../pages/v2/connectors/connector-'+file_name+'.md'
 		file_md_full = os.path.join(os.path.dirname(__file__), file_md)
 		file_json = "../../_data/v2/connectors/connector-"+file_name+".json"

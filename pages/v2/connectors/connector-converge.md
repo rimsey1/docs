@@ -1,0 +1,12 @@
+---
+title: Converge
+sidebar: cyclr_sidebar
+permalink: converge-connector
+tags: [connector]
+toc: false
+icon: https://my.cyclr.com/api/ConnectorIcon/8443
+category: POS
+categories: [POS]
+---
+{% assign connectordata = site.data.v2.connectors.connector-converge %}
+{% include v2/connector/connector.html %}	

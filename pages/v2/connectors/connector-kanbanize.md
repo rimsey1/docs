@@ -1,0 +1,12 @@
+---
+title: Kanbanize
+sidebar: cyclr_sidebar
+permalink: kanbanize-connector
+tags: [connector]
+toc: false
+icon: https://my.cyclr.com/api/ConnectorIcon/7390
+category: Product Management
+categories: [Product Management,Collaboration,Project Management]
+---
+{% assign connectordata = site.data.v2.connectors.connector-kanbanize %}
+{% include v2/connector/connector.html %}	

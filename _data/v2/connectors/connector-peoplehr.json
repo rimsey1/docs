@@ -1,0 +1,140 @@
+{
+    "Description": "People HR is a reliable human resources management solution built for small and medium businesses.",
+    "Id": 12312,
+    "Name": "PeopleHR",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12312",
+    "Categories": [
+        "HR/Payroll"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Employee",
+            "Methods": [
+                {
+                    "Name": "Update Employee ID",
+                    "Description": "Update an employees ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Employee",
+                    "Description": "Get employee.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Employee",
+                    "Description": "Create an employee.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Employee",
+                    "Description": "Update employee.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Employee As Leaver",
+                    "Description": "Update an employee as a leaver.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Employees",
+                    "Description": "List employees.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Employee Timesheet",
+            "Methods": [
+                {
+                    "Name": "List Employee Timesheets",
+                    "Description": "List employee timesheets.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Employee Timesheet",
+                    "Description": "Create an employee timesheet.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Employee Timesheet",
+                    "Description": "Update an employee timesheet.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Employee Timesheet",
+                    "Description": "Delete an employee timesheet.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Vacancy",
+            "Methods": [
+                {
+                    "Name": "Create Vacancy",
+                    "Description": "Create a vacancy.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Vacancy",
+                    "Description": "Get vacancy details.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Vacancies",
+                    "Description": "List all vacancies.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Holiday Entitlement",
+            "Methods": [
+                {
+                    "Name": "List Holiday Entitlement",
+                    "Description": "Get holiday entitlements.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Next Holiday Entitlement",
+                    "Description": "Get next holiday entitlement.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Holiday Entitlement",
+                    "Description": "Update holiday entitlement.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Next Year Holiday Entitlement",
+                    "Description": "Update next year holiday entitlement.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Employee Absence",
+            "Methods": [
+                {
+                    "Name": "List Employees Absences",
+                    "Description": "List absences.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Employee Absence",
+                    "Description": "Delete an absence.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/peoplehr"
+}

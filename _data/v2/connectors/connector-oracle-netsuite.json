@@ -1,0 +1,338 @@
+{
+    "Description": "One unified business management suite, encompassing ERP/Financials, CRM and ecommerce.",
+    "Id": 15874,
+    "Name": "Oracle NetSuite",
+    "Version": "SuiteTalk REST Web Services",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15874",
+    "Categories": [
+        "HR/Payroll",
+        "ERP",
+        "CRMs",
+        "Ecommerce"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Subsidiaries",
+            "Methods": [
+                {
+                    "Name": "List Subsidiaries",
+                    "Description": "Retrieves all subsidiaries.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Subsidiary Table Custom Fields",
+                    "Description": "Retrieves the properties of custom fields in the subsidiary table.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Transactions",
+            "Methods": [
+                {
+                    "Name": "List Transactions By Condition",
+                    "Description": "Retrieves all transactions that meet the specified condition.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Transactions",
+                    "Description": "Retrieves transactions updated since the last time this action was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Transaction",
+                    "Description": "Retrieves the specified transaction.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Transactions",
+                    "Description": "Retrieves transactions created since the last time this action was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Transactions",
+                    "Description": "Retrieves all transactions.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Subscriptions",
+            "Methods": [
+                {
+                    "Name": "List Subscription Table Custom Fields",
+                    "Description": "Retrieves the properties of custom fields in the subscription table.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Subscription Types",
+                    "Description": "Retrieves all campaign subscriptions available in your NetSuite account.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Accounts",
+            "Methods": [
+                {
+                    "Name": "List Accounts",
+                    "Description": "Retrieves all accounts.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "Get Contact By Email",
+                    "Description": "Retrieves the specified contact by email.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Contacts",
+                    "Description": "Retrieves contacts created since the last time this action was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Contacts",
+                    "Description": "Retrieves contacts updated since the last time this action was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contact Table Custom Fields",
+                    "Description": "Retrieves the properties of custom fields in the contact table.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact By ID",
+                    "Description": "Retrieves the specified contact by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contacts",
+                    "Description": "Retrieves all contacts.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Vendors",
+            "Methods": [
+                {
+                    "Name": "List Updated Vendors",
+                    "Description": "Retrieves vendors updated since the last time this action was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Vendor Categories",
+                    "Description": "Retrieves all vendor categories.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Vendors",
+                    "Description": "Retrieves vendors created since the last time this action was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Vendors",
+                    "Description": "Retrieves all vendors.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Employees",
+            "Methods": [
+                {
+                    "Name": "Get Employee By ID",
+                    "Description": "Retrieves the specified employee by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Employees",
+                    "Description": "Retrieves all employees.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Employees",
+                    "Description": "Retrieves employees whose Last Name matches or partially matches the search term.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Terms",
+            "Methods": [
+                {
+                    "Name": "List Terms",
+                    "Description": "Retrieves all transaction terms.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Entity Status",
+            "Methods": [
+                {
+                    "Name": "List Customer Statuses",
+                    "Description": "Retrieves all available status definitions for entity's of type Customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Job Statuses",
+                    "Description": "Retrieves all available status definitions for entity's of type Job.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Lead Statuses",
+                    "Description": "Retrieves all available status definitions for entity's of type Lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Prospect Statuses",
+                    "Description": "Retrieves all available status definitions for entity's of type Prospect.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Customers",
+            "Methods": [
+                {
+                    "Name": "List Customers",
+                    "Description": "Retrieves all customers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Customer's Campaigns",
+                    "Description": "Retrieves all campaigns for the specified customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Customer's Subscriptions",
+                    "Description": "Retrieves all subscriptions for the specified customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Customer",
+                    "Description": "Updates the specified customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Customers By Campaign",
+                    "Description": "Retrieves all customers for the specified campaign.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Customers",
+                    "Description": "Retrieves customers updated since the last time this action was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Customer",
+                    "Description": "Creates a new customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Customer By ID",
+                    "Description": "Retrieves the specified customer by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Customers",
+                    "Description": "Retrieves customers whose Company Name or Alt Name matches or partially matches the search term.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Customers",
+                    "Description": "Retrieves customers created since the last time this action was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Customer By Email",
+                    "Description": "Retrieves the specified customer by email.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Customer",
+                    "Description": "Retrieves the customer specified by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Customers",
+                    "Description": "Retrieves the ID of customers created since the last run. Please note: as it pertains to dates, this endpoint only supports date filtering (eg. 01/01/2022), not date-time filtering (eg. 2022-01-01T12:00:00Z).",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Customers",
+                    "Description": "Retrieves the ID of customers updated since the last run. Please note: as it pertains to dates, this endpoint only supports date filtering (eg. 01/01/2022), not date-time filtering (eg. 2022-01-01T12:00:00Z).",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Customers",
+                    "Description": "Retrieves the ID of all customers.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Currencies",
+            "Methods": [
+                {
+                    "Name": "List Currencies",
+                    "Description": "Retrieves all currencies.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Partners",
+            "Methods": [
+                {
+                    "Name": "List New Partners",
+                    "Description": "Retrieves partners created since the last time this action was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Partner By ID",
+                    "Description": "Retrieves the specified partner by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Partners",
+                    "Description": "Retrieves all partners.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Partner By Email",
+                    "Description": "Retrieves the specified partner by email.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Partners",
+                    "Description": "Retrieves partners updated since the last time this action was executed.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Items",
+            "Methods": [
+                {
+                    "Name": "List Inventory Items",
+                    "Description": "Retrieves all items from your inventory.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/netsuite-suitetalk-rest-connector"
+}

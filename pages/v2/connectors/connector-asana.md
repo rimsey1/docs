@@ -1,12 +1,12 @@
 ---
 title: Asana
 sidebar: cyclr_sidebar
-permalink: asana-auto
+permalink: asana-connector
 tags: [connector]
 toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/15982
 category: Product Management
 categories: [Product Management,Project Management]
 ---
-{% assign connectordata = site.data.connectors-new.connector-asana %}
-{% include v2/connector/connector-new.html %}	
+{% assign connectordata = site.data.v2.connectors.connector-asana %}
+{% include v2/connector/connector.html %}	
