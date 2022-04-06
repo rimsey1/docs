@@ -85,6 +85,7 @@ defaults:
     show_editme_path: false
     show_tags: false
     show_disqus: false
+    toc: true
 # these are defaults used for the frontmatter for these file types
 
 sidebars:
@@ -92,6 +93,15 @@ sidebars:
 
 sass:
   style: compressed
+
+# _config.yml
+toc:
+  min_level: 1
+  max_level: 6
+  ordered_list: false
+  no_toc_section_class: no_toc_section
+  toc_class: toc_list
+  sublist_class: toc_sublist
 
 description: "Documentation for Cyclr."
 # the description is used in the feed.xml file

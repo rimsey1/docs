@@ -10,7 +10,8 @@ $yellow:				#DCFF00;
 $pink:					#E23653;
 $white:                 #FFFFFF;
 $gray-100:				#FDFCFC;
-$gray-200:				#EAEAE9;
+$gray-200:              #EAEAE9;
+$gray-300:              #B9B9B9;
 $gray-700:              #333B46;
 $gray-800:              #343B46;
 $dark:					$gray-800;
@@ -122,8 +123,14 @@ $sidebar-submenu-link-color:                $white;
 $sidebar-submenu-link-color-hover:          $white;
 $sidebar-submenu-link-color-active:         $white;
 $sidebar-nav-spacing:                       25px;
+$sidebar-height:                            calc(100vh - 108px);
 
+// content
+$content-font-size:                         18px;
+$content-line-height:                       22px;
 
 @import "bootstrap/variables";
 
+$content-width-max-md:                      calc(#{$screen-md-min} - #{$sidebar_width_media_md} - (#{$sidebar-nav-spacing} * 2));
+$content-width-max-lg:                      calc(#{$screen-lg-min} - #{$sidebar_width_media_md} - (#{$sidebar-nav-spacing} * 2));
 

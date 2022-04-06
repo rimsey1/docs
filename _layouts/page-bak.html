@@ -55,7 +55,7 @@ layout: default
     {% include toc.html %}
     {% endunless %}
 
-    {{content}}
+    {{ content | inject_anchors }}
 
     {% unless page.show_tags == false %}
     <div class="tags">

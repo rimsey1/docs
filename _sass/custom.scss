@@ -17,6 +17,33 @@
     width: auto;
 }
 
+// negative margins based on bs
+
+.mx-n1 {
+  margin-right: -0.25rem !important;
+  margin-left: -0.25rem !important;
+}
+
+.mx-n2 {
+  margin-right: -0.5rem !important;
+  margin-left: -0.5rem !important;
+}
+
+.mx-n3 {
+  margin-right: -1rem !important;
+  margin-left: -1rem !important;
+}
+
+.mx-n4 {
+  margin-right: -1.5rem !important;
+  margin-left: -1.5rem !important;
+}
+
+.mx-n5 {
+  margin-right: -3rem !important;
+  margin-left: -3rem !important;
+}
+
 .bg-dark {
     background-color: $dark;
     color: $body-color-light;
@@ -70,7 +97,10 @@
     &.hub-link {
         flex: 0 0 254px;
         .card-body {
-            padding: 20px;
+            padding: 30px 40px;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 22px;
         }
         .btn-icon {
             border-radius: 10px;
@@ -83,7 +113,10 @@
             height: auto;
         }
         .card-title {
-            flex: 0 0 2.25em;
+            flex: 0 0 2em;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 24px;
         }
     }
     &.icon-link {
@@ -218,9 +251,6 @@ section {
 }
 
 // sidebar
-#tg-sb-sidebar {
-}
-
 aside.sidebar {
     background-color: $sidebar-bg;
     color: $sidebar-color;
@@ -301,6 +331,39 @@ ul#mysidebar {
         }
     }
 }
+// main container
+main.container {
+    font-size: $content-font-size;
+    line-height: $content-line-height;
+
+    table {
+        th {
+            background: $gray-700;
+            color: $white;
+            border: 0;
+            padding: 10px 8px;
+            font-size: 17px;
+            font-weight: 700;
+            line-height: 20px;
+            border-left: 1px solid $white;
+            &:first-child {
+                border-left: 0;
+            }
+        }
+        td {
+            background: $white;
+            font-size: 16px;
+            line-height: 20px;
+            border-bottom: 1px solid $gray-300;
+            padding: 10px 8px;
+            border-left: 1px solid $white;
+            &:first-child {
+                border-left: 0;
+            }
+        }
+    }
+}
+
 
 // footer {
 footer {
@@ -357,7 +420,7 @@ footer {
     }
     main.container,
     .footer-content.container {
-        max-width: calc(#{$screen-md-min} - #{$sidebar_width_media_md} - (#{$sidebar-nav-spacing} * 2));
+        max-width: $content-width-max-md;
     }
     nav.navbar {
         .logo {
@@ -371,7 +434,7 @@ footer {
     }
     ul#mysidebar {
         position: fixed;
-        height: calc(100vh - #{$navbar-height});
+        height: $sidebar-height;
         width: $sidebar_width_media_md;
         top: $navbar-height;
         bottom: 0px;
@@ -391,7 +454,7 @@ footer {
 @media (min-width: $screen-lg-min) {
     main.container,
     .footer-content.container  {
-        max-width: calc(#{$screen-lg-min} - #{$sidebar_width_media_md} - (#{$sidebar-nav-spacing} * 2));
+        max-width: $content-width-max-lg;
     }
     footer {
         .footer-links {
