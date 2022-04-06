@@ -5,7 +5,7 @@
 $font-family-sans-serif: 'Montserrat', Arial, sans-serif;
 
 // colours
-$red:					#E20B14;
+$red:                   #E20B14;
 $yellow:				#DCFF00;
 $pink:					#E23653;
 $white:                 #FFFFFF;
@@ -48,7 +48,9 @@ $headings-font-family: 		$font-family-sans-serif;
 $headings-color:			$gray-800;
 $body-color:				$gray-800;
 $body-color-light:          $white;
-
+$toc-color:                 $body-color;
+$toc-color-bg:              #F4F4F4;
+$toc-spacing:               20px;
 // spacing
 $spacing-1:              16px;
 $spacing-2:              18px;

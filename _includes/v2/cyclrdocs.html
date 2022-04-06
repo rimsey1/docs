@@ -11,6 +11,7 @@
 </section>
 {% for section in site.data.homepage.sections %}
 {% capture bgcycle %}{% cycle 'bg-light', 'bg-dark' %}{% endcapture %}
+{% capture bgtilecycle %}{% cycle '', 'bg-light' %}{% endcapture %}
 {% capture textcycle %}{% cycle 'text-dark', 'text-light' %}{% endcapture %}
 <section class="{{ bgcycle }} py-4">
 	<div class="container">
@@ -28,7 +29,7 @@
 			{% for tile in section.tiles %}
 				<div class="card flex-auto flex-sm-25 my-4">
 					<div class="card-body d-flex flex-column">
-						<div class="flex-grow-1 d-flex align-items-center justify-content-center">
+						<div class="flex-grow-1 d-flex align-items-center justify-content-center {{bgtilecycle}}">
 							<i class="fa fa-{{ tile.icon }} fa-5x"></i>
 						</div>
 						{% if tile.externalurl %}
