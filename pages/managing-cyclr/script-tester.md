@@ -2,7 +2,7 @@
 title: Script Tester
 sidebar: cyclr_sidebar
 permalink: script-tester
-tags: [connector]
+tags: [connector, script testing]
 ---
 
 If you need to test some javascript outside of your cycle, you can do so with the **Script Tester**.
