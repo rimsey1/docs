@@ -18,7 +18,7 @@ You can find the Salesforce documentation on creating a connected app [here](htt
 1. Check **Enable OAuth Settings**.
 2. Enter your Cyclr callback URL into **Callback URL** field with the following format:
     ```http
-    https://{{Your Cyclr service domain e.g. app-h.cyclr.com}}/connector/callback
+    https://{Your Cyclr service domain e.g. app-h.cyclr.com}/connector/callback
     ```
 3. Select the following scopes under **Selected OAuth Scopes**:
     - Perform requests at any time (refresh_token, offline_access)
