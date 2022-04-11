@@ -9,11 +9,8 @@ tags: [connector]
 
 ### Setting up your Account
 
-To authenticate the connector you need your Alto Client ID & Secret.
-
-You will obtain your connection details and documentation when signing up to Alto.
-
-For further information on obtaining connection details please email Alto Support: <altosupport@propertysoftwaregroup.co>
+You will need a Client ID and Secret to authenticate the Connector. 
+These should have been provided by Alto when you signed up - you can email their support for more information: <altosupport@propertysoftwaregroup.co>
 
 ## Cyclr Setup
 
