@@ -3,8 +3,8 @@ title: Selligent
 sidebar: cyclr_sidebar
 permalink: selligent-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12322
+default_header: false
 category: Marketing
 categories: [Marketing,Sales]
 ---

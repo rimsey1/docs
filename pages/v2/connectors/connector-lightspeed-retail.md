@@ -3,8 +3,8 @@ title: Lightspeed Retail
 sidebar: cyclr_sidebar
 permalink: lightspeed-retail-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14069
+default_header: false
 category: Accounting
 categories: [Accounting,Billing/Payment,CRMs,Ecommerce]
 ---

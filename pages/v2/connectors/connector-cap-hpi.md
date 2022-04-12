@@ -3,8 +3,8 @@ title: Cap HPI
 sidebar: cyclr_sidebar
 permalink: cap-hpi-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/11820
+default_header: false
 category: Miscellaneous
 categories: [Miscellaneous]
 ---

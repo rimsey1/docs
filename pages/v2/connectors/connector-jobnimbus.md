@@ -3,8 +3,8 @@ title: JobNimbus
 sidebar: cyclr_sidebar
 permalink: jobnimbus-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/15955
+default_header: false
 category: Product Management
 categories: [Product Management,Project Management]
 ---

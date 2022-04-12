@@ -3,8 +3,8 @@ title: Dropbox
 sidebar: cyclr_sidebar
 permalink: dropbox-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/15371
+default_header: false
 category: Collaboration
 categories: [Collaboration]
 ---

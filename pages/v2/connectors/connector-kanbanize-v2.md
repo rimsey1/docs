@@ -3,8 +3,8 @@ title: Kanbanize V2
 sidebar: cyclr_sidebar
 permalink: kanbanize-v2-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14067
+default_header: false
 category: All
 categories: []
 ---

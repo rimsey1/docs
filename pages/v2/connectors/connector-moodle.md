@@ -3,8 +3,8 @@ title: Moodle
 sidebar: cyclr_sidebar
 permalink: moodle-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14186
+default_header: false
 category: Miscellaneous
 categories: [Miscellaneous]
 ---

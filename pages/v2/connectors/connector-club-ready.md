@@ -3,8 +3,8 @@ title: Club Ready
 sidebar: cyclr_sidebar
 permalink: club-ready-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12269
+default_header: false
 category: Billing/Payment
 categories: [Billing/Payment,CRMs,Sales,Healthcare/Wellness]
 ---

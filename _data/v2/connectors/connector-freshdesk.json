@@ -1,51 +1,21 @@
 {
     "Description": "Cloud-based customer support software & helpdesk ticketing system that assists customers over email, phone and social channels.",
-    "Id": 16875,
+    "Id": 16925,
     "Name": "Freshdesk",
     "Version": "2.0",
     "Status": "Approved",
-    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16875",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16925",
     "Categories": [
         "Chat",
         "Support"
     ],
     "MethodCategories": [
         {
-            "Category": "Tickets",
+            "Category": "Satisfaction Ratings",
             "Methods": [
                 {
-                    "Name": "Add Note To Ticket",
-                    "Description": "Adds a note to a ticket, by default it is private.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Update Ticket",
-                    "Description": "Update a ticket in this Freshdesk account.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Delete Ticket",
-                    "Description": "Delete a ticket from this Freshdesk account.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List All Tickets",
-                    "Description": "List all tickets from this Freshdesk account.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Ticket",
-                    "Description": "View a ticket from this Freshdesk account.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Create Ticket",
-                    "Description": "Create a ticket in this Freshdesk account.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Updated Tickets",
-                    "Description": "List all tickets from this Freshdesk account updated since last run.",
+                    "Name": "Create Satisfaction Rating",
+                    "Description": "Created a new satisfaction rating.",
                     "MethodType": "Action"
                 }
             ]
@@ -91,16 +61,6 @@
             ]
         },
         {
-            "Category": "Satisfaction Ratings",
-            "Methods": [
-                {
-                    "Name": "Create Satisfaction Rating",
-                    "Description": "Created a new satisfaction rating.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
             "Category": "Webhooks",
             "Methods": [
                 {
@@ -118,55 +78,41 @@
             ]
         },
         {
-            "Category": "Agents",
+            "Category": "Tickets",
             "Methods": [
                 {
-                    "Name": "List Agents",
-                    "Description": "List all agents.",
+                    "Name": "Get Ticket",
+                    "Description": "View a ticket from this Freshdesk account.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Get Agent",
-                    "Description": "Get an agent by ID.",
+                    "Name": "List All Tickets",
+                    "Description": "List all tickets from this Freshdesk account.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Get Current Agent",
-                    "Description": "Retrieves information about the currently authenticated agent.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Companies",
-            "Methods": [
-                {
-                    "Name": "List All Companies",
+                    "Name": "Delete Ticket",
+                    "Description": "Delete a ticket from this Freshdesk account.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Get Company",
-                    "Description": "View a Company.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Groups",
-            "Methods": [
-                {
-                    "Name": "List Groups",
-                    "Description": "List all groups.",
+                    "Name": "Update Ticket",
+                    "Description": "Update a ticket in this Freshdesk account.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "List Admin Groups",
-                    "Description": "List all admin groups.",
+                    "Name": "List Updated Tickets",
+                    "Description": "List all tickets from this Freshdesk account updated since last run.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "List Admin Group Agents",
-                    "Description": "List all agents in an admin groups.",
+                    "Name": "Create Ticket",
+                    "Description": "Create a ticket in this Freshdesk account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Note To Ticket",
+                    "Description": "Adds a note to a ticket, by default it is private.",
                     "MethodType": "Action"
                 }
             ]
@@ -177,6 +123,60 @@
                 {
                     "Name": "List All Conversations of a Ticket",
                     "Description": "List All Ticket Notes.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Agents",
+            "Methods": [
+                {
+                    "Name": "List Agents",
+                    "Description": "List all agents.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Current Agent",
+                    "Description": "Retrieves information about the currently authenticated agent.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Agent",
+                    "Description": "Get an agent by ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Groups",
+            "Methods": [
+                {
+                    "Name": "List Admin Group Agents",
+                    "Description": "List all agents in an admin groups.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Groups",
+                    "Description": "List all groups.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Admin Groups",
+                    "Description": "List all admin groups.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Companies",
+            "Methods": [
+                {
+                    "Name": "Get Company",
+                    "Description": "View a Company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List All Companies",
                     "MethodType": "Action"
                 }
             ]

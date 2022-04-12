@@ -3,8 +3,8 @@ title: Calendly
 sidebar: cyclr_sidebar
 permalink: calendly-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14166
+default_header: false
 category: Collaboration
 categories: [Collaboration,Calendars]
 ---

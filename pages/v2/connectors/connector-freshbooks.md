@@ -3,8 +3,8 @@ title: Freshbooks
 sidebar: cyclr_sidebar
 permalink: freshbooks-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12436
+default_header: false
 category: Accounting
 categories: [Accounting]
 ---

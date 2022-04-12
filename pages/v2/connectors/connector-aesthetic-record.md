@@ -3,8 +3,8 @@ title: Aesthetic Record
 sidebar: cyclr_sidebar
 permalink: aesthetic-record-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/8271
+default_header: false
 category: CRMs
 categories: [CRMs,Healthcare/Wellness]
 ---

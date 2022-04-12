@@ -3,8 +3,8 @@ title: BugHerd
 sidebar: cyclr_sidebar
 permalink: bugherd-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/6650
+default_header: false
 category: Product Management
 categories: [Product Management,Developer Tools,Support]
 ---

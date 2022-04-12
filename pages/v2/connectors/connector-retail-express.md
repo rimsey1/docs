@@ -3,8 +3,8 @@ title: Retail Express
 sidebar: cyclr_sidebar
 permalink: retail-express-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12834
+default_header: false
 category: POS
 categories: [POS,Ecommerce]
 ---

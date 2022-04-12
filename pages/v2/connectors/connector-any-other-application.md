@@ -3,8 +3,8 @@ title: Any Other Application
 sidebar: cyclr_sidebar
 permalink: any-other-application-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/6624
+default_header: false
 category: HR/Payroll
 categories: [HR/Payroll,ERP,Marketing,Product Management,POS,Collaboration,Dashboarding,Accounting,Analytics,Billing/Payment,Blogs,Chat,CRMs,Customer Experience,Databases,Data Tools,Developer Tools,Ecommerce,Email Marketing,Forms,Project Management,Sales,SMS,Social Media,Support,Surveys,Calendars,DevOps]
 ---

@@ -3,8 +3,8 @@ title: MailChimp
 sidebar: cyclr_sidebar
 permalink: mailchimp-connector
 tags: [connector]
-toc: false
-icon: https://my.cyclr.com/api/ConnectorIcon/15718
+icon: https://my.cyclr.com/api/ConnectorIcon/16919
+default_header: false
 category: CRMs
 categories: [CRMs,Email Marketing]
 ---

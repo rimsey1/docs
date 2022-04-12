@@ -3,8 +3,8 @@ title: Bronto
 sidebar: cyclr_sidebar
 permalink: bronto-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/11838
+default_header: false
 category: CRMs
 categories: [CRMs,Email Marketing]
 ---

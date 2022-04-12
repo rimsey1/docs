@@ -3,8 +3,8 @@ title: ShipStation
 sidebar: cyclr_sidebar
 permalink: shipstation-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14153
+default_header: false
 category: Ecommerce
 categories: [Ecommerce]
 ---

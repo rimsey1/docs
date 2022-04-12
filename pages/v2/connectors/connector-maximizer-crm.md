@@ -3,8 +3,8 @@ title: Maximizer CRM
 sidebar: cyclr_sidebar
 permalink: maximizer-crm-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/6459
+default_header: false
 category: Marketing
 categories: [Marketing,CRMs,Sales,Support]
 ---

@@ -3,8 +3,8 @@ title: Optimizely
 sidebar: cyclr_sidebar
 permalink: optimizely-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12024
+default_header: false
 category: Marketing
 categories: [Marketing,Customer Experience]
 ---

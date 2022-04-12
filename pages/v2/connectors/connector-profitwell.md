@@ -3,8 +3,8 @@ title: ProfitWell
 sidebar: cyclr_sidebar
 permalink: profitwell-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14187
+default_header: false
 category: Customer Experience
 categories: [Customer Experience,Sales]
 ---

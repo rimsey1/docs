@@ -3,8 +3,8 @@ title: Thr!ve
 sidebar: cyclr_sidebar
 permalink: thr-ve-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/6719
+default_header: false
 category: POS
 categories: [POS,Billing/Payment,CRMs]
 ---

@@ -3,8 +3,8 @@ title: PayTrace
 sidebar: cyclr_sidebar
 permalink: paytrace-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/16086
+default_header: false
 category: POS
 categories: [POS,Billing/Payment]
 ---

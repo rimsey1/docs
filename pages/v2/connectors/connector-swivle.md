@@ -3,8 +3,8 @@ title: Swivle
 sidebar: cyclr_sidebar
 permalink: swivle-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/11846
+default_header: false
 category: Collaboration
 categories: [Collaboration]
 ---

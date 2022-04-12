@@ -3,8 +3,8 @@ title: BambooHR
 sidebar: cyclr_sidebar
 permalink: bamboohr-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/16728
+default_header: false
 category: HR/Payroll
 categories: [HR/Payroll]
 ---

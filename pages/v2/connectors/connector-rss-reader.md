@@ -3,8 +3,8 @@ title: RSS Reader
 sidebar: cyclr_sidebar
 permalink: rss-reader-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/5448
+default_header: false
 category: Data Tools
 categories: [Data Tools]
 ---

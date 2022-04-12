@@ -3,8 +3,8 @@ title: FullContact
 sidebar: cyclr_sidebar
 permalink: fullcontact-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/16070
+default_header: false
 category: Data Tools
 categories: [Data Tools,Sales]
 ---

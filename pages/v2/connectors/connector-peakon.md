@@ -3,8 +3,8 @@ title: Peakon
 sidebar: cyclr_sidebar
 permalink: peakon-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/11871
+default_header: false
 category: HR/Payroll
 categories: [HR/Payroll]
 ---

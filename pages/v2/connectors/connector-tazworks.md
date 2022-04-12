@@ -3,8 +3,8 @@ title: TazWorks
 sidebar: cyclr_sidebar
 permalink: tazworks-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12045
+default_header: false
 category: HR/Payroll
 categories: [HR/Payroll,Data Tools]
 ---

@@ -3,8 +3,8 @@ title: Box
 sidebar: cyclr_sidebar
 permalink: box-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/15655
+default_header: false
 category: All
 categories: []
 ---

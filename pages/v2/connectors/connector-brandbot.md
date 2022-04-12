@@ -3,8 +3,8 @@ title: Brandbot
 sidebar: cyclr_sidebar
 permalink: brandbot-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/8005
+default_header: false
 category: Marketing
 categories: [Marketing,CRMs,Email Marketing]
 ---

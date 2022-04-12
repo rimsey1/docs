@@ -3,8 +3,8 @@ title: Sprout Send
 sidebar: cyclr_sidebar
 permalink: sprout-send-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12860
+default_header: false
 category: CRMs
 categories: [CRMs,Sales]
 ---

@@ -3,8 +3,8 @@ title: Google AdWords
 sidebar: cyclr_sidebar
 permalink: google-adwords-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/6776
+default_header: false
 category: Marketing
 categories: [Marketing]
 ---

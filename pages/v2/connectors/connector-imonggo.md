@@ -3,8 +3,8 @@ title: Imonggo
 sidebar: cyclr_sidebar
 permalink: imonggo-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14317
+default_header: false
 category: POS
 categories: [POS]
 ---

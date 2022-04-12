@@ -3,8 +3,8 @@ title: CANDDi
 sidebar: cyclr_sidebar
 permalink: canddi-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/4044
+default_header: false
 category: Marketing
 categories: [Marketing,Customer Experience]
 ---

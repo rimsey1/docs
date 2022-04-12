@@ -3,8 +3,8 @@ title: ServiceNow
 sidebar: cyclr_sidebar
 permalink: servicenow-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/15616
+default_header: false
 category: Support
 categories: [Support]
 ---

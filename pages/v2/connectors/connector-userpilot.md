@@ -3,8 +3,8 @@ title: UserPilot
 sidebar: cyclr_sidebar
 permalink: userpilot-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/15097
+default_header: false
 category: Product Management
 categories: [Product Management,Customer Experience]
 ---

@@ -3,8 +3,8 @@ title: Twitter
 sidebar: cyclr_sidebar
 permalink: twitter-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/16758
+default_header: false
 category: All
 categories: []
 ---

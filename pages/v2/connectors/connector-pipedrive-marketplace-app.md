@@ -3,8 +3,8 @@ title: Pipedrive Marketplace App
 sidebar: cyclr_sidebar
 permalink: pipedrive-marketplace-app-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/5376
+default_header: false
 category: CRMs
 categories: [CRMs,Sales]
 ---

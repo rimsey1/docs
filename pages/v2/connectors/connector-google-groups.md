@@ -3,8 +3,8 @@ title: Google Groups
 sidebar: cyclr_sidebar
 permalink: google-groups-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/4891
+default_header: false
 category: Collaboration
 categories: [Collaboration]
 ---

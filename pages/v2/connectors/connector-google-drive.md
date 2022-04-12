@@ -3,8 +3,8 @@ title: Google Drive
 sidebar: cyclr_sidebar
 permalink: google-drive-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/16737
+default_header: false
 category: Databases
 categories: [Databases,Data Tools]
 ---

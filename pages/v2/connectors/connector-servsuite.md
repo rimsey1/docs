@@ -3,8 +3,8 @@ title: ServSuite
 sidebar: cyclr_sidebar
 permalink: servsuite-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/15572
+default_header: false
 category: Miscellaneous
 categories: [Miscellaneous]
 ---

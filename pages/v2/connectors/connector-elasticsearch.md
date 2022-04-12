@@ -3,8 +3,8 @@ title: ElasticSearch
 sidebar: cyclr_sidebar
 permalink: elasticsearch-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/16156
+default_header: false
 category: Data Tools
 categories: [Data Tools,Developer Tools,DevOps]
 ---

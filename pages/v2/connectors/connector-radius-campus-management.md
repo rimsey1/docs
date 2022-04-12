@@ -3,8 +3,8 @@ title: Radius Campus Management
 sidebar: cyclr_sidebar
 permalink: radius-campus-management-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/11830
+default_header: false
 category: Miscellaneous
 categories: [Miscellaneous]
 ---

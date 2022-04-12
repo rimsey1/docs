@@ -3,8 +3,8 @@ title: Clover Sandbox
 sidebar: cyclr_sidebar
 permalink: clover-sandbox-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12267
+default_header: false
 category: All
 categories: []
 ---

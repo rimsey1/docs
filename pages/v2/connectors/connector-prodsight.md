@@ -3,8 +3,8 @@ title: Prodsight
 sidebar: cyclr_sidebar
 permalink: prodsight-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/13044
+default_header: false
 category: Chat
 categories: [Chat,Support]
 ---

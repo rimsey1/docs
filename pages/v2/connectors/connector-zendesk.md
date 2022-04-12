@@ -3,8 +3,8 @@ title: Zendesk
 sidebar: cyclr_sidebar
 permalink: zendesk-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/16810
+default_header: false
 category: Chat
 categories: [Chat,CRMs,Sales,Support]
 ---

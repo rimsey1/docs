@@ -3,8 +3,8 @@ title: Magento 2
 sidebar: cyclr_sidebar
 permalink: magento-2-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/16714
+default_header: false
 category: Ecommerce
 categories: [Ecommerce]
 ---

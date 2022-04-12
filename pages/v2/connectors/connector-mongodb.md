@@ -3,8 +3,8 @@ title: MongoDB
 sidebar: cyclr_sidebar
 permalink: mongodb-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/16216
+default_header: false
 category: Databases
 categories: [Databases,Developer Tools]
 ---

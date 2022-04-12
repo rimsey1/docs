@@ -3,8 +3,8 @@ title: Highrise
 sidebar: cyclr_sidebar
 permalink: highrise-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/11765
+default_header: false
 category: CRMs
 categories: [CRMs]
 ---

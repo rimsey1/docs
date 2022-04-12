@@ -3,8 +3,8 @@ title: Answerbase
 sidebar: cyclr_sidebar
 permalink: answerbase-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/7384
+default_header: false
 category: Customer Experience
 categories: [Customer Experience,Developer Tools,Support]
 ---

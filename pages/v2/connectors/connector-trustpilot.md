@@ -3,8 +3,8 @@ title: Trustpilot
 sidebar: cyclr_sidebar
 permalink: trustpilot-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12340
+default_header: false
 category: Customer Experience
 categories: [Customer Experience,Support]
 ---

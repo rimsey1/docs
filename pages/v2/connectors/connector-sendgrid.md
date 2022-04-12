@@ -3,8 +3,8 @@ title: SendGrid
 sidebar: cyclr_sidebar
 permalink: sendgrid-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14742
+default_header: false
 category: Marketing
 categories: [Marketing,Developer Tools,Email Marketing]
 ---

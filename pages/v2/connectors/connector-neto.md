@@ -3,8 +3,8 @@ title: Neto
 sidebar: cyclr_sidebar
 permalink: neto-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14223
+default_header: false
 category: POS
 categories: [POS,Ecommerce]
 ---

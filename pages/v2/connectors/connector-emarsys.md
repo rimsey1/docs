@@ -3,8 +3,8 @@ title: Emarsys
 sidebar: cyclr_sidebar
 permalink: emarsys-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12272
+default_header: false
 category: Email Marketing
 categories: [Email Marketing,SMS]
 ---

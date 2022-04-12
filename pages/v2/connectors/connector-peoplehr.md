@@ -3,8 +3,8 @@ title: PeopleHR
 sidebar: cyclr_sidebar
 permalink: peoplehr-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12312
+default_header: false
 category: HR/Payroll
 categories: [HR/Payroll]
 ---

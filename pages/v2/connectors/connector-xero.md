@@ -3,8 +3,8 @@ title: Xero
 sidebar: cyclr_sidebar
 permalink: xero-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/16099
+default_header: false
 category: HR/Payroll
 categories: [HR/Payroll,Accounting]
 ---

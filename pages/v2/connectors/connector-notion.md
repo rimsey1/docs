@@ -3,8 +3,8 @@ title: Notion
 sidebar: cyclr_sidebar
 permalink: notion-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14964
+default_header: false
 category: Collaboration
 categories: [Collaboration,Project Management]
 ---

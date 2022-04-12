@@ -3,8 +3,8 @@ title: GoCardless Sandbox
 sidebar: cyclr_sidebar
 permalink: gocardless-sandbox-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/13148
+default_header: false
 category: All
 categories: []
 ---

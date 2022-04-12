@@ -3,8 +3,8 @@ title: ManageBac
 sidebar: cyclr_sidebar
 permalink: managebac-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/13136
+default_header: false
 category: Miscellaneous
 categories: [Miscellaneous]
 ---

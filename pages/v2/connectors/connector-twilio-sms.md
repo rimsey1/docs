@@ -3,8 +3,8 @@ title: Twilio SMS
 sidebar: cyclr_sidebar
 permalink: twilio-sms-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/8097
+default_header: false
 category: Marketing
 categories: [Marketing,SMS]
 ---

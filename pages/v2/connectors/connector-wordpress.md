@@ -3,8 +3,8 @@ title: WordPress
 sidebar: cyclr_sidebar
 permalink: wordpress-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14195
+default_header: false
 category: Developer Tools
 categories: [Developer Tools,Ecommerce]
 ---

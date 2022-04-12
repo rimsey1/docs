@@ -3,8 +3,8 @@ title: Google Calendar
 sidebar: cyclr_sidebar
 permalink: google-calendar-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/15522
+default_header: false
 category: Collaboration
 categories: [Collaboration,Calendars]
 ---

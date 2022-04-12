@@ -3,8 +3,8 @@ title: Podio
 sidebar: cyclr_sidebar
 permalink: podio-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12314
+default_header: false
 category: Project Management
 categories: [Project Management]
 ---

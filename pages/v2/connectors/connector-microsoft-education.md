@@ -3,8 +3,8 @@ title: Microsoft Education
 sidebar: cyclr_sidebar
 permalink: microsoft-education-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14689
+default_header: false
 category: Miscellaneous
 categories: [Miscellaneous,Collaboration]
 ---

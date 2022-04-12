@@ -3,8 +3,8 @@ title: Infusionsoft
 sidebar: cyclr_sidebar
 permalink: infusionsoft-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12547
+default_header: false
 category: CRMs
 categories: [CRMs]
 ---

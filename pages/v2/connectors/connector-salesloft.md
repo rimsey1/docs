@@ -3,8 +3,8 @@ title: Salesloft
 sidebar: cyclr_sidebar
 permalink: salesloft-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12562
+default_header: false
 category: CRMs
 categories: [CRMs,Sales]
 ---

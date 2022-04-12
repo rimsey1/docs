@@ -3,8 +3,8 @@ title: WebinarJam
 sidebar: cyclr_sidebar
 permalink: webinarjam-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/11852
+default_header: false
 category: Chat
 categories: [Chat,Customer Experience,Sales]
 ---

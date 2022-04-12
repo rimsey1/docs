@@ -3,8 +3,8 @@ title: serviceminder.io
 sidebar: cyclr_sidebar
 permalink: serviceminder-io-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12843
+default_header: false
 category: Sales
 categories: [Sales]
 ---

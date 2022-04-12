@@ -3,8 +3,8 @@ title: OpenCRM
 sidebar: cyclr_sidebar
 permalink: opencrm-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12895
+default_header: false
 category: CRMs
 categories: [CRMs,Sales]
 ---

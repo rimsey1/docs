@@ -3,8 +3,8 @@ title: Club OS
 sidebar: cyclr_sidebar
 permalink: club-os-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/3597
+default_header: false
 category: Marketing
 categories: [Marketing,POS,Sales,Healthcare/Wellness]
 ---

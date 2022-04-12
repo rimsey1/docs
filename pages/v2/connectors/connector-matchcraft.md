@@ -3,8 +3,8 @@ title: MatchCraft
 sidebar: cyclr_sidebar
 permalink: matchcraft-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/15373
+default_header: false
 category: Marketing
 categories: [Marketing]
 ---

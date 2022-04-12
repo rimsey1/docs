@@ -3,8 +3,8 @@ title: iSalesCRM
 sidebar: cyclr_sidebar
 permalink: isalescrm-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/8006
+default_header: false
 category: Marketing
 categories: [Marketing,CRMs,Sales]
 ---

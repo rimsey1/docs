@@ -3,8 +3,8 @@ title: Springboard
 sidebar: cyclr_sidebar
 permalink: springboard-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/8329
+default_header: false
 category: POS
 categories: [POS]
 ---

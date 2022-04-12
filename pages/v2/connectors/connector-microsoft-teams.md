@@ -3,8 +3,8 @@ title: Microsoft Teams
 sidebar: cyclr_sidebar
 permalink: microsoft-teams-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/15339
+default_header: false
 category: Collaboration
 categories: [Collaboration,Chat]
 ---

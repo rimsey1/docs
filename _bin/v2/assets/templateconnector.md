@@ -3,8 +3,8 @@ title: connectortitle
 sidebar: cyclr_sidebar
 permalink: connectorname-connector
 tags: [connector]
-toc: false
 icon: connectoricon
+default_header: false
 category: connectorcategory
 categories: connectorcategories
 ---

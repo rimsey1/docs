@@ -3,8 +3,8 @@ title: SalesNexus
 sidebar: cyclr_sidebar
 permalink: salesnexus-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12321
+default_header: false
 category: CRMs
 categories: [CRMs,Email Marketing,Sales]
 ---

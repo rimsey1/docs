@@ -3,8 +3,8 @@ title: Counterpoint
 sidebar: cyclr_sidebar
 permalink: counterpoint-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14038
+default_header: false
 category: CRMs
 categories: [CRMs,Sales]
 ---

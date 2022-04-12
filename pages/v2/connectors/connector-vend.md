@@ -3,8 +3,8 @@ title: Vend
 sidebar: cyclr_sidebar
 permalink: vend-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12577
+default_header: false
 category: POS
 categories: [POS,Billing/Payment,Ecommerce]
 ---

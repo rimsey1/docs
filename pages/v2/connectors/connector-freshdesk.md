@@ -3,8 +3,8 @@ title: Freshdesk
 sidebar: cyclr_sidebar
 permalink: freshdesk-connector
 tags: [connector]
-toc: false
-icon: https://my.cyclr.com/api/ConnectorIcon/16875
+icon: https://my.cyclr.com/api/ConnectorIcon/16925
+default_header: false
 category: Chat
 categories: [Chat,Support]
 ---

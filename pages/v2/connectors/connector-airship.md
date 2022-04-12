@@ -3,8 +3,8 @@ title: Airship
 sidebar: cyclr_sidebar
 permalink: airship-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14161
+default_header: false
 category: Customer Experience
 categories: [Customer Experience,Sales]
 ---

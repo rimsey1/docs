@@ -3,8 +3,8 @@ title: Formstack
 sidebar: cyclr_sidebar
 permalink: formstack-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/7802
+default_header: false
 category: Forms
 categories: [Forms,Surveys]
 ---

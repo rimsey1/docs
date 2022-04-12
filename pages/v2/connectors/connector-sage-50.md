@@ -3,8 +3,8 @@ title: Sage 50
 sidebar: cyclr_sidebar
 permalink: sage-50-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12315
+default_header: false
 category: HR/Payroll
 categories: [HR/Payroll,Accounting]
 ---

@@ -3,8 +3,8 @@ title: Google Data Studio
 sidebar: cyclr_sidebar
 permalink: google-data-studio-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12277
+default_header: false
 category: Dashboarding
 categories: [Dashboarding,Data Tools]
 ---

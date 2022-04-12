@@ -3,8 +3,8 @@ title: Oracle NetSuite
 sidebar: cyclr_sidebar
 permalink: oracle-netsuite-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/15874
+default_header: false
 category: HR/Payroll
 categories: [HR/Payroll,ERP,CRMs,Ecommerce]
 ---

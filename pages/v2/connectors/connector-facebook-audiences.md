@@ -3,8 +3,8 @@ title: Facebook Audiences
 sidebar: cyclr_sidebar
 permalink: facebook-audiences-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/15036
+default_header: false
 category: Social Media
 categories: [Social Media]
 ---

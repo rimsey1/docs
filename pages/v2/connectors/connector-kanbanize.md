@@ -3,8 +3,8 @@ title: Kanbanize
 sidebar: cyclr_sidebar
 permalink: kanbanize-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/7390
+default_header: false
 category: Product Management
 categories: [Product Management,Collaboration,Project Management]
 ---

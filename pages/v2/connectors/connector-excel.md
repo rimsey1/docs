@@ -3,8 +3,8 @@ title: Excel
 sidebar: cyclr_sidebar
 permalink: excel-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/7720
+default_header: false
 category: Accounting
 categories: [Accounting,Data Tools]
 ---

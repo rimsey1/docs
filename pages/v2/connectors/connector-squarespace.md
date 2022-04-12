@@ -3,8 +3,8 @@ title: Squarespace
 sidebar: cyclr_sidebar
 permalink: squarespace-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12872
+default_header: false
 category: Ecommerce
 categories: [Ecommerce]
 ---

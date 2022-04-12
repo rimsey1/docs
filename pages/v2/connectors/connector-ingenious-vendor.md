@@ -3,8 +3,8 @@ title: Ingenious Vendor
 sidebar: cyclr_sidebar
 permalink: ingenious-vendor-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14514
+default_header: false
 category: Marketing
 categories: [Marketing]
 ---

@@ -3,8 +3,8 @@ title: Twilio Chat
 sidebar: cyclr_sidebar
 permalink: twilio-chat-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/2569
+default_header: false
 category: Marketing
 categories: [Marketing,Chat,Support]
 ---

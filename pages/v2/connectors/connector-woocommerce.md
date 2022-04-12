@@ -3,8 +3,8 @@ title: WooCommerce
 sidebar: cyclr_sidebar
 permalink: woocommerce-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14194
+default_header: false
 category: Ecommerce
 categories: [Ecommerce,Sales]
 ---

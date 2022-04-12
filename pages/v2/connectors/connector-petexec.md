@@ -3,8 +3,8 @@ title: PetExec
 sidebar: cyclr_sidebar
 permalink: petexec-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12697
+default_header: false
 category: Miscellaneous
 categories: [Miscellaneous]
 ---

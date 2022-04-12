@@ -3,8 +3,8 @@ title: Chargify
 sidebar: cyclr_sidebar
 permalink: chargify-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/16735
+default_header: false
 category: Accounting
 categories: [Accounting,Billing/Payment]
 ---

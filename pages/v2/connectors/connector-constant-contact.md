@@ -3,8 +3,8 @@ title: Constant Contact
 sidebar: cyclr_sidebar
 permalink: constant-contact-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12100
+default_header: false
 category: Marketing
 categories: [Marketing,Email Marketing]
 ---

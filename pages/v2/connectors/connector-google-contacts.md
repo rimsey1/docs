@@ -3,8 +3,8 @@ title: Google Contacts
 sidebar: cyclr_sidebar
 permalink: google-contacts-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14845
+default_header: false
 category: Miscellaneous
 categories: [Miscellaneous,Data Tools]
 ---

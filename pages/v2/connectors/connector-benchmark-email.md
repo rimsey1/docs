@@ -3,8 +3,8 @@ title: Benchmark Email
 sidebar: cyclr_sidebar
 permalink: benchmark-email-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/7672
+default_header: false
 category: Marketing
 categories: [Marketing,Email Marketing]
 ---

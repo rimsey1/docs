@@ -3,8 +3,8 @@ title: MYOB AccountRight
 sidebar: cyclr_sidebar
 permalink: myob-accountright-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14037
+default_header: false
 category: Accounting
 categories: [Accounting]
 ---

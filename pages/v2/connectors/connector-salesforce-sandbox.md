@@ -3,8 +3,8 @@ title: Salesforce Sandbox
 sidebar: cyclr_sidebar
 permalink: salesforce-sandbox-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14188
+default_header: false
 category: All
 categories: []
 ---

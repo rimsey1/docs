@@ -3,8 +3,8 @@ title: Lever
 sidebar: cyclr_sidebar
 permalink: lever-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14040
+default_header: false
 category: HR/Payroll
 categories: [HR/Payroll,Miscellaneous]
 ---

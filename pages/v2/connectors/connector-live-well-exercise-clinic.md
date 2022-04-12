@@ -3,8 +3,8 @@ title: Live Well Exercise Clinic
 sidebar: cyclr_sidebar
 permalink: live-well-exercise-clinic-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/6357
+default_header: false
 category: Healthcare/Wellness
 categories: [Healthcare/Wellness]
 ---

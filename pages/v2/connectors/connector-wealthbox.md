@@ -3,8 +3,8 @@ title: Wealthbox
 sidebar: cyclr_sidebar
 permalink: wealthbox-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/11436
+default_header: false
 category: CRMs
 categories: [CRMs,Sales]
 ---

@@ -3,8 +3,8 @@ title: Generic File
 sidebar: cyclr_sidebar
 permalink: generic-file-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/15496
+default_header: false
 category: Utility Connectors
 categories: [Utility Connectors,Data Tools,Developer Tools]
 ---

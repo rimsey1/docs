@@ -3,8 +3,8 @@ title: Leadoo
 sidebar: cyclr_sidebar
 permalink: leadoo-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14940
+default_header: false
 category: Marketing
 categories: [Marketing,Customer Experience]
 ---

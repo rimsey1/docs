@@ -3,8 +3,8 @@ title: Rybbon
 sidebar: cyclr_sidebar
 permalink: rybbon-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14370
+default_header: false
 category: Customer Experience
 categories: [Customer Experience,Sales]
 ---

@@ -3,8 +3,8 @@ title: Converge
 sidebar: cyclr_sidebar
 permalink: converge-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/8443
+default_header: false
 category: POS
 categories: [POS]
 ---

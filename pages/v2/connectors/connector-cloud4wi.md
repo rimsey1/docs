@@ -3,8 +3,8 @@ title: Cloud4Wi
 sidebar: cyclr_sidebar
 permalink: cloud4wi-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/11857
+default_header: false
 category: Miscellaneous
 categories: [Miscellaneous,Data Tools]
 ---

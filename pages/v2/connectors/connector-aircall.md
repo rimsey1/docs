@@ -3,8 +3,8 @@ title: Aircall
 sidebar: cyclr_sidebar
 permalink: aircall-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12369
+default_header: false
 category: Chat
 categories: [Chat,Customer Experience,Ecommerce,Sales,SMS,Support]
 ---

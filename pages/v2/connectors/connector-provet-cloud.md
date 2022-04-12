@@ -3,8 +3,8 @@ title: Provet Cloud
 sidebar: cyclr_sidebar
 permalink: provet-cloud-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/7592
+default_header: false
 category: Miscellaneous
 categories: [Miscellaneous,CRMs]
 ---

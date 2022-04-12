@@ -3,8 +3,8 @@ title: Heartland
 sidebar: cyclr_sidebar
 permalink: heartland-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12279
+default_header: false
 category: HR/Payroll
 categories: [HR/Payroll,POS,Billing/Payment]
 ---

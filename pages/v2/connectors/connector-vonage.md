@@ -3,8 +3,8 @@ title: Vonage
 sidebar: cyclr_sidebar
 permalink: vonage-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12342
+default_header: false
 category: Customer Experience
 categories: [Customer Experience,Data Tools,Sales]
 ---

@@ -3,8 +3,8 @@ title: Wattsense
 sidebar: cyclr_sidebar
 permalink: wattsense-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/11851
+default_header: false
 category: IoT
 categories: [IoT]
 ---

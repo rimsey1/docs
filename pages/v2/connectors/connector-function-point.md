@@ -3,8 +3,8 @@ title: Function Point
 sidebar: cyclr_sidebar
 permalink: function-point-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/5237
+default_header: false
 category: Marketing
 categories: [Marketing,Accounting,Project Management]
 ---

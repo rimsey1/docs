@@ -3,8 +3,8 @@ title: Prosperworks
 sidebar: cyclr_sidebar
 permalink: prosperworks-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/8503
+default_header: false
 category: CRMs
 categories: [CRMs]
 ---

@@ -3,8 +3,8 @@ title: Sailthru
 sidebar: cyclr_sidebar
 permalink: sailthru-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/11842
+default_header: false
 category: Email Marketing
 categories: [Email Marketing]
 ---

@@ -3,8 +3,8 @@ title: Drift
 sidebar: cyclr_sidebar
 permalink: drift-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/13995
+default_header: false
 category: Marketing
 categories: [Marketing,Chat,Customer Experience]
 ---

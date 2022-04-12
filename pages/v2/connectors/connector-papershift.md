@@ -3,8 +3,8 @@ title: Papershift
 sidebar: cyclr_sidebar
 permalink: papershift-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12030
+default_header: false
 category: HR/Payroll
 categories: [HR/Payroll]
 ---

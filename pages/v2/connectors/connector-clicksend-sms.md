@@ -3,8 +3,8 @@ title: ClickSend SMS
 sidebar: cyclr_sidebar
 permalink: clicksend-sms-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14343
+default_header: false
 category: SMS
 categories: [SMS]
 ---

@@ -3,8 +3,8 @@ title: Gym Sales
 sidebar: cyclr_sidebar
 permalink: gym-sales-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14531
+default_header: false
 category: Marketing
 categories: [Marketing,Sales]
 ---

@@ -1,40 +1,15 @@
 {
     "Description": "Powerful Web-Based Software in an Easy to Use Package",
-    "Id": 11860,
+    "Id": 16941,
     "Name": "Envision Salon & Spa",
     "Version": null,
     "Status": "Approved",
-    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11860",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16941",
     "Categories": [
         "CRMs",
         "Healthcare/Wellness"
     ],
     "MethodCategories": [
-        {
-            "Category": "Customers",
-            "Methods": [
-                {
-                    "Name": "Get Customer",
-                    "Description": "Get a customer.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Customers",
-                    "Description": "List customers.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Updated Customers",
-                    "Description": "List new and updated customers.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Create Customer",
-                    "Description": "Create a customer.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
         {
             "Category": "Orders",
             "Methods": [
@@ -44,23 +19,48 @@
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Get Order",
-                    "Description": "Get an order.",
+                    "Name": "List New Orders",
+                    "Description": "List new orders.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "List New Orders",
-                    "Description": "List new orders.",
+                    "Name": "Create Order",
+                    "Description": "Create an order.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Order",
+                    "Description": "Get an order.",
                     "MethodType": "Action"
                 },
                 {
                     "Name": "List Updated Orders",
                     "Description": "List new and updated orders.",
                     "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Customers",
+            "Methods": [
+                {
+                    "Name": "List Updated Customers",
+                    "Description": "List new and updated customers.",
+                    "MethodType": "Action"
                 },
                 {
-                    "Name": "Create Order",
-                    "Description": "Create an order.",
+                    "Name": "Create Customer",
+                    "Description": "Create a customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Customers",
+                    "Description": "List customers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Customer",
+                    "Description": "Get a customer.",
                     "MethodType": "Action"
                 }
             ]

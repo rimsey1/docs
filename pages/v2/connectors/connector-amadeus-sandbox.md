@@ -3,8 +3,8 @@ title: Amadeus Sandbox
 sidebar: cyclr_sidebar
 permalink: amadeus-sandbox-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/11855
+default_header: false
 category: Miscellaneous
 categories: [Miscellaneous]
 ---

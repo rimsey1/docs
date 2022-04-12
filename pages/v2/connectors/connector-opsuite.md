@@ -3,8 +3,8 @@ title: OpSuite
 sidebar: cyclr_sidebar
 permalink: opsuite-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14396
+default_header: false
 category: Marketing
 categories: [Marketing,POS,Ecommerce,Sales]
 ---

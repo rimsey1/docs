@@ -3,8 +3,8 @@ title: Lizzy
 sidebar: cyclr_sidebar
 permalink: lizzy-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/13741
+default_header: false
 category: Miscellaneous
 categories: [Miscellaneous]
 ---

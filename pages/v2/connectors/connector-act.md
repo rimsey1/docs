@@ -3,8 +3,8 @@ title: Act!
 sidebar: cyclr_sidebar
 permalink: act-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/15578
+default_header: false
 category: CRMs
 categories: [CRMs,Email Marketing]
 ---

@@ -3,8 +3,8 @@ title: Wix
 sidebar: cyclr_sidebar
 permalink: wix-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14310
+default_header: false
 category: Customer Experience
 categories: [Customer Experience,Ecommerce]
 ---

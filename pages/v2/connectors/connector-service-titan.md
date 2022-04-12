@@ -3,8 +3,8 @@ title: Service Titan
 sidebar: cyclr_sidebar
 permalink: service-titan-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/11629
+default_header: false
 category: Marketing
 categories: [Marketing,Miscellaneous,Collaboration,Customer Experience,Sales]
 ---

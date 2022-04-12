@@ -3,8 +3,8 @@ title: Intercom v1.0 (Deprecated)
 sidebar: cyclr_sidebar
 permalink: intercom-v1-0-deprecated-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/13436
+default_header: false
 category: Chat
 categories: [Chat,Support]
 ---

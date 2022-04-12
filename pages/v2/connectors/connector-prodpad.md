@@ -3,8 +3,8 @@ title: ProdPad
 sidebar: cyclr_sidebar
 permalink: prodpad-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/16071
+default_header: false
 category: Product Management
 categories: [Product Management,Collaboration]
 ---

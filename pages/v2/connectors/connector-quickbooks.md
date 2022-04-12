@@ -3,8 +3,8 @@ title: QuickBooks
 sidebar: cyclr_sidebar
 permalink: quickbooks-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14436
+default_header: false
 category: Accounting
 categories: [Accounting]
 ---

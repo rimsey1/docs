@@ -3,8 +3,8 @@ title: Sentori
 sidebar: cyclr_sidebar
 permalink: sentori-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/6629
+default_header: false
 category: Marketing
 categories: [Marketing,Email Marketing,SMS]
 ---

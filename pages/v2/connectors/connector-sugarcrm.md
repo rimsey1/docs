@@ -3,8 +3,8 @@ title: SugarCRM
 sidebar: cyclr_sidebar
 permalink: sugarcrm-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/16691
+default_header: false
 category: CRMs
 categories: [CRMs,Sales]
 ---

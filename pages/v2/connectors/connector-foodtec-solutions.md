@@ -3,8 +3,8 @@ title: FoodTec Solutions
 sidebar: cyclr_sidebar
 permalink: foodtec-solutions-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14225
+default_header: false
 category: Miscellaneous
 categories: [Miscellaneous,POS]
 ---

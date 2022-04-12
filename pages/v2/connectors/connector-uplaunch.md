@@ -3,8 +3,8 @@ title: UpLaunch
 sidebar: cyclr_sidebar
 permalink: uplaunch-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/6613
+default_header: false
 category: CRMs
 categories: [CRMs,Healthcare/Wellness]
 ---

@@ -3,8 +3,8 @@ title: Unbounce
 sidebar: cyclr_sidebar
 permalink: unbounce-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/15491
+default_header: false
 category: Marketing
 categories: [Marketing,Forms]
 ---

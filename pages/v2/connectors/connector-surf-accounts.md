@@ -3,8 +3,8 @@ title: Surf Accounts
 sidebar: cyclr_sidebar
 permalink: surf-accounts-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/11835
+default_header: false
 category: Accounting
 categories: [Accounting]
 ---

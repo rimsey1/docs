@@ -3,8 +3,8 @@ title: TrueLayer
 sidebar: cyclr_sidebar
 permalink: truelayer-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/3181
+default_header: false
 category: Billing/Payment
 categories: [Billing/Payment]
 ---

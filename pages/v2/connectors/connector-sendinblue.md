@@ -3,8 +3,8 @@ title: SendinBlue
 sidebar: cyclr_sidebar
 permalink: sendinblue-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/13506
+default_header: false
 category: All
 categories: []
 ---

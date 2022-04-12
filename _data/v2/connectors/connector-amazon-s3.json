@@ -1,10 +1,10 @@
 {
     "Description": "Help you with Backup, Archive, Big Data Analytics, Disaster Recovery, and much more.",
-    "Id": 16914,
+    "Id": 16943,
     "Name": "Amazon S3",
     "Version": "2006-03-01",
     "Status": "Approved",
-    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16914",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16943",
     "Categories": [
         "Analytics",
         "Databases",
@@ -14,33 +14,8 @@
     ],
     "MethodCategories": [
         {
-            "Category": "Buckets",
-            "Methods": [
-                {
-                    "Name": "Create Bucket",
-                    "Description": "Creates a new bucket.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Buckets",
-                    "Description": "Returns a list of all buckets owned by the authenticated sender of the request.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Delete Bucket",
-                    "Description": "Deletes the bucket.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
             "Category": "Objects",
             "Methods": [
-                {
-                    "Name": "Delete Object",
-                    "Description": "Removes the null version (if there is one) of an object and inserts a delete marker, which becomes the current version of the object.",
-                    "MethodType": "Action"
-                },
                 {
                     "Name": "Get Object (JSON)",
                     "Description": "Get the details of a JSON object.",
@@ -57,13 +32,13 @@
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Add Object (XML)",
-                    "Description": "Generate an XML file in the chosen bucket.\t",
+                    "Name": "Add Object (Entire Response)",
+                    "Description": "Generate a JSON file in the chosen bucket, based on the entire response of another step.  It is expected that the previous step has a custom field with the location of (.) without the brackets.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Add Object (Entire Response)",
-                    "Description": "Generate a JSON file in the chosen bucket, based on the entire response of another step.  It is expected that the previous step has a custom field with the location of (.) without the brackets.",
+                    "Name": "Add Extended File Object",
+                    "Description": "Generate a file in the chosen bucket. Supports all file types.",
                     "MethodType": "Action"
                 },
                 {
@@ -102,8 +77,33 @@
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Add Extended File Object",
-                    "Description": "Generate a file in the chosen bucket. Supports all file types.",
+                    "Name": "Delete Object",
+                    "Description": "Removes the null version (if there is one) of an object and inserts a delete marker, which becomes the current version of the object.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Object (XML)",
+                    "Description": "Generate an XML file in the chosen bucket.\t",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Buckets",
+            "Methods": [
+                {
+                    "Name": "Create Bucket",
+                    "Description": "Creates a new bucket.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Buckets",
+                    "Description": "Returns a list of all buckets owned by the authenticated sender of the request.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Bucket",
+                    "Description": "Deletes the bucket.",
                     "MethodType": "Action"
                 }
             ]

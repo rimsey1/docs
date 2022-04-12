@@ -3,8 +3,8 @@ title: Shopify
 sidebar: cyclr_sidebar
 permalink: shopify-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/16806
+default_header: false
 category: Ecommerce
 categories: [Ecommerce]
 ---

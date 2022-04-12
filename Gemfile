@@ -8,6 +8,8 @@ gem "sorted_set", "~> 1.0"
 
 gem 'jekyll-toc'
 
+gem 'markdown_helper'
+
 group :jekyll_plugins do
    gem "jekyll-menus"
 end

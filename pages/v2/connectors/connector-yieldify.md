@@ -3,8 +3,8 @@ title: Yieldify
 sidebar: cyclr_sidebar
 permalink: yieldify-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/5772
+default_header: false
 category: Marketing
 categories: [Marketing,Customer Experience]
 ---

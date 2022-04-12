@@ -3,8 +3,8 @@ title: Retention Science
 sidebar: cyclr_sidebar
 permalink: retention-science-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/5413
+default_header: false
 category: Email Marketing
 categories: [Email Marketing,SMS]
 ---

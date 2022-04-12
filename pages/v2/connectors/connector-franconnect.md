@@ -3,8 +3,8 @@ title: FranConnect
 sidebar: cyclr_sidebar
 permalink: franconnect-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/15021
+default_header: false
 category: Miscellaneous
 categories: [Miscellaneous]
 ---

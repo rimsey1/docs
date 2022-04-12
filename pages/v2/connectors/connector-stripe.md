@@ -3,8 +3,8 @@ title: Stripe
 sidebar: cyclr_sidebar
 permalink: stripe-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/15630
+default_header: false
 category: Billing/Payment
 categories: [Billing/Payment]
 ---

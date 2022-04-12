@@ -3,8 +3,8 @@ title: Willo
 sidebar: cyclr_sidebar
 permalink: willo-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14354
+default_header: false
 category: Collaboration
 categories: [Collaboration,Chat]
 ---

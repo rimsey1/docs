@@ -3,8 +3,8 @@ title: Insightly
 sidebar: cyclr_sidebar
 permalink: insightly-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/11469
+default_header: false
 category: CRMs
 categories: [CRMs]
 ---

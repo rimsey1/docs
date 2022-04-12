@@ -3,8 +3,8 @@ title: Marketo
 sidebar: cyclr_sidebar
 permalink: marketo-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/16340
+default_header: false
 category: CRMs
 categories: [CRMs,Email Marketing]
 ---

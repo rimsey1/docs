@@ -3,8 +3,8 @@ title: Basecamp
 sidebar: cyclr_sidebar
 permalink: basecamp-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/13332
+default_header: false
 category: Product Management
 categories: [Product Management,Collaboration]
 ---

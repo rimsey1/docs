@@ -3,8 +3,8 @@ title: Xero - Private Instance
 sidebar: cyclr_sidebar
 permalink: xero-private-instance-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/16098
+default_header: false
 category: HR/Payroll
 categories: [HR/Payroll,Accounting]
 ---

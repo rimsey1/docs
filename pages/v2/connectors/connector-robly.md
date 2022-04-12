@@ -3,8 +3,8 @@ title: Robly
 sidebar: cyclr_sidebar
 permalink: robly-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/1876
+default_header: false
 category: Marketing
 categories: [Marketing,Email Marketing]
 ---

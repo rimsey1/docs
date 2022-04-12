@@ -3,8 +3,8 @@ title: Microsoft Dynamics CRM Custom Object
 sidebar: cyclr_sidebar
 permalink: microsoft-dynamics-crm-custom-object-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12731
+default_header: false
 category: CRMs
 categories: [CRMs]
 ---

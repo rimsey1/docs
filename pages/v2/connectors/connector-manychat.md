@@ -3,8 +3,8 @@ title: ManyChat
 sidebar: cyclr_sidebar
 permalink: manychat-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/8674
+default_header: false
 category: Marketing
 categories: [Marketing]
 ---

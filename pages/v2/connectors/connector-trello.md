@@ -3,8 +3,8 @@ title: Trello
 sidebar: cyclr_sidebar
 permalink: trello-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/15565
+default_header: false
 category: Product Management
 categories: [Product Management,Project Management,DevOps]
 ---

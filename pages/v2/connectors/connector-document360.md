@@ -3,8 +3,8 @@ title: Document360
 sidebar: cyclr_sidebar
 permalink: document360-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12270
+default_header: false
 category: Customer Experience
 categories: [Customer Experience,Developer Tools,Support]
 ---

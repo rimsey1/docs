@@ -3,8 +3,8 @@ title: FastSpring
 sidebar: cyclr_sidebar
 permalink: fastspring-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/7593
+default_header: false
 category: Billing/Payment
 categories: [Billing/Payment,Ecommerce]
 ---

@@ -3,8 +3,8 @@ title: Generic Form
 sidebar: cyclr_sidebar
 permalink: generic-form-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14178
+default_header: false
 category: Developer Tools
 categories: [Developer Tools,Forms]
 ---

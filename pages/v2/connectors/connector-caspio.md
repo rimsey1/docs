@@ -3,8 +3,8 @@ title: Caspio
 sidebar: cyclr_sidebar
 permalink: caspio-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/16201
+default_header: false
 category: Databases
 categories: [Databases,Developer Tools]
 ---

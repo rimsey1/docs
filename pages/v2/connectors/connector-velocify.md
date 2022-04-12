@@ -3,8 +3,8 @@ title: Velocify
 sidebar: cyclr_sidebar
 permalink: velocify-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14191
+default_header: false
 category: CRMs
 categories: [CRMs]
 ---

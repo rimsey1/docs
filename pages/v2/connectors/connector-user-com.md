@@ -3,8 +3,8 @@ title: User.com
 sidebar: cyclr_sidebar
 permalink: user-com-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/8794
+default_header: false
 category: Marketing
 categories: [Marketing,Analytics,Chat]
 ---

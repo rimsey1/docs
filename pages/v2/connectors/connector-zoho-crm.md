@@ -3,8 +3,8 @@ title: Zoho CRM
 sidebar: cyclr_sidebar
 permalink: zoho-crm-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/16355
+default_header: false
 category: CRMs
 categories: [CRMs,Sales]
 ---

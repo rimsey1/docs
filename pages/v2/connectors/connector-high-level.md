@@ -3,8 +3,8 @@ title: High Level
 sidebar: cyclr_sidebar
 permalink: high-level-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/16088
+default_header: false
 category: Marketing
 categories: [Marketing]
 ---

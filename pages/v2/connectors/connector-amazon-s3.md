@@ -3,8 +3,8 @@ title: Amazon S3
 sidebar: cyclr_sidebar
 permalink: amazon-s3-connector
 tags: [connector]
-toc: false
-icon: https://my.cyclr.com/api/ConnectorIcon/16914
+icon: https://my.cyclr.com/api/ConnectorIcon/16943
+default_header: false
 category: Analytics
 categories: [Analytics,Databases,Data Tools,Developer Tools,DevOps]
 ---

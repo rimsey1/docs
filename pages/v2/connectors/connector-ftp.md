@@ -3,8 +3,8 @@ title: FTP
 sidebar: cyclr_sidebar
 permalink: ftp-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/15498
+default_header: false
 category: Utility Connectors
 categories: [Utility Connectors,Data Tools,Developer Tools]
 ---

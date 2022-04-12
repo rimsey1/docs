@@ -3,8 +3,8 @@ title: Okta
 sidebar: cyclr_sidebar
 permalink: okta-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/15034
+default_header: false
 category: Collaboration
 categories: [Collaboration,Data Tools]
 ---

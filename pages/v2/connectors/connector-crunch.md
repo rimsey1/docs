@@ -3,8 +3,8 @@ title: Crunch
 sidebar: cyclr_sidebar
 permalink: crunch-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12769
+default_header: false
 category: Accounting
 categories: [Accounting]
 ---

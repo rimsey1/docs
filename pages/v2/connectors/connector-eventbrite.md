@@ -3,8 +3,8 @@ title: Eventbrite
 sidebar: cyclr_sidebar
 permalink: eventbrite-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/16543
+default_header: false
 category: All
 categories: []
 ---

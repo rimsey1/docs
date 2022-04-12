@@ -3,8 +3,8 @@ title: Microsoft Azure Active Directory
 sidebar: cyclr_sidebar
 permalink: microsoft-azure-active-directory-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14183
+default_header: false
 category: Developer Tools
 categories: [Developer Tools]
 ---

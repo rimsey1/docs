@@ -3,8 +3,8 @@ title: Infusionsoft by Keap
 sidebar: cyclr_sidebar
 permalink: infusionsoft-by-keap-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12423
+default_header: false
 category: Marketing
 categories: [Marketing,CRMs]
 ---

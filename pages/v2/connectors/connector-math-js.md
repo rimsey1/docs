@@ -3,8 +3,8 @@ title: math.js
 sidebar: cyclr_sidebar
 permalink: math-js-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/1477
+default_header: false
 category: Data Tools
 categories: [Data Tools,Developer Tools]
 ---

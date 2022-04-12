@@ -3,8 +3,8 @@ title: BNTouch Mortgage CRM
 sidebar: cyclr_sidebar
 permalink: bntouch-mortgage-crm-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12262
+default_header: false
 category: CRMs
 categories: [CRMs]
 ---

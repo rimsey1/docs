@@ -3,8 +3,8 @@ title: Sabre
 sidebar: cyclr_sidebar
 permalink: sabre-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/13354
+default_header: false
 category: Miscellaneous
 categories: [Miscellaneous,Data Tools]
 ---

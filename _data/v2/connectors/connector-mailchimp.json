@@ -1,66 +1,41 @@
 {
     "Description": "This connector provides basic functionalities for connecting to MailChimp.",
-    "Id": 15718,
+    "Id": 16919,
     "Name": "MailChimp",
     "Version": "v3",
     "Status": "Approved",
-    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15718",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16919",
     "Categories": [
         "CRMs",
         "Email Marketing"
     ],
     "MethodCategories": [
         {
-            "Category": "eCommerce Orders",
+            "Category": "eCommerce Carts",
             "Methods": [
                 {
-                    "Name": "Update Order",
-                    "Description": "Updates an Order.",
+                    "Name": "List Carts",
+                    "Description": "Returns a list of Carts.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Get Order",
-                    "Description": "Gets details of the speified Order.",
+                    "Name": "Update Cart",
+                    "Description": "Updates a Cart.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "List Orders",
-                    "Description": "Returns a list of orders from the speficed eCommerce Store.",
+                    "Name": "Get Cart",
+                    "Description": "Gets the details of the specified cart.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Delete Order",
-                    "Description": "Deletes the speified Order.",
+                    "Name": "Delete Cart",
+                    "Description": "Deletes a Cart.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Create Order",
-                    "Description": "Creates an Order.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "List Segments",
-            "Methods": [
-                {
-                    "Name": "Create Segment",
-                    "Description": "Create a new segment in a specific list. Only static segments are supported.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Segments",
-                    "Description": "Get information about all available segments for a specific list.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Update Segment",
-                    "Description": "Update a specific segment in a list.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Segment",
-                    "Description": "Get information about a specific segment.",
+                    "Name": "Create Cart",
+                    "Description": "Creates a Cart.",
                     "MethodType": "Action"
                 }
             ]
@@ -76,61 +51,91 @@
             ]
         },
         {
-            "Category": "Campaigns",
+            "Category": "List Interest Categories",
             "Methods": [
                 {
-                    "Name": "Send Campaign",
-                    "Description": "Send a MailChimp campaign. For RSS Campaigns, the campaign will send according to its schedule. All other campaigns will send immediately.",
+                    "Name": "Get Interest Categories",
+                    "Description": "Get all intrest catagories for a list.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "List New Created Campaigns",
-                    "Description": "Gets all campaigns created since the last run.",
+                    "Name": "Get Interests",
+                    "Description": "Get all interests for the a list category.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Reports",
+            "Methods": [
+                {
+                    "Name": "Get Campaign Summary",
+                    "Description": "Gets number of times a campaign was opened, clicked or bounced",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Search Campaigns",
-                    "Description": "Get all campaigns in an account by search.",
+                    "Name": "Get Campaign Unsubscribes",
+                    "Description": "Get information about contacts who have unsubscribed from a specific campaign.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Create Campaign",
-                    "Description": "Create a Campain. Campaigns are how you send emails to your MailChimp list.",
+                    "Name": "Get Campaign Reports",
+                    "Description": "Get campaign reports.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "List New Created and Sent Campaigns",
-                    "Description": "Gets all campaigns created or sent since the last run.",
+                    "Name": "Get Abuse Report",
+                    "Description": "Get a specific abuse report associated with a specific campaign.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Update Campaign Content",
-                    "Description": "Update Campaign Content",
+                    "Name": "Get Campaign URLs",
+                    "Description": "Get a list of URLs in a MailChimp campaign.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "List Campaigns",
-                    "Description": "Get all campaigns in an account.",
+                    "Name": "Get Clickers",
+                    "Description": "Get information about list members who clicked on a specific link in a campaign.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Get Campaign Details",
-                    "Description": "Get information about a specific campaign.",
+                    "Name": "Get Clicker",
+                    "Description": "Get information about a specific subscriber who clicked a link in a specific campaign.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Send Test Campaign Email",
-                    "Description": "Send a test email.",
+                    "Name": "Get Campaign Report",
+                    "Description": "Get report details for a specific sent campaign.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Schedule Campaign",
-                    "Description": "Schedule a campaign for delivery. If you\u2019re using Multivariate Campaigns to test send times or sending RSS Campaigns, use the send action instead.",
+                    "Name": "Get Abuse Reports",
+                    "Description": "Get the first 10 abuse reports by date for a specific list. This method is not directly available but is used to provide a scan feature in others.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "List New Sent Campaigns",
-                    "Description": "Gets all campaigns that have been sent since the last run.",
+                    "Name": "Get Campaign Recipient",
+                    "Description": "Get information about a specific campaign recipient.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Campaign KPI",
+                    "Description": "Get information about campaign recipients.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Campaign Member Activity",
+                    "Description": "Get a specific list member\u2019s activity in a campaign including opens, clicks, and bounces.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact Unsubscribe",
+                    "Description": "Get information about a specific list member who unsubscribed from a campaign.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Campaign Activity",
+                    "Description": "Get a list of member\u2019s subscriber activity in a specific campaign.",
                     "MethodType": "Action"
                 }
             ]
@@ -139,13 +144,13 @@
             "Category": "List Metadata",
             "Methods": [
                 {
-                    "Name": "Get Merge Field By Tag",
-                    "Description": "Get the details of the specified Merge Field by its tag. Exits down the true path if the merge field exists, or the false path if it doesn't.",
+                    "Name": "Create Merge Field",
+                    "Description": "Adds a merge fields to a specified list.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Create Merge Field",
-                    "Description": "Adds a merge fields to a specified list.",
+                    "Name": "Get Merge Field By Tag",
+                    "Description": "Get the details of the specified Merge Field by its tag. Exits down the true path if the merge field exists, or the false path if it doesn't.",
                     "MethodType": "Action"
                 },
                 {
@@ -163,11 +168,6 @@
         {
             "Category": "Notifications",
             "Methods": [
-                {
-                    "Name": "List Subscribe",
-                    "Description": "Get a notification of when a contact subscribes to a list.",
-                    "MethodType": "Webhook"
-                },
                 {
                     "Name": "List Unsubscribe",
                     "Description": "Notifies when someone unsubscribes from a list.",
@@ -192,126 +192,11 @@
                     "Name": "Campaign Sending Status",
                     "Description": "The status of a campaign.",
                     "MethodType": "Webhook"
-                }
-            ]
-        },
-        {
-            "Category": "List Interest Categories",
-            "Methods": [
-                {
-                    "Name": "Get Interest Categories",
-                    "Description": "Get all intrest catagories for a list.",
-                    "MethodType": "Action"
                 },
                 {
-                    "Name": "Get Interests",
-                    "Description": "Get all interests for the a list category.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "eCommerce Carts",
-            "Methods": [
-                {
-                    "Name": "Create Cart",
-                    "Description": "Creates a Cart.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Delete Cart",
-                    "Description": "Deletes a Cart.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Carts",
-                    "Description": "Returns a list of Carts.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Cart",
-                    "Description": "Gets the details of the specified cart.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Update Cart",
-                    "Description": "Updates a Cart.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Reports",
-            "Methods": [
-                {
-                    "Name": "Get Campaign Member Activity",
-                    "Description": "Get a specific list member\u2019s activity in a campaign including opens, clicks, and bounces.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Campaign Summary",
-                    "Description": "Gets number of times a campaign was opened, clicked or bounced",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Campaign Unsubscribes",
-                    "Description": "Get information about contacts who have unsubscribed from a specific campaign.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Abuse Reports",
-                    "Description": "Get the first 10 abuse reports by date for a specific list. This method is not directly available but is used to provide a scan feature in others.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Campaign Reports",
-                    "Description": "Get campaign reports.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Campaign Activity",
-                    "Description": "Get a list of member\u2019s subscriber activity in a specific campaign.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Abuse Report",
-                    "Description": "Get a specific abuse report associated with a specific campaign.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Clickers",
-                    "Description": "Get information about list members who clicked on a specific link in a campaign.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Clicker",
-                    "Description": "Get information about a specific subscriber who clicked a link in a specific campaign.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Campaign Report",
-                    "Description": "Get report details for a specific sent campaign.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Campaign KPI",
-                    "Description": "Get information about campaign recipients.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Campaign Recipient",
-                    "Description": "Get information about a specific campaign recipient.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Contact Unsubscribe",
-                    "Description": "Get information about a specific list member who unsubscribed from a campaign.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Campaign URLs",
-                    "Description": "Get a list of URLs in a MailChimp campaign.",
-                    "MethodType": "Action"
+                    "Name": "List Subscribe",
+                    "Description": "Get a notification of when a contact subscribes to a list.",
+                    "MethodType": "Webhook"
                 }
             ]
         },
@@ -324,13 +209,13 @@
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "List New and Updated Stores",
-                    "Description": "Returns a list of ecommerce stores that have been created or updated since the last run.",
+                    "Name": "Create Store",
+                    "Description": "Creates a new eCommerce Store.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Create Store",
-                    "Description": "Creates a new eCommerce Store.",
+                    "Name": "List New and Updated Stores",
+                    "Description": "Returns a list of ecommerce stores that have been created or updated since the last run.",
                     "MethodType": "Action"
                 },
                 {
@@ -351,8 +236,128 @@
             ]
         },
         {
+            "Category": "List Segments",
+            "Methods": [
+                {
+                    "Name": "Get Segments",
+                    "Description": "Get information about all available segments for a specific list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Segment",
+                    "Description": "Create a new segment in a specific list. Only static segments are supported.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Segment",
+                    "Description": "Update a specific segment in a list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Segment",
+                    "Description": "Get information about a specific segment.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "eCommerce Orders",
+            "Methods": [
+                {
+                    "Name": "List Orders",
+                    "Description": "Returns a list of orders from the speficed eCommerce Store.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Order",
+                    "Description": "Gets details of the speified Order.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Order",
+                    "Description": "Updates an Order.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Order",
+                    "Description": "Creates an Order.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Order",
+                    "Description": "Deletes the speified Order.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Campaigns",
+            "Methods": [
+                {
+                    "Name": "List New Created Campaigns",
+                    "Description": "Gets all campaigns created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Send Campaign",
+                    "Description": "Send a MailChimp campaign. For RSS Campaigns, the campaign will send according to its schedule. All other campaigns will send immediately.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Schedule Campaign",
+                    "Description": "Schedule a campaign for delivery. If you\u2019re using Multivariate Campaigns to test send times or sending RSS Campaigns, use the send action instead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Send Test Campaign Email",
+                    "Description": "Send a test email.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Campaign Details",
+                    "Description": "Get information about a specific campaign.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Campaigns",
+                    "Description": "Get all campaigns in an account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Campaign Content",
+                    "Description": "Update Campaign Content",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Created and Sent Campaigns",
+                    "Description": "Gets all campaigns created or sent since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Campaign",
+                    "Description": "Create a Campain. Campaigns are how you send emails to your MailChimp list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Sent Campaigns",
+                    "Description": "Gets all campaigns that have been sent since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Campaigns",
+                    "Description": "Get all campaigns in an account by search.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
             "Category": "eCommerce Customers",
             "Methods": [
+                {
+                    "Name": "List Customers",
+                    "Description": "Retuns a listing of eCommerce Customers in the specified Store.",
+                    "MethodType": "Action"
+                },
                 {
                     "Name": "Update Customer",
                     "Description": "Update a Customer's details.",
@@ -371,11 +376,6 @@
                 {
                     "Name": "Get Customer",
                     "Description": "Gets details of the speified Customer.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Customers",
-                    "Description": "Retuns a listing of eCommerce Customers in the specified Store.",
                     "MethodType": "Action"
                 }
             ]
@@ -396,6 +396,11 @@
                 {
                     "Name": "Get Product",
                     "Description": "Gets details of the specified Product ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New and Updated Product Variants",
+                    "Description": "Returns a list of Product Variants from the specified eCommerce Store that have been created or updated since the last run.",
                     "MethodType": "Action"
                 },
                 {
@@ -429,50 +434,8 @@
             "Category": "Lists",
             "Methods": [
                 {
-                    "Name": "Add List Member",
-                    "Description": "Add a new member to the list.",
-                    "MethodType": "Action",
-                    "Subcategory": "List Members"
-                },
-                {
-                    "Name": "Update List Member",
-                    "Description": "Update information for a specific list member. If you want to update the email address, please use Add or Update method.",
-                    "MethodType": "Action",
-                    "Subcategory": "List Members"
-                },
-                {
-                    "Name": "Remove List Member",
-                    "Description": "Delete a member from a list.",
-                    "MethodType": "Action",
-                    "Subcategory": "List Members"
-                },
-                {
-                    "Name": "Add or Update List Member",
-                    "Description": "Update information for a specific list member.",
-                    "MethodType": "Action",
-                    "Subcategory": "List Members"
-                },
-                {
-                    "Name": "Get List Member Activity",
-                    "Description": "Get the last 50 events of a member\u2019s activity on a specific list, including opens, clicks, and unsubscribes.",
-                    "MethodType": "Action",
-                    "Subcategory": "List Members"
-                },
-                {
-                    "Name": "Get Lists",
-                    "Description": "Get all lists in the account.",
-                    "MethodType": "Action",
-                    "Subcategory": "Lists"
-                },
-                {
                     "Name": "Create List",
                     "Description": "Create a new list in your MailChimp account.",
-                    "MethodType": "Action",
-                    "Subcategory": "Lists"
-                },
-                {
-                    "Name": "Update List",
-                    "Description": "Update the settings for a specific list.",
                     "MethodType": "Action",
                     "Subcategory": "Lists"
                 },
@@ -483,6 +446,54 @@
                     "Subcategory": "Lists"
                 },
                 {
+                    "Name": "Update List",
+                    "Description": "Update the settings for a specific list.",
+                    "MethodType": "Action",
+                    "Subcategory": "Lists"
+                },
+                {
+                    "Name": "Get Lists",
+                    "Description": "Get all lists in the account.",
+                    "MethodType": "Action",
+                    "Subcategory": "Lists"
+                },
+                {
+                    "Name": "Get List Member Activity",
+                    "Description": "Get the last 50 events of a member\u2019s activity on a specific list, including opens, clicks, and unsubscribes.",
+                    "MethodType": "Action",
+                    "Subcategory": "List Members"
+                },
+                {
+                    "Name": "Add or Update List Member",
+                    "Description": "Update information for a specific list member.",
+                    "MethodType": "Action",
+                    "Subcategory": "List Members"
+                },
+                {
+                    "Name": "Remove List Member",
+                    "Description": "Delete a member from a list.",
+                    "MethodType": "Action",
+                    "Subcategory": "List Members"
+                },
+                {
+                    "Name": "Update List Member",
+                    "Description": "Update information for a specific list member. If you want to update the email address, please use Add or Update method.",
+                    "MethodType": "Action",
+                    "Subcategory": "List Members"
+                },
+                {
+                    "Name": "Get List Member",
+                    "Description": "Get information about a specific list member.",
+                    "MethodType": "Action",
+                    "Subcategory": "List Members"
+                },
+                {
+                    "Name": "Add List Member",
+                    "Description": "Add a new member to the list.",
+                    "MethodType": "Action",
+                    "Subcategory": "List Members"
+                },
+                {
                     "Name": "Get List Information",
                     "Description": "Get information about a specific list.",
                     "MethodType": "Action",
@@ -491,12 +502,6 @@
                 {
                     "Name": "Get List Members",
                     "Description": "Get information about members in a specific MailChimp list.",
-                    "MethodType": "Action",
-                    "Subcategory": "List Members"
-                },
-                {
-                    "Name": "Get List Member",
-                    "Description": "Get information about a specific list member.",
                     "MethodType": "Action",
                     "Subcategory": "List Members"
                 }

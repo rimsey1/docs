@@ -3,8 +3,8 @@ title: Unifonic
 sidebar: cyclr_sidebar
 permalink: unifonic-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/8444
+default_header: false
 category: SMS
 categories: [SMS]
 ---

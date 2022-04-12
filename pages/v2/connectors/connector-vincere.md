@@ -3,8 +3,8 @@ title: Vincere
 sidebar: cyclr_sidebar
 permalink: vincere-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/16708
+default_header: false
 category: CRMs
 categories: [CRMs]
 ---

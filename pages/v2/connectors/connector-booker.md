@@ -3,8 +3,8 @@ title: Booker
 sidebar: cyclr_sidebar
 permalink: booker-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/7998
+default_header: false
 category: CRMs
 categories: [CRMs,Calendars,Healthcare/Wellness]
 ---

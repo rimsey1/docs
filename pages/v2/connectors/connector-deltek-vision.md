@@ -3,8 +3,8 @@ title: Deltek Vision
 sidebar: cyclr_sidebar
 permalink: deltek-vision-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/5287
+default_header: false
 category: ERP
 categories: [ERP,Project Management]
 ---

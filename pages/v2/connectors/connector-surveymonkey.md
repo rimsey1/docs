@@ -3,8 +3,8 @@ title: SurveyMonkey
 sidebar: cyclr_sidebar
 permalink: surveymonkey-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14632
+default_header: false
 category: Surveys
 categories: [Surveys]
 ---

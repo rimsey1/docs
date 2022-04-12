@@ -3,8 +3,8 @@ title: Oracle Eloqua
 sidebar: cyclr_sidebar
 permalink: oracle-eloqua-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/16777
+default_header: false
 category: Chat
 categories: [Chat]
 ---

@@ -3,8 +3,8 @@ title: Exact
 sidebar: cyclr_sidebar
 permalink: exact-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/11815
+default_header: false
 category: HR/Payroll
 categories: [HR/Payroll,ERP,Accounting]
 ---

@@ -3,8 +3,8 @@ title: Oracle NetSuite RESTlet
 sidebar: cyclr_sidebar
 permalink: oracle-netsuite-restlet-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/16199
+default_header: false
 category: CRMs
 categories: [CRMs]
 ---

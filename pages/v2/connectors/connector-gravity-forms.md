@@ -3,8 +3,8 @@ title: Gravity Forms
 sidebar: cyclr_sidebar
 permalink: gravity-forms-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/7387
+default_header: false
 category: Forms
 categories: [Forms]
 ---

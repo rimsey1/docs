@@ -3,8 +3,8 @@ title: Mandrill
 sidebar: cyclr_sidebar
 permalink: mandrill-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/568
+default_header: false
 category: Email Marketing
 categories: [Email Marketing]
 ---

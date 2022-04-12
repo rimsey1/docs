@@ -3,8 +3,8 @@ title: Zoho Recruit
 sidebar: cyclr_sidebar
 permalink: zoho-recruit-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14133
+default_header: false
 category: HR/Payroll
 categories: [HR/Payroll]
 ---

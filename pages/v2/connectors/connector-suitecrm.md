@@ -3,8 +3,8 @@ title: SuiteCRM
 sidebar: cyclr_sidebar
 permalink: suitecrm-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14567
+default_header: false
 category: CRMs
 categories: [CRMs,Sales]
 ---

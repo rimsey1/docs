@@ -3,8 +3,8 @@ title: Gmail
 sidebar: cyclr_sidebar
 permalink: gmail-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/15437
+default_header: false
 category: Email Marketing
 categories: [Email Marketing]
 ---

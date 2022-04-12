@@ -3,8 +3,8 @@ title: FindEmails
 sidebar: cyclr_sidebar
 permalink: findemails-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/1817
+default_header: false
 category: Marketing
 categories: [Marketing,Data Tools,Email Marketing]
 ---

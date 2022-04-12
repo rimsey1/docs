@@ -3,8 +3,8 @@ title: Salesforce Service Cloud
 sidebar: cyclr_sidebar
 permalink: salesforce-service-cloud-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/13396
+default_header: false
 category: Customer Experience
 categories: [Customer Experience,Support]
 ---

@@ -3,8 +3,8 @@ title: Gist
 sidebar: cyclr_sidebar
 permalink: gist-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/11863
+default_header: false
 category: Chat
 categories: [Chat,CRMs,Email Marketing,Sales]
 ---

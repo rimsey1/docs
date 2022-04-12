@@ -3,8 +3,8 @@ title: Twilio TaskRouter
 sidebar: cyclr_sidebar
 permalink: twilio-taskrouter-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/7597
+default_header: false
 category: Marketing
 categories: [Marketing,Chat]
 ---

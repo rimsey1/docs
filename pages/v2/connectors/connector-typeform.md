@@ -3,8 +3,8 @@ title: Typeform
 sidebar: cyclr_sidebar
 permalink: typeform-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/11673
+default_header: false
 category: Forms
 categories: [Forms,Surveys]
 ---

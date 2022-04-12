@@ -3,8 +3,8 @@ title: Tan-Link
 sidebar: cyclr_sidebar
 permalink: tan-link-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/8123
+default_header: false
 category: HR/Payroll
 categories: [HR/Payroll,CRMs,Healthcare/Wellness]
 ---

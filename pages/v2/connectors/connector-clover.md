@@ -3,8 +3,8 @@ title: Clover
 sidebar: cyclr_sidebar
 permalink: clover-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12268
+default_header: false
 category: Billing/Payment
 categories: [Billing/Payment,Ecommerce,Sales]
 ---

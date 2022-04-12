@@ -3,8 +3,8 @@ title: Copper
 sidebar: cyclr_sidebar
 permalink: copper-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/16836
+default_header: false
 category: Marketing
 categories: [Marketing,CRMs]
 ---

@@ -3,8 +3,8 @@ title: Sage Accounting
 sidebar: cyclr_sidebar
 permalink: sage-accounting-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14120
+default_header: false
 category: HR/Payroll
 categories: [HR/Payroll,Accounting]
 ---

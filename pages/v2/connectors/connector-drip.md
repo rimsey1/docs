@@ -3,8 +3,8 @@ title: Drip
 sidebar: cyclr_sidebar
 permalink: drip-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14513
+default_header: false
 category: Chat
 categories: [Chat,Customer Experience,Ecommerce]
 ---

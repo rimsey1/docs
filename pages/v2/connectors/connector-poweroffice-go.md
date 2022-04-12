@@ -3,8 +3,8 @@ title: PowerOffice Go
 sidebar: cyclr_sidebar
 permalink: poweroffice-go-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/15867
+default_header: false
 category: Accounting
 categories: [Accounting]
 ---

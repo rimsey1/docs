@@ -3,8 +3,8 @@ title: Harmony PSA
 sidebar: cyclr_sidebar
 permalink: harmony-psa-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/6044
+default_header: false
 category: Project Management
 categories: [Project Management]
 ---

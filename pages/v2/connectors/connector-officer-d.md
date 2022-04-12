@@ -3,8 +3,8 @@ title: OfficeR&D
 sidebar: cyclr_sidebar
 permalink: officer-d-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/11869
+default_header: false
 category: Miscellaneous
 categories: [Miscellaneous,CRMs,Customer Experience]
 ---

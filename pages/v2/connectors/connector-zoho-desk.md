@@ -3,8 +3,8 @@ title: Zoho Desk
 sidebar: cyclr_sidebar
 permalink: zoho-desk-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/15385
+default_header: false
 category: Customer Experience
 categories: [Customer Experience,Support]
 ---

@@ -3,8 +3,8 @@ title: Creditsafe
 sidebar: cyclr_sidebar
 permalink: creditsafe-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/11821
+default_header: false
 category: Data Tools
 categories: [Data Tools,Sales]
 ---

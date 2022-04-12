@@ -3,8 +3,8 @@ title: Klaviyo
 sidebar: cyclr_sidebar
 permalink: klaviyo-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14687
+default_header: false
 category: Email Marketing
 categories: [Email Marketing,SMS]
 ---

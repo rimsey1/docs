@@ -3,8 +3,8 @@ title: GoDaddy
 sidebar: cyclr_sidebar
 permalink: godaddy-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/16087
+default_header: false
 category: Marketing
 categories: [Marketing,Customer Experience]
 ---

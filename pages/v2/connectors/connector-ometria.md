@@ -3,8 +3,8 @@ title: Ometria
 sidebar: cyclr_sidebar
 permalink: ometria-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/7752
+default_header: false
 category: Marketing
 categories: [Marketing]
 ---

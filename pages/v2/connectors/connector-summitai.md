@@ -3,8 +3,8 @@ title: SummitAI
 sidebar: cyclr_sidebar
 permalink: summitai-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12578
+default_header: false
 category: Chat
 categories: [Chat,Support]
 ---

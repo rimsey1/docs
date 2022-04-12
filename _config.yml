@@ -85,6 +85,7 @@ defaults:
     show_editme_path: false
     show_tags: false
     show_disqus: false
+    default_header: true
     toc: true
 # these are defaults used for the frontmatter for these file types
 

@@ -3,8 +3,8 @@ title: Microsoft Azure DevOps
 sidebar: cyclr_sidebar
 permalink: microsoft-azure-devops-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14919
+default_header: false
 category: Databases
 categories: [Databases,Data Tools,Developer Tools]
 ---

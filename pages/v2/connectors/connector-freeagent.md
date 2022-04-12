@@ -3,8 +3,8 @@ title: FreeAgent
 sidebar: cyclr_sidebar
 permalink: freeagent-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/14039
+default_header: false
 category: Accounting
 categories: [Accounting]
 ---

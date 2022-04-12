@@ -3,8 +3,8 @@ title: Salesfusion
 sidebar: cyclr_sidebar
 permalink: salesfusion-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/5634
+default_header: false
 category: Marketing
 categories: [Marketing]
 ---

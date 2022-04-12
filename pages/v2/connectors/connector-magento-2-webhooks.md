@@ -3,8 +3,8 @@ title: Magento 2 Webhooks
 sidebar: cyclr_sidebar
 permalink: magento-2-webhooks-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/15449
+default_header: false
 category: Ecommerce
 categories: [Ecommerce]
 ---

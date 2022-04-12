@@ -3,8 +3,8 @@ title: Oracle Sales Cloud
 sidebar: cyclr_sidebar
 permalink: oracle-sales-cloud-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/2554
+default_header: false
 category: ERP
 categories: [ERP,CRMs,Sales]
 ---

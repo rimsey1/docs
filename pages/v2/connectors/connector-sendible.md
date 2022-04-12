@@ -3,8 +3,8 @@ title: Sendible
 sidebar: cyclr_sidebar
 permalink: sendible-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/1422
+default_header: false
 category: Marketing
 categories: [Marketing,Social Media]
 ---

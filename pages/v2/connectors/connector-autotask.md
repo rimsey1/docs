@@ -3,8 +3,8 @@ title: Autotask
 sidebar: cyclr_sidebar
 permalink: autotask-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12859
+default_header: false
 category: Dashboarding
 categories: [Dashboarding,Data Tools,Project Management]
 ---

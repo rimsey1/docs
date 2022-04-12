@@ -3,8 +3,8 @@ title: GitHub
 sidebar: cyclr_sidebar
 permalink: github-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/15649
+default_header: false
 category: Product Management
 categories: [Product Management,Developer Tools,Project Management,DevOps]
 ---

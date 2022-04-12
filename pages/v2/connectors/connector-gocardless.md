@@ -3,8 +3,8 @@ title: GoCardless
 sidebar: cyclr_sidebar
 permalink: gocardless-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/13149
+default_header: false
 category: Billing/Payment
 categories: [Billing/Payment]
 ---

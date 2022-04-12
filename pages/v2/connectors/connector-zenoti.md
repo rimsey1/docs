@@ -3,8 +3,8 @@ title: Zenoti
 sidebar: cyclr_sidebar
 permalink: zenoti-connector
 tags: [connector]
-toc: false
-icon: https://my.cyclr.com/api/ConnectorIcon/16880
+icon: https://my.cyclr.com/api/ConnectorIcon/16947
+default_header: false
 category: All
 categories: []
 ---

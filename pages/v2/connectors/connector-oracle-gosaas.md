@@ -3,8 +3,8 @@ title: Oracle GoSaaS
 sidebar: cyclr_sidebar
 permalink: oracle-gosaas-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/16305
+default_header: false
 category: Product Management
 categories: [Product Management,Collaboration]
 ---

@@ -3,8 +3,8 @@ title: FullContact Contacts API
 sidebar: cyclr_sidebar
 permalink: fullcontact-contacts-api-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/12275
+default_header: false
 category: All
 categories: []
 ---

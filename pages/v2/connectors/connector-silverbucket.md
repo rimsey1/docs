@@ -3,8 +3,8 @@ title: Silverbucket
 sidebar: cyclr_sidebar
 permalink: silverbucket-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/11873
+default_header: false
 category: HR/Payroll
 categories: [HR/Payroll,Project Management]
 ---

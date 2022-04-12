@@ -3,8 +3,8 @@ title: MINDBODY
 sidebar: cyclr_sidebar
 permalink: mindbody-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/15750
+default_header: false
 category: CRMs
 categories: [CRMs,Healthcare/Wellness]
 ---

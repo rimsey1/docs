@@ -3,8 +3,8 @@ title: JotForm
 sidebar: cyclr_sidebar
 permalink: jotform-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/13403
+default_header: false
 category: Forms
 categories: [Forms,Sales]
 ---

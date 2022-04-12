@@ -3,8 +3,8 @@ title: Google Search Console
 sidebar: cyclr_sidebar
 permalink: google-search-console-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/16768
+default_header: false
 category: Analytics
 categories: [Analytics,Data Tools]
 ---

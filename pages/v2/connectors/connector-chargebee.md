@@ -3,8 +3,8 @@ title: Chargebee
 sidebar: cyclr_sidebar
 permalink: chargebee-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/16803
+default_header: false
 category: All
 categories: []
 ---

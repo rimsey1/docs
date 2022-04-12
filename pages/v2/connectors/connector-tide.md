@@ -3,8 +3,8 @@ title: Tide
 sidebar: cyclr_sidebar
 permalink: tide-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/3071
+default_header: false
 category: Accounting
 categories: [Accounting,Billing/Payment]
 ---

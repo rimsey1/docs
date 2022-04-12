@@ -3,8 +3,8 @@ title: CallPro
 sidebar: cyclr_sidebar
 permalink: callpro-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/900
+default_header: false
 category: CRMs
 categories: [CRMs,Email Marketing,Sales]
 ---

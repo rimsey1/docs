@@ -3,8 +3,8 @@ title: Lead Squared
 sidebar: cyclr_sidebar
 permalink: lead-squared-connector
 tags: [connector]
-toc: false
 icon: https://my.cyclr.com/api/ConnectorIcon/1811
+default_header: false
 category: Marketing
 categories: [Marketing,CRMs,Email Marketing,Sales]
 ---
