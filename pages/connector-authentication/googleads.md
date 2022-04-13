@@ -4,40 +4,63 @@ sidebar: cyclr_sidebar
 permalink: google-ads-connector
 tags: [connector]
 ---
-## Account Level Setup
-#### Google Authentication
-Follow the instructions in our [Google Authentication](https://github.com/cyclr/docs/blob/master/pages/connector-authentication/google-authentication.md) guide.
-#### Select or create a Google Ads manager account
-From Google Ads Documentation [Google Ads](https://developers.google.com/google-ads/api/docs/first-call/dev-token)
-Step 1: You must have a [Google Ads manager account](https://support.google.com/google-ads/answer/7459399) to apply for access to the API.
-Manager accounts cannot be created using the same email address as an existing Google Ads account. You must therefore use an email address that hasn't already been associated with a Google Ads account to create your manager account.
-Step 2: Apply for access to the Google Ads API
-Sign up for Google Ads API access through your manager account. [Sign in](https://ads.google.com/home/tools/manager-accounts/), then navigate to TOOLS & SETTINGS > SETUP > API Center. The API Center option appears only for Google Ads manager accounts.
-All fields on the API Access form must be completed, and the Terms and Conditions accepted. Make sure your information is correct and your company's website URL is functioning. If the website is not a live page, we won't be able to process your application.
-Make sure the API contact email you provide leads to a regularly monitored inbox. If we cannot contact you at this email address, we won't be able to process your application, and it will be rejected.
-You can edit your API contact email in the API Center.
-We strongly encourage you to keep this information up-to-date, even after the application process, so we can send you important service announcements.
-Step 3: Continue your application
-To ensure the tool or software app you propose to use with the Google Ads API is in compliance with our Terms and Conditions and Policies, including Required Minimum Functionality (RMF) (if applicable), click the Apply for Basic Access link in the API Center, and complete the Google Ads API Token Application form.
-## Token review team has approved my developer token
-Your assigned developer token will be activated once your application for API access is approved. Your token will be available through your API Center—accessible through the Account settings menu for the manager account from which you applied. You'll be able to access the API by including it in your request headers when interacting with our system.
-To retrieve your developer token, sign in to your manager account. You must be signed-in to a Google Ads manager account before continuing.
-Navigate to TOOLS & SETTINGS > SETUP > API Center. This option appears only for Google Ads manager accounts.
-If your developer token is pending approval, you can start developing immediately with the pending token you received during signup, using a test manager account.
-Your pending developer token must be approved before using it with production Google Ads accounts.
-## Link accounts to your manager accounts
-From Google Documentation [Google Documentation](https://support.google.com/google-ads/answer/7459601?hl=en-GB)
-To use your manager account, you can begin by linking it to existing individual or manager accounts.
-You also have the option of creating new Google Ads accounts from your manager account. These accounts are automatically linked to your manager account.
-Before you start
-This article shows you how to link existing accounts to your manager account. You may want to begin by reading About linking accounts to manager accounts.
-Instructions
-- Sign in to your Google Ads manager account.
-- From the page menu on the left, click Settings, then click Sub-account settings at the top of the page.
-- Click the plus button .
-- Click Link existing account.
-- Enter the Google Ads account's Customer ID number. To link multiple accounts at once, enter one customer ID per line.
-- Click Send invitation.
-- Users with access to the Google Ads account you sent a link request to will receive account alerts and emails inviting them to link to your account.
-Users with administrative access to the invited account, or access to a linked manager account that has administrative ownership of that account, can accept your invitation by going to the 'Account access' section of the Google Ads account.
-During this process, you'll see a pending notification for the (soon-to-be) client account in your manager account's 'Pending invitations'. Learn more about managing invitations. Once the invited account accepts your invitation, you'll receive an email confirmation and the account will automatically be linked to your manager account.
+
+# Google Ads set up
+
+You need to do the following to enable Google Ads access for the Google Ads connector:
+
+1. Enable the Google Ads API for a project within your workspace.
+2. Obtain your **client ID** and **client secret** by setting up OAuth 2.0 credentials.
+3. Obtain your **developer token** for your Google Ads account.
+4. Obtain your **client customer ID** for your Google Ads client account.
+
+### Enabling the Google Ads API
+
+To access the Google Ads API endpoints, you need to enable the Google Ads API within a project in your workspace. Google’s documentation on how to do this can be found [here](https://support.google.com/googleapi/answer/6158841?hl=en).
+
+### Obtaining your client ID and client secret
+
+You need a **client ID** and **client secret** to set up the Google Ads connector in Cyclr. You can obtain these by creating OAuth 2.0 credentials for the Google project where you enabled the Google Ads API in the previous step. Google's documentation on how to do this can be found [here](https://support.google.com/cloud/answer/6158849?hl=en). You need to set up the fields below as follows:
+
+-   **Authorised redirect URIs**: Your Cyclr callback URL e.g. https://{{Your Cyclr service domain e.g. app-h.cyclr.com}}/connector/callback
+
+Once you have created OAuth 2.0 credentials, make note of the **client ID** and **client secret** as you need both needed to set up the Google Ads connector in Cyclr.
+
+### Obtaining your developer token
+
+You need a Google Ads **developer token** to set up the Google Ads connector in Cyclr. Google's documentation on how to get this can be found [here](https://developers.google.com/google-ads/api/docs/first-call/dev-token).
+
+### Obtaining your client customer ID
+
+You need your **client customer ID** to set up the Google Ads connector in Cyclr. Google's documentation on how to get this can be found [here](https://support.google.com/google-ads/answer/1704344?hl=en-GB).
+
+# Cyclr set up
+
+### Client installation
+
+When using a template containing the Google Ads connector, clients will be prompted for the following information from the previous sections:
+
+-   **Client ID**: The **client ID** they obtained from setting up OAuth 2.0 authentication in their Google project.
+-   **Client secret**: The **client secret** they obtained from setting up OAuth 2.0 authentication in their Google project.
+-   **Developer token**: The **developer token** they obtained from their Google Ads account.
+-   **Client customer ID**: The **client customer ID** of the account they want to manage the API.
+
+### Partner templates
+
+To set up the Google Ads connector within a template:
+
+1. Go to the **Cyclr Console**.
+2. Click the **Templates** dropdown menu at the top of the page.
+3. Click **Template Library**.
+4. Click **Design New Template** and enter a **Template Name** to create a new template, or click **Edit Most Recent Draft** to change an existing template.
+5. Click **+Add Application** in the right-hand menu.
+6. Use the search bar to find the **Google Ads** connector and click **Install**.
+7. Change the **Name** and **Description** as required and click **Next**.
+8. Enter the following values from the previous sections:
+    - **Client ID**: Your **client ID** you obtained from setting up OAuth 2.0 authentication for your Google project.
+    - **Client secret**: Your **client secret** you obtained from setting up OAuth 2.0 authentication for your Google project.
+    - **Developer token**: Your **developer token** you obtained from your Google Ads account.
+    - **Client customer ID**: Your **client customer ID** of the account you want to manage the API.
+9. Click **Next**.
+
+Your Google Ads connector is now set up! You can test it by running a method within the template it’s installed in to confirm it returns data.
