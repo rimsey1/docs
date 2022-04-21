@@ -28,7 +28,7 @@ Create a new App and obtain the Client ID and Client Secret using the steps belo
 3. Select `No` to set the App to unlisted and internal/private, then click `Next`. Pipedrive's documentation on app types can be found [here](https://pipedrive.readme.io/docs/marketplace-creating-a-proper-app#types-of-apps).
 4. Complete the App form as required by Pipedrive.
 5. Cyclr authentication is handled under the **OAuth & Access scopes** heading. Enter the callback URL in the **Callback URL** field. The callback URL has the following format:
-   https://{{Your Cyclr service domain e.g. app-h.cyclr.com}}/connector/callback
+   https://{Your Cyclr service domain e.g. app-h.cyclr.com}/connector/callback
 6. Enable the required **Access scopes** as either **Read only** or **Full access**. The official Pipedrive documentation on access scopes can be found [here](https://pipedrive.readme.io/docs/marketplace-scopes-and-permissions-explanations).
 7. Click `Save` to create the App. This will take you back to the Marketplace Manager.
 8. Click the newly created App within the **Marketplace Manager** to be taken to the settings again. Under the **OAuth & Access scopes** heading you will now find the **Client ID** and can click `Show` to reveal the **Client secret**. Make a note of these as they will be required by Cyclr to set up the Pipedrive Connector.
