@@ -85,25 +85,29 @@ You will now need to setup the Hubspot application to send webhooks. This has th
  2. Select events to subscribe to
  3. Activate the events
 
-1
+#### Entering the URL
+
 * Navigate to the Hubspot Developers App [Dashboard](https://app.hubspot.com/developer), and select the application you use with Cyclr.
 * Within this application, navigate to Webhooks.
 * Paste the Webhook URL from your clipboard, into the "target URL"
 * Click Save (bottom of screen)
 
-2
+#### Selecting events to subscribe to
+
 * Click Create Subscription
 * Select the objects and events that you wish to send to Cyclr
 * Click Subscribe
 
-3
+#### Activating the events
+
 * Under event subscriptions 
 * Hover over the line with mouse and view subscriptions button will be shown, click this button
 * Hover over the line with mouse and  activate" button will be shown, click this button to activate the sending of the webhook
 
 Your application is now set up for Webhooks using Cyclr.
 
-Webhook Usage
+### Adding Webhooks to your Cycle or Template
+
 * Drag the Webhook step from the sidebar into the Builder.
 * Connect the Webhook to another step.
 * Click Run to start the Cycle.
