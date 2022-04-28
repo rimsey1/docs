@@ -92,6 +92,9 @@ You will now need to setup the Hubspot application to send webhooks. This has th
 * Paste the Webhook URL from your clipboard, into the "target URL"
 * Click Save (bottom of screen)
 
+#### Scopes
+Seting up your subscriptions may require you to alter the scopes of the Hubspot application to allow the events to be sent. Ensure that your connector is authorised with the right scopes to recieve the webhook events.
+
 #### Selecting events to subscribe to
 
 * Click Create Subscription
