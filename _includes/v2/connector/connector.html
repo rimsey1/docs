@@ -37,9 +37,13 @@
 
 {% if connectordata.Documentation %}
 	{% for section in connectordata.Documentation %}
+		{% if section.Type %}
+<section class="{{section.Type | slugify}}">
+		{% else %}
 <section>
-<h2>{{ section.Title }}</h2>
-<div>
+		{% endif %}
+<h2 class="section-title">{{ section.Title }}</h2>
+<div class="section-content">
 	{{ section.Content | raw }}
 </div>
 </section>
@@ -53,37 +57,39 @@
 {% endfor %}
 </ul>
 
-<h2>API Methods</h2>
-<div class="no_toc_section">
-	<div class="accordion accordion-flush no_toc_section" id="accordionFlushMethods">
-	{% for category in connectordata.MethodCategories %}
-		<div class="accordion-item">
-		    <h3 class="accordion-header" id="flush-heading{{category.Category | slugify}}">
-		    	<a data-toggle="collapse" data-parent="#accordionFlushMethods" href="#flush-collapse{{category.Category | slugify}}" aria-expanded="false" aria-controls="flush-collapse{{category.Category | slugify}}">
-		    		{{category.Category}}
-		    	</a>
-		    </h3>
-		    <div id="flush-collapse{{category.Category | slugify}}" class="accordion-collapse collapse" aria-labelledby="flush-heading{{category.Category | slugify}}" data-bs-parent="#accordionFlushMethods">
-				<div class="accordion-body">
-					<table class="table">
-						<thead>
-							<th>Feature</th>
-							<th>Description</th>
-							<th>Type</th>
-						</thead>
-						<tbody>
-				{% for method in category.Methods %}
-						<tr>
-							<td class="name">{{ method.Name }}</td>
-							<td class="description">{{ method.Description }}</td>
-							<td class="type text-uppercase text-secondary weight-600">{{ method.MethodType }}</td>
-						</tr>
-				{% endfor %}
-						</tbody>
-					</table>
-				</div>
-		    </div>
-	  	</div>
-	{% endfor %}
+<section class="methods">
+	<h2>API Methods</h2>
+	<div class="no_toc_section">
+		<div class="accordion accordion-flush no_toc_section" id="accordionFlushMethods">
+		{% for category in connectordata.MethodCategories %}
+			<div class="accordion-item">
+			    <h3 class="accordion-header" id="flush-heading{{category.Category | slugify}}">
+			    	<a data-toggle="collapse" data-parent="#accordionFlushMethods" href="#flush-collapse{{category.Category | slugify}}" aria-expanded="false" aria-controls="flush-collapse{{category.Category | slugify}}">
+			    		{{category.Category}}
+			    	</a>
+			    </h3>
+			    <div id="flush-collapse{{category.Category | slugify}}" class="accordion-collapse collapse" aria-labelledby="flush-heading{{category.Category | slugify}}" data-bs-parent="#accordionFlushMethods">
+					<div class="accordion-body">
+						<table class="table">
+							<thead>
+								<th>Feature</th>
+								<th>Description</th>
+								<th>Type</th>
+							</thead>
+							<tbody>
+					{% for method in category.Methods %}
+							<tr>
+								<td class="name">{{ method.Name }}</td>
+								<td class="description">{{ method.Description }}</td>
+								<td class="type text-uppercase text-secondary weight-600">{{ method.MethodType }}</td>
+							</tr>
+					{% endfor %}
+							</tbody>
+						</table>
+					</div>
+			    </div>
+		  	</div>
+		{% endfor %}
+		</div>
 	</div>
-</div>
+</section>

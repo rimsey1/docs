@@ -488,6 +488,7 @@ main.container {
         }
     }
 }
+
 // footer 
 footer {
     background-color: $footer-bg;
@@ -559,6 +560,62 @@ footer {
                     content: "\f111";
                     font-size: 0.5em;
                 }
+            }
+        }
+    }
+}
+
+// content
+.post-content {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    // accordion 
+    .accordion {
+        .accordion-header {
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 24px;
+        }
+        .accordion-body {
+            padding: 30px 0;
+        }
+    }
+    > h3 {
+        margin-top: 30px;
+    }
+    section {
+        margin: 0 0 40px;
+    }
+
+}
+
+section {
+    .section-title {
+
+    }
+    &.required {
+        .section-content {
+            border-left: 6px solid $green-2;
+            padding: 20px 0 20px 24px;
+            position: relative;
+            &:after {
+                position: absolute;
+                top: 1em;
+                left: -19px;
+                content: "\f12a";
+                display: block;
+                font-family: 'Font Awesome\ 6 Free';
+                font-size: 25px;
+                font-weight: 900;
+                line-height: 30px;
+                background-color: $green-2;
+                border-radius: 50%;
+                border: 1px solid $green-2;
+                color: $gray-700;
+                width: 30px;
+                text-align: center;
             }
         }
     }
