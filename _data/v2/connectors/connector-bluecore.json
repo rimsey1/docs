@@ -1,15 +1,11 @@
 {
     "Description": "Double your email revenue with the personalization solution of choice for the world's fastest growing retailers.",
-    "Id": 6689,
+    "Id": 16924,
     "Name": "Bluecore",
     "Version": null,
     "Status": "Approved",
-    "Icon": "https://my.cyclr.com/api/ConnectorIcon/6689",
-    "Categories": [
-        "Marketing",
-        "Ecommerce",
-        "Email Marketing"
-    ],
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16924",
+    "Categories": [],
     "MethodCategories": [
         {
             "Category": "Emails",

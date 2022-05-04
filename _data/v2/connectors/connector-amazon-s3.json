@@ -1,10 +1,10 @@
 {
     "Description": "Help you with Backup, Archive, Big Data Analytics, Disaster Recovery, and much more.",
-    "Id": 16943,
+    "Id": 16975,
     "Name": "Amazon S3",
     "Version": "2006-03-01",
     "Status": "Approved",
-    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16943",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16975",
     "Categories": [
         "Analytics",
         "Databases",
@@ -13,6 +13,26 @@
         "DevOps"
     ],
     "MethodCategories": [
+        {
+            "Category": "Buckets",
+            "Methods": [
+                {
+                    "Name": "List Buckets",
+                    "Description": "Returns a list of all buckets owned by the authenticated sender of the request.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Bucket",
+                    "Description": "Creates a new bucket.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Bucket",
+                    "Description": "Deletes the bucket.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
         {
             "Category": "Objects",
             "Methods": [
@@ -84,26 +104,6 @@
                 {
                     "Name": "Add Object (XML)",
                     "Description": "Generate an XML file in the chosen bucket.\t",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Buckets",
-            "Methods": [
-                {
-                    "Name": "Create Bucket",
-                    "Description": "Creates a new bucket.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Buckets",
-                    "Description": "Returns a list of all buckets owned by the authenticated sender of the request.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Delete Bucket",
-                    "Description": "Deletes the bucket.",
                     "MethodType": "Action"
                 }
             ]

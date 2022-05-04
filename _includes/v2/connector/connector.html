@@ -16,6 +16,10 @@
 
 {% include toc.html %}
 
+{% if page.showv1content %}
+	{% include v2/connector/v1content/{{v1content}} %}
+{% endif %}
+
 {% if connectordata.Authentication %}
 <section>
 <h2>Authentication</h2>

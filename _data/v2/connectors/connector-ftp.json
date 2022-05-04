@@ -1,10 +1,10 @@
 {
     "Description": "Transfer files using FTP, FTPS or SFTP.",
-    "Id": 15498,
+    "Id": 17061,
     "Name": "FTP",
     "Version": null,
     "Status": "Approved",
-    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15498",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17061",
     "Categories": [
         "Utility Connectors",
         "Data Tools",
@@ -12,7 +12,22 @@
     ],
     "MethodCategories": [
         {
-            "Category": "Files",
+            "Category": "XML Files",
+            "Methods": [
+                {
+                    "Name": "Download XML File",
+                    "Description": "Downloads an XML file from the (S)FTP server. Converts the XML file to JSON. Add custom response method fields with the syntax \"[].FieldName\" to map the converted data. Attributes are prefixed with \"@\".",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create and Upload XML File",
+                    "Description": "Create and upload an XML file to the (S)FTP server. Use Files > Upload File for existing files. Add custom request method fields with the syntax \"[person].name\" to build content from a list (or array) of data. Use \"[person].@id\" to build attributes. Use \"[person].#cdata-section\" to build character data.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Delimited Text Files",
             "Methods": [
                 {
                     "Name": "Upload Delimited Text File",
@@ -23,7 +38,12 @@
                     "Name": "Download Delimited Text File",
                     "Description": "Downloads a delimited file from the (S)FTP server. Add columns as custom fields in the response, e.g. \"[File].Email\".",
                     "MethodType": "Action"
-                },
+                }
+            ]
+        },
+        {
+            "Category": "Files",
+            "Methods": [
                 {
                     "Name": "Download File",
                     "Description": "Downloads a file from the (S)FTP server.",

@@ -1,77 +1,83 @@
 {
     "Description": "People HR is a reliable human resources management solution built for small and medium businesses.",
-    "Id": 12312,
+    "Id": 17079,
     "Name": "PeopleHR",
     "Version": "v1",
     "Status": "Approved",
-    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12312",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17079",
     "Categories": [
         "HR/Payroll"
     ],
     "MethodCategories": [
         {
-            "Category": "Employee",
+            "Category": "Webhooks",
             "Methods": [
                 {
-                    "Name": "Update Employee ID",
-                    "Description": "Update an employees ID.",
-                    "MethodType": "Action"
+                    "Name": "Sick Absence Updated",
+                    "MethodType": "Webhook"
                 },
                 {
-                    "Name": "Get Employee",
-                    "Description": "Get employee.",
-                    "MethodType": "Action"
+                    "Name": "Sick  Absence Created",
+                    "MethodType": "Webhook"
                 },
                 {
-                    "Name": "Create Employee",
-                    "Description": "Create an employee.",
-                    "MethodType": "Action"
+                    "Name": "Employee Deleted",
+                    "MethodType": "Webhook"
                 },
                 {
-                    "Name": "Update Employee",
-                    "Description": "Update employee.",
-                    "MethodType": "Action"
+                    "Name": "Maternity/Paternity Absence Updated",
+                    "MethodType": "Webhook"
                 },
                 {
-                    "Name": "Update Employee As Leaver",
-                    "Description": "Update an employee as a leaver.",
-                    "MethodType": "Action"
+                    "Name": "Holiday Updated",
+                    "MethodType": "Webhook"
                 },
                 {
-                    "Name": "List Employees",
-                    "Description": "List employees.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Employee Timesheet",
-            "Methods": [
-                {
-                    "Name": "List Employee Timesheets",
-                    "Description": "List employee timesheets.",
-                    "MethodType": "Action"
+                    "Name": "Employee Created",
+                    "MethodType": "Webhook"
                 },
                 {
-                    "Name": "Create Employee Timesheet",
-                    "Description": "Create an employee timesheet.",
-                    "MethodType": "Action"
+                    "Name": "Holiday Deleted",
+                    "MethodType": "Webhook"
                 },
                 {
-                    "Name": "Update Employee Timesheet",
-                    "Description": "Update an employee timesheet.",
-                    "MethodType": "Action"
+                    "Name": "Maternity/Paternity Absence Created",
+                    "MethodType": "Webhook"
                 },
                 {
-                    "Name": "Delete Employee Timesheet",
-                    "Description": "Delete an employee timesheet.",
-                    "MethodType": "Action"
+                    "Name": "Sick Absence Deleted",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Holiday Created",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Employee Updated",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Maternity/Paternity Absence Deleted",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Late Absence Created/Updated",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Late Absence Deleted",
+                    "MethodType": "Webhook"
                 }
             ]
         },
         {
             "Category": "Vacancy",
             "Methods": [
+                {
+                    "Name": "List Vacancies",
+                    "Description": "List all vacancies.",
+                    "MethodType": "Action"
+                },
                 {
                     "Name": "Create Vacancy",
                     "Description": "Create a vacancy.",
@@ -81,17 +87,17 @@
                     "Name": "Get Vacancy",
                     "Description": "Get vacancy details.",
                     "MethodType": "Action"
-                },
-                {
-                    "Name": "List Vacancies",
-                    "Description": "List all vacancies.",
-                    "MethodType": "Action"
                 }
             ]
         },
         {
             "Category": "Holiday Entitlement",
             "Methods": [
+                {
+                    "Name": "Update Next Year Holiday Entitlement",
+                    "Description": "Update next year holiday entitlement.",
+                    "MethodType": "Action"
+                },
                 {
                     "Name": "List Holiday Entitlement",
                     "Description": "Get holiday entitlements.",
@@ -106,10 +112,30 @@
                     "Name": "Update Holiday Entitlement",
                     "Description": "Update holiday entitlement.",
                     "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Employee Timesheet",
+            "Methods": [
+                {
+                    "Name": "Update Employee Timesheet",
+                    "Description": "Update an employee timesheet.",
+                    "MethodType": "Action"
                 },
                 {
-                    "Name": "Update Next Year Holiday Entitlement",
-                    "Description": "Update next year holiday entitlement.",
+                    "Name": "List Employee Timesheets",
+                    "Description": "List employee timesheets.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Employee Timesheet",
+                    "Description": "Create an employee timesheet.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Employee Timesheet",
+                    "Description": "Delete an employee timesheet.",
                     "MethodType": "Action"
                 }
             ]
@@ -125,6 +151,41 @@
                 {
                     "Name": "Delete Employee Absence",
                     "Description": "Delete an absence.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Employee",
+            "Methods": [
+                {
+                    "Name": "List Employees",
+                    "Description": "List employees.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Employee As Leaver",
+                    "Description": "Update an employee as a leaver.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Employee",
+                    "Description": "Create an employee.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Employee",
+                    "Description": "Get employee.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Employee ID",
+                    "Description": "Update an employees ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Employee",
+                    "Description": "Update employee.",
                     "MethodType": "Action"
                 }
             ]

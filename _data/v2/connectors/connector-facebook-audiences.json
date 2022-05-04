@@ -1,10 +1,10 @@
 {
     "Description": "With audiences you build a group of people who receive your ad. You can create audiences based on customer data, conversion data such as activity in your app or website, and so on.",
-    "Id": 15036,
+    "Id": 16977,
     "Name": "Facebook Audiences",
     "Version": null,
     "Status": "Approved",
-    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15036",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16977",
     "Categories": [
         "Social Media"
     ],

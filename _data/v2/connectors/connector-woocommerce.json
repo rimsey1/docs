@@ -1,71 +1,26 @@
 {
     "Description": "WooCommerce is an open source e-commerce plugin for WordPress. It is designed for small to large-sized online merchants giving complete control to sell anything.",
-    "Id": 14194,
+    "Id": 17085,
     "Name": "WooCommerce",
     "Version": "3.0",
     "Status": "Approved",
-    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14194",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17085",
     "Categories": [
         "Ecommerce",
         "Sales"
     ],
     "MethodCategories": [
         {
-            "Category": "Product Tags",
-            "Methods": [
-                {
-                    "Name": "List Product Tags",
-                    "Description": "Gets a full listing of product tags.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Create Product Tag",
-                    "Description": "Creates a new product tag.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Webhooks",
-            "Methods": [
-                {
-                    "Name": "Order Deleted",
-                    "Description": "Webhook triggered upon an order being deleted.",
-                    "MethodType": "Webhook"
-                },
-                {
-                    "Name": "Delete Webhook",
-                    "Description": "Deletes the specified webhook from the user's WooCommerce account.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Order Created",
-                    "Description": "Webhook triggered upon an order being created.",
-                    "MethodType": "Webhook"
-                },
-                {
-                    "Name": "Order Updated",
-                    "Description": "Webhook triggered upon an order being updated.",
-                    "MethodType": "Webhook"
-                },
-                {
-                    "Name": "List Webhooks",
-                    "Description": "Creates a webhook for the \"order.created\" topic in the user's WooCommerce account.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Create Webhook (Order Created)",
-                    "Description": "Creates a webhook for the \"order.created\" topic in the user's WooCommerce account.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
             "Category": "Product Variation",
             "Methods": [
                 {
-                    "Name": "Create Product Variations",
-                    "Description": "Adds new variations to a product.",
+                    "Name": "Create Product Variation",
+                    "Description": "Adds a new variation to a product.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Product Variations",
+                    "Description": "Updates multiple product variations.",
                     "MethodType": "Action"
                 },
                 {
@@ -74,28 +29,13 @@
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Create Product Variation",
-                    "Description": "Adds a new variation to a product.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Updated Product Variations",
-                    "Description": "Retrieves a list of product variations created or modified since last run.",
+                    "Name": "Create Product Variations",
+                    "Description": "Adds new variations to a product.",
                     "MethodType": "Action"
                 },
                 {
                     "Name": "Get New Product Variations",
                     "Description": "Retrieves a list of product variations created since last run.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Product Variations",
-                    "Description": "Get full listing of product variations.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Product Variant Using SKU",
-                    "Description": "Get a product variant using an SKU filter.",
                     "MethodType": "Action"
                 },
                 {
@@ -109,128 +49,23 @@
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Update Product Variations",
-                    "Description": "Updates multiple product variations.",
-                    "MethodType": "Action"
-                },
-                {
                     "Name": "Delete Product Variations",
                     "Description": "Deletes multiple product variations.",
                     "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Customers",
-            "Methods": [
+                },
                 {
-                    "Name": "Update Customers",
-                    "Description": "Updates multiple customers.",
+                    "Name": "List Product Variations",
+                    "Description": "Get full listing of product variations.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Create Customers",
-                    "Description": "Creates multiple customers.",
+                    "Name": "Get Updated Product Variations",
+                    "Description": "Retrieves a list of product variations created or modified since last run.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Update Customer",
-                    "Description": "Updates a customer.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Delete Customers",
-                    "Description": "Deletes multiple customers.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Delete Customer",
-                    "Description": "Deletes a customer. ",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Customer",
-                    "Description": "Get the full details of a customer.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Create Customer",
-                    "Description": "Creates a customer.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Customers",
-                    "Description": "Gets the full listing of customers.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Updated Customers",
-                    "Description": "Retrieves a list of customers created or modified since last run.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get New Customers",
-                    "Description": "Retrieves a list of customers created since last run.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Products",
-            "Methods": [
-                {
-                    "Name": "Update Product",
-                    "Description": "Updates a product.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Create Product",
-                    "Description": "Creates a product.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get New Products",
-                    "Description": "Retrieves a list of products created since last run.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Create Products",
-                    "Description": "Creates multiple products.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Products",
-                    "Description": "Get full listing of products.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Delete Product",
-                    "Description": "Deletes a product.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Product Using SKU",
-                    "Description": "Get a product using an SKU filter. ",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Delete Products",
-                    "Description": "Deletes multiple products.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Updated Products",
-                    "Description": "Retrieves a list of products created or modified since last run.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Product",
-                    "Description": "Gets the full details of a product.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Update Products",
-                    "Description": "Updates multiple products.",
+                    "Name": "Get Product Variant Using SKU",
+                    "Description": "Get a product variant using an SKU filter.",
                     "MethodType": "Action"
                 }
             ]
@@ -239,18 +74,8 @@
             "Category": "Product Category",
             "Methods": [
                 {
-                    "Name": "Delete Product Category",
-                    "Description": "Deletes a products categotyry.",
-                    "MethodType": "Action"
-                },
-                {
                     "Name": "Delete Product Categories",
                     "Description": "Deletes multiple product categories.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Product Categories",
-                    "Description": "Get full listing of product categories.",
                     "MethodType": "Action"
                 },
                 {
@@ -259,13 +84,23 @@
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Update Product Categories",
-                    "Description": "Updates multiple product categories.",
+                    "Name": "Delete Product Category",
+                    "Description": "Deletes a products categotyry.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Product Categories",
+                    "Description": "Get full listing of product categories.",
                     "MethodType": "Action"
                 },
                 {
                     "Name": "Create Product Category",
                     "Description": "Adds a new category to a product.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Product Categories",
+                    "Description": "Updates multiple product categories.",
                     "MethodType": "Action"
                 },
                 {
@@ -281,21 +116,76 @@
             ]
         },
         {
-            "Category": "Shipment Trackings (Ext)",
+            "Category": "Products",
             "Methods": [
                 {
-                    "Name": "Get Shipment Tracking",
-                    "Description": "Get full details of a shipment tracking.",
+                    "Name": "Get New Products",
+                    "Description": "Retrieves a list of products created since last run.",
                     "MethodType": "Action"
                 },
+                {
+                    "Name": "Update Products",
+                    "Description": "Updates multiple products.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Product Using SKU",
+                    "Description": "Get a product using an SKU filter. ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Products",
+                    "Description": "Creates multiple products.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Product",
+                    "Description": "Updates a product.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Product",
+                    "Description": "Creates a product.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Products",
+                    "Description": "Deletes multiple products.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Products",
+                    "Description": "Get full listing of products.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Product",
+                    "Description": "Deletes a product.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Updated Products",
+                    "Description": "Retrieves a list of products created or modified since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Product",
+                    "Description": "Gets the full details of a product.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Shipment Trackings (Ext)",
+            "Methods": [
                 {
                     "Name": "List Shipment Trackings",
                     "Description": "Gets a full listing of shipment trackings.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Delete Shipment Tracking",
-                    "Description": "Deletes shipment tracking.",
+                    "Name": "Get Shipment Tracking",
+                    "Description": "Get full details of a shipment tracking.",
                     "MethodType": "Action"
                 },
                 {
@@ -307,6 +197,26 @@
                     "Name": "List Shipment Tracking Providers",
                     "Description": "Gets a full listing of shipment tracking providers.",
                     "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Shipment Tracking",
+                    "Description": "Deletes shipment tracking.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Product Tags",
+            "Methods": [
+                {
+                    "Name": "Create Product Tag",
+                    "Description": "Creates a new product tag.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Product Tags",
+                    "Description": "Gets a full listing of product tags.",
+                    "MethodType": "Action"
                 }
             ]
         },
@@ -314,13 +224,8 @@
             "Category": "Order Notes",
             "Methods": [
                 {
-                    "Name": "Create Order Note",
-                    "Description": "Adds a new note to an order.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Order Notes",
-                    "Description": "Gets the notes for an order. ",
+                    "Name": "List Updated Order Notes",
+                    "Description": "Lists any updated notes for an order. ",
                     "MethodType": "Action"
                 },
                 {
@@ -329,8 +234,18 @@
                     "MethodType": "Action"
                 },
                 {
+                    "Name": "Create Order Note",
+                    "Description": "Adds a new note to an order.",
+                    "MethodType": "Action"
+                },
+                {
                     "Name": "Get Order Note",
                     "Description": "Get full details of a note associated with an order. ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Order Notes",
+                    "Description": "Gets the notes for an order. ",
                     "MethodType": "Action"
                 },
                 {
@@ -344,8 +259,8 @@
             "Category": "Product Attribute",
             "Methods": [
                 {
-                    "Name": "Delete Product Attribute",
-                    "Description": "Deletes a product attribute.",
+                    "Name": "Update Product Attributes",
+                    "Description": "Updates multiple product attributes.",
                     "MethodType": "Action"
                 },
                 {
@@ -354,13 +269,8 @@
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Update Product Attribute",
-                    "Description": "Updates a product attribute.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Delete Product Attributes",
-                    "Description": "Deletes multiple product attributes.",
+                    "Name": "Delete Product Attribute",
+                    "Description": "Deletes a product attribute.",
                     "MethodType": "Action"
                 },
                 {
@@ -379,38 +289,13 @@
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Update Product Attributes",
-                    "Description": "Updates multiple product attributes.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Refunds",
-            "Methods": [
-                {
-                    "Name": "List Refunds",
-                    "Description": "Get full listing of refunds.",
+                    "Name": "Update Product Attribute",
+                    "Description": "Updates a product attribute.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Get Refund",
-                    "Description": "Get full details of a refund.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get New Refunds",
-                    "Description": "Retrieves a list of refunds created since last run.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Create Refund",
-                    "Description": "Creates a refund.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Delete Refund",
-                    "Description": "Deletes a refund.",
+                    "Name": "Delete Product Attributes",
+                    "Description": "Deletes multiple product attributes.",
                     "MethodType": "Action"
                 }
             ]
@@ -418,6 +303,16 @@
         {
             "Category": "Orders",
             "Methods": [
+                {
+                    "Name": "List Orders",
+                    "Description": "Gets the full list of orders.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Orders",
+                    "Description": "Creates multiple orders. ",
+                    "MethodType": "Action"
+                },
                 {
                     "Name": "Delete Orders",
                     "Description": "Deletes multiple orders.",
@@ -434,28 +329,8 @@
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Update Order",
-                    "Description": "Updates an order.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Updated Orders",
-                    "Description": "Retrieves a list of orders created or modified since last run.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Orders",
-                    "Description": "Gets the full list of orders.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Create Orders",
-                    "Description": "Creates multiple orders. ",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Create Order",
-                    "Description": "Creates an order. ",
+                    "Name": "Update Orders",
+                    "Description": "Updates multiple orders.",
                     "MethodType": "Action"
                 },
                 {
@@ -464,9 +339,144 @@
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Update Orders",
-                    "Description": "Updates multiple orders.",
+                    "Name": "Get Updated Orders",
+                    "Description": "Retrieves a list of orders created or modified since last run.",
                     "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Order",
+                    "Description": "Updates an order.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Order",
+                    "Description": "Creates an order. ",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Customers",
+            "Methods": [
+                {
+                    "Name": "Create Customers",
+                    "Description": "Creates multiple customers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Customer",
+                    "Description": "Creates a customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Customer",
+                    "Description": "Deletes a customer. ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Updated Customers",
+                    "Description": "Retrieves a list of customers created or modified since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New Customers",
+                    "Description": "Retrieves a list of customers created since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Customers",
+                    "Description": "Updates multiple customers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Customers",
+                    "Description": "Deletes multiple customers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Customer",
+                    "Description": "Get the full details of a customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Customers",
+                    "Description": "Gets the full listing of customers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Customer",
+                    "Description": "Updates a customer.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Refunds",
+            "Methods": [
+                {
+                    "Name": "Delete Refund",
+                    "Description": "Deletes a refund.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Refund",
+                    "Description": "Creates a refund.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Refunds",
+                    "Description": "Get full listing of refunds.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Refunds",
+                    "Description": "List any updated refunds.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Refund",
+                    "Description": "Get full details of a refund.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New Refunds",
+                    "Description": "Retrieves a list of refunds created since last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Webhooks",
+            "Methods": [
+                {
+                    "Name": "List Webhooks",
+                    "Description": "Creates a webhook for the \"order.created\" topic in the user's WooCommerce account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Webhook",
+                    "Description": "Deletes the specified webhook from the user's WooCommerce account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Order Deleted",
+                    "Description": "Webhook triggered upon an order being deleted.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Create Webhook (Order Created)",
+                    "Description": "Creates a webhook for the \"order.created\" topic in the user's WooCommerce account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Order Updated",
+                    "Description": "Webhook triggered upon an order being updated.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Order Created",
+                    "Description": "Webhook triggered upon an order being created.",
+                    "MethodType": "Webhook"
                 }
             ]
         }

@@ -7,6 +7,8 @@ icon: https://my.cyclr.com/api/ConnectorIcon/7752
 default_header: false
 category: Marketing
 categories: [Marketing]
+showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-ometria %}
+{% assign v1content = 'ometria.md' %}
 {% include v2/connector/connector.html %}	

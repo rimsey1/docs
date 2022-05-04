@@ -35,6 +35,10 @@ if response.status_code == 200 :
 		file_md_full = os.path.join(os.path.dirname(__file__), file_md)
 		file_json = "../../_data/v2/connectors/connector-"+file_name+".json"
 		file_json_full = os.path.join(os.path.dirname(__file__), file_json)
+		# v1 md file - check if to be included, set front matter flag if md exists
+		contentv1_file = '../../_includes/v2/connector/v1content/'+file_name+'.md'
+		contentv1_file_full = os.path.join(os.path.dirname(__file__), contentv1_file)
+		contentv1exists = os.path.exists(contentv1_file_full)
 		# print("Write md "+file_md_full+" and json "+file_json_full)
 		if type(item['Categories']) is list and item['Categories']:
 			connector_category = item['Categories'][0]
@@ -57,6 +61,12 @@ if response.status_code == 200 :
 					newline = re.sub("connectorcategories", "["+connector_categories+"]", line)
 				elif "connectorname" in line:
 					newline = re.sub("connectorname", file_name, line)
+				elif "connectorcontentv1" in line:
+					# set the v1 content flag if the relevant md exists
+					if contentv1exists == True:
+						newline = re.sub("connectorcontentv1", "true", line)
+					else:
+						newline = re.sub("connectorcontentv1", "false", line)
 				else:
 					newline = line
 				# append to new md

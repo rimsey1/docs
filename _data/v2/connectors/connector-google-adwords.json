@@ -1,13 +1,11 @@
 {
-    "Description": "Advertise with Google AdWords ads to boost website traffic and sales.",
-    "Id": 6776,
+    "Description": "Deprecated as of 27/04/22, please use the Google Ads connector instead.",
+    "Id": 17041,
     "Name": "Google AdWords",
     "Version": "v201802",
-    "Status": "Approved",
-    "Icon": "https://my.cyclr.com/api/ConnectorIcon/6776",
-    "Categories": [
-        "Marketing"
-    ],
+    "Status": "Unknown",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17041",
+    "Categories": [],
     "MethodCategories": [
         {
             "Category": "Reports",
@@ -18,8 +16,8 @@
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Get Campaign Performance",
-                    "Description": "The Campaigns Performance report includes all statistics aggregated by default at the campaign level, one row per campaign.",
+                    "Name": "Get Keywords Performance",
+                    "Description": "The Keywords Performance report includes all statistics aggregated at the keyword level, one row per keyword.",
                     "MethodType": "Action"
                 },
                 {
@@ -28,8 +26,8 @@
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Get Keywords Performance",
-                    "Description": "The Keywords Performance report includes all statistics aggregated at the keyword level, one row per keyword.",
+                    "Name": "Get Campaign Performance",
+                    "Description": "The Campaigns Performance report includes all statistics aggregated by default at the campaign level, one row per campaign.",
                     "MethodType": "Action"
                 }
             ]
@@ -41,5 +39,5 @@
     "Content": null,
     "WebsiteUrl": null,
     "DocumentationUrl": null,
-    "PartnerSetupGuideUrl": "https://cyclr.com/docs/connector-authentication/google"
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/google-authentication"
 }
