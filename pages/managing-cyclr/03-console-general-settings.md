@@ -25,7 +25,7 @@ tags: [managing-cyclr]
 | Enable Transaction Error Webhook | Makes an HTTP call when an error occurs in a transaction. https://docs.cyclr.com/notifications |
 | Enable User Login Page | Allows end users to log into to Cyclr by username and password. |
 | Enable Cycle Form View | Sets the default cycle setup to be a linear form. The drag and drop builder can be toggled by going to the Advanced view. |
-| Enable White-Labelling | Disabling this setting allows Cyclr to be embedded in an iframe. Disabling this setting will also remove the X-Frame-Options header and set "SameSite=None; Secure" to all cookies; meaning your hosting webpage must be served over HTTPS. **Note that disabling this setting will reduce the visible options in the Settings menu presented within Accounts**.|
+| Enable iframe Embedding | Allows Cyclr to be embedded in an iframe. This will remove the X-Frame-Options header and set "SameSite=None; Secure" to all cookies. Your hosting webpage must be served over HTTPS. **Note that this will reduce the visible options in the Settings menu presented within Accounts**. |
 | Help Link Type | Determines how to show Cyclr help links; show Cyclr help links, hide Cyclr help Links or use custom help links. Default to "Show Cyclr help links". |
 | Custom Help Link URL | URL to use for all help links when Help Link Type is set to "Use custom help links". |
 | Custom Help Email Address | Email address to use for all helpdesk mailto links when Help Link Type is set to "Use custom help links". |
