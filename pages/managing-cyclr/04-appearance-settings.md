@@ -6,7 +6,7 @@ tags: [managing-cyclr]
 
 ---
 
-Theses settings allow you to change the appearance of Cyclr when in Accounts, using LAUNCH or Marketplaces.
+These settings allow you to change the appearance of Cyclr when in Accounts, using LAUNCH or Marketplaces.
 
 *Due to caching in Cyclr it will take a minute until the changes take effect.*
 
