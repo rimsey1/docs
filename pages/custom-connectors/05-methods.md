@@ -51,7 +51,7 @@ Here you specify the request or response message format Fields. Note that if the
 | Display Name | The name of the field to be displayed in the Cyclr UI to the user. | |
 | Description | This is the description of the Field to appear in the Cyclr UI for the user to understand how the Field is used. | Always include this and keep fairly short (no more than 100 characters). |
 | Optional | Set to `true` if the Field doesn’t have to be given a value. Leave out if it’s a required Field. | |
-| Data Type | Options are: Text, Integer, Float, Boolean, DateTime, File, Decimal.  If the type is DateTime then a Format can be entered to specify the format. | |
+| Data Type | Options are: Text, Integer, Float, Boolean, DateTime, File, Decimal.  If the type is DateTime then a Format can be entered to specify the format.  Read more about [data types](./data-types) | |
 | Default Value | | |
 
 ## Parameters
