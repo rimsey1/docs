@@ -263,6 +263,10 @@ entries:
           - title: Custom Fields
             url: /dynamic-custom-fields
             output: web, pdf
+         
+          - title: Data Types
+            url: /data-types
+            output: web, pdf
             
           - title: Enhanced Objects
             url: /enhanced-objects
