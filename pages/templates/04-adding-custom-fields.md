@@ -25,7 +25,7 @@ The following needs to be specified
 | Field Location | This is the field name as used by the API. Often this is just a case of copying the syntax of the existing fields. |
 | Display Name | This is the “friendly” name as it will be shown in the user interface. |
 | Description | You can optionally describe the field and provide documentation, for example how it is used. |
-| Data Type | You can optionally define a data type for your field.  If it is datetime then add the subtype to allow for type conversions between different standards. |
+| Data Type | You can optionally define a data type for your field.  If it is datetime then add the subtype to allow for type conversions between different standards. Read more about [data types](./data-types)|
 
 ## Example Field Locations
 
