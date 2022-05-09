@@ -22,7 +22,7 @@ These are descriptions of the API endpoints in a standard format.
 | HttpMethod | This is the action to be performed on the API method. Supported methods are GET, POST, PATCH, PUT, DELETE. | |
 | Endpoint | This is the URI to the API method. Not used if this Method Type is a webhook.| |
 | Hide | This will hide the method in the Cyclr UI if set to true. |
-| DataType | This is the data type used by the API, either Json, Xml, or Form. For GET, this is the Accept header. For POST, this is the request data. JSON is our recommended data type.| |
+| DataType | This is the data type used by the API, either Json, Xml, or Form. For GET, this is the Accept header. For POST, this is the request data. JSON is our recommended data type. Read more about [data types](./data-types)| |
 | Xml Root Element | If using XML, this it the single root element for the XML document.| |
 
 Connector naming conventions.
