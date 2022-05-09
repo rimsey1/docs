@@ -10,5 +10,5 @@ categories: [Billing/Payment,Ecommerce]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-fastspring %}
-{% assign v1content = 'fastspring.md' %}
+{% assign v1content = "fastspring.md" %}
 {% include v2/connector/connector.html %}	

@@ -10,5 +10,5 @@ categories: [Developer Tools,Project Management]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-scrumdo %}
-{% assign v1content = 'scrumdo.md' %}
+{% assign v1content = "scrumdo.md" %}
 {% include v2/connector/connector.html %}	

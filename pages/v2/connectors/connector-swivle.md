@@ -10,5 +10,5 @@ categories: [Collaboration]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-swivle %}
-{% assign v1content = 'swivle.md' %}
+{% assign v1content = "swivle.md" %}
 {% include v2/connector/connector.html %}	

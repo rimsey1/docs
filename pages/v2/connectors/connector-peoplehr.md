@@ -10,5 +10,5 @@ categories: [HR/Payroll]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-peoplehr %}
-{% assign v1content = 'peoplehr.md' %}
+{% assign v1content = "peoplehr.md" %}
 {% include v2/connector/connector.html %}	

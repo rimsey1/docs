@@ -10,5 +10,5 @@ categories: [POS,Ecommerce]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-retail-express %}
-{% assign v1content = 'retail-express.md' %}
+{% assign v1content = "retail-express.md" %}
 {% include v2/connector/connector.html %}	

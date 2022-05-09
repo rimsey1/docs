@@ -10,5 +10,5 @@ categories: [Collaboration,Chat]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-willo %}
-{% assign v1content = 'willo.md' %}
+{% assign v1content = "willo.md" %}
 {% include v2/connector/connector.html %}	

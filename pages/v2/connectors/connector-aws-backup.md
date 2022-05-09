@@ -10,5 +10,5 @@ categories: [Developer Tools,DevOps]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-aws-backup %}
-{% assign v1content = 'aws-backup.md' %}
+{% assign v1content = "aws-backup.md" %}
 {% include v2/connector/connector.html %}	

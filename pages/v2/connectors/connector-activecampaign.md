@@ -10,5 +10,5 @@ categories: [CRMs,Email Marketing,Sales,SMS]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-activecampaign %}
-{% assign v1content = 'activecampaign.md' %}
+{% assign v1content = "activecampaign.md" %}
 {% include v2/connector/connector.html %}	

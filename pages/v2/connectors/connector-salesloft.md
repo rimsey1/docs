@@ -10,5 +10,5 @@ categories: [CRMs,Sales]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-salesloft %}
-{% assign v1content = 'salesloft.md' %}
+{% assign v1content = "salesloft.md" %}
 {% include v2/connector/connector.html %}	

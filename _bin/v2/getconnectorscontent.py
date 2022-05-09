@@ -11,6 +11,7 @@ import requests
 import re
 import os
 import json
+import array as arr
 from slugify import slugify
 
 response = requests.get('https://my.cyclr.com/api/connectors?pageSize=1000&details=true')
@@ -20,6 +21,14 @@ if response.status_code == 200 :
 	template_md = os.path.join(os.path.dirname(__file__), './assets/templateconnector.md')
 	# print(__file__)
 	# print(template_md)
+	# connector content summary
+	file_summary_json = "../../_data/v2/admin/connector-content-summary.json"
+	file_summary_json_full = os.path.join(os.path.dirname(__file__), file_summary_json)
+	# dict lists which connectors do and don't have v1 content
+	connector_content_dict = {
+	"v1content":{},
+	"nocontent":{} 
+	}
 	# parse each connector in the response array
 	for item in json_data:
 		# derive the connector filenames 
@@ -65,14 +74,29 @@ if response.status_code == 200 :
 					# set the v1 content flag if the relevant md exists
 					if contentv1exists == True:
 						newline = re.sub("connectorcontentv1", "true", line)
+						# add this connector to the v1content array
+						connector_content_dict["v1content"][connector_name] = connector_slug
 					else:
 						newline = re.sub("connectorcontentv1", "false", line)
+						# add this connetor to the nocontent array
+						connector_content_dict["nocontent"][connector_name] = connector_slug
 				else:
 					newline = line
 				# append to new md
-				tofile.write(newline)
+				tofile.write(newline), 
+			tofile.close()
+			fromfile.close()
+
+		# write the connector content summary to the json file
+
+		json_content = json.dumps(connector_content_dict)
+		with open(file_summary_json_full, "w") as filesummaryjson:
+			filesummaryjson.write(json_content)
+			filesummaryjson.close()
+
 
 		# write the connector object to the json file
 		json_string = json.dumps(item, indent=4)
 		with open(file_json_full, "w") as filejson:
 			filejson.write(json_string)
+			filejson.close()

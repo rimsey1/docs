@@ -10,5 +10,5 @@ categories: [HR/Payroll,Accounting]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-sage-accounting %}
-{% assign v1content = 'sage-accounting.md' %}
+{% assign v1content = "sage-accounting.md" %}
 {% include v2/connector/connector.html %}	

@@ -10,5 +10,5 @@ categories: [HR/Payroll]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-papershift %}
-{% assign v1content = 'papershift.md' %}
+{% assign v1content = "papershift.md" %}
 {% include v2/connector/connector.html %}	

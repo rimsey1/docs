@@ -10,5 +10,5 @@ categories: [HR/Payroll]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-peakon %}
-{% assign v1content = 'peakon.md' %}
+{% assign v1content = "peakon.md" %}
 {% include v2/connector/connector.html %}	

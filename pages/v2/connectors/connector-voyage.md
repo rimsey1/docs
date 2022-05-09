@@ -10,5 +10,5 @@ categories: [Ecommerce,SMS]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-voyage %}
-{% assign v1content = 'voyage.md' %}
+{% assign v1content = "voyage.md" %}
 {% include v2/connector/connector.html %}	

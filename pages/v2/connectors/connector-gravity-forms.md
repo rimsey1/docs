@@ -10,5 +10,5 @@ categories: [Forms]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-gravity-forms %}
-{% assign v1content = 'gravity-forms.md' %}
+{% assign v1content = "gravity-forms.md" %}
 {% include v2/connector/connector.html %}	

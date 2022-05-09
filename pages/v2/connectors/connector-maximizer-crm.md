@@ -10,5 +10,5 @@ categories: [Marketing,CRMs,Sales,Support]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-maximizer-crm %}
-{% assign v1content = 'maximizer-crm.md' %}
+{% assign v1content = "maximizer-crm.md" %}
 {% include v2/connector/connector.html %}	

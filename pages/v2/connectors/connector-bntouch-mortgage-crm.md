@@ -10,5 +10,5 @@ categories: [CRMs]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-bntouch-mortgage-crm %}
-{% assign v1content = 'bntouch-mortgage-crm.md' %}
+{% assign v1content = "bntouch-mortgage-crm.md" %}
 {% include v2/connector/connector.html %}	

@@ -10,5 +10,5 @@ categories: [Product Management,Project Management]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-jobnimbus %}
-{% assign v1content = 'jobnimbus.md' %}
+{% assign v1content = "jobnimbus.md" %}
 {% include v2/connector/connector.html %}	

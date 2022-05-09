@@ -10,5 +10,5 @@ categories: [Chat,Customer Experience,Sales,Support]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-freshdesk-messaging %}
-{% assign v1content = 'freshdesk-messaging.md' %}
+{% assign v1content = "freshdesk-messaging.md" %}
 {% include v2/connector/connector.html %}	

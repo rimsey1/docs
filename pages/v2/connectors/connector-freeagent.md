@@ -10,5 +10,5 @@ categories: [Accounting]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-freeagent %}
-{% assign v1content = 'freeagent.md' %}
+{% assign v1content = "freeagent.md" %}
 {% include v2/connector/connector.html %}	

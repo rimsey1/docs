@@ -10,5 +10,5 @@ categories: [Marketing,Email Marketing,SMS]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-listrak %}
-{% assign v1content = 'listrak.md' %}
+{% assign v1content = "listrak.md" %}
 {% include v2/connector/connector.html %}	

@@ -10,5 +10,5 @@ categories: [POS,Billing/Payment]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-payjunction %}
-{% assign v1content = 'payjunction.md' %}
+{% assign v1content = "payjunction.md" %}
 {% include v2/connector/connector.html %}	

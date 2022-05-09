@@ -10,5 +10,5 @@ categories: [Billing/Payment]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-stripe %}
-{% assign v1content = 'stripe.md' %}
+{% assign v1content = "stripe.md" %}
 {% include v2/connector/connector.html %}	

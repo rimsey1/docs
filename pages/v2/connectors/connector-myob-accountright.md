@@ -10,5 +10,5 @@ categories: [Accounting]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-myob-accountright %}
-{% assign v1content = 'myob-accountright.md' %}
+{% assign v1content = "myob-accountright.md" %}
 {% include v2/connector/connector.html %}	

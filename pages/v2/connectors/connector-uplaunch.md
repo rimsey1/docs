@@ -10,5 +10,5 @@ categories: [CRMs,Healthcare/Wellness]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-uplaunch %}
-{% assign v1content = 'uplaunch.md' %}
+{% assign v1content = "uplaunch.md" %}
 {% include v2/connector/connector.html %}	

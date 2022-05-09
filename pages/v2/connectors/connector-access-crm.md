@@ -10,5 +10,5 @@ categories: [CRMs]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-access-crm %}
-{% assign v1content = 'access-crm.md' %}
+{% assign v1content = "access-crm.md" %}
 {% include v2/connector/connector.html %}	

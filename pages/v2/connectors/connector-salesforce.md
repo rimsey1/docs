@@ -3,7 +3,7 @@ title: Salesforce
 sidebar: cyclr_sidebar
 permalink: salesforce-connector
 tags: [connector]
-icon: https://my.cyclr.com/api/ConnectorIcon/17063
+icon: https://my.cyclr.com/api/ConnectorIcon/17123
 default_header: false
 category: CRMs
 categories: [CRMs]
@@ -11,5 +11,5 @@ categories: [CRMs]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-salesforce %}
-{% assign v1content = 'salesforce.md' %}
+{% assign v1content = "salesforce.md" %}
 {% include v2/connector/connector.html %}	

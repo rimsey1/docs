@@ -1,10 +1,10 @@
 {
     "Description": "Build marketing automation with Facebook's advertising platform.",
-    "Id": 15909,
+    "Id": 17120,
     "Name": "Facebook Marketing API",
     "Version": null,
     "Status": "Approved",
-    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15909",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17120",
     "Categories": [
         "Social Media"
     ],
@@ -50,11 +50,11 @@
             ]
         },
         {
-            "Category": "Ad Creatives",
+            "Category": "Pages",
             "Methods": [
                 {
-                    "Name": "Create Ad Creative",
-                    "Description": "Create an ad creative.",
+                    "Name": "List My Pages",
+                    "Description": "Gets the Facebook pages to which you have access.",
                     "MethodType": "Action"
                 }
             ]
@@ -70,35 +70,35 @@
             ]
         },
         {
-            "Category": "Ads",
+            "Category": "Ad Accounts",
             "Methods": [
                 {
-                    "Name": "List Ads",
-                    "Description": "Gets a list of Ad for the Ad Account",
+                    "Name": "List My Ad Accounts",
+                    "Description": "Gets the advertising accounts to which you have access.",
                     "MethodType": "Action"
                 },
+                {
+                    "Name": "List My Permissions",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Ads",
+            "Methods": [
                 {
                     "Name": " Get Ad",
                     "Description": "Gets a Ad by its ID",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Create Ad",
-                    "Description": "Create an ad.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Ad Accounts",
-            "Methods": [
-                {
-                    "Name": "List My Permissions",
+                    "Name": "List Ads",
+                    "Description": "Gets a list of Ad for the Ad Account",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "List My Ad Accounts",
-                    "Description": "Gets the advertising accounts to which you have access.",
+                    "Name": "Create Ad",
+                    "Description": "Create an ad.",
                     "MethodType": "Action"
                 }
             ]
@@ -149,11 +149,11 @@
             ]
         },
         {
-            "Category": "Pages",
+            "Category": "Ad Creatives",
             "Methods": [
                 {
-                    "Name": "List My Pages",
-                    "Description": "Gets the Facebook pages to which you have access.",
+                    "Name": "Create Ad Creative",
+                    "Description": "Create an ad creative.",
                     "MethodType": "Action"
                 }
             ]

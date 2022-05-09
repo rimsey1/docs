@@ -10,5 +10,5 @@ categories: [Ecommerce]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-lightspeed-ecommerce %}
-{% assign v1content = 'lightspeed-ecommerce.md' %}
+{% assign v1content = "lightspeed-ecommerce.md" %}
 {% include v2/connector/connector.html %}	

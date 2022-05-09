@@ -10,5 +10,5 @@ categories: []
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-gocardless-sandbox %}
-{% assign v1content = 'gocardless-sandbox.md' %}
+{% assign v1content = "gocardless-sandbox.md" %}
 {% include v2/connector/connector.html %}	

@@ -10,5 +10,5 @@ categories: [POS]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-springboard %}
-{% assign v1content = 'springboard.md' %}
+{% assign v1content = "springboard.md" %}
 {% include v2/connector/connector.html %}	

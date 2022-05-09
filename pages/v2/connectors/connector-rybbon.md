@@ -10,5 +10,5 @@ categories: [Customer Experience,Sales]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-rybbon %}
-{% assign v1content = 'rybbon.md' %}
+{% assign v1content = "rybbon.md" %}
 {% include v2/connector/connector.html %}	

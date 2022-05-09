@@ -10,5 +10,5 @@ categories: [Miscellaneous]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-amadeus-sandbox %}
-{% assign v1content = 'amadeus-sandbox.md' %}
+{% assign v1content = "amadeus-sandbox.md" %}
 {% include v2/connector/connector.html %}	

@@ -10,5 +10,5 @@ categories: [Miscellaneous]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-digital-humani %}
-{% assign v1content = 'digital-humani.md' %}
+{% assign v1content = "digital-humani.md" %}
 {% include v2/connector/connector.html %}	

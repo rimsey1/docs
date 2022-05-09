@@ -10,5 +10,5 @@ categories: [Social Media]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-facebook-offline-conversions %}
-{% assign v1content = 'facebook-offline-conversions.md' %}
+{% assign v1content = "facebook-offline-conversions.md" %}
 {% include v2/connector/connector.html %}	

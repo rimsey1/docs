@@ -10,5 +10,5 @@ categories: [POS,Ecommerce]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-neto %}
-{% assign v1content = 'neto.md' %}
+{% assign v1content = "neto.md" %}
 {% include v2/connector/connector.html %}	

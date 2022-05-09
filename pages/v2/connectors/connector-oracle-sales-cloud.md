@@ -10,5 +10,5 @@ categories: [ERP,CRMs,Sales]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-oracle-sales-cloud %}
-{% assign v1content = 'oracle-sales-cloud.md' %}
+{% assign v1content = "oracle-sales-cloud.md" %}
 {% include v2/connector/connector.html %}	

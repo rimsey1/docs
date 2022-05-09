@@ -10,5 +10,5 @@ categories: [POS,Billing/Payment]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-squareup %}
-{% assign v1content = 'squareup.md' %}
+{% assign v1content = "squareup.md" %}
 {% include v2/connector/connector.html %}	

@@ -10,5 +10,5 @@ categories: [Chat,CRMs]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-salesforce-chatter %}
-{% assign v1content = 'salesforce-chatter.md' %}
+{% assign v1content = "salesforce-chatter.md" %}
 {% include v2/connector/connector.html %}	

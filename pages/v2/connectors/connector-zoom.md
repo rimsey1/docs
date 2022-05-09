@@ -10,5 +10,5 @@ categories: [Chat]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-zoom %}
-{% assign v1content = 'zoom.md' %}
+{% assign v1content = "zoom.md" %}
 {% include v2/connector/connector.html %}	

@@ -10,5 +10,5 @@ categories: [CRMs,Sales]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-sprout-send %}
-{% assign v1content = 'sprout-send.md' %}
+{% assign v1content = "sprout-send.md" %}
 {% include v2/connector/connector.html %}	

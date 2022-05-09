@@ -10,5 +10,5 @@ categories: [Email Marketing,SMS]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-maxemail-by-xtremepush %}
-{% assign v1content = 'maxemail-by-xtremepush.md' %}
+{% assign v1content = "maxemail-by-xtremepush.md" %}
 {% include v2/connector/connector.html %}	

@@ -11,5 +11,5 @@ categories: [Ecommerce,Sales]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-woocommerce %}
-{% assign v1content = 'woocommerce.md' %}
+{% assign v1content = "woocommerce.md" %}
 {% include v2/connector/connector.html %}	

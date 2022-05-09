@@ -10,5 +10,5 @@ categories: [Dashboarding,Analytics,Databases,Data Tools]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-keen-io %}
-{% assign v1content = 'keen-io.md' %}
+{% assign v1content = "keen-io.md" %}
 {% include v2/connector/connector.html %}	

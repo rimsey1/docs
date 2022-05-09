@@ -10,5 +10,5 @@ categories: [Marketing]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-redeye-contour %}
-{% assign v1content = 'redeye-contour.md' %}
+{% assign v1content = "redeye-contour.md" %}
 {% include v2/connector/connector.html %}	

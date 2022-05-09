@@ -10,5 +10,5 @@ categories: [Miscellaneous]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-gingr %}
-{% assign v1content = 'gingr.md' %}
+{% assign v1content = "gingr.md" %}
 {% include v2/connector/connector.html %}	

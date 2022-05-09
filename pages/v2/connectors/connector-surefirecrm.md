@@ -10,5 +10,5 @@ categories: [CRMs]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-surefirecrm %}
-{% assign v1content = 'surefirecrm.md' %}
+{% assign v1content = "surefirecrm.md" %}
 {% include v2/connector/connector.html %}	

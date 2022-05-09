@@ -10,5 +10,5 @@ categories: [CRMs,Healthcare/Wellness]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-envision-salon-spa %}
-{% assign v1content = 'envision-salon-spa.md' %}
+{% assign v1content = "envision-salon-spa.md" %}
 {% include v2/connector/connector.html %}	

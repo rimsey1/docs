@@ -10,5 +10,5 @@ categories: [Marketing,Data Tools,Email Marketing]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-findemails %}
-{% assign v1content = 'findemails.md' %}
+{% assign v1content = "findemails.md" %}
 {% include v2/connector/connector.html %}	

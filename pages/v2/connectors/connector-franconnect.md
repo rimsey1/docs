@@ -10,5 +10,5 @@ categories: [Miscellaneous]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-franconnect %}
-{% assign v1content = 'franconnect.md' %}
+{% assign v1content = "franconnect.md" %}
 {% include v2/connector/connector.html %}	

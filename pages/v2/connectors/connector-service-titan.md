@@ -10,5 +10,5 @@ categories: [Marketing,Miscellaneous,Collaboration,Customer Experience,Sales]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-service-titan %}
-{% assign v1content = 'service-titan.md' %}
+{% assign v1content = "service-titan.md" %}
 {% include v2/connector/connector.html %}	

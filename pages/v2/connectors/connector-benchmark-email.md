@@ -10,5 +10,5 @@ categories: [Marketing,Email Marketing]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-benchmark-email %}
-{% assign v1content = 'benchmark-email.md' %}
+{% assign v1content = "benchmark-email.md" %}
 {% include v2/connector/connector.html %}	

@@ -1,21 +1,26 @@
 {
     "Description": "SugarCRM enables businesses to create extraordinary customer relationships with the most innovative and affordable CRM solution in the market.",
-    "Id": 16691,
+    "Id": 17122,
     "Name": "SugarCRM",
     "Version": "10",
     "Status": "Approved",
-    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16691",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17122",
     "Categories": [
         "CRMs",
         "Sales"
     ],
     "MethodCategories": [
         {
-            "Category": "Activities",
+            "Category": "Link Requests",
             "Methods": [
                 {
-                    "Name": "List Activities By Opportunity",
-                    "Description": "Lists the specified opportunity's activities from SugarCRM.",
+                    "Name": "List Custom Object's Related Records",
+                    "Description": "Retrieves records related to an instance of a custom object, in accordance with the specified Link.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contact's Related Records",
+                    "Description": "Retrieves records related to a contact, in accordance with the specified Link.",
                     "MethodType": "Action"
                 }
             ]
@@ -101,6 +106,16 @@
             ]
         },
         {
+            "Category": "Activities",
+            "Methods": [
+                {
+                    "Name": "List Activities By Opportunity",
+                    "Description": "Lists the specified opportunity's activities from SugarCRM.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
             "Category": "Accounts",
             "Methods": [
                 {
@@ -136,6 +151,21 @@
                 {
                     "Name": "Get New Accounts",
                     "Description": "Get new accounts from SugarCRM since the last run time.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Products",
+            "Methods": [
+                {
+                    "Name": "Get Product by Contact",
+                    "Description": "Gets a specified product from SugarCRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Products",
+                    "Description": "List all products from SugarCRM.",
                     "MethodType": "Action"
                 }
             ]
@@ -196,21 +226,6 @@
                 {
                     "Name": "Delete Lead",
                     "Description": "Deletes a specified lead.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Link Requests",
-            "Methods": [
-                {
-                    "Name": "List Custom Object's Related Records",
-                    "Description": "Retrieves records related to an instance of a custom object, in accordance with the specified Link.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Contact's Related Records",
-                    "Description": "Retrieves records related to a contact, in accordance with the specified Link.",
                     "MethodType": "Action"
                 }
             ]
@@ -279,23 +294,13 @@
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Get Contact by Email",
-                    "Description": "Gets a specified contact from SugarCRM.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Contacts By Account",
-                    "Description": "Lists the specified account's contacts from SugarCRM.",
-                    "MethodType": "Action"
-                },
-                {
                     "Name": "List Contacts",
                     "Description": "List all contacts from SugarCRM.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Delete Contact",
-                    "Description": "Deletes a specified contact.",
+                    "Name": "Get Contact by Email",
+                    "Description": "Gets a specified contact from SugarCRM.",
                     "MethodType": "Action"
                 },
                 {
@@ -304,8 +309,18 @@
                     "MethodType": "Action"
                 },
                 {
+                    "Name": "List Contacts By Account",
+                    "Description": "Lists the specified account's contacts from SugarCRM.",
+                    "MethodType": "Action"
+                },
+                {
                     "Name": "List New Contacts",
                     "Description": "Get new contacts from SugarCRM since the last run time.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Contact",
+                    "Description": "Deletes a specified contact.",
                     "MethodType": "Action"
                 }
             ]
@@ -319,13 +334,13 @@
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Delete Custom Object",
-                    "Description": "Delete a custom object from SugarCRM.",
+                    "Name": "Create Custom Object",
+                    "Description": "Create a new object in a custom endpoint in SugarCRM.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Search Custom Objects",
-                    "Description": "Gets custom objects that match the provided filter(s).",
+                    "Name": "Delete Custom Object",
+                    "Description": "Delete a custom object from SugarCRM.",
                     "MethodType": "Action"
                 },
                 {
@@ -344,8 +359,8 @@
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Create Custom Object",
-                    "Description": "Create a new object in a custom endpoint in SugarCRM.",
+                    "Name": "Search Custom Objects",
+                    "Description": "Gets custom objects that match the provided filter(s).",
                     "MethodType": "Action"
                 }
             ]

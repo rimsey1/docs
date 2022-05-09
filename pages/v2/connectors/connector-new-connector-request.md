@@ -10,5 +10,5 @@ categories: [HR/Payroll,ERP,Marketing,Product Management,Miscellaneous,POS,Utili
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-new-connector-request %}
-{% assign v1content = 'new-connector-request.md' %}
+{% assign v1content = "new-connector-request.md" %}
 {% include v2/connector/connector.html %}	

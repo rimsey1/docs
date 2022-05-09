@@ -10,5 +10,5 @@ categories: [Data Tools]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-rss-reader %}
-{% assign v1content = 'rss-reader.md' %}
+{% assign v1content = "rss-reader.md" %}
 {% include v2/connector/connector.html %}	

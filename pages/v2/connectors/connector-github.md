@@ -10,5 +10,5 @@ categories: [Product Management,Developer Tools,Project Management,DevOps]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-github %}
-{% assign v1content = 'github.md' %}
+{% assign v1content = "github.md" %}
 {% include v2/connector/connector.html %}	

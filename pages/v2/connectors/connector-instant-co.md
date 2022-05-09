@@ -10,5 +10,5 @@ categories: [HR/Payroll,Miscellaneous,Billing/Payment]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-instant-co %}
-{% assign v1content = 'instant-co.md' %}
+{% assign v1content = "instant-co.md" %}
 {% include v2/connector/connector.html %}	

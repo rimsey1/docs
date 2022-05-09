@@ -10,5 +10,5 @@ categories: [Utility Connectors,Data Tools,Developer Tools]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-ftp %}
-{% assign v1content = 'ftp.md' %}
+{% assign v1content = "ftp.md" %}
 {% include v2/connector/connector.html %}	

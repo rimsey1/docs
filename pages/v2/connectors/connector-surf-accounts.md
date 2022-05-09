@@ -10,5 +10,5 @@ categories: [Accounting]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-surf-accounts %}
-{% assign v1content = 'surf-accounts.md' %}
+{% assign v1content = "surf-accounts.md" %}
 {% include v2/connector/connector.html %}	

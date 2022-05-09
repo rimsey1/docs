@@ -1,10 +1,10 @@
 {
     "Description": "This insights edge provides a single, consistent interface to retrieve an ad's statistics.",
-    "Id": 16905,
+    "Id": 17119,
     "Name": "Facebook Insights",
     "Version": null,
     "Status": "Approved",
-    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16905",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17119",
     "Categories": [
         "Social Media"
     ],

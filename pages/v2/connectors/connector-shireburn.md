@@ -10,5 +10,5 @@ categories: [HR/Payroll,Accounting]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-shireburn %}
-{% assign v1content = 'shireburn.md' %}
+{% assign v1content = "shireburn.md" %}
 {% include v2/connector/connector.html %}	

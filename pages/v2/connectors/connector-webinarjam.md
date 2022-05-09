@@ -10,5 +10,5 @@ categories: [Chat,Customer Experience,Sales]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-webinarjam %}
-{% assign v1content = 'webinarjam.md' %}
+{% assign v1content = "webinarjam.md" %}
 {% include v2/connector/connector.html %}	

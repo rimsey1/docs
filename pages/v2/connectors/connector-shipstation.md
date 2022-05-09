@@ -10,5 +10,5 @@ categories: [Ecommerce]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-shipstation %}
-{% assign v1content = 'shipstation.md' %}
+{% assign v1content = "shipstation.md" %}
 {% include v2/connector/connector.html %}	

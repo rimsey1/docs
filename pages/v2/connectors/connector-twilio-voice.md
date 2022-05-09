@@ -10,5 +10,5 @@ categories: [Marketing,Customer Experience]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-twilio-voice %}
-{% assign v1content = 'twilio-voice.md' %}
+{% assign v1content = "twilio-voice.md" %}
 {% include v2/connector/connector.html %}	

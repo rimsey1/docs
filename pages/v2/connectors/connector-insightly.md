@@ -10,5 +10,5 @@ categories: [CRMs]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-insightly %}
-{% assign v1content = 'insightly.md' %}
+{% assign v1content = "insightly.md" %}
 {% include v2/connector/connector.html %}	

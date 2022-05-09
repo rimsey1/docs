@@ -10,5 +10,5 @@ categories: [Email Marketing]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-sailthru %}
-{% assign v1content = 'sailthru.md' %}
+{% assign v1content = "sailthru.md" %}
 {% include v2/connector/connector.html %}	

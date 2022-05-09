@@ -10,5 +10,5 @@ categories: [ERP,Billing/Payment,CRMs,Ecommerce,Sales]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-salespad %}
-{% assign v1content = 'salespad.md' %}
+{% assign v1content = "salespad.md" %}
 {% include v2/connector/connector.html %}	

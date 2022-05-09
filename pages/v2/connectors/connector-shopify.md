@@ -10,5 +10,5 @@ categories: [Ecommerce]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-shopify %}
-{% assign v1content = 'shopify.md' %}
+{% assign v1content = "shopify.md" %}
 {% include v2/connector/connector.html %}	

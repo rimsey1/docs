@@ -10,5 +10,5 @@ categories: [Customer Experience,Support]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-trustpilot %}
-{% assign v1content = 'trustpilot.md' %}
+{% assign v1content = "trustpilot.md" %}
 {% include v2/connector/connector.html %}	

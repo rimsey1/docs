@@ -10,5 +10,5 @@ categories: [Marketing,CRMs,Sales,Calendars]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-capsule %}
-{% assign v1content = 'capsule.md' %}
+{% assign v1content = "capsule.md" %}
 {% include v2/connector/connector.html %}	

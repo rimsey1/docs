@@ -10,5 +10,5 @@ categories: [Miscellaneous]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-openapply %}
-{% assign v1content = 'openapply.md' %}
+{% assign v1content = "openapply.md" %}
 {% include v2/connector/connector.html %}	

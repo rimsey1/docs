@@ -10,5 +10,5 @@ categories: [Customer Experience,Sales]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-airship %}
-{% assign v1content = 'airship.md' %}
+{% assign v1content = "airship.md" %}
 {% include v2/connector/connector.html %}	

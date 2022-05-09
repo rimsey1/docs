@@ -10,5 +10,5 @@ categories: [HR/Payroll,ERP,Marketing,Product Management,POS,Collaboration,Dashb
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-any-other-application %}
-{% assign v1content = 'any-other-application.md' %}
+{% assign v1content = "any-other-application.md" %}
 {% include v2/connector/connector.html %}	

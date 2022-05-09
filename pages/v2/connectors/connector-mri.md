@@ -10,5 +10,5 @@ categories: [Miscellaneous]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-mri %}
-{% assign v1content = 'mri.md' %}
+{% assign v1content = "mri.md" %}
 {% include v2/connector/connector.html %}	

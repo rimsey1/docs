@@ -10,5 +10,5 @@ categories: [Marketing,Customer Experience]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-iterable %}
-{% assign v1content = 'iterable.md' %}
+{% assign v1content = "iterable.md" %}
 {% include v2/connector/connector.html %}	

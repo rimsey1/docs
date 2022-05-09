@@ -10,5 +10,5 @@ categories: [Dashboarding,Data Tools]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-google-data-studio %}
-{% assign v1content = 'google-data-studio.md' %}
+{% assign v1content = "google-data-studio.md" %}
 {% include v2/connector/connector.html %}	

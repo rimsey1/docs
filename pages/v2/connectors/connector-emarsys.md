@@ -10,5 +10,5 @@ categories: [Email Marketing,SMS]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-emarsys %}
-{% assign v1content = 'emarsys.md' %}
+{% assign v1content = "emarsys.md" %}
 {% include v2/connector/connector.html %}	

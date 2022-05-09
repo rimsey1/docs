@@ -10,5 +10,5 @@ categories: [Customer Experience,Developer Tools,Support]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-document360 %}
-{% assign v1content = 'document360.md' %}
+{% assign v1content = "document360.md" %}
 {% include v2/connector/connector.html %}	

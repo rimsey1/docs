@@ -10,5 +10,5 @@ categories: [Analytics,Databases,Data Tools,Developer Tools,DevOps]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-amazon-s3 %}
-{% assign v1content = 'amazon-s3.md' %}
+{% assign v1content = "amazon-s3.md" %}
 {% include v2/connector/connector.html %}	

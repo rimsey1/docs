@@ -10,5 +10,5 @@ categories: [Marketing,CRMs]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-infusionsoft-by-keap %}
-{% assign v1content = 'infusionsoft-by-keap.md' %}
+{% assign v1content = "infusionsoft-by-keap.md" %}
 {% include v2/connector/connector.html %}	

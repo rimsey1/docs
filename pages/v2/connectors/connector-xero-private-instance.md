@@ -10,5 +10,5 @@ categories: [HR/Payroll,Accounting]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-xero-private-instance %}
-{% assign v1content = 'xero-private-instance.md' %}
+{% assign v1content = "xero-private-instance.md" %}
 {% include v2/connector/connector.html %}	

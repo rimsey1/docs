@@ -11,5 +11,5 @@ categories: [CRMs,Email Marketing]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-bronto %}
-{% assign v1content = 'bronto.md' %}
+{% assign v1content = "bronto.md" %}
 {% include v2/connector/connector.html %}	

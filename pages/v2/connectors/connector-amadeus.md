@@ -10,5 +10,5 @@ categories: [Miscellaneous]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-amadeus %}
-{% assign v1content = 'amadeus.md' %}
+{% assign v1content = "amadeus.md" %}
 {% include v2/connector/connector.html %}	

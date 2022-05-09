@@ -10,5 +10,5 @@ categories: [Marketing,Ecommerce,Email Marketing]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-campaign-monitor %}
-{% assign v1content = 'campaign-monitor.md' %}
+{% assign v1content = "campaign-monitor.md" %}
 {% include v2/connector/connector.html %}	

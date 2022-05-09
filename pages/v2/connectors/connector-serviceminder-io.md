@@ -10,5 +10,5 @@ categories: [Sales]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-serviceminder-io %}
-{% assign v1content = 'serviceminder-io.md' %}
+{% assign v1content = "serviceminder-io.md" %}
 {% include v2/connector/connector.html %}	

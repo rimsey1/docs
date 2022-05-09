@@ -1,15 +1,49 @@
 {
     "Description": "Create events and sell tickets.",
-    "Id": 16543,
+    "Id": 17111,
     "Name": "Eventbrite",
     "Version": "v3.0",
     "Status": "Approved",
-    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16543",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17111",
     "Categories": [],
     "MethodCategories": [
         {
+            "Category": "Events (custom object)",
+            "Methods": [
+                {
+                    "Name": "List Attendees",
+                    "Description": "Retrieves details about the attendees of an event.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Attendees",
+                    "Description": "Retrieves details about attendees of an event, changed on or after the last time this process was executed.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Internal",
+            "Methods": [
+                {
+                    "Name": "List Triggers",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
             "Category": "Events",
             "Methods": [
+                {
+                    "Name": "List Events By Organization",
+                    "Description": "List events for the specified organization.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Attendees",
+                    "Description": "Retrieves details about attendees of an event, changed on or after the last time this process was executed.",
+                    "MethodType": "Action"
+                },
                 {
                     "Name": "Update Event",
                     "Description": "Updates an existing event.",
@@ -49,15 +83,20 @@
                     "Name": "Create Event",
                     "Description": "Makes a new event.",
                     "MethodType": "Action"
-                },
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
                 {
-                    "Name": "List Updated Attendees",
-                    "Description": "Retrieves details about attendees of an event, changed on or after the last time this process was executed.",
+                    "Name": "Get Self",
+                    "Description": "Retrieves user account information for the currently authenticated user.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "List Events By Organization",
-                    "Description": "List events for the specified organization.",
+                    "Name": "Get User",
+                    "Description": "Retrieves user account information for the specified user.",
                     "MethodType": "Action"
                 }
             ]
@@ -124,30 +163,6 @@
                     "Name": "Order Placed",
                     "Description": "This webhook triggers when an order is placed. Retrieves information about an order.",
                     "MethodType": "Webhook"
-                }
-            ]
-        },
-        {
-            "Category": "Users",
-            "Methods": [
-                {
-                    "Name": "Get User",
-                    "Description": "Retrieves user account information for the specified user.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Self",
-                    "Description": "Retrieves user account information for the currently authenticated user.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Internal",
-            "Methods": [
-                {
-                    "Name": "List Triggers",
-                    "MethodType": "Action"
                 }
             ]
         },

@@ -10,5 +10,5 @@ categories: [Miscellaneous,CRMs,Customer Experience]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-officer-d %}
-{% assign v1content = 'officer-d.md' %}
+{% assign v1content = "officer-d.md" %}
 {% include v2/connector/connector.html %}	

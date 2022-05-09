@@ -1,70 +1,30 @@
 {
     "Description": "Salesforce CRM automates the sales process with an array of cloud-based tools.",
-    "Id": 17063,
+    "Id": 17123,
     "Name": "Salesforce",
     "Version": "v43.0",
     "Status": "Approved",
-    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17063",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17123",
     "Categories": [
         "CRMs"
     ],
     "MethodCategories": [
         {
-            "Category": "Tasks",
-            "Methods": [
-                {
-                    "Name": "List Updated Tasks",
-                    "Description": "Lists tasks created or modified since the last run.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Task",
-                    "Description": "Gets a task by ID.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Create Task",
-                    "Description": "Creates a new task.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Task Priorities",
-                    "Description": "Lists the options for task priorities.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Update Task",
-                    "Description": "Updates a task.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Delete Task",
-                    "Description": "Deletes a task.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List New Tasks",
-                    "Description": "Lists tasks created since the last run.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Tasks",
-                    "Description": "Lists all tasks.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Task Statuses",
-                    "Description": "Lists the options for task statuses.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
             "Category": "Event Relations",
             "Methods": [
                 {
+                    "Name": "List Contact\\Lead Event Relations",
+                    "Description": "Lists event contact and lead attendees. ",
+                    "MethodType": "Action"
+                },
+                {
                     "Name": "List Events Relations",
                     "Description": "Lists event attendees.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Undecided Event Relations",
+                    "Description": "Lists undecided event attendees.",
                     "MethodType": "Action"
                 },
                 {
@@ -78,29 +38,104 @@
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "List Contact\\Lead Event Relations",
-                    "Description": "Lists event contact and lead attendees. ",
-                    "MethodType": "Action"
-                },
-                {
                     "Name": "Create Event Relation",
                     "Description": "Create a new event relation",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Undecided Event Relations",
-                    "Description": "Lists undecided event attendees.",
                     "MethodType": "Action"
                 }
             ]
         },
         {
-            "Category": "Outbound Messages",
+            "Category": "Notes",
             "Methods": [
                 {
-                    "Name": "Outbound Message Response",
-                    "Description": "Send a response to an outbound message from Salesforce.  Set Result to \"true\"/\"false\" to send a success/failure response back to SF.",
-                    "MethodType": "WebhookResponse"
+                    "Name": "Update Note",
+                    "Description": "Updates a note.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Notes",
+                    "Description": "Lists notes created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Notes",
+                    "Description": "Lists notes created or modified since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Note",
+                    "Description": "Deletes a note.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Notes",
+                    "Description": "Lists notes from this Salesforce account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Note",
+                    "Description": "Creates a new note.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Note",
+                    "Description": "Gets a note by ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Campaigns",
+            "Methods": [
+                {
+                    "Name": "List New Campaigns",
+                    "Description": "Lists campaigns created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Campaign",
+                    "Description": "Updates a campaign.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Campaign",
+                    "Description": "Creates a campaign.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Campaign",
+                    "Description": "Gets a campaign by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Campaign By Name",
+                    "Description": "Gets a campaign by name.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Campaigns",
+                    "Description": "Lists campaigns.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Campaign",
+                    "Description": "Deletes a campaign.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Campaign",
+                    "Description": "Creates a new campaign or updates an existing campaign based on an external ID. Setup is required, details can be found @ docs.cyclr.com/salesforce-upsert-setup",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "If Exists: Campaign",
+                    "Description": "Gets a campaign by ID and returns along a true path if it exists.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Campaigns",
+                    "Description": "Lists campaigns created or modified since the last run.",
+                    "MethodType": "Action"
                 }
             ]
         },
@@ -135,131 +170,131 @@
             ]
         },
         {
-            "Category": "Campaigns",
+            "Category": "Tasks",
             "Methods": [
                 {
-                    "Name": "List New Campaigns",
-                    "Description": "Lists campaigns created since the last run.",
+                    "Name": "List Task Statuses",
+                    "Description": "Lists the options for task statuses.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Update Campaign",
-                    "Description": "Updates a campaign.",
+                    "Name": "List New Tasks",
+                    "Description": "Lists tasks created since the last run.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Create Campaign",
-                    "Description": "Creates a campaign.",
+                    "Name": "List Task Priorities",
+                    "Description": "Lists the options for task priorities.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Get Campaign",
-                    "Description": "Gets a campaign by ID.",
+                    "Name": "List Updated Tasks",
+                    "Description": "Lists tasks created or modified since the last run.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "List Campaigns",
-                    "Description": "Lists campaigns.",
+                    "Name": "Get Task",
+                    "Description": "Gets a task by ID.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Delete Campaign",
-                    "Description": "Deletes a campaign.",
+                    "Name": "Create Task",
+                    "Description": "Creates a new task.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Upsert Campaign",
-                    "Description": "Creates a new campaign or updates an existing campaign based on an external ID. Setup is required, details can be found @ docs.cyclr.com/salesforce-upsert-setup",
+                    "Name": "Update Task",
+                    "Description": "Updates a task.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "List Updated Campaigns",
-                    "Description": "Lists campaigns created or modified since the last run.",
+                    "Name": "Delete Task",
+                    "Description": "Deletes a task.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "If Exists: Campaign",
-                    "Description": "Gets a campaign by ID and returns along a true path if it exists.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Campaign By Name",
-                    "Description": "Gets a campaign by name.",
+                    "Name": "List Tasks",
+                    "Description": "Lists all tasks.",
                     "MethodType": "Action"
                 }
             ]
         },
         {
-            "Category": "Leads",
+            "Category": "Record Types",
             "Methods": [
                 {
-                    "Name": "Get Lead",
-                    "Description": "Gets a lead by ID.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Create Lead",
-                    "Description": "Creates a new lead.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Delete Lead",
-                    "Description": "Deletes a lead.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Leads",
-                    "Description": "Lists all leads.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Updated Leads",
-                    "Description": "Lists leads created or modified since the last run.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List New Leads",
-                    "Description": "Lists leads created since the last run.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Upsert Lead",
-                    "Description": "Creates a new lead or updates an existing lead based on an external ID. Setup is required, details can be found @ docs.cyclr.com/salesforce-upsert-setup",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Leads By Email",
-                    "Description": "Lists leads with the specified email address.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Updated Leads By Owner ID",
-                    "Description": "Lists leads created or modified since the last run for a specific owner account.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Update Lead",
-                    "Description": "Updates an existing lead.",
+                    "Name": "Get Record Type",
+                    "Description": "Gets an record type by ID.",
                     "MethodType": "Action"
                 }
             ]
         },
         {
-            "Category": "Enhanced Notes",
+            "Category": "Opportunities",
             "Methods": [
                 {
-                    "Name": "Create Enhanced Note",
-                    "Description": "Creates an \"enhanced\" note as displayed by the \"Notes\" Related List in Salesforce.",
+                    "Name": "List Opportunities",
+                    "Description": "Lists all opportunities.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Opportunity Stages",
+                    "Description": "Lists the possible stages for an opportunity in Salesforce.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Opportunity",
+                    "Description": "Creates a new opportunity or updates an existing opportunity based on an external ID. Setup is required, details can be found @ docs.cyclr.com/salesforce-upsert-setup",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Opportunity And List Line Items",
+                    "Description": "Composite request. Updates an opportunity and returns it's line items.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Opportunity's Activity History",
+                    "Description": "Retrieves activity history for the specified opportunity.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Opportunity",
+                    "Description": "Gets an opportunity by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Opportunities",
+                    "Description": "Lists the opportunities created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Opportunity",
+                    "Description": "Deletes an opportunity.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Opportunity",
+                    "Description": "Updates information about an opportunity which would represent a sale or pending deal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Opportunities",
+                    "Description": "Lists the opportunities created or modified since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Opportunity",
+                    "Description": "Creates an opportunity.",
                     "MethodType": "Action"
                 }
             ]
         },
         {
-            "Category": "Currency Type",
+            "Category": "Divisions",
             "Methods": [
                 {
-                    "Name": "List Corporate Currencies",
-                    "Description": "Lists the currencies used by an organization for which the multicurrency feature is enabled.",
+                    "Name": "List Divisions",
+                    "Description": "Lists divisions from Salesforce.",
                     "MethodType": "Action"
                 }
             ]
@@ -300,116 +335,6 @@
             ]
         },
         {
-            "Category": "Opportunities",
-            "Methods": [
-                {
-                    "Name": "List Updated Opportunities",
-                    "Description": "Lists the opportunities created or modified since the last run.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Create Opportunity",
-                    "Description": "Creates an opportunity.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Update Opportunity",
-                    "Description": "Updates information about an opportunity which would represent a sale or pending deal.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Delete Opportunity",
-                    "Description": "Deletes an opportunity.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List New Opportunities",
-                    "Description": "Lists the opportunities created since the last run.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Opportunities",
-                    "Description": "Lists all opportunities.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Opportunity Stages",
-                    "Description": "Lists the possible stages for an opportunity in Salesforce.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Upsert Opportunity",
-                    "Description": "Creates a new opportunity or updates an existing opportunity based on an external ID. Setup is required, details can be found @ docs.cyclr.com/salesforce-upsert-setup",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Update Opportunity And List Line Items",
-                    "Description": "Composite request. Updates an opportunity and returns it's line items.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Opportunity's Activity History",
-                    "Description": "Retrieves activity history for the specified opportunity.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Opportunity",
-                    "Description": "Gets an opportunity by ID.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Divisions",
-            "Methods": [
-                {
-                    "Name": "List Divisions",
-                    "Description": "Lists divisions from Salesforce.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Notes",
-            "Methods": [
-                {
-                    "Name": "Get Note",
-                    "Description": "Gets a note by ID.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List New Notes",
-                    "Description": "Lists notes created since the last run.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Notes",
-                    "Description": "Lists notes from this Salesforce account.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Update Note",
-                    "Description": "Updates a note.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Create Note",
-                    "Description": "Creates a new note.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Updated Notes",
-                    "Description": "Lists notes created or modified since the last run.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Delete Note",
-                    "Description": "Deletes a note.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
             "Category": "Login History",
             "Methods": [
                 {
@@ -420,66 +345,141 @@
             ]
         },
         {
-            "Category": "Webhooks",
+            "Category": "Outbound Messages",
             "Methods": [
                 {
-                    "Name": "Opportunity Created",
-                    "Description": "Triggered when an opportunity is created.",
-                    "MethodType": "Webhook"
-                },
-                {
-                    "Name": "Contact Updated",
-                    "Description": "Triggered when a contact is updated.",
-                    "MethodType": "Webhook"
-                },
-                {
-                    "Name": "Lead Created",
-                    "Description": "Triggered when a lead is created.",
-                    "MethodType": "Webhook"
-                },
-                {
-                    "Name": "Lead Updated",
-                    "Description": "Triggered when a lead is updated.",
-                    "MethodType": "Webhook"
-                },
-                {
-                    "Name": "Contact Created",
-                    "Description": "Triggered when a contact is created.",
-                    "MethodType": "Webhook"
-                },
-                {
-                    "Name": "Opportunity Updated",
-                    "Description": "Triggered when an opportunity is updated.",
-                    "MethodType": "Webhook"
+                    "Name": "Outbound Message Response",
+                    "Description": "Send a response to an outbound message from Salesforce.  Set Result to \"true\"/\"false\" to send a success/failure response back to SF.",
+                    "MethodType": "WebhookResponse"
                 }
             ]
         },
         {
-            "Category": "SOQL Query",
+            "Category": "Events",
             "Methods": [
                 {
-                    "Name": "Execute SOQL Query",
-                    "Description": "This method allows user the capability to query any data in SalesForce.",
+                    "Name": "Get Event",
+                    "Description": "Gets an event by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Event",
+                    "Description": "Creates a new event.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Event",
+                    "Description": "Updates an existing event.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Event",
+                    "Description": "Deletes an event.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Events",
+                    "Description": "Lists events created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Events",
+                    "Description": "Lists events from this Salesforce account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Events",
+                    "Description": "Lists events created or modified since the last run.",
                     "MethodType": "Action"
                 }
             ]
         },
         {
-            "Category": "Assets",
+            "Category": "Leads",
             "Methods": [
                 {
-                    "Name": "List Assets",
-                    "Description": "List assets from Salesforce.",
+                    "Name": "Get Lead",
+                    "Description": "Gets a lead by ID.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Create Asset",
-                    "Description": "Creates a new asset. An asset represents an item of commercial value, such as a product sold by your company or a competitor, that a customer has purchased.",
+                    "Name": "Create Lead",
+                    "Description": "Creates a new lead.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Upsert Asset",
-                    "Description": "Creates a new asset or updates an existing asset based on an external ID. Setup is required, details can be found @ docs.cyclr.com/salesforce-upsert-setup",
+                    "Name": "Update Lead",
+                    "Description": "Updates an existing lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Lead",
+                    "Description": "Deletes a lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Leads",
+                    "Description": "Lists all leads.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Leads",
+                    "Description": "Lists leads created or modified since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Leads",
+                    "Description": "Lists leads created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Lead",
+                    "Description": "Creates a new lead or updates an existing lead based on an external ID. Setup is required, details can be found @ docs.cyclr.com/salesforce-upsert-setup",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Leads By Email",
+                    "Description": "Lists leads with the specified email address.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Leads By Owner ID",
+                    "Description": "Lists leads created or modified since the last run for a specific owner account.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Campaign Members",
+            "Methods": [
+                {
+                    "Name": "List Campaign Members",
+                    "Description": "Lists campaign members.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Campaign Member",
+                    "Description": "Updates a campaign member.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Campaign Member",
+                    "Description": "Deletes a campaign member.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Campaign Member",
+                    "Description": "Creates a new campaign member.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Campaign Member",
+                    "Description": "Creates a new campaign member or updates an existing campaign member based on an external ID. Setup is required, details can be found @ docs.cyclr.com/salesforce-upsert-setup",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Campaign Member",
+                    "Description": "Gets a campaign member by ID.",
                     "MethodType": "Action"
                 }
             ]
@@ -488,18 +488,8 @@
             "Category": "User Roles",
             "Methods": [
                 {
-                    "Name": "Update User Role",
-                    "Description": "Updates an existing user role.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Create User Role",
-                    "Description": "Creates a new user role.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get User Role",
-                    "Description": "Gets a user role by ID.",
+                    "Name": "Delete User Role",
+                    "Description": "Deletes a user role.",
                     "MethodType": "Action"
                 },
                 {
@@ -508,8 +498,163 @@
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Delete User Role",
-                    "Description": "Deletes a user role.",
+                    "Name": "Get User Role",
+                    "Description": "Gets a user role by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create User Role",
+                    "Description": "Creates a new user role.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update User Role",
+                    "Description": "Updates an existing user role.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Pricebooks",
+            "Methods": [
+                {
+                    "Name": "Get Pricebook Entry",
+                    "Description": "Gets a pricebook entry.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Pricebook Entries",
+                    "Description": "Lists entries to a specified pricebook.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Pricebooks",
+                    "Description": "Lists all pricebooks.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Search",
+            "Methods": [
+                {
+                    "Name": "Search ",
+                    "Description": "Execute a SOSL search on all requested data.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Campaign Member Status",
+            "Methods": [
+                {
+                    "Name": "List Campaign Member Statuses",
+                    "Description": "Lists campaign member statuses.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Campaign Member Status",
+                    "Description": "Creates a campaign member status.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Campaign Member Status",
+                    "Description": "Updates a campaign member status. Only allows for the order of the status to be changed in the picklist.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Campaign Member Status",
+                    "Description": "Deletes a campaign member status.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "Upsert Contact",
+                    "Description": "Creates a new contact or updates an existing contact based on an external ID. Setup is required, details can be found @ docs.cyclr.com/salesforce-upsert-setup.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Bulk Update Contacts",
+                    "Description": "Updates a batch of contacts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Bulk Create Contacts",
+                    "Description": "Creates a batch of new contacts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Contacts by Owner ID",
+                    "Description": "Lists contacts created since the last run filtered by Owner ID. (Do not use Additional Custom Conditions as they are solved in script for this method).",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact(s) By Mobile Number",
+                    "Description": "Gets the contact(s) with the specified mobile number.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Contact",
+                    "Description": "Creates a new contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contacts By Owner ID",
+                    "Description": "Lists all contacts by owner ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Contact Exists For ID",
+                    "Description": "Checks if a contact exists with the specified ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Contact Exists For Email Address",
+                    "Description": "Checks whether any contacts exist for the specified email address.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact",
+                    "Description": "Gets the contact with the specified ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Contacts",
+                    "Description": "Lists contacts created, modified or deleted since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contacts",
+                    "Description": "Lists all contacts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact(s) By Email",
+                    "Description": "Gets the contact(s) with the specified email address.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Contacts",
+                    "Description": "Lists contacts created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Contact",
+                    "Description": "Deletes a contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact ID",
+                    "Description": "Gets the Contact ID associated with the specified email address.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Contact",
+                    "Description": "Updates a contact's details.",
                     "MethodType": "Action"
                 }
             ]
@@ -517,6 +662,11 @@
         {
             "Category": "Opportunity Line Items",
             "Methods": [
+                {
+                    "Name": "Create Line Item",
+                    "Description": "Creates a new opportunity line item.",
+                    "MethodType": "Action"
+                },
                 {
                     "Name": "Get Line Item",
                     "Description": "Get line item for an opportunity by ID.",
@@ -533,6 +683,11 @@
                     "MethodType": "Action"
                 },
                 {
+                    "Name": "Delete Line Item",
+                    "Description": "Deletes an opportunity line item.",
+                    "MethodType": "Action"
+                },
+                {
                     "Name": "List New Line Items",
                     "Description": "Lists opportunity line items created since the last run.",
                     "MethodType": "Action"
@@ -540,16 +695,6 @@
                 {
                     "Name": "Update Line Item",
                     "Description": "Updates an opportunity line item.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Create Line Item",
-                    "Description": "Creates a new opportunity line item.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Delete Line Item",
-                    "Description": "Deletes an opportunity line item.",
                     "MethodType": "Action"
                 }
             ]
@@ -595,103 +740,8 @@
             ]
         },
         {
-            "Category": "Campaign Member Status",
-            "Methods": [
-                {
-                    "Name": "Update Campaign Member Status",
-                    "Description": "Updates a campaign member status. Only allows for the order of the status to be changed in the picklist.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Delete Campaign Member Status",
-                    "Description": "Deletes a campaign member status.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Create Campaign Member Status",
-                    "Description": "Creates a campaign member status.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Campaign Member Statuses",
-                    "Description": "Lists campaign member statuses.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Events",
-            "Methods": [
-                {
-                    "Name": "Update Event",
-                    "Description": "Updates an existing event.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Create Event",
-                    "Description": "Creates a new event.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Event",
-                    "Description": "Gets an event by ID.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Delete Event",
-                    "Description": "Deletes an event.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List New Events",
-                    "Description": "Lists events created since the last run.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Events",
-                    "Description": "Lists events from this Salesforce account.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Updated Events",
-                    "Description": "Lists events created or modified since the last run.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Pricebooks",
-            "Methods": [
-                {
-                    "Name": "Get Pricebook Entry",
-                    "Description": "Gets a pricebook entry.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Pricebook Entries",
-                    "Description": "Lists entries to a specified pricebook.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Pricebooks",
-                    "Description": "Lists all pricebooks.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
             "Category": "Cases",
             "Methods": [
-                {
-                    "Name": "List Updated Cases",
-                    "Description": "Lists cases created or modified since the last run.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List New Cases",
-                    "Description": "Lists cases created since the last run.",
-                    "MethodType": "Action"
-                },
                 {
                     "Name": "Update Case",
                     "Description": "Updates a case.",
@@ -723,10 +773,38 @@
                     "MethodType": "Action"
                 },
                 {
+                    "Name": "List New Cases",
+                    "Description": "Lists cases created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Cases",
+                    "Description": "Lists cases created or modified since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Case Comments By Case ID",
+                    "Description": "Lists the comments of the specified case.",
+                    "MethodType": "Action",
+                    "Subcategory": "Case Comments"
+                },
+                {
                     "Name": "List Updated Case Comments By Case ID",
                     "Description": "Lists the comments of the specified case updated since the last run.",
                     "MethodType": "Action",
                     "Subcategory": "Case Comments"
+                },
+                {
+                    "Name": "List New Case Comments By Case ID",
+                    "Description": "Lists the comments of the specified case created since the last run.",
+                    "MethodType": "Action",
+                    "Subcategory": "Case Comments"
+                },
+                {
+                    "Name": "List New Case History By Case ID",
+                    "Description": "Lists the history of the specified case since the last run.",
+                    "MethodType": "Action",
+                    "Subcategory": "Case History"
                 },
                 {
                     "Name": "List Case Comments",
@@ -735,10 +813,10 @@
                     "Subcategory": "Case Comments"
                 },
                 {
-                    "Name": "List Updated Case Comments",
-                    "Description": "Lists the comments of all cases updated since the last run.",
+                    "Name": "List Case History",
+                    "Description": "Lists the history of all cases.",
                     "MethodType": "Action",
-                    "Subcategory": "Case Comments"
+                    "Subcategory": "Case History"
                 },
                 {
                     "Name": "List New Case Comments",
@@ -759,8 +837,14 @@
                     "Subcategory": "Case Feed"
                 },
                 {
-                    "Name": "List Case Feed By Case ID",
-                    "Description": "Lists the feed of the specified case.",
+                    "Name": "List Updated Case Comments",
+                    "Description": "Lists the comments of all cases updated since the last run.",
+                    "MethodType": "Action",
+                    "Subcategory": "Case Comments"
+                },
+                {
+                    "Name": "List New Case Feed",
+                    "Description": "Lists the feed of all cases created since the last run.",
                     "MethodType": "Action",
                     "Subcategory": "Case Feed"
                 },
@@ -789,43 +873,19 @@
                     "Subcategory": "Case History"
                 },
                 {
-                    "Name": "List New Case History By Case ID",
-                    "Description": "Lists the history of the specified case since the last run.",
-                    "MethodType": "Action",
-                    "Subcategory": "Case History"
-                },
-                {
-                    "Name": "List Case History",
-                    "Description": "Lists the history of all cases.",
-                    "MethodType": "Action",
-                    "Subcategory": "Case History"
-                },
-                {
-                    "Name": "List New Case Feed",
-                    "Description": "Lists the feed of all cases created since the last run.",
+                    "Name": "List Case Feed By Case ID",
+                    "Description": "Lists the feed of the specified case.",
                     "MethodType": "Action",
                     "Subcategory": "Case Feed"
-                },
-                {
-                    "Name": "List Case Comments By Case ID",
-                    "Description": "Lists the comments of the specified case.",
-                    "MethodType": "Action",
-                    "Subcategory": "Case Comments"
-                },
-                {
-                    "Name": "List New Case Comments By Case ID",
-                    "Description": "Lists the comments of the specified case created since the last run.",
-                    "MethodType": "Action",
-                    "Subcategory": "Case Comments"
                 }
             ]
         },
         {
-            "Category": "Search",
+            "Category": "Locations",
             "Methods": [
                 {
-                    "Name": "Search ",
-                    "Description": "Execute a SOSL search on all requested data.",
+                    "Name": "Get Location",
+                    "Description": "Gets a location by ID.",
                     "MethodType": "Action"
                 }
             ]
@@ -906,113 +966,8 @@
             ]
         },
         {
-            "Category": "Contacts",
-            "Methods": [
-                {
-                    "Name": "Bulk Update Contacts",
-                    "Description": "Updates a batch of contacts.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Upsert Contact",
-                    "Description": "Creates a new contact or updates an existing contact based on an external ID. Setup is required, details can be found @ docs.cyclr.com/salesforce-upsert-setup.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Contact(s) By Mobile Number",
-                    "Description": "Gets the contact(s) with the specified mobile number.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Update Contact",
-                    "Description": "Updates a contact's details.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Contact ID",
-                    "Description": "Gets the Contact ID associated with the specified email address.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Delete Contact",
-                    "Description": "Deletes a contact.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Contact Exists For ID",
-                    "Description": "Checks if a contact exists with the specified ID.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Contact Exists For Email Address",
-                    "Description": "Checks whether any contacts exist for the specified email address.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Contact",
-                    "Description": "Gets the contact with the specified ID.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Updated Contacts",
-                    "Description": "Lists contacts created, modified or deleted since the last run.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Contacts",
-                    "Description": "Lists all contacts.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Contact(s) By Email",
-                    "Description": "Gets the contact(s) with the specified email address.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Create Contact",
-                    "Description": "Creates a new contact.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Bulk Create Contacts",
-                    "Description": "Creates a batch of new contacts.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List New Contacts by Owner ID",
-                    "Description": "Lists contacts created since the last run filtered by Owner ID. (Do not use Additional Custom Conditions as they are solved in script for this method).",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Contacts By Owner ID",
-                    "Description": "Lists all contacts by owner ID.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List New Contacts",
-                    "Description": "Lists contacts created since the last run.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
             "Category": "Attachments",
             "Methods": [
-                {
-                    "Name": "List Attachments",
-                    "Description": "Lists attachments from this Salesforce account.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Update Attachment",
-                    "Description": "Updates an attachment.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Delete Attachment",
-                    "Description": "Deletes an attachment.",
-                    "MethodType": "Action"
-                },
                 {
                     "Name": "List New Attachments",
                     "Description": "Lists attachments created since the last run.",
@@ -1029,83 +984,23 @@
                     "MethodType": "Action"
                 },
                 {
+                    "Name": "Delete Attachment",
+                    "Description": "Deletes an attachment.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Attachment",
+                    "Description": "Updates an attachment.",
+                    "MethodType": "Action"
+                },
+                {
                     "Name": "Get Attachment",
                     "Description": "Gets an attachment by ID.",
                     "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Locations",
-            "Methods": [
-                {
-                    "Name": "Get Location",
-                    "Description": "Gets a location by ID.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Opportunity Contact Roles",
-            "Methods": [
-                {
-                    "Name": "Delete Opportunity Role",
-                    "Description": "Deletes an opportunity contact role.",
-                    "MethodType": "Action"
                 },
                 {
-                    "Name": "List Roles By Opportunity",
-                    "Description": "Lists opportunity contact roles for a specified opportunity.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List New Opportunity Roles",
-                    "Description": "Lists opportunity contact roles created since the last run.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Opportunity Role",
-                    "Description": "Gets an opportunity contact role by ID.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Add Contact To Opportunity",
-                    "Description": "Adds an existing contact to an opportunity.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Create Opportunity Role",
-                    "Description": "Creates a new opportunity contact role.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Opportunity Roles",
-                    "Description": "Lists opportunity contact roles.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Update Opportunity Role",
-                    "Description": "Updates an opportunity contact role.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Primary Opportunity Role",
-                    "Description": "Gets the primary contact role for an opportunity. If no primary contact role is set, returns the first contact role if any were found.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Updated Opportunity Roles",
-                    "Description": "Lists opportunity contact roles created or modified since the last run.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Record Types",
-            "Methods": [
-                {
-                    "Name": "Get Record Type",
-                    "Description": "Gets an record type by ID.",
+                    "Name": "List Attachments",
+                    "Description": "Lists attachments from this Salesforce account.",
                     "MethodType": "Action"
                 }
             ]
@@ -1114,11 +1009,6 @@
             "Category": "Accounts",
             "Methods": [
                 {
-                    "Name": "Get Account",
-                    "Description": "Gets an account by ID.",
-                    "MethodType": "Action"
-                },
-                {
                     "Name": "List Accounts By Custom Field",
                     "Description": "Lists accounts by a custom field, where <Field> equals <Criteria>.",
                     "MethodType": "Action"
@@ -1126,6 +1016,11 @@
                 {
                     "Name": "List Updated Accounts",
                     "Description": "Lists accounts created or modified since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Account",
+                    "Description": "Creates a new account or updates an existing account based on an external ID. Setup is required, details can be found @ docs.cyclr.com/salesforce-upsert-setup",
                     "MethodType": "Action"
                 },
                 {
@@ -1169,33 +1064,138 @@
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Upsert Account",
-                    "Description": "Creates a new account or updates an existing account based on an external ID. Setup is required, details can be found @ docs.cyclr.com/salesforce-upsert-setup",
+                    "Name": "Get Account",
+                    "Description": "Gets an account by ID.",
                     "MethodType": "Action"
                 }
             ]
         },
         {
-            "Category": "Order Items",
+            "Category": "Opportunity Contact Roles",
             "Methods": [
                 {
-                    "Name": "List Order Items",
-                    "Description": "Lists order items from Salesforce.",
+                    "Name": "List Roles By Opportunity",
+                    "Description": "Lists opportunity contact roles for a specified opportunity.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Get Order Item",
-                    "Description": "Gets an order item by ID.",
+                    "Name": "List New Opportunity Roles",
+                    "Description": "Lists opportunity contact roles created since the last run.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "List Updated Order Items",
-                    "Description": "Lists order items created or modified since the last run.",
+                    "Name": "Get Opportunity Role",
+                    "Description": "Gets an opportunity contact role by ID.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "List New Order Items",
-                    "Description": "Lists order items created since the last run.",
+                    "Name": "Delete Opportunity Role",
+                    "Description": "Deletes an opportunity contact role.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Opportunity Role",
+                    "Description": "Creates a new opportunity contact role.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Contact To Opportunity",
+                    "Description": "Adds an existing contact to an opportunity.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Opportunity Roles",
+                    "Description": "Lists opportunity contact roles.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Opportunity Role",
+                    "Description": "Updates an opportunity contact role.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Primary Opportunity Role",
+                    "Description": "Gets the primary contact role for an opportunity. If no primary contact role is set, returns the first contact role if any were found.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Opportunity Roles",
+                    "Description": "Lists opportunity contact roles created or modified since the last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Webhooks",
+            "Methods": [
+                {
+                    "Name": "Contact Created",
+                    "Description": "Triggered when a contact is created.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Lead Updated",
+                    "Description": "Triggered when a lead is updated.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Lead Created",
+                    "Description": "Triggered when a lead is created.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Contact Updated",
+                    "Description": "Triggered when a contact is updated.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Opportunity Created",
+                    "Description": "Triggered when an opportunity is created.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Opportunity Updated",
+                    "Description": "Triggered when an opportunity is updated.",
+                    "MethodType": "Webhook"
+                }
+            ]
+        },
+        {
+            "Category": "Currency Type",
+            "Methods": [
+                {
+                    "Name": "List Corporate Currencies",
+                    "Description": "Lists the currencies used by an organization for which the multicurrency feature is enabled.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Enhanced Notes",
+            "Methods": [
+                {
+                    "Name": "Create Enhanced Note",
+                    "Description": "Creates an \"enhanced\" note as displayed by the \"Notes\" Related List in Salesforce.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Assets",
+            "Methods": [
+                {
+                    "Name": "Upsert Asset",
+                    "Description": "Creates a new asset or updates an existing asset based on an external ID. Setup is required, details can be found @ docs.cyclr.com/salesforce-upsert-setup",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Asset",
+                    "Description": "Creates a new asset. An asset represents an item of commercial value, such as a product sold by your company or a competitor, that a customer has purchased.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Assets",
+                    "Description": "List assets from Salesforce.",
                     "MethodType": "Action"
                 }
             ]
@@ -1204,6 +1204,11 @@
             "Category": "Enhanced Objects",
             "Methods": [
                 {
+                    "Name": "List New Records",
+                    "Description": "Retrieves all records created since the last successful run date.",
+                    "MethodType": "Action"
+                },
+                {
                     "Name": "Get Record By ID",
                     "Description": "Retrieves the specified record from the specified object. Custom response fields must be added to retrieve more than just the Record ID.",
                     "MethodType": "Action"
@@ -1211,6 +1216,11 @@
                 {
                     "Name": "Create Record",
                     "Description": "Creates a new record in the specified object. (eg. a new Account record in the Accounts object). Custom request fields must be added for the properties of the record.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Multiple Records",
+                    "Description": "Updates multiple records. Custom request fields must be added for the properties of the record with the syntax [records].PropertyName (eg. [records].hairColour).",
                     "MethodType": "Action"
                 },
                 {
@@ -1229,53 +1239,48 @@
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "List New Records",
-                    "Description": "Retrieves all records created since the last successful run date.",
+                    "Name": "List Updated Records",
+                    "Description": "Retrieves all records updated since the last successful run date.",
                     "MethodType": "Action"
                 },
                 {
                     "Name": "Delete Record",
                     "Description": "Deletes the specified record from the specified object.",
                     "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Order Items",
+            "Methods": [
+                {
+                    "Name": "List New Order Items",
+                    "Description": "Lists order items created since the last run.",
+                    "MethodType": "Action"
                 },
                 {
-                    "Name": "List Updated Records",
-                    "Description": "Retrieves all records updated since the last successful run date.",
+                    "Name": "Get Order Item",
+                    "Description": "Gets an order item by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Order Items",
+                    "Description": "Lists order items created or modified since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Order Items",
+                    "Description": "Lists order items from Salesforce.",
                     "MethodType": "Action"
                 }
             ]
         },
         {
-            "Category": "Campaign Members",
+            "Category": "SOQL Query",
             "Methods": [
                 {
-                    "Name": "List Campaign Members",
-                    "Description": "Lists campaign members.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Update Campaign Member",
-                    "Description": "Updates a campaign member.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Delete Campaign Member",
-                    "Description": "Deletes a campaign member.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Create Campaign Member",
-                    "Description": "Creates a new campaign member.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Campaign Member",
-                    "Description": "Gets a campaign member by ID.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Upsert Campaign Member",
-                    "Description": "Creates a new campaign member or updates an existing campaign member based on an external ID. Setup is required, details can be found @ docs.cyclr.com/salesforce-upsert-setup",
+                    "Name": "Execute SOQL Query",
+                    "Description": "This method allows user the capability to query any data in SalesForce.",
                     "MethodType": "Action"
                 }
             ]
@@ -1284,10 +1289,142 @@
             "Category": "Custom Objects",
             "Methods": [
                 {
+                    "Name": "List New Records 2",
+                    "Description": "Retrieves the specified object's records created since the last time this action was executed.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 2"
+                },
+                {
+                    "Name": "Delete Record 2",
+                    "Description": "Deletes the specified record from the specified object.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 2"
+                },
+                {
+                    "Name": "Create Record 2",
+                    "Description": "Creates a new record in the specified object. (eg. a new Account record in the Accounts object). Custom request fields must be added for the properties of the record.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 2"
+                },
+                {
+                    "Name": "Update Record 2",
+                    "Description": "Updates the specified record in the specified object. Custom request fields must be added for the properties of the record.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 2"
+                },
+                {
+                    "Name": "Get Record By Custom Condition 2",
+                    "Description": "Retrieves a single record from the specified object based on a custom condition. If multiple matching records are found, only the first is returned.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 2"
+                },
+                {
+                    "Name": "Get Record By Custom Condition 3",
+                    "Description": "Retrieves a single record from the specified object based on a custom condition. If multiple matching records are found, only the first is returned.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 3"
+                },
+                {
+                    "Name": "Get Record By ID 3",
+                    "Description": "Retrieves the specified record from the specified object. Custom response fields must be added to retrieve more than just the Record ID.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 3"
+                },
+                {
+                    "Name": "Create Record 3",
+                    "Description": "Creates a new record in the specified object. (eg. a new Account record in the Accounts object). Custom request fields must be added for the properties of the record.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 3"
+                },
+                {
+                    "Name": "Upsert Record  3",
+                    "Description": "Creates a new record or updates an existing record based on an External ID. Setup is required, details can be found @ docs.cyclr.com/salesforce-upsert-setup. Custom request fields must be added for the properties of the record.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 3"
+                },
+                {
+                    "Name": "Get External ID Field 3",
+                    "Description": "Retrieves the field set as the External ID for the specified object, if an External ID has been configured.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 3"
+                },
+                {
+                    "Name": "List New Records 3",
+                    "Description": "Retrieves the specified object's records created since the last time this action was executed.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 3"
+                },
+                {
+                    "Name": "List Records 3",
+                    "Description": "Retrieves all records from the specified object.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 3"
+                },
+                {
+                    "Name": "Update Record 3",
+                    "Description": "Updates the specified record in the specified object. Custom request fields must be added for the properties of the record.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 3"
+                },
+                {
                     "Name": "Create Multiple Records 3",
                     "Description": "Creates multiple records. Custom request fields must be added for the properties of the record with the syntax [records].PropertyName (eg. [records].hairColour).",
                     "MethodType": "Action",
                     "Subcategory": "Object 3"
+                },
+                {
+                    "Name": "List Updated Records 3",
+                    "Description": "Retrieves the specified object's records updated since the last time this action was executed.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 3"
+                },
+                {
+                    "Name": "Delete Record 3",
+                    "Description": "Deletes the specified record from the specified object.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 3"
+                },
+                {
+                    "Name": "List Records 2",
+                    "Description": "Retrieves all records from the specified object.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 2"
+                },
+                {
+                    "Name": "Get External ID Field 1",
+                    "Description": "Retrieves the field set as the External ID for the specified object, if an External ID has been configured.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 1"
+                },
+                {
+                    "Name": "List Updated Records 2",
+                    "Description": "Retrieves the specified object's records updated since the last time this action was executed.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 2"
+                },
+                {
+                    "Name": "Get Record By ID 2",
+                    "Description": "Retrieves the specified record from the specified object. Custom response fields must be added to retrieve more than just the Record ID.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 2"
+                },
+                {
+                    "Name": "Upsert Record 2",
+                    "Description": "Creates a new record or updates an existing record based on an External ID. Setup is required, details can be found @ docs.cyclr.com/salesforce-upsert-setup. Custom request fields must be added for the properties of the record.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 2"
+                },
+                {
+                    "Name": "Create Multiple Records 2",
+                    "Description": "Creates multiple records. Custom request fields must be added for the properties of the record with the syntax [records].PropertyName (eg. [records].hairColour).",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 2"
+                },
+                {
+                    "Name": "Get External ID Field 2",
+                    "Description": "Retrieves the field set as the External ID for the specified object, if an External ID has been configured.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 2"
                 },
                 {
                     "Name": "List Objects",
@@ -1338,12 +1475,6 @@
                     "Subcategory": "Object 1"
                 },
                 {
-                    "Name": "Update Record 1",
-                    "Description": "Updates the specified record in the specified object. Custom request fields must be added for the properties of the record.",
-                    "MethodType": "Action",
-                    "Subcategory": "Object 1"
-                },
-                {
                     "Name": "Upsert Record  1",
                     "Description": "Creates a new record or updates an existing record based on an External ID. Setup is required, details can be found @ docs.cyclr.com/salesforce-upsert-setup. Custom request fields must be added for the properties of the record.",
                     "MethodType": "Action",
@@ -1354,18 +1485,6 @@
                     "Description": "Retrieves all records from the specified object.",
                     "MethodType": "Action",
                     "Subcategory": "Object 1"
-                },
-                {
-                    "Name": "Get External ID Field 2",
-                    "Description": "Retrieves the field set as the External ID for the specified object, if an External ID has been configured.",
-                    "MethodType": "Action",
-                    "Subcategory": "Object 2"
-                },
-                {
-                    "Name": "List Updated Records 3",
-                    "Description": "Retrieves the specified object's records updated since the last time this action was executed.",
-                    "MethodType": "Action",
-                    "Subcategory": "Object 3"
                 },
                 {
                     "Name": "Delete Record 1",
@@ -1380,124 +1499,10 @@
                     "Subcategory": "Object 1"
                 },
                 {
-                    "Name": "Get External ID Field 1",
-                    "Description": "Retrieves the field set as the External ID for the specified object, if an External ID has been configured.",
+                    "Name": "Update Record 1",
+                    "Description": "Updates the specified record in the specified object. Custom request fields must be added for the properties of the record.",
                     "MethodType": "Action",
                     "Subcategory": "Object 1"
-                },
-                {
-                    "Name": "List New Records 2",
-                    "Description": "Retrieves the specified object's records created since the last time this action was executed.",
-                    "MethodType": "Action",
-                    "Subcategory": "Object 2"
-                },
-                {
-                    "Name": "Get Record By ID 2",
-                    "Description": "Retrieves the specified record from the specified object. Custom response fields must be added to retrieve more than just the Record ID.",
-                    "MethodType": "Action",
-                    "Subcategory": "Object 2"
-                },
-                {
-                    "Name": "Upsert Record 2",
-                    "Description": "Creates a new record or updates an existing record based on an External ID. Setup is required, details can be found @ docs.cyclr.com/salesforce-upsert-setup. Custom request fields must be added for the properties of the record.",
-                    "MethodType": "Action",
-                    "Subcategory": "Object 2"
-                },
-                {
-                    "Name": "Create Multiple Records 2",
-                    "Description": "Creates multiple records. Custom request fields must be added for the properties of the record with the syntax [records].PropertyName (eg. [records].hairColour).",
-                    "MethodType": "Action",
-                    "Subcategory": "Object 2"
-                },
-                {
-                    "Name": "Update Record 3",
-                    "Description": "Updates the specified record in the specified object. Custom request fields must be added for the properties of the record.",
-                    "MethodType": "Action",
-                    "Subcategory": "Object 3"
-                },
-                {
-                    "Name": "List Updated Records 2",
-                    "Description": "Retrieves the specified object's records updated since the last time this action was executed.",
-                    "MethodType": "Action",
-                    "Subcategory": "Object 2"
-                },
-                {
-                    "Name": "List Records 2",
-                    "Description": "Retrieves all records from the specified object.",
-                    "MethodType": "Action",
-                    "Subcategory": "Object 2"
-                },
-                {
-                    "Name": "Delete Record 2",
-                    "Description": "Deletes the specified record from the specified object.",
-                    "MethodType": "Action",
-                    "Subcategory": "Object 2"
-                },
-                {
-                    "Name": "Create Record 2",
-                    "Description": "Creates a new record in the specified object. (eg. a new Account record in the Accounts object). Custom request fields must be added for the properties of the record.",
-                    "MethodType": "Action",
-                    "Subcategory": "Object 2"
-                },
-                {
-                    "Name": "Delete Record 3",
-                    "Description": "Deletes the specified record from the specified object.",
-                    "MethodType": "Action",
-                    "Subcategory": "Object 3"
-                },
-                {
-                    "Name": "Get Record By Custom Condition 2",
-                    "Description": "Retrieves a single record from the specified object based on a custom condition. If multiple matching records are found, only the first is returned.",
-                    "MethodType": "Action",
-                    "Subcategory": "Object 2"
-                },
-                {
-                    "Name": "Update Record 2",
-                    "Description": "Updates the specified record in the specified object. Custom request fields must be added for the properties of the record.",
-                    "MethodType": "Action",
-                    "Subcategory": "Object 2"
-                },
-                {
-                    "Name": "Get Record By ID 3",
-                    "Description": "Retrieves the specified record from the specified object. Custom response fields must be added to retrieve more than just the Record ID.",
-                    "MethodType": "Action",
-                    "Subcategory": "Object 3"
-                },
-                {
-                    "Name": "Create Record 3",
-                    "Description": "Creates a new record in the specified object. (eg. a new Account record in the Accounts object). Custom request fields must be added for the properties of the record.",
-                    "MethodType": "Action",
-                    "Subcategory": "Object 3"
-                },
-                {
-                    "Name": "Upsert Record  3",
-                    "Description": "Creates a new record or updates an existing record based on an External ID. Setup is required, details can be found @ docs.cyclr.com/salesforce-upsert-setup. Custom request fields must be added for the properties of the record.",
-                    "MethodType": "Action",
-                    "Subcategory": "Object 3"
-                },
-                {
-                    "Name": "Get External ID Field 3",
-                    "Description": "Retrieves the field set as the External ID for the specified object, if an External ID has been configured.",
-                    "MethodType": "Action",
-                    "Subcategory": "Object 3"
-                },
-                {
-                    "Name": "List New Records 3",
-                    "Description": "Retrieves the specified object's records created since the last time this action was executed.",
-                    "MethodType": "Action",
-                    "Subcategory": "Object 3"
-                },
-                {
-                    "Name": "List Records 3",
-                    "Description": "Retrieves all records from the specified object.",
-                    "MethodType": "Action",
-                    "Subcategory": "Object 3"
-                },
-                {
-                    "Name": "Get Record By Custom Condition 3",
-                    "Description": "Retrieves a single record from the specified object based on a custom condition. If multiple matching records are found, only the first is returned.",
-                    "MethodType": "Action",
-                    "Subcategory": "Object 3"
                 }
             ]
         },
@@ -1507,6 +1512,69 @@
                 {
                     "Name": "List Language Options",
                     "Description": "Describes the options for the LanguageLocaleKey.",
+                    "MethodType": "Action",
+                    "Subcategory": "Picklists"
+                },
+                {
+                    "Name": "List User Licenses",
+                    "Description": "Lists the currently defined user licenses in your organization.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get User License By Name",
+                    "Description": "Get the details of the User License specified by name.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Self",
+                    "Description": "Gets the current user's profile information.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create User",
+                    "Description": "Creates a new user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete User",
+                    "Description": "Deletes a User.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get User",
+                    "Description": "Gets a user by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update User",
+                    "Description": "Update a user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get User By Name",
+                    "Description": "Gets a user by FullName.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Users",
+                    "Description": "Lists all users.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Profile ID By Name",
+                    "Description": "Gets a profile by name.",
+                    "MethodType": "Action",
+                    "Subcategory": "Profiles"
+                },
+                {
+                    "Name": "List Profiles",
+                    "Description": "Lists all profiles.",
+                    "MethodType": "Action",
+                    "Subcategory": "Profiles"
+                },
+                {
+                    "Name": "List Time Zone Options",
+                    "Description": "Describes the options for the TimeZoneSid.",
                     "MethodType": "Action",
                     "Subcategory": "Picklists"
                 },
@@ -1521,69 +1589,6 @@
                     "Description": "Describes the options for the LocaleSidKey.",
                     "MethodType": "Action",
                     "Subcategory": "Picklists"
-                },
-                {
-                    "Name": "List Time Zone Options",
-                    "Description": "Describes the options for the TimeZoneSid.",
-                    "MethodType": "Action",
-                    "Subcategory": "Picklists"
-                },
-                {
-                    "Name": "Get User By Name",
-                    "Description": "Gets a user by FullName.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Update User",
-                    "Description": "Update a user.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get User",
-                    "Description": "Gets a user by ID.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Delete User",
-                    "Description": "Deletes a User.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Create User",
-                    "Description": "Creates a new user.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Self",
-                    "Description": "Gets the current user's profile information.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get User License By Name",
-                    "Description": "Get the details of the User License specified by name.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List User Licenses",
-                    "Description": "Lists the currently defined user licenses in your organization.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Profiles",
-                    "Description": "Lists all profiles.",
-                    "MethodType": "Action",
-                    "Subcategory": "Profiles"
-                },
-                {
-                    "Name": "Get Profile ID By Name",
-                    "Description": "Gets a profile by name.",
-                    "MethodType": "Action",
-                    "Subcategory": "Profiles"
-                },
-                {
-                    "Name": "List Users",
-                    "Description": "Lists all users.",
-                    "MethodType": "Action"
                 }
             ]
         }

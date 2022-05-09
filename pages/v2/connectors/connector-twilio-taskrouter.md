@@ -10,5 +10,5 @@ categories: [Marketing,Chat]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-twilio-taskrouter %}
-{% assign v1content = 'twilio-taskrouter.md' %}
+{% assign v1content = "twilio-taskrouter.md" %}
 {% include v2/connector/connector.html %}	

@@ -10,5 +10,5 @@ categories: [Marketing,Data Tools,Email Marketing]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-zaius %}
-{% assign v1content = 'zaius.md' %}
+{% assign v1content = "zaius.md" %}
 {% include v2/connector/connector.html %}	

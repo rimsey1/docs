@@ -10,5 +10,5 @@ categories: [Marketing,Accounting,Project Management]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-function-point %}
-{% assign v1content = 'function-point.md' %}
+{% assign v1content = "function-point.md" %}
 {% include v2/connector/connector.html %}	

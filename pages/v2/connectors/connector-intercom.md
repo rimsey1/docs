@@ -10,5 +10,5 @@ categories: [Chat,Support]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-intercom %}
-{% assign v1content = 'intercom.md' %}
+{% assign v1content = "intercom.md" %}
 {% include v2/connector/connector.html %}	

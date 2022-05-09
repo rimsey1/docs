@@ -10,5 +10,5 @@ categories: [Accounting,Billing/Payment]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-tide %}
-{% assign v1content = 'tide.md' %}
+{% assign v1content = "tide.md" %}
 {% include v2/connector/connector.html %}	

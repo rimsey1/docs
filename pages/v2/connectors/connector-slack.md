@@ -10,5 +10,5 @@ categories: [Chat,Developer Tools,Project Management,Support]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-slack %}
-{% assign v1content = 'slack.md' %}
+{% assign v1content = "slack.md" %}
 {% include v2/connector/connector.html %}	

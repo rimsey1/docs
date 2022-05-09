@@ -10,5 +10,5 @@ categories: [Email Marketing,Sales]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-mapp %}
-{% assign v1content = 'mapp.md' %}
+{% assign v1content = "mapp.md" %}
 {% include v2/connector/connector.html %}	

@@ -10,5 +10,5 @@ categories: [Billing/Payment]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-shuttle %}
-{% assign v1content = 'shuttle.md' %}
+{% assign v1content = "shuttle.md" %}
 {% include v2/connector/connector.html %}	

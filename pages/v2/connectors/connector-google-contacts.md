@@ -10,5 +10,5 @@ categories: [Miscellaneous,Data Tools]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-google-contacts %}
-{% assign v1content = 'google-contacts.md' %}
+{% assign v1content = "google-contacts.md" %}
 {% include v2/connector/connector.html %}	

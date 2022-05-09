@@ -10,5 +10,5 @@ categories: [Databases,Data Tools,Developer Tools]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-mysql-table %}
-{% assign v1content = 'mysql-table.md' %}
+{% assign v1content = "mysql-table.md" %}
 {% include v2/connector/connector.html %}	

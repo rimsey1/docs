@@ -10,5 +10,5 @@ categories: [Miscellaneous]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-cap-hpi %}
-{% assign v1content = 'cap-hpi.md' %}
+{% assign v1content = "cap-hpi.md" %}
 {% include v2/connector/connector.html %}	

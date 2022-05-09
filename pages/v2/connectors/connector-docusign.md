@@ -10,5 +10,5 @@ categories: [Miscellaneous,Collaboration,Customer Experience]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-docusign %}
-{% assign v1content = 'docusign.md' %}
+{% assign v1content = "docusign.md" %}
 {% include v2/connector/connector.html %}	

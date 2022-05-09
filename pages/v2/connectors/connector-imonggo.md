@@ -10,5 +10,5 @@ categories: [POS]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-imonggo %}
-{% assign v1content = 'imonggo.md' %}
+{% assign v1content = "imonggo.md" %}
 {% include v2/connector/connector.html %}	

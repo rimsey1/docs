@@ -10,5 +10,5 @@ categories: [HR/Payroll,CRMs]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-bullhorn %}
-{% assign v1content = 'bullhorn.md' %}
+{% assign v1content = "bullhorn.md" %}
 {% include v2/connector/connector.html %}	

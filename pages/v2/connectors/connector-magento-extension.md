@@ -10,5 +10,5 @@ categories: [Ecommerce]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-magento-extension %}
-{% assign v1content = 'magento-extension.md' %}
+{% assign v1content = "magento-extension.md" %}
 {% include v2/connector/connector.html %}	

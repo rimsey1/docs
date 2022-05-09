@@ -10,5 +10,5 @@ categories: [Healthcare/Wellness]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-live-well-exercise-clinic %}
-{% assign v1content = 'live-well-exercise-clinic.md' %}
+{% assign v1content = "live-well-exercise-clinic.md" %}
 {% include v2/connector/connector.html %}	

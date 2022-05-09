@@ -10,5 +10,5 @@ categories: [Databases,Data Tools,Developer Tools]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-google-bigquery %}
-{% assign v1content = 'google-bigquery.md' %}
+{% assign v1content = "google-bigquery.md" %}
 {% include v2/connector/connector.html %}	

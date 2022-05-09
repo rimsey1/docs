@@ -10,5 +10,5 @@ categories: [Marketing,Email Marketing]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-robly %}
-{% assign v1content = 'robly.md' %}
+{% assign v1content = "robly.md" %}
 {% include v2/connector/connector.html %}	

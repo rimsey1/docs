@@ -10,5 +10,5 @@ categories: [Marketing,Developer Tools,Email Marketing]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-sendgrid %}
-{% assign v1content = 'sendgrid.md' %}
+{% assign v1content = "sendgrid.md" %}
 {% include v2/connector/connector.html %}	

@@ -10,5 +10,5 @@ categories: [POS,Billing/Payment,CRMs]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-thr-ve %}
-{% assign v1content = 'thr-ve.md' %}
+{% assign v1content = "thr-ve.md" %}
 {% include v2/connector/connector.html %}	

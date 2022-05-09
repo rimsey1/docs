@@ -10,5 +10,5 @@ categories: [Accounting,Data Tools]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-excel %}
-{% assign v1content = 'excel.md' %}
+{% assign v1content = "excel.md" %}
 {% include v2/connector/connector.html %}	

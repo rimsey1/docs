@@ -10,5 +10,5 @@ categories: [Accounting]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-poweroffice-go %}
-{% assign v1content = 'poweroffice-go.md' %}
+{% assign v1content = "poweroffice-go.md" %}
 {% include v2/connector/connector.html %}	

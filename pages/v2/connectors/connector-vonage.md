@@ -10,5 +10,5 @@ categories: [Customer Experience,Data Tools,Sales]
 showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-vonage %}
-{% assign v1content = 'vonage.md' %}
+{% assign v1content = "vonage.md" %}
 {% include v2/connector/connector.html %}	

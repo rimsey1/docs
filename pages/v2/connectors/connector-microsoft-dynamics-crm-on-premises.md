@@ -10,5 +10,5 @@ categories: [CRMs]
 showv1content: false
 ---
 {% assign connectordata = site.data.v2.connectors.connector-microsoft-dynamics-crm-on-premises %}
-{% assign v1content = 'microsoft-dynamics-crm-on-premises.md' %}
+{% assign v1content = "microsoft-dynamics-crm-on-premises.md" %}
 {% include v2/connector/connector.html %}	
