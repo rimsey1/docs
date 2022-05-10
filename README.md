@@ -87,6 +87,14 @@ When the page md is defined to provide a submenu toggle
 
 ## Categories and Application Connector Guides
 
+### Demo content
+
+Copy the **Authentication** and **Documentation** from the ``_data/connector/contentdemo.json`` file to any 
+``_data/v2/connectors`` json file and build.
+
+The demo json objects are parsed in ``_includes/v2/connector/connector.html`` to provide content with the relevant style. 
+
+
 ### V1 connector content
 The content from the first version has been ported to v2 using the **\_bin/v2/portconnectormdtov2.py** script
 The script copies the md files from the **pages/connector-authentication/** folder to **\_includes/v2/connector/v1content/**, and discards the front matter as the md is not to be built into standalone pages. 
