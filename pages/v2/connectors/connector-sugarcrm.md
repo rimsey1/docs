@@ -7,8 +7,7 @@ icon: https://my.cyclr.com/api/ConnectorIcon/17122
 default_header: false
 category: CRMs
 categories: [CRMs,Sales]
-# showv1content: true
-showv1content: false
+showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-sugarcrm %}
 {% assign v1content = "sugarcrm.md" %}

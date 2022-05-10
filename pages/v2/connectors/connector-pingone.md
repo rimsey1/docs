@@ -7,8 +7,7 @@ icon: https://my.cyclr.com/api/ConnectorIcon/12534
 default_header: false
 category: Miscellaneous
 categories: [Miscellaneous]
-# showv1content: true
-showv1content: false
+showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-pingone %}
 {% assign v1content = "pingone.md" %}

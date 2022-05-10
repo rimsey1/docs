@@ -7,8 +7,7 @@ icon: https://my.cyclr.com/api/ConnectorIcon/12024
 default_header: false
 category: Marketing
 categories: [Marketing,Customer Experience]
-# showv1content: true
-showv1content: false
+showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-optimizely %}
 {% assign v1content = "optimizely.md" %}

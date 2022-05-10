@@ -7,8 +7,7 @@ icon: https://my.cyclr.com/api/ConnectorIcon/12315
 default_header: false
 category: HR/Payroll
 categories: [HR/Payroll,Accounting]
-# showv1content: true
-showv1content: false
+showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-sage-50 %}
 {% assign v1content = "sage-50.md" %}

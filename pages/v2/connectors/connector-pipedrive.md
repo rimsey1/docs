@@ -7,8 +7,7 @@ icon: https://my.cyclr.com/api/ConnectorIcon/16830
 default_header: false
 category: CRMs
 categories: [CRMs]
-# showv1content: true
-showv1content: false
+showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-pipedrive %}
 {% assign v1content = "pipedrive.md" %}

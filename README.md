@@ -9,7 +9,7 @@ You can use the [editor on GitHub](https://github.com/cyclr/docs/edit/master/REA
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-##Markdown
+## Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing.
 
@@ -97,13 +97,13 @@ This content is included where available to provide the connector setup and auth
 #### Name discrepancies 
 The version 1 content was added manually and there are many discrepancies in the file naming conventions. Some files are camel case, some are slugified using hyphens, some use suffixes such as \_doc or \_setup.
 
-As the naming is arbitary, the python script includes  a manually maintained lookup **md_dict** to map from the original name to the corresponding slugified conenctor name.
+As the naming is arbitary, the python script includes  a manually maintained lookup ``md_dict`` to map from the original name to the corresponding slugified conenctor name.
 
-The **md_dict** is defined at the top of **portconnectormdtov2.py**. 
+The ``md_dict`` is defined at the top of **portconnectormdtov2.py**. 
 
 
 | v1 md filename| v2 md filename |
-| --- | --- |
+| --- | --- | 
 | 3DCart | 3dcart |
 | access_crm_setup | access-crm |
 | adestra_setup | adestra |
@@ -204,9 +204,12 @@ The **md_dict** is defined at the top of **portconnectormdtov2.py**.
 | Voyado | voyado |
 | xero_oauth20 | xero-oauth20 |
 
-#### v1 content causing build errors
-Temporary manual amend to exclude the v1 content - there are encoding or character issues causing error in build
-As a workaround, the **showv1content** flag in the front matter is set to false in these connector md:
+#### V1 content causing build errors
+
+Various v1 md files ported for inclusion in the v2 connector pages resulted in Liquid error:
+
+``Liquid Exception: invalid byte sequence in UTF-8``
+
 - connector-asana
 - connector-bronto
 - connector-deltek-workbook
@@ -224,6 +227,24 @@ As a workaround, the **showv1content** flag in the front matter is set to false 
 - connector-woocommerce
 - connector-wordpress
 
+##### Manual amends to md files
+
+Manual amends to the ported md have resolved the liquid encoding errors for the connectors listed in the previous section.
+
+These included the issues described in the table :
+
+| v1 content | manual amend |
+| --- | --- | 
+| ul  |replaced asterisk with hyphen |
+| link | added full markdown for title and url |
+| single quotes | replaced with double quotes |
+| double quotes | replaced with markdown for bold text |
+| hyphen | replaced with colon or other |
+| headings using asterisks for bold text | changed to markdown \# characters |
+| md characters in content | add backslash to escape the relevant characters |
+
+**NB** Manually amended md files are backed up in ``_includes\v2\connector\v1content\bak``. 
+The md porting utility ``_bin\v2\portconnecormdtov2.py`` overwrites existing files in the target folder, so if there is a requirement to port the original content, make sure any relevant md files are backed up.
 
 
 #### Connectors with no v1 content
@@ -263,7 +284,7 @@ Creates the md files for each connector category . The md files provide the sour
 - Makes API call https://my.cyclr.com/api/connectors?pageSize=1000&details=true
 - Parses the returned JSON array:
   - copies **\_bin/v2/assets/templateconnector.md** to **pages/v2/connectors/connector-name-slugified.md**
-  - derives the corresponding version 1 content for the connector **\/_includes/v2/connector/v1content/'+file_name+'.md'**
+  - derives the corresponding version 1 content for the connector **\_includes/v2/connector/v1content/'+file_name+'.md'**
   - subsitutes the connector text from the JSON array item for the placeholder text in the new md file
   - checks if the version 1 connector md file exists
   - if the version 1 md files exists, sets the new md content to include that file
@@ -289,11 +310,11 @@ See https://veithen.io/2015/03/26/jekyll-bootstrap.html for notes on using Boots
 
 The current Bootstrap source is version 3: in order to incorporte Bootstrap 5 flex/grid, the relevant Bootstrap 5 scss files have been added .
 
-**TO DO**
-Replace the current setup with Bootstrap 5 installed as a submodule or package.
-Amend html class/id attributes to include Bootstrap 5 values. 
-Update accordion menus and any other UI to ensure consistent with required markup for Bootstrap 5  
+** TO DO **
 
+- Replace the current setup with Bootstrap 5 installed as a submodule or package.
+- Amend html class/id attributes to include Bootstrap 5 values. 
+- Update accordion menus and any other UI to ensure consistent with required markup for Bootstrap 5  
 
 #### Accordion 
 

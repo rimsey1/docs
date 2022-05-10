@@ -50,12 +50,14 @@
 	{% endfor %}
 {% endif %}
 
-<h2>Categories</h2>
-<ul>
-{% for category in connectordata.Categories %}
-	<li>{{ category }}</li>
-{% endfor %}
-</ul>
+<section class="categories">
+	<h2>Categories</h2>
+	<ul>
+	{% for category in connectordata.Categories %}
+		<li><a href="{{category | slugify}}">{{ category }}</a></li>
+	{% endfor %}
+	</ul>
+</section>
 
 <section class="methods">
 	<h2>API Methods</h2>

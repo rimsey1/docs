@@ -7,8 +7,7 @@ icon: https://my.cyclr.com/api/ConnectorIcon/15982
 default_header: false
 category: Product Management
 categories: [Product Management,Project Management]
-# showv1content: true
-showv1content: false
+showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-asana %}
 {% assign v1content = "asana.md" %}
