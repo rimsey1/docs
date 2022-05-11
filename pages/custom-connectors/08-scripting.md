@@ -198,7 +198,7 @@ Function is called when Cyclr received an error from an external API.
 
 #### action_condition
 
-Function is used to essentially combine a Method with a Decision Step, allowing a test to be performed that directs a Transaction down either the True or False exit points.  If this function is included in a method, Cyclr will add True and False exit points.
+Function is used to essentially combine a Method with a Decision Step, allowing a test to be performed that directs a Transaction down either the True or False exit points.  If this function is included in a method, Cyclr will add True and False exit points. See [example code](#action-condition) for more information.
 
 ###### Global object
 
@@ -630,6 +630,25 @@ function before_action() {
 ```    
 
 In this example, we transformed the method request body to a XML string and saved the string as a new parameter called `xmlData`.
+
+#### Action Condition
+
+To add True/False exits to a method, you can use the `action_condition` event.
+
+```javascript
+// Any records that pass the condition will continue down the green "True" path.
+// Those that do not will take the red "False" path.
+
+function action_condition() {
+	if ([some test])
+		return true;
+
+	return false;
+}
+
+// If you want to send errored transactions (as opposed to successful calls that 
+// fail the condition) down the false path, you will need to add after_error script.
+```
 
 #### Handle Errors from Third Party APIs
 
