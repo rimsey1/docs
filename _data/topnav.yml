@@ -26,3 +26,22 @@ topnav_dropdowns:
           - title: Blog
             external_url: https://cyclr.com/blog
             active: true
+      - title: Login
+        active: true
+        folderitems:
+          - title: US
+            external_url: https://my.cyclr.com
+            icon: us-flag-24.png
+            active: true
+          - title: UK
+            external_url: https://my.cyclr.uk
+            icon: uk-flag-24.png
+            active: true
+          - title: EU
+            external_url: https://eu.cyclr.com
+            icon: eu-flag.png
+            active: true
+          - title: APAC
+            external_url: https://apac.cyclr.com
+            icon: apac-flag.png
+            active: true

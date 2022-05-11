@@ -349,6 +349,32 @@ section {
         }
     }
 }
+// navbar dropdown 
+.navbar .navbar-nav {
+    .dropdown {
+        position: relative;
+        .dropdown-menu {
+            margin: 0;
+            padding: 0;
+            background: black;
+            li {
+                border-bottom: 1px solid white;
+                &:last-child {
+                    border-bottom: 0;
+                }
+                a {
+                    padding: 20px 40px;
+                    color: white;
+                }
+                img {
+                    height: 30px;
+                    width: auto;
+                    padding: 0 20px 0 0;
+                }
+            }
+        }
+    }
+}
 // search 
 #search-container {
     ul#results-container {
