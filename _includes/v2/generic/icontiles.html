@@ -12,7 +12,7 @@
 				{% for cat in docpage.categories %}
 				{% if cat == currentcategory %}
 		<div class="icon-link card text-center p-0 m-4">
-			<div class="card-body">
+			<div class="card-body d-flex flex-column justify-content-around">
 				<a href="{{docpage.permalink}}" class="btn-icon p-0 m-0">
 					<img class="img-icon" src="{{ docpage.icon }}" alt="{{ docpage.title }} icon"/>
 				</a>
