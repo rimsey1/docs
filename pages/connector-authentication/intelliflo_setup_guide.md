@@ -32,6 +32,7 @@ Tenant ID is visibile in Developer Hub under "status" (the number after the firm
 
 ![Tenant ID location](./images/tenant_id.png)
 
+
 ### Connector Setup
 
 1. Locate the Intelliflo connector
@@ -45,3 +46,6 @@ Tenant ID is visibile in Developer Hub under "status" (the number after the firm
 4. Click 'Next'
 
 The connector is now authenticated and ready to use.
+
+### Webhooks
+Please note that webhooks cannot be deleted when using a sandbox account.
