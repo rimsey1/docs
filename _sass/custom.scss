@@ -323,6 +323,7 @@ section {
     height: $navbar-height;
     padding: 0 $sidebar-nav-spacing;
     .logo {
+        padding: $sidebar-nav-spacing 0;
         .img-responsive {
             height: calc(#{$navbar-height} - (#{$sidebar-nav-spacing}*2));
             width: auto;
@@ -410,6 +411,7 @@ aside.sidebar {
 ul#mysidebar {
     border-radius: 0;
     background-color: transparent;
+    padding: 10px 0;
     li {
         background-color: transparent;
         color: $sidebar-color;
@@ -424,6 +426,7 @@ ul#mysidebar {
             font-size: $sidebar-font-size;
             font-weight: $sidebar-font-weight;
             line-height: $sidebar-line-height;
+            padding: 15px 25px;
             &:hover {
                 color: $sidebar-link-color-hover;
             }
@@ -438,16 +441,60 @@ ul#mysidebar {
             }
         }
         ul {
-            list-style-type: disc;
-            margin: $sidebar-nav-spacing 0 0;
+            list-style-type: none;
+            margin: 0 0 0 25px;
+            padding: 0;
             li {
                 font-size: $sidebar-submenu-font-size;
                 font-weight: $sidebar-submenu-font-weight;
                 line-height: $sidebar-submenu-line-height;
+                padding: 0;
+                margin: 0;
+
                 a {
                     font-size: $sidebar-submenu-font-size;
                     font-weight: $sidebar-submenu-font-weight;
                     line-height: $sidebar-submenu-line-height;
+                    padding: 10px 0 10px 25px;
+                    display: block;
+                    position: relative;
+                    &.menu-toggle {
+                        &:after {
+                            content: "\f0da";
+                            font-family: "Font Awesome 6 Free";
+                            font-weight: $sidebar-font-weight;
+                            font-size: $sidebar-font-size;
+                            line-height: $sidebar-line-height;
+                            position: absolute;
+                            display: block;
+                            left: 0;
+                            top: 10px;
+                            pointer-events: none;
+                            transition: transform 0.5s
+                        }
+                    
+                    }
+                    &.menu-link {
+                        &:after {
+                            content: "\f111";
+                            font-family: "Font Awesome 6 Free";
+                            font-weight: $sidebar-font-weight;
+                            font-size: 10px;
+                            line-height: $sidebar-line-height;
+                            position: absolute;
+                            display: block;
+                            left: 0;
+                            top: 10px;
+                            pointer-events: none;
+                            transition: transform 0.5s
+                        }
+                    
+                    }
+                }
+                &.active {
+                    > a.menu-toggle:after {
+                        transform: rotate(90deg)
+                    }
                 }
             }
         }
@@ -469,8 +516,8 @@ ul#mysidebar {
                 line-height: $sidebar-line-height;
                 position: absolute;
                 display: block;
-                right: 0;
-                top: 0;
+                right: $sidebar-nav-spacing;
+                top: 10px;
                 pointer-events: none;
                 transition: transform 0.5s
             }
@@ -482,6 +529,7 @@ ul#mysidebar {
         }
     }
 }
+
 // main container
 main.container {
     font-size: $content-font-size;
@@ -613,6 +661,9 @@ footer {
     }
     section {
         margin: 0 0 40px;
+        &:last-of-type {
+            margin-bottom: 0;
+        }
     }
 
 }
@@ -672,10 +723,20 @@ section {
     .footer-content.container {
         max-width: $content-width-max-md;
     }
+    .layout-homepage {
+        .footer-content.container {
+            max-width: $content-width-max-md-nonav;  ;            
+        }
+    }
+    .layout-page {
+        .topnavlinks .container {
+            max-width: $content-width-max-md;           
+        }
+    }
     nav.navbar {
         .logo {
-            width: $sidebar_width_media_md;
-            padding: $sidebar-nav-spacing;
+            width: calc(#{$sidebar_width_media_md} - #{$sidebar-nav-spacing}) ;
+            padding: $sidebar-nav-spacing 0;
         }
     }
     aside.sidebar {
@@ -696,6 +757,10 @@ section {
             padding: 0;
             a {
                 padding: 0;
+                &:after {
+                    right: 0;
+                    top: 0;
+                }
             }
         }
     }
@@ -706,6 +771,16 @@ section {
     .footer-content.container  {
         max-width: $content-width-max-lg;
     }
+    .layout-homepage {
+        .footer-content.container {
+            max-width: $content-width-max-lg-nonav;            
+        }
+    }
+    .layout-page {
+        .topnavlinks .container {
+            max-width: $content-width-max-lg;           
+        }
+    }
     footer {
         .footer-links {
             flex-basis: auto;
@@ -715,6 +790,23 @@ section {
         }
         .footer-logo {
             flex-basis: auto;
+        }
+    }
+}
+
+@media (min-width: $screen-xl-min) {
+    main.container,
+    .footer-content.container  {
+        max-width: $content-width-max-xl;
+    }
+    .layout-homepage {
+        .footer-content.container {
+            max-width: $content-width-max-xl-nonav;            
+        }
+    }
+    .layout-page {
+        .topnavlinks .container {
+            max-width: $content-width-max-xl;           
         }
     }
 }

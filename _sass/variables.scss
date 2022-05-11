@@ -135,9 +135,16 @@ $sidebar-height:                            calc(100vh - 108px);
 // content
 $content-font-size:                         18px;
 $content-line-height:                       22px;
+$content-gutter-max:                        80px;
 
+$screen-xl-min:                             1400px;
 @import "bootstrap/variables";
 
 $content-width-max-md:                      calc(#{$screen-md-min} - #{$sidebar_width_media_md} - (#{$sidebar-nav-spacing} * 2));
 $content-width-max-lg:                      calc(#{$screen-lg-min} - #{$sidebar_width_media_md} - (#{$sidebar-nav-spacing} * 2));
+$content-width-max-xl:                      calc(100vw - #{$sidebar_width_media_md} - (#{$content-gutter-max} * 2));
+
+$content-width-max-md-nonav:                960px;
+$content-width-max-lg-nonav:                1140px;
+$content-width-max-xl-nonav:                1320px;
 

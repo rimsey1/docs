@@ -9,20 +9,20 @@ show_search: true
 copyright: 2022 Cyclr. All rights reserved.
 items:
   - title: Documentation
-    url: /testing-cyclr-api
+    url: /index
     active: true
   - title: Log In
-    external_url: https://cyclr.com/connectors
+    external_url: https://cyclr.com/
     active: true
   - title: Website
-    external_url: https://cyclr.com/changelog
+    external_url: https://cyclr.com/
     active: true
   - title: Privacy Policy
-    external_url: https://cyclr.com/blog
+    external_url: https://cyclr.com/privacy-policy
     active: true
   - title: Resources
-    url: /testing-cyclr-api
+    url: https://cyclr.com/
     active: true
   - title: Terms and Conditions
-    external_url: https://cyclr.com/connectors
+    external_url: https://cyclr.com/terms-and-conditions
     active: true
