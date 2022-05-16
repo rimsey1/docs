@@ -272,6 +272,16 @@ Once new and consitent content is available and has been reviewed and signed off
 The Category Connector pages are created using python scripts and API calls. 
 The scripts are in **\_bin/v2/**, with md and other templates in the **\_bin/v2/assets/** folder
 
+Install python (https://www.python.org/downloads/) and the required libraries (pip install \[library\])
+- requests
+- slugify
+- re
+- os
+- arr
+- glob
+- json
+
+
 If existing connector content is to be rebuilt. it's advisable to stop any running docker/jekyll processes which watch the relevant source folders.
 Delete the existing md files from the **pages/v2/04-application-connector-guides/** folders, backing up to an archive folder if required.
 
