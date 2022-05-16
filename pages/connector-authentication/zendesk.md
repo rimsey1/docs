@@ -16,13 +16,13 @@ Once you have entered the required information and clicked `Save` you will be sh
 
 You will need to copy both your Unique Identifier and Secret that were created during this setup - into the Client ID and Client Secret fields - in the Zendesk Connector setup in Cyclr - respectively.
 
-# Updating depreciated Zendesk webhooks
+# Updating deprecated Zendesk webhooks
 
 Zendesk will soon depreciate HTTP targets within their API. To be compatible with this change, Cyclr has created new webhook methods that use webhooks instead of HTTP targets. As this is a Zendesk change, it means you have to replace these methods manually within your cycles. Information on Zendesk's deprecation of HTTP targets and conversion to webhooks can be found [here](https://support.zendesk.com/hc/en-us/articles/4408826284698-Announcing-the-deprecation-of-HTTP-targets-and-conversion-to-webhooks).
 
-## Removing depreciated webhooks
+## Removing deprecated webhooks
 
-To remove depreciated Zendesk webhooks from a cycle:
+To remove deprecated Zendesk webhooks from a cycle:
 
 1. Go to a cycle that uses a Zendesk webhook.
 2. Click **Stop** to stop the cycle running, and then **Finish and Stop** to allow any transactions to complete.
