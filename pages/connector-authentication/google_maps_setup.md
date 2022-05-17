@@ -25,7 +25,7 @@ To create an API key:
 
 2. Click the open padlock
 
-   ![open padlock](./images/open_padlock.png)
+   ![open padlock](./images/maps_open_padlock.png)
 
 3. Enter your API Key and click 'Save Changes'
 
