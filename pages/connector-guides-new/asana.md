@@ -4,7 +4,7 @@ sidebar: cyclr_sidebar
 permalink: asana-new
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
 ## Authentication
 
 | Type      | OAUth2|
@@ -12,13 +12,15 @@ tags: [connector]
 | Authorize URL | https://app.asana.com/-/oauth_authorize |
 | Access Token | https://app.asana.com/-/oauth_token |
 
+<section class="required">
 ## Partner Setup
 
-Required:
+<div class="section-content">
 * `Service Domain` : defined in your Cyclr console under **Settings** > **General Settings** > **Service Domain**.
 * `Client ID` : see Application Setup.
 * `Client Secret`: see Application Setup.
-
+</div>
+</section>
 ### Application Setup
 
 1. Navigate to your **Asana Account Settings** dialog.
