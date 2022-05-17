@@ -21,10 +21,12 @@ To create an API key:
 
 1. Locate the Google Maps connector
 
-   > Cyclr Console > Connectors > Connector Library > Google Maps
+   > Cyclr Console > Connectors > Application Connector Library > Google Maps
 
-2. From the Edit Connector interface click 'Setup'
+2. Click the open padlock
 
-3. Enter your API Key, click 'Next'
+   ![open padlock](./images/open_padlock.png)
+
+3. Enter your API Key and click 'Save Changes'
 
 The connector is now authenticated and ready to use.
