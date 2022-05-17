@@ -52,7 +52,12 @@ $body-color:				$gray-800;
 $body-color-light:          $white;
 $toc-color:                 $body-color;
 $toc-color-bg:              #F4F4F4;
-$toc-spacing:               20px;
+$toc-spacing-v:             30px;
+$toc-spacing-h:             40px;
+$toc-spacing:               $toc-spacing-v $toc-spacing-h;
+
+$content-box_bg:            #f4f4f4;
+$content-box-shadow:        4px 4px 8px 1px rgba(51, 59, 70 , 0.1);
 
 $text-secondary:            $green-1;
 

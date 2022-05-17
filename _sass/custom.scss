@@ -265,6 +265,10 @@
             width: 100%;
             height: 100%;
             transition: all 0.5s;
+            margin: 0;
+            padding: 20px;
+            font-size: 18px;
+            line-height: 20px;
         }
         &:hover, &:active, , &:focus {
             .icon-link-title {
@@ -321,6 +325,15 @@
     padding: 14px 92px;
     .bg-dark & {
         color: $gray-800;
+    }
+}
+
+a.btn.btn-primary {
+    .hubtable & {
+        border-radius: 59px;
+        padding: 6px 25px;
+        font-weight: 700;
+        margin: 0 35px;
     }
 }
 
@@ -634,15 +647,16 @@ footer {
 #toc {
     background-color: $toc-color-bg;
     color: $toc-color;
-    margin: $toc-spacing 0;
-    padding: $toc-spacing 0;
+    margin:40px 0;
+    padding: $toc-spacing;
     ul {
         list-style: none;
-        padding: $toc-spacing;
+        padding: 0;
         li {
             font-size: 20px;
             font-weight: 500;
             line-height: 24px;
+            padding: 10px 0 10px 20px;
             a {
                 color: $toc-color;
             }
@@ -664,7 +678,7 @@ footer {
         }
         ul {
             margin: 0;
-            padding: 0 $toc-spacing;
+            padding: 0 0 0 $toc-spacing-h;
             > li {
                 &:before {
                     content: "\f111";
@@ -674,12 +688,31 @@ footer {
         }
     }
 }
-
+// highlight , code, pre content 
+div {
+    &.highlight {
+        @include highlight-code();
+    }
+    pre.highlight {
+        background: transparent;
+        border: 0;
+        padding: 0;
+        margin: 0;
+    }
+}
 // content
 .post-content {
+    margin-bottom: 6rem;
     img {
         max-width: 100%;
         height: auto;
+    }
+    > table {
+        width: 100%;
+        margin: 0 0 40px;
+    }
+    > pre {
+        @include highlight-code();
     }
     // accordion 
     .accordion {
@@ -687,13 +720,17 @@ footer {
             font-size: 20px;
             font-weight: 700;
             line-height: 24px;
+            margin: 20px 0;
         }
         .accordion-body {
             padding: 30px 0;
         }
     }
-    > h3 {
-        margin-top: 30px;
+    h3 {
+        margin: 2em 0 1em;
+    }
+    h4 {
+        margin: 2em 0 1em;
     }
     section {
         margin: 0 0 40px;
@@ -710,29 +747,11 @@ section {
     }
     &.required {
         .section-content {
-            border-left: 6px solid $green-2;
-            padding: 20px 0 20px 24px;
-            position: relative;
-            &:after {
-                position: absolute;
-                top: 1em;
-                left: -19px;
-                content: "\f12a";
-                display: block;
-                font-family: 'Font Awesome\ 6 Free';
-                font-size: 25px;
-                font-weight: 900;
-                line-height: 30px;
-                background-color: $green-2;
-                border-radius: 50%;
-                border: 1px solid $green-2;
-                color: $gray-700;
-                width: 30px;
-                text-align: center;
-            }
+            @include highlight-required();
         }
     }
 }
+
 // media queries
 @media (min-width: $screen-sm-min) {
     .flex-sm-25 {
