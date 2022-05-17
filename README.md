@@ -15,6 +15,27 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing.
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
+### Kramdown
+
+Kramdown is the default Markdown renderer for Jekyll.
+
+See the [Kramdown documentation for more info](https://kramdown.gettalong.org/index.html).
+
+#### HTML parsing
+
+Add this option to the md file to enable HTML parsing.  
+``
+{::options parse_block_html="true" /}
+``
+
+See the [Kramdown documentation for more info](https://kramdown.gettalong.org/parser/kramdown.html).
+
+By default, the Kramdown parser does not convert HTML tags to native representation. Enabling this option means we can use HTML tags in the md. This is useful to provide container or content elements with attributes (class,id) in order to implement the required style and UX.
+
+Amend v1 markdown to include the relevant html eg:
+- The 'Required' sections : green left border, grey background with drop shadow, exclamation mark icon 
+- The code sections : dark grey left border, grey background with drop shadow, 'C' icon 
+
 ## Setting up your GitHub Pages site locally with Jekyll
 
 1. If you don't have Docker installed, install [Docker](https://docs.docker.com/install/).

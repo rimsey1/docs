@@ -4,17 +4,22 @@ sidebar: cyclr_sidebar
 permalink: aircall-new
 tags: [connector]
 ---
+{::options parse_block_html="true" /}
 
 ## Authentication
 
 | Type      | Basic |
 | Description | Use the API ID as username and the API token as password |
 
+<section class="required">
 ## Partner Setup
 
-Required:
+<div class="section-content">
+
 * `api_id` : see Application Setup.
 * `api_token`: see Application Setup.
+</div>
+</section>
 
 
 ### Application Setup

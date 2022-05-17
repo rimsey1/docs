@@ -4,6 +4,7 @@ sidebar: cyclr_sidebar
 permalink: box-new
 tags: [connector]
 ---
+{::options parse_block_html="true" /}
 
 ## Authentication
 
@@ -35,7 +36,9 @@ Box uses OAuth 2.0 for authentication. The following are the steps needed to giv
 
  * Locate the Box connector in the Cyclr console.
 
+<div class="highlight">
 > (https://{{ServiceDomain}}/console) > Connectors > Connector Library > Box
+</div>
 
  * Click the open padlock and on the next page enter your Client ID and Client Secret.
 
