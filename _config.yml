@@ -32,7 +32,7 @@ exclude:
   - .idea/
   - .gitignore
   - pages/connector-authentication/
-  - pages/connector-guides-new/
+#  - pages/connector-guides-new/
   - pages/tags/
   - indexold.md
 
