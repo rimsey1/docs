@@ -585,7 +585,8 @@ main.container {
     line-height: $content-line-height;
 
     table {
-        th {
+        th, 
+        &.vheader tr td:first-child {
             background: $gray-700;
             color: $white;
             border: 0;
@@ -597,6 +598,9 @@ main.container {
             &:first-child {
                 border-left: 0;
             }
+        }
+        &.vheader tr td:first-child {
+            border-bottom: 1px solid $white;
         }
         td {
             background: $white;
@@ -690,7 +694,7 @@ footer {
 }
 // highlight , code, pre content 
 div {
-    &.highlight {
+    &.highlight.code {
         @include highlight-code();
     }
     pre.highlight {

@@ -1,4 +1,6 @@
 
+<section class="setup partner" markdown="1">
+
 ## Setup
 
 To authenticate the Access CRM connector you will need an API key and Integrator Key. Both are supplied by Access. Please contact your Access account manager to be issued these credentials.
@@ -16,7 +18,8 @@ To authenticate the Access CRM connector you will need an API key and Integrator
 4. Enter your API Key, click 'Next'
 
 The connector is now authenticated and ready to use.
-
+</section>
+<section class="userguide" markdown="1">
 ## User Guide
 
 ### Handling Calculated Fields
@@ -28,3 +31,4 @@ For example:
 A field location of **myCalculatedField** will result in a failed request.
 
 A field location of **myCalculatedField_calc** will result in a successful request.
+</section>

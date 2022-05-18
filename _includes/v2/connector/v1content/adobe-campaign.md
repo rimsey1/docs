@@ -1,14 +1,15 @@
 
-# Adobe Campaign
+<section class="setup partner" markdown="1">
 
 ## Partner Setup
-
+<div class="section-content" markdown="1">
 To authenticate the Adobe Campaign connector, you will need the following pieces of information:
 
 * Client ID
 * Client Secret
 * Private Key
 * Tenant ID
+</div>
 
 To obtain the above, follow these steps:
 
@@ -33,7 +34,6 @@ Your Tenant ID is the first part of the URL when you log into Experience Cloud -
 ### 4. Authenticate your connector
 
 You can now use the Client ID, Client Secret, API Key (the Private Key obtained above) and Tenant ID to authenticate your Adobe Campaign connector.  
-
-
+</section>
 
 For further information, visit [the official Adobe Campaign documentation](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).

@@ -21,13 +21,13 @@
 {% endif %}
 
 {% if connectordata.Authentication %}
-<section>
+<section class="authentication">
 <h2>Authentication</h2>
-<table>
+<table class="table">
   <tbody>
 	{% for prop in connectordata.Authentication %}
     <tr>
-      <td>{{ prop[0] }}</td><td>{{ prop[1] | raw }}</td>
+      <th>{{ prop[0] }}</th><td>{{ prop[1] | raw }}</td>
     </tr>
 	{% endfor %}
   </tbody>

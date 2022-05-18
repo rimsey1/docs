@@ -4,23 +4,21 @@ sidebar: cyclr_sidebar
 permalink: aircall-new
 tags: [connector]
 ---
-{::options parse_block_html="true" /}
+<section class="authentication" markdown="1">
 
 ## Authentication
 
 | Type      | Basic |
 | Description | Use the API ID as username and the API token as password |
+{: .table .vheader}
+</section>
+<section class="required" markdown="1">
 
-<section class="required">
 ## Partner Setup
-
-<div class="section-content">
+<div class="section-content" markdown="1">
 
 * `api_id` : see Application Setup.
 * `api_token`: see Application Setup.
-</div>
-</section>
-
 
 ### Application Setup
 
@@ -28,7 +26,11 @@ tags: [connector]
 2. Go to the **API Keys** section.
 3. Select **Add a new API key**.
 4. The ``api_id`` and ``api_token`` are displayed. Note these to use in your connector setup.
-
+</div>
+</section>
+<section class="setup cyclr" markdown="1">
+	
 ## Cyclr Setup
 
 Pass the ``api_id`` and ``api_token`` as username and password.
+</section>

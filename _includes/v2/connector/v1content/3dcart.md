@@ -1,11 +1,12 @@
 
-## Partner Setup
+<section class="setup partner" markdown="1">
 
+## Partner Setup
 First, login to your existing 3DCart Developer account or [sign up for one.](https://devportal.3dcart.com/login.asp)
 
 Also login to your existing 3DCart Secure Store account or [sign up for a free trial.](https://www.shift4shop.com/login-page.html)
 
-#### Retrieving OAuth2 Details
+### Retrieving OAuth2 Details
 
 *   [Login](https://devportal.3dcart.com/login.asp) to your 3DCart Developer Account.
 *   Click Add New.
@@ -15,12 +16,15 @@ Also login to your existing 3DCart Secure Store account or [sign up for a free t
     | US (North Virginia) | my.cyclr.com | 52.22.119.215 |
     | UK (London) | my.cyclr.uk | 52.56.244.97 |
     | EU (Frankfurt) | eu.cyclr.com | 18.185.231.228 |
+    {: .table}
 *   Set the scopes for your Application (Permissions on the right of the dashboard), **Contacts** & **Orders** are required.
 *   Click Save.
 *   Note the **Public Key**, **Client ID** and the **Secret Key** from this page.
 *   You can also test the application at this stage, to ensure that it works with your 3DCart Store.
+</section>
 
-### Cyclr Setup
+<section class="setup cyclr" markdown="1">
+## Cyclr Setup
 
 Setup your 3DCart within Cyclr:
 
@@ -39,3 +43,4 @@ Enter the following values:
 *   You will then be prompted to log-in to your Secure Store
 
 Your 3DCart Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+</section>

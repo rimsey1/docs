@@ -4,8 +4,6 @@ sidebar: cyclr_sidebar
 permalink: caspio-new
 tags: [connector]
 ---
-{::options parse_block_html="true" /}
-
 ## Partner Setup
 
 ### Login / Sign Up
@@ -23,7 +21,7 @@ For your API integrations to work, you must:
 5. Click the properties label under your account name.
 6. You will then be able to see:
 
-   <div class="highlight">
+   <div class="highlight code" mardown="1">
 
    > **Token Endpoint URL**: This contains your Account Subdomain. The Account Subdomain is the string of characters between 'https://' and '.caspio.com'.
    >

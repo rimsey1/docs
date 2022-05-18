@@ -5,12 +5,16 @@ permalink: asana-new
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
+
+<section class="authentication">
 ## Authentication
 
 | Type      | OAUth2|
 | OAuth2 type| AuthorisationCode |
 | Authorize URL | https://app.asana.com/-/oauth_authorize |
 | Access Token | https://app.asana.com/-/oauth_token |
+{: .table .vheader}
+</section>
 
 <section class="required">
 ## Partner Setup

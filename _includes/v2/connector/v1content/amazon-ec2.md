@@ -1,4 +1,5 @@
 
+<section class="setup partner" markdown="1">
 ## Partner Setup
 
 First, login to your existing AWS account or [sign up for one.](https://aws.amazon.com/)
@@ -12,7 +13,9 @@ First, login to your existing AWS account or [sign up for one.](https://aws.amaz
 *   Click on the newly created or edited user, and click **Security Credentials**. 
 *   Create an **Access Key**. Note down then **Access Key ID** and **Access Secret Key**. This will be the only time you will be able to see the Secret Key, so keep it somewhere safe.
 
-### Connector Setup
+<section class="setup cyclr" markdown="1">
+
+## Connector Setup
 
 Setup the Amazon EC2 App within Cyclr:
 
@@ -30,3 +33,4 @@ Enter the following values:
 
 
 Your Amazon EC2 Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+</section>

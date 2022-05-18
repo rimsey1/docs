@@ -36,7 +36,7 @@ Box uses OAuth 2.0 for authentication. The following are the steps needed to giv
 
  * Locate the Box connector in the Cyclr console.
 
-<div class="highlight">
+<div class="highlight code">
 > (https://{{ServiceDomain}}/console) > Connectors > Connector Library > Box
 </div>
 
