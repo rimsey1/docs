@@ -103,9 +103,17 @@ entries:
             url: /stopping-a-cycle
             output: web, pdf
             
+          - title: Types of Cyclr User
+            url: /types-of-cyclr-user
+            output: web, pdf
+            
           - title: Performance Tips
             url: /performance-tips
             output: web, pdf
+            
+          - title: Legal Notices
+            url: /legal-notices
+            output: web, pdf            
 
       - title: Embedding Cyclr
         output: web, pdf
@@ -254,6 +262,10 @@ entries:
 
           - title: Custom Fields
             url: /dynamic-custom-fields
+            output: web, pdf
+         
+          - title: Data Types
+            url: /data-types
             output: web, pdf
             
           - title: Enhanced Objects
@@ -718,6 +730,10 @@ entries:
 
           - title: Pipedrive
             url: /pipedrive-connector.html
+            output: web, pdf
+            
+          - title: Pipedrive (OAuth2.0)
+            url: /pipedrive-oauth-connector
             output: web, pdf
 
           - title: Profitwell

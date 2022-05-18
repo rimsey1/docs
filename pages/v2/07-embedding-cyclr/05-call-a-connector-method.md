@@ -14,7 +14,7 @@ menus:
 
 In this guide, you will use the Cyclr API to call a connector method. Cyclr will act as a proxy and pass your request to the external application.
 
-Before you start, make sure you have created an end user account and authenticated a connector.
+Before you start, you'll need to have created a Cyclr Account and have installed and authenticated an Account Connector within it.
 
 ### Get Account Connectors
 
@@ -53,7 +53,7 @@ X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
 ]
 ```
 
-In the response, **123** is an account connector ID. **1** is the ID for the underlying connector.
+In the response, **123** is an Account Connector ID. **1** is the ID for the underlying Cyclr Connector.
 
 ### Identify the Connector Method to Call
 
@@ -89,12 +89,14 @@ Each Connector Method in Cyclr has a *MethodUniqueIdentifier* value. You can get
 
 ### Call a Connector Method
 
-You can now call a connector method and get the raw response from the third-party application.
+You can now call a Connector Method and get the response from the third-party application.
+
+Some Connector Methods may alter the response returned by the third-party API, such as changing the structure to improve how Cyclr can work with it.  If you're familiar with an application's API, you may notice some Responses look a little different.
 
 #### Request
 
 ```http
-POST https://yourCyclrInstance/v1.0/account/connectors/{account connector ID}/methods/{method ID}
+POST https://yourCyclrInstance/v1.0/account/connectors/{account connector ID}/methods/{method ID or Method Unique Identifier}
 Authorization: Bearer ****************************************************************
 Content-Type: application/json
 X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
@@ -126,12 +128,12 @@ X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
 
 ### Call a Connector Method with Parameters
 
-If the method you are calling requires any values to be passed, they must be included in your Request Body as follows:
+If the method you are calling requires any values to be passed, they can be included in your Request Body as follows:
 
 #### Request
 
 ```http
-POST https://yourCyclrInstance/v1.0/account/connectors/{account connector ID}/methods/{method ID}
+POST https://yourCyclrInstance/v1.0/account/connectors/{account connector ID}/methods/{method ID or Method Unique Identifier}
 Authorization: Bearer ****************************************************************
 Content-Type: application/json
 X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
@@ -145,6 +147,8 @@ X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
     }
 }
 ```
+
+> <h3>The Method ID changes between releases of the Connector and may be deprecated over time, so we recommend using the Method Unique Identifier in these calls.</h3>
 
 ### IP Restriction
 

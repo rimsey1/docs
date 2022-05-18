@@ -12,7 +12,9 @@ menus:
 
 _**For connectors that are authenticated using an API key provided by the 3rd party app.**_
 
-Your user’s API Key will need to be collected in your application and sent to Cyclr like below, this can be done for both unauthenticated and authenticated connectors.
+Your user's API Key will need to be collected in your application and sent to Cyclr.
+
+You can update an existing Account Connector with this Cyclr API Request where **AuthValue** is set to the API Key value:
 
 Request:
 

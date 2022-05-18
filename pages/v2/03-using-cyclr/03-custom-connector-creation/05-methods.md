@@ -26,7 +26,7 @@ These are descriptions of the API endpoints in a standard format.
 | HttpMethod | This is the action to be performed on the API method. Supported methods are GET, POST, PATCH, PUT, DELETE. | |
 | Endpoint | This is the URI to the API method. Not used if this Method Type is a webhook.| |
 | Hide | This will hide the method in the Cyclr UI if set to true. |
-| DataType | This is the data type used by the API, either Json, Xml, or Form. For GET, this is the Accept header. For POST, this is the request data. JSON is our recommended data type.| |
+| DataType | This is the data type used by the API, either Json, Xml, or Form. For GET, this is the Accept header. For POST, this is the request data. JSON is our recommended data type. Read more about [data types](./data-types)| |
 | Xml Root Element | If using XML, this it the single root element for the XML document.| |
 
 Connector naming conventions.
@@ -55,7 +55,7 @@ Here you specify the request or response message format Fields. Note that if the
 | Display Name | The name of the field to be displayed in the Cyclr UI to the user. | |
 | Description | This is the description of the Field to appear in the Cyclr UI for the user to understand how the Field is used. | Always include this and keep fairly short (no more than 100 characters). |
 | Optional | Set to `true` if the Field doesn’t have to be given a value. Leave out if it’s a required Field. | |
-| Data Type | Options are: Text, Integer, Float, Boolean, DateTime, File, Decimal.  If the type is DateTime then a Format can be entered to specify the format. | |
+| Data Type | Options are: Text, Integer, Float, Boolean, DateTime, File, Decimal.  If the type is DateTime then a Format can be entered to specify the format.  Read more about [data types](./data-types) | |
 | Default Value | | |
 
 ## Parameters

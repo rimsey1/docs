@@ -10,7 +10,73 @@ menus:
     weight: 20
 ---
 
+## 2022
+
+### 25th April 2022
+- Console: Improve transactions view with split notification and filter view by parent transaction
+- Console: Make templates/cycles directly navigable from transactions view
+- API: Enforce name field requirement for account creation calls
+- Launch: Add user visible template note
+- Connector Management: Improve method category deletion experience
+
+### 19th April 2022
+- API: Support cycle import and export
+- Platform: Improve Time Filter Field errors
+- Console: Allow partner admins to set users with private instance admin role
+- Console: Allow private instance administrators access to scheduled jobs view
+- API: Include account connector IDs in template install call response
+
+### 4th April 2022
+- Connector Setup: Indicate optional fields
+
+### 28th March 2020
+- Marketplaces: Enforce connector authentication order
+- Builder: Allow partners to control help links in white label consoles
+
+### 21st March 2020
+- Platform: Updated MongoDB native driver to 2.14.1
+- Connectors: Remove dynamic custom fields if no longer found at source
+- Launch/Marketplaces: Added data type mismatch warnings
+- Templates: Cycle variables now support value lists
+
+### 14th March 2020
+- Custom Connectors: Support custom objects
+
+### 28th February 2022
+- Connectors: Added support for Kafka connector
+- Webhooks: Improved performance, reduces time to accept webhooks
+- Script: Add encoding support for atob &amp; btoa
+
+### 7th February 2022
+- Webhooks: added support for refreshing external IDs for partner webhooks
+
+### 17th January 2022
+- LAUNCH/Marketplace: prevent single install packages being installed more than once
+
+### 10th January 2022
+- Console: Add new Search filter option to exclude errors and warnings in transactions view
+
+### 4th January 2022
+- Console: add Cyclr API Reference to Help menu
+- Webhooks: support multiple IDs for partner webhooks
+- API: include connector categories in API response
+
+
 ## 2021
+
+### 29th November 2021
+- Templates: added builder annotations
+- Script: added transaction_id script variable
+- Connectors: added support ftps TLS session reuse
+- Console: added messaging widget to dashboard
+
+### 15th November 2021
+- Webhooks: add webhook replay
+- LAUNCH/Marketplace: enforce mapping steps order
+
+### 8th November 2021
+- Marketplaces: Add installing view
+- Script: added cycle_variables to after_action_paging
 
 ### 25th October 2021
 - API: deauthenticate endpoint to de-authenticate an account connector
