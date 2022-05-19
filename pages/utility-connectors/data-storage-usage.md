@@ -11,7 +11,7 @@ This Global Data Storage and Cycle Data Storage connectors can be installed mult
 For the Global Data Storage Connector, a maximum of 1,000,000 items can be stored.<br />
 For a Cycle Storage Connector (e.g. Cycle Data Storage and Cycle Object Storage), a maximum of 1,000,000 items can be stored by each Cycle.
 
-Data is stored as Key/Value pairs.
+Data is stored as Key/Value pairs
 
 **Keys** cannot exceed 128 characters.  \
 **Values** cannot exceed 1,024 characters.
