@@ -13,7 +13,7 @@ For a Cycle Storage Connector (e.g. Cycle Data Storage and Cycle Object Storage)
 
 Data is stored as Key/Value pairs.
 
-**Keys** cannot exceed 128 characters.
+**Keys** cannot exceed 128 characters.  \
 **Values** cannot exceed 1,024 characters.
 
 ### Single Record Operations
