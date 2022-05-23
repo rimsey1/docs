@@ -1,31 +1,43 @@
 {
     "Description": "Securely take payments everywhere with a single platform.",
-    "Id": 14341,
+    "Id": 17200,
     "Name": "Squareup",
     "Version": null,
     "Status": "Approved",
-    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14341",
-    "Categories": [
-        "POS",
-        "Billing/Payment"
-    ],
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17200",
+    "Categories": [],
     "MethodCategories": [
         {
-            "Category": "Refunds",
+            "Category": "Customers",
             "Methods": [
                 {
-                    "Name": "List Refunds by Location",
-                    "Description": "Retrieves a list of refunds made at a particular location.",
+                    "Name": "Get New And Updated Customers",
+                    "Description": "Get all customers who were added or updated after the last run time.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "List Refunds",
-                    "Description": "Retrieves a list of refunds made by the account making the request.",
+                    "Name": "Update Customer",
+                    "Description": "Update an existing customer.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "List New Refunds by Location",
-                    "Description": "Retrieves a list of refunds made at a particular location since last run.",
+                    "Name": "Create Customer",
+                    "Description": "Create a new customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Customer",
+                    "Description": "Delete an existing customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Customers",
+                    "Description": "Get a list of all customers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Customer",
+                    "Description": "Retrieve a single customer by their ID.",
                     "MethodType": "Action"
                 }
             ]
@@ -51,21 +63,6 @@
             ]
         },
         {
-            "Category": "Employees",
-            "Methods": [
-                {
-                    "Name": "Get Employee",
-                    "Description": "Get a single employees by ID.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Employees",
-                    "Description": "Get a list of all employees.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
             "Category": "Locations",
             "Methods": [
                 {
@@ -78,6 +75,11 @@
         {
             "Category": "Payments",
             "Methods": [
+                {
+                    "Name": "Get Payment",
+                    "Description": "Retrieves details for a specific payment.",
+                    "MethodType": "Action"
+                },
                 {
                     "Name": "List Payments",
                     "Description": "Retrieves a list of payments taken by the account making the request.",
@@ -96,36 +98,16 @@
             ]
         },
         {
-            "Category": "Customers",
+            "Category": "Employees",
             "Methods": [
                 {
-                    "Name": "Create Customer",
-                    "Description": "Create a new customer.",
+                    "Name": "Get Employee",
+                    "Description": "Get a single employees by ID.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Update Customer",
-                    "Description": "Update an existing customer.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Customers",
-                    "Description": "Get a list of all customers.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Customer",
-                    "Description": "Retrieve a single customer by their ID.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get New And Updated Customers",
-                    "Description": "Get all customers who were added or updated after the last run time.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Delete Customer",
-                    "Description": "Delete an existing customer.",
+                    "Name": "List Employees",
+                    "Description": "Get a list of all employees.",
                     "MethodType": "Action"
                 }
             ]
@@ -139,11 +121,6 @@
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Get New Transactions By Location.",
-                    "Description": "Get a list of all transactions made after the last run time.",
-                    "MethodType": "Action"
-                },
-                {
                     "Name": "List Refunds By Location",
                     "Description": "Get a list of all refunds for a location.",
                     "MethodType": "Action"
@@ -151,6 +128,31 @@
                 {
                     "Name": "Get New Refunds By Location.",
                     "Description": "Get a list of all refunds made after the last run time for a given location.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New Transactions By Location.",
+                    "Description": "Get a list of all transactions made after the last run time.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Refunds",
+            "Methods": [
+                {
+                    "Name": "List Refunds",
+                    "Description": "Retrieves a list of refunds made by the account making the request.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Refunds by Location",
+                    "Description": "Retrieves a list of refunds made at a particular location since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Refunds by Location",
+                    "Description": "Retrieves a list of refunds made at a particular location.",
                     "MethodType": "Action"
                 }
             ]

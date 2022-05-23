@@ -1,15 +1,27 @@
 {
     "Description": "Twilio allows you to integrate voice and SMS communications into your applications.",
-    "Id": 8097,
+    "Id": 17223,
     "Name": "Twilio SMS",
     "Version": "2010-04-01",
     "Status": "Approved",
-    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8097",
-    "Categories": [
-        "Marketing",
-        "SMS"
-    ],
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17223",
+    "Categories": [],
     "MethodCategories": [
+        {
+            "Category": "Incoming Phone Numbers",
+            "Methods": [
+                {
+                    "Name": "List Incoming Phone Numbers",
+                    "Description": "Return a list of all incoming phone numbers",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Incoming Phone Number",
+                    "Description": "Update the selected incoming phone number.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
         {
             "Category": "SMS",
             "Methods": [

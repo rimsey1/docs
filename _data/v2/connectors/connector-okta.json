@@ -1,14 +1,11 @@
 {
     "Description": "Okta provides operations to manage users in your organization.",
-    "Id": 15034,
+    "Id": 17135,
     "Name": "Okta",
     "Version": null,
     "Status": "Approved",
-    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15034",
-    "Categories": [
-        "Collaboration",
-        "Data Tools"
-    ],
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17135",
+    "Categories": [],
     "MethodCategories": [
         {
             "Category": "Users",
@@ -128,5 +125,5 @@
     "Content": null,
     "WebsiteUrl": null,
     "DocumentationUrl": null,
-    "PartnerSetupGuideUrl": null
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/okta-connector"
 }

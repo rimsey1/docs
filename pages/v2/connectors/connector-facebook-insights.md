@@ -3,7 +3,7 @@ title: Facebook Insights
 sidebar: cyclr_sidebar
 permalink: facebook-insights-connector
 tags: [connector]
-icon: https://my.cyclr.com/api/ConnectorIcon/17119
+icon: https://my.cyclr.com/api/ConnectorIcon/17151
 default_header: false
 category: Social Media
 categories: [Social Media]

@@ -33,12 +33,12 @@ Setup your Invenias App within Cyclr:
 *   Go to your **Cyclr Console**
 *   Click the **Connectors** menu along the top
 *   Choose Connector Library
-*   Scroll down to **Inveias**
+*   Scroll down to **Invenias**
 *   Click the **Setup** button
 
 Enter the following values:
 
-**Client ID**: The client ID that we retrieved from the previous steps.
+**Client ID**:  The client ID that we retrieved from the previous steps.
 
 **Client Secret**:  The secret that we retrieved from the previous steps.
 

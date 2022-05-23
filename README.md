@@ -44,7 +44,9 @@ Amend v1 markdown to include the relevant html eg:
 ```Shell
 $ git clone https://github.com/cyclr/docs.git
 ```
-4. Start up the application:
+4. Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
+5. Run bundle install to install all dependencies
+6. Start up the application:
 ```Shell
 $ docker-compose up
 ```
@@ -241,6 +243,7 @@ Various v1 md files ported for inclusion in the v2 connector pages resulted in L
 
 - connector-asana
 - connector-bronto
+- connector-chargebee
 - connector-deltek-workbook
 - connector-drip
 - connector-facebook-marketing-api
@@ -273,7 +276,7 @@ These included the issues described in the table :
 | md characters in content | add backslash to escape the relevant characters |
 
 **NB** Manually amended md files are backed up in ``_includes\v2\connector\v1content\bak``. 
-The md porting utility ``_bin\v2\portconnecormdtov2.py`` overwrites existing files in the target folder, so if there is a requirement to port the original content, make sure any relevant md files are backed up.
+The md porting utility ``_bin\v2\portconnecormdtov2.py`` overwrites existing files in the target folder, so if there is a requirement to port the original content, make sure any manually amended  md files are backed up to provide the correct md.
 
 
 #### Connectors with no v1 content

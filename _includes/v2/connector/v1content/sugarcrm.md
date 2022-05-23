@@ -1,7 +1,5 @@
 
-# SugarCRM 
-
-## API Integration Guide
+## SugarCRM setup
 
 ### Before you start
 

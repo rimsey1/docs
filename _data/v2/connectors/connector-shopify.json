@@ -1,25 +1,55 @@
 {
     "Description": "This connector brings webhooks to Shopify.",
-    "Id": 17065,
+    "Id": 17199,
     "Name": "Shopify",
     "Version": "1.0",
     "Status": "Approved",
-    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17065",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17199",
     "Categories": [
         "Ecommerce"
     ],
     "MethodCategories": [
         {
+            "Category": "Meta Fields",
+            "Methods": [
+                {
+                    "Name": "Get Metafields (Beta)",
+                    "Description": "Get Meta Fields, Transforms response to key value pairs. You will need to add custom response fields to map from. format \"metafields.<fieldkey>\" e.g. metafields.mytextbox1",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Meta Fields(Beta)",
+                    "Description": "List Meta Fields.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
             "Category": "Gift Cards",
             "Methods": [
+                {
+                    "Name": "Get Gift Card Count",
+                    "Description": "Get a count of gift cards.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Gift Cards",
+                    "Description": "Returns gift cards that match a supplied query.",
+                    "MethodType": "Action"
+                },
                 {
                     "Name": "Disable Gift Card",
                     "Description": "Disables a gift card. Disabling a gift card can't be undone.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Get Gift Card Count",
-                    "Description": "Get a count of gift cards.",
+                    "Name": "List Gift Cards",
+                    "Description": "Lists all gift cards.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Gift Card",
+                    "Description": "Creates a gift card.",
                     "MethodType": "Action"
                 },
                 {
@@ -30,21 +60,6 @@
                 {
                     "Name": "Update Gift Card",
                     "Description": "Updates an existing gift card.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Gift Cards",
-                    "Description": "Lists all gift cards.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Search Gift Cards",
-                    "Description": "Returns gift cards that match a supplied query.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Create Gift Card",
-                    "Description": "Creates a gift card.",
                     "MethodType": "Action"
                 }
             ]
@@ -70,31 +85,16 @@
             ]
         },
         {
-            "Category": "Meta Fields",
-            "Methods": [
-                {
-                    "Name": "Get Metafields (Beta)",
-                    "Description": "Get Meta Fields, Transforms response to key value pairs. You will need to add custom response fields to map from. format \"metafields.<fieldkey>\" e.g. metafields.mytextbox1",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Meta Fields(Beta)",
-                    "Description": "List Meta Fields.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
             "Category": "Inventory Levels",
             "Methods": [
                 {
-                    "Name": "List Inventory Levels",
-                    "Description": "List inventory levels.",
+                    "Name": "Update Inventory Level",
+                    "Description": "Updates the inventory level of an inventory item.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Update Inventory Level",
-                    "Description": "Updates the inventory level of an inventory item.",
+                    "Name": "List Inventory Levels",
+                    "Description": "List inventory levels.",
                     "MethodType": "Action"
                 }
             ]
@@ -110,52 +110,63 @@
             ]
         },
         {
-            "Category": "Customers",
+            "Category": "Checkout",
             "Methods": [
                 {
-                    "Name": "Search Customers",
-                    "Description": "Searches for customers that match a supplied query.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Customers",
-                    "Description": "List customers.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Update Customer",
-                    "Description": "Update a customer.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Updated Customers",
-                    "Description": "List customers updated since lastrun.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Customer Deleted",
-                    "Description": "This webhook is triggered when a customer is deleted.",
-                    "MethodType": "Webhook"
-                },
-                {
-                    "Name": "Customer Updated",
-                    "Description": "This webhook is triggered when a customer is updated.",
-                    "MethodType": "Webhook"
-                },
-                {
-                    "Name": "Customer Created",
-                    "Description": "This webhook is triggered when a customer is created.",
+                    "Name": "Checkout Created",
+                    "Description": "This webhook is triggered when a checkout is created.",
                     "MethodType": "Webhook",
                     "Subcategory": "Webhooks"
                 },
                 {
-                    "Name": "List Customer Orders",
-                    "Description": "List orders for specified Customer ID.",
+                    "Name": "Checkout Updated",
+                    "Description": "This webhook is triggered when a checkout is updated.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Checkout Deleted",
+                    "Description": "This webhook is triggered when a checkout is deleted.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Get Checkouts Count",
+                    "Description": "Gets the amount of checkouts from the past 90 days",
+                    "MethodType": "Action",
+                    "Subcategory": "Management"
+                },
+                {
+                    "Name": "List Abandoned Checkouts",
+                    "Description": "List Abandoned Checkouts.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Orders",
+            "Methods": [
+                {
+                    "Name": "List Order Fulfillments",
+                    "Description": "Retrieves a list of fulfillments for a specific order.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "List New Customers",
-                    "Description": "List customers created since lastrun.",
+                    "Name": "Get Order Fulfillment",
+                    "Description": "Retrieve a specific fulfillment.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Order",
+                    "Description": "Get order by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Fulfillment Tracking Information",
+                    "Description": "Updates the tracking information for a fulfillment.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Order Fulfillment",
+                    "Description": "Create a fulfillment for the specified order and line items.",
                     "MethodType": "Action"
                 }
             ]
@@ -163,6 +174,27 @@
         {
             "Category": "Order",
             "Methods": [
+                {
+                    "Name": "List New Orders",
+                    "Description": "List orders created since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Orders",
+                    "Description": "List orders updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Orders",
+                    "Description": "List orders.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Order",
+                    "Description": "Creates an order. By default, product inventory is not claimed.",
+                    "MethodType": "Action",
+                    "Subcategory": "Management"
+                },
                 {
                     "Name": "Order Deletion",
                     "Description": "This webhook is triggered when a order is deleted.",
@@ -188,67 +220,16 @@
                     "Subcategory": "Webhooks"
                 },
                 {
-                    "Name": "Order Created",
-                    "Description": "This webhook is triggered when a order is created.",
-                    "MethodType": "Webhook",
-                    "Subcategory": "Webhooks"
-                },
-                {
-                    "Name": "List New Orders",
-                    "Description": "List orders created since last run.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Updated Orders",
-                    "Description": "List orders updated since last run.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Orders",
-                    "Description": "List orders.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Create Order",
-                    "Description": "Creates an order. By default, product inventory is not claimed.",
-                    "MethodType": "Action",
-                    "Subcategory": "Management"
-                },
-                {
                     "Name": "Order Updated",
                     "Description": "This webhook is triggered when a order is updated.",
                     "MethodType": "Webhook",
                     "Subcategory": "Webhooks"
-                }
-            ]
-        },
-        {
-            "Category": "Orders",
-            "Methods": [
-                {
-                    "Name": "Get Order",
-                    "Description": "Get order by ID.",
-                    "MethodType": "Action"
                 },
                 {
-                    "Name": "Get Order Fulfillment",
-                    "Description": "Retrieve a specific fulfillment.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Order Fulfillments",
-                    "Description": "Retrieves a list of fulfillments for a specific order.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Create Order Fulfillment",
-                    "Description": "Create a fulfillment for the specified order and line items.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Update Fulfillment Tracking Information",
-                    "Description": "Updates the tracking information for a fulfillment.",
-                    "MethodType": "Action"
+                    "Name": "Order Created",
+                    "Description": "This webhook is triggered when a order is created.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Webhooks"
                 }
             ]
         },
@@ -256,31 +237,21 @@
             "Category": "Products",
             "Methods": [
                 {
+                    "Name": "Product Created",
+                    "Description": "This webhook is triggered when a product is created.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Webhooks"
+                },
+                {
                     "Name": "Product Updated",
                     "Description": "This webhook is triggered when a product is updated.",
                     "MethodType": "Webhook"
                 },
                 {
-                    "Name": "Product Deleted",
-                    "Description": "This webhook is triggered when a product is deleted.",
-                    "MethodType": "Webhook"
-                },
-                {
-                    "Name": "List Products",
-                    "Description": "List products.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Product",
-                    "Description": "Get a product.",
+                    "Name": "Get Product Variant Using SKU",
+                    "Description": "Get a product variant using an SKU filter.",
                     "MethodType": "Action",
-                    "Subcategory": "Manage"
-                },
-                {
-                    "Name": "Product Created",
-                    "Description": "This webhook is triggered when a product is created.",
-                    "MethodType": "Webhook",
-                    "Subcategory": "Webhooks"
+                    "Subcategory": "Variants"
                 },
                 {
                     "Name": "Update Product Variant",
@@ -295,41 +266,70 @@
                     "Subcategory": "Variants"
                 },
                 {
-                    "Name": "Get Product Variant Using SKU",
-                    "Description": "Get a product variant using an SKU filter.",
+                    "Name": "Get Product",
+                    "Description": "Get a product.",
                     "MethodType": "Action",
-                    "Subcategory": "Variants"
+                    "Subcategory": "Manage"
+                },
+                {
+                    "Name": "List Products",
+                    "Description": "List products.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Product Deleted",
+                    "Description": "This webhook is triggered when a product is deleted.",
+                    "MethodType": "Webhook"
                 }
             ]
         },
         {
-            "Category": "Checkout",
+            "Category": "Customers",
             "Methods": [
                 {
-                    "Name": "Checkout Deleted",
-                    "Description": "This webhook is triggered when a checkout is deleted.",
+                    "Name": "List Customer Orders",
+                    "Description": "List orders for specified Customer ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Customer Deleted",
+                    "Description": "This webhook is triggered when a customer is deleted.",
                     "MethodType": "Webhook"
                 },
                 {
-                    "Name": "Checkout Created",
-                    "Description": "This webhook is triggered when a checkout is created.",
+                    "Name": "Customer Updated",
+                    "Description": "This webhook is triggered when a customer is updated.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Customer Created",
+                    "Description": "This webhook is triggered when a customer is created.",
                     "MethodType": "Webhook",
                     "Subcategory": "Webhooks"
                 },
                 {
-                    "Name": "Checkout Updated",
-                    "Description": "This webhook is triggered when a checkout is updated.",
-                    "MethodType": "Webhook"
+                    "Name": "Search Customers",
+                    "Description": "Searches for customers that match a supplied query.",
+                    "MethodType": "Action"
                 },
                 {
-                    "Name": "Get Checkouts Count",
-                    "Description": "Gets the amount of checkouts from the past 90 days",
-                    "MethodType": "Action",
-                    "Subcategory": "Management"
+                    "Name": "List Customers",
+                    "Description": "List customers.",
+                    "MethodType": "Action"
                 },
                 {
-                    "Name": "List Abandoned Checkouts",
-                    "Description": "List Abandoned Checkouts.",
+                    "Name": "Update Customer",
+                    "Description": "Update a customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Customers",
+                    "Description": "List customers created since lastrun.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Customers",
+                    "Description": "List customers updated since lastrun.",
                     "MethodType": "Action"
                 }
             ]

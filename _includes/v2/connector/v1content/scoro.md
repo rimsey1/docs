@@ -39,7 +39,7 @@ Setup your Scoro App within Cyclr:
 
 Enter the following values:
 
-**Language**: The language that you would like the data to be represented in. Default is set as "eng" for English.
+**Language**:  The language that you would like the data to be represented in. Default is set as "eng" for English.
 
 **Company Name**: The name of your Scoro company. This can be found by reading the URL of your Scoro account. It is the part after "https://" and before ".scoro.com". For example, if your account URL was "https://companyName.scoro"
 

@@ -7,7 +7,7 @@ icon: https://my.cyclr.com/api/ConnectorIcon/17080
 default_header: false
 category: All
 categories: []
-showv1content: false
+showv1content: true
 ---
 {% assign connectordata = site.data.v2.connectors.connector-chargebee %}
 {% assign v1content = "chargebee.md" %}

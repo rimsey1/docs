@@ -1,109 +1,30 @@
 {
     "Description": "Delivering your transactional and marketing email through one reliable platform.",
-    "Id": 14742,
+    "Id": 17180,
     "Name": "SendGrid",
     "Version": "v3",
     "Status": "Approved",
-    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14742",
-    "Categories": [
-        "Marketing",
-        "Developer Tools",
-        "Email Marketing"
-    ],
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17180",
+    "Categories": [],
     "MethodCategories": [
-        {
-            "Category": "Legacy Lists",
-            "Methods": [
-                {
-                    "Name": "Delete Contact From List",
-                    "Description": "Deletes a contact from a list.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get List Contacts",
-                    "Description": "Gets the contacts in a list.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Lists",
-                    "Description": "Gets all the lists.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Add Contact To List",
-                    "Description": "Adds a contact to a list.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Mails",
-            "Methods": [
-                {
-                    "Name": "Get Templates",
-                    "Description": "Gets the mail templates.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Send Mail",
-                    "Description": "This option allows you to send a mail by providing either HTML or plain text content.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Send Template Mail",
-                    "Description": "This option allows you to send a mail based on a template.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Marketing Lists",
-            "Methods": [
-                {
-                    "Name": "Create Marketing List",
-                    "Description": "Create a Marketing list.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Delete Contact From Marketing List",
-                    "Description": "Removes a contact from a Marketing list.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Marketing List",
-                    "Description": "Get a Marketing list.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Update Marketing List",
-                    "Description": "Update a Marketing list.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Marketing Lists",
-                    "Description": "List all Marketing lists.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Suppressions",
-            "Methods": [
-                {
-                    "Name": "Add to Group Suppression",
-                    "Description": "This endpoint allows you to add email addresses to an unsubscribe group.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Add to Global Suppression",
-                    "Description": "This endpoint allows you to add one or more email addresses to the global suppressions group.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
         {
             "Category": "Legacy Contacts",
             "Methods": [
+                {
+                    "Name": "Get All Contacts",
+                    "Description": "Gets all of the contacts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Multiple Contacts",
+                    "Description": "Bulk add of multiple contacts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add a Single Contact",
+                    "Description": "Adds a single contact.",
+                    "MethodType": "Action"
+                },
                 {
                     "Name": "Update a Single Contact",
                     "Description": "Updates a contact.",
@@ -115,68 +36,8 @@
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Get All Contacts",
-                    "Description": "Gets all of the contacts.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Add a Single Contact",
-                    "Description": "Adds a single contact.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Add Multiple Contacts",
-                    "Description": "Bulk add of multiple contacts.",
-                    "MethodType": "Action"
-                },
-                {
                     "Name": "Update Multiple Contacts",
                     "Description": "Updates multiple contacts.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Metadata",
-            "Methods": [
-                {
-                    "Name": "Create Custom Field",
-                    "Description": "Create a Custom Field.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Contacts",
-            "Methods": [
-                {
-                    "Name": "List New Contacts",
-                    "Description": "List new contacts.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Delete Contact",
-                    "Description": "Delete a contact.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Contact",
-                    "Description": "Get a contact.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Updated Contacts",
-                    "Description": "List updated contacts.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Upsert Contact",
-                    "Description": "Add or update a contact. Can also be used to add a contact to a list.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Contacts",
-                    "Description": "List all contacts.",
                     "MethodType": "Action"
                 }
             ]
@@ -192,6 +53,146 @@
                 {
                     "Name": "List Teammates",
                     "Description": "Gets all of the teammates.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "List Updated Contacts",
+                    "Description": "List updated contacts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Contact",
+                    "Description": "Delete a contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Contacts",
+                    "Description": "List new contacts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Multiple Contacts",
+                    "Description": "Add or update multiple contacts. Can also be used to add contacts to a list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact",
+                    "Description": "Get a contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contacts",
+                    "Description": "List all contacts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Contact",
+                    "Description": "Add or update a contact. Can also be used to add a contact to a list.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Mails",
+            "Methods": [
+                {
+                    "Name": "Send Template Mail",
+                    "Description": "This option allows you to send a mail based on a template.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Send Mail",
+                    "Description": "This option allows you to send a mail by providing either HTML or plain text content.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Templates",
+                    "Description": "Gets the mail templates.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Suppressions",
+            "Methods": [
+                {
+                    "Name": "Add to Global Suppression",
+                    "Description": "This endpoint allows you to add one or more email addresses to the global suppressions group.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add to Group Suppression",
+                    "Description": "This endpoint allows you to add email addresses to an unsubscribe group.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Metadata",
+            "Methods": [
+                {
+                    "Name": "Create Custom Field",
+                    "Description": "Create a Custom Field.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Marketing Lists",
+            "Methods": [
+                {
+                    "Name": "Get Marketing List",
+                    "Description": "Get a Marketing list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Contact From Marketing List",
+                    "Description": "Removes a contact from a Marketing list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Marketing List",
+                    "Description": "Create a Marketing list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Marketing List",
+                    "Description": "Update a Marketing list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Marketing Lists",
+                    "Description": "List all Marketing lists.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Legacy Lists",
+            "Methods": [
+                {
+                    "Name": "Get List Contacts",
+                    "Description": "Gets the contacts in a list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Contact From List",
+                    "Description": "Deletes a contact from a list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Contact To List",
+                    "Description": "Adds a contact to a list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Lists",
+                    "Description": "Gets all the lists.",
                     "MethodType": "Action"
                 }
             ]

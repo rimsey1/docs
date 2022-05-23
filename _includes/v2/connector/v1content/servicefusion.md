@@ -23,6 +23,6 @@ Setup your Service Fusion App within Cyclr:
 
 Enter the following values:
 
-**Client ID**: the _Consumer Key_ of your Salesforce Connected App
+**Client ID**:  the _Consumer Key_ of your Salesforce Connected App
 
 **Client Secret**: the _Consumer Secret_ of your Salesforce Connected App

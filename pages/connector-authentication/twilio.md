@@ -1,5 +1,5 @@
 ---
-title: Twilio Connector Gudie
+title: Twilio Connector Guide
 sidebar: cyclr_sidebar
 permalink: twilio-connector.html
 tags: [connector]

@@ -26,7 +26,7 @@ Setup your Salesforce SOAP App within Cyclr:
 
 Enter the following values:
 
-**Username**: Enter your Salesforce username/email.
+**Username**:  Enter your Salesforce username/email.
 
 **Password**:  This is a combination of your Salesforce password and your security token. Enter the following: "\<SalesforcePassword>\<SecurityToken>". For example, if your password was "letmein" and your security token was "1234", you would enter "letmein1234" (without the quotation marks).
 

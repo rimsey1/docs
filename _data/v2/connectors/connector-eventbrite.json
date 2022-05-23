@@ -1,102 +1,38 @@
 {
     "Description": "Create events and sell tickets.",
-    "Id": 17111,
+    "Id": 17185,
     "Name": "Eventbrite",
     "Version": "v3.0",
     "Status": "Approved",
-    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17111",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17185",
     "Categories": [],
     "MethodCategories": [
-        {
-            "Category": "Events (custom object)",
-            "Methods": [
-                {
-                    "Name": "List Attendees",
-                    "Description": "Retrieves details about the attendees of an event.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Updated Attendees",
-                    "Description": "Retrieves details about attendees of an event, changed on or after the last time this process was executed.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Internal",
-            "Methods": [
-                {
-                    "Name": "List Triggers",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Events",
-            "Methods": [
-                {
-                    "Name": "List Events By Organization",
-                    "Description": "List events for the specified organization.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Updated Attendees",
-                    "Description": "Retrieves details about attendees of an event, changed on or after the last time this process was executed.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Update Event",
-                    "Description": "Updates an existing event.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Event Information",
-                    "Description": "Gets the name, description, start and end time, capacity and status of a public event.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Attendees",
-                    "Description": "Retrieves details about the attendees of an event.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Attendee Details",
-                    "Description": "Retrieves information about an attendee of an event.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Event Orders",
-                    "Description": "Retrieves a list of orders for an event.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Publish Event",
-                    "Description": "Publishes an event.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Unpublish Event",
-                    "Description": "Unpublishes an event.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Create Event",
-                    "Description": "Makes a new event.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
         {
             "Category": "Users",
             "Methods": [
                 {
-                    "Name": "Get Self",
-                    "Description": "Retrieves user account information for the currently authenticated user.",
+                    "Name": "Get User",
+                    "Description": "Retrieves user account information for the specified user.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Get User",
-                    "Description": "Retrieves user account information for the specified user.",
+                    "Name": "Get Self",
+                    "Description": "Retrieves user account information for the currently authenticated user.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Events (custom object)",
+            "Methods": [
+                {
+                    "Name": "List Updated Attendees",
+                    "Description": "Retrieves details about attendees of an event, changed on or after the last time this process was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Attendees",
+                    "Description": "Retrieves details about the attendees of an event.",
                     "MethodType": "Action"
                 }
             ]
@@ -130,11 +66,6 @@
                     "MethodType": "Webhook"
                 },
                 {
-                    "Name": "Attendee Updated",
-                    "Description": "This webhook triggers when an attendee updates. Retrieves information about an attendee of an event.",
-                    "MethodType": "Webhook"
-                },
-                {
                     "Name": "Attendee Check In",
                     "Description": "This webhook triggers when an attendee checks in. Retrieves information about an attendee of an event.",
                     "MethodType": "Webhook"
@@ -163,6 +94,21 @@
                     "Name": "Order Placed",
                     "Description": "This webhook triggers when an order is placed. Retrieves information about an order.",
                     "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Attendee Updated",
+                    "Description": "This webhook triggers when an attendee updates. Retrieves information about an attendee of an event.",
+                    "MethodType": "Webhook"
+                }
+            ]
+        },
+        {
+            "Category": "Organizers",
+            "Methods": [
+                {
+                    "Name": "Get Organizer",
+                    "Description": "Gets an organizer by ID.",
+                    "MethodType": "Action"
                 }
             ]
         },
@@ -187,11 +133,65 @@
             ]
         },
         {
-            "Category": "Organizers",
+            "Category": "Events",
             "Methods": [
                 {
-                    "Name": "Get Organizer",
-                    "Description": "Gets an organizer by ID.",
+                    "Name": "Unpublish Event",
+                    "Description": "Unpublishes an event.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Publish Event",
+                    "Description": "Publishes an event.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Event Orders",
+                    "Description": "Retrieves a list of orders for an event.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Events By Organization",
+                    "Description": "List events for the specified organization.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Attendees",
+                    "Description": "Retrieves details about attendees of an event, changed on or after the last time this process was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Event",
+                    "Description": "Makes a new event.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Event",
+                    "Description": "Updates an existing event.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Event Information",
+                    "Description": "Gets the name, description, start and end time, capacity and status of a public event.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Attendees",
+                    "Description": "Retrieves details about the attendees of an event.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Attendee Details",
+                    "Description": "Retrieves information about an attendee of an event.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Internal",
+            "Methods": [
+                {
+                    "Name": "List Triggers",
                     "MethodType": "Action"
                 }
             ]
@@ -203,5 +203,5 @@
     "Content": "<p>Let your users use their event data with your sales, marketing and finance platforms to gain greater insight and find new opportunities withyour own Eventbrite integrations.</p><p>Create and publish your own integrations with Eventbrite, letting your users authenticate and activate in a matter of clicks!</p>    ",
     "WebsiteUrl": "https://cyclr.com/integrate/eventbrite",
     "DocumentationUrl": "http://www.eventbrite.co.uk/developer/v3/",
-    "PartnerSetupGuideUrl": null
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/eventbrite-connector"
 }

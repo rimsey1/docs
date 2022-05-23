@@ -1,13 +1,14 @@
 
 
-## Permissions In Deltek Workbook
-Get API Access
+## Deltek Workbook setup
+
+### Get API Access
 
 You must grant the required access rights to your API user's access role for the specific API endpoint you need in Settings > Advanced tools > User access rights of your WorkBook application.
 
 Prerequisite - WorkBook user that can grant access rights to an API user's access role.
 
-## Procedure
+### Procedure
 
 To get access to an API endpoint:
 
@@ -17,7 +18,7 @@ From your WorkBook application, go to Settings > Advanced tools > User access ri
 - On the right pane, search for the request name of the API endpoint you need.
 - Select the Access check box for the required HTTP verb.
 
-## Connector Setup
+## Cyclr setup
 
 The Connector now can be installed using the credentials **Username/Password** for the user obtained in the above steps:
 

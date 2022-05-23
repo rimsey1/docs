@@ -1,10 +1,10 @@
 {
     "Description": "SugarCRM enables businesses to create extraordinary customer relationships with the most innovative and affordable CRM solution in the market.",
-    "Id": 17122,
+    "Id": 17137,
     "Name": "SugarCRM",
     "Version": "10",
     "Status": "Approved",
-    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17122",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17137",
     "Categories": [
         "CRMs",
         "Sales"
@@ -279,13 +279,13 @@
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "List Deleted Contacts",
-                    "Description": "Get deleted contacts from SugarCRM.",
+                    "Name": "Update Contact",
+                    "Description": "Update an existing contact in SugarCRM.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Update Contact",
-                    "Description": "Update an existing contact in SugarCRM.",
+                    "Name": "List Deleted Contacts",
+                    "Description": "Get deleted contacts from SugarCRM.",
                     "MethodType": "Action"
                 },
                 {

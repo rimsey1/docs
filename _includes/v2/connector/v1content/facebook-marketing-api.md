@@ -1,9 +1,10 @@
 
-## Facebook Marketing API
+## Facebook Marketing setup
 
 Facebook Marketing API uses OAuth 2. You should sign up for an application on Facebook first and get an OAuth client ID and client secret.
 
 **Note:** The process of having your app approved by Facebook may be lengthy (approx 5 days).
+
 
 ### Setting up your Partner App
 1. Log into your Facebook account.
@@ -25,23 +26,25 @@ Facebook Marketing API uses OAuth 2. You should sign up for an application on Fa
 16. Once you have requested Advanced Access on this (and any other permissions), you'll be invited to **Edit App Review Request**. Click this, complete all the required sections, and **Submit for Review**.
 17. Under **Settings > Basic** on the left menu, you'll be able to complete any missing sections, and copy your App ID and App Secret.  Once your app has been approved by Facebook, you'll be able to use these to authenticate your App in Cyclr.
 
-### Authenticating your Facebook Cyclr Connector
 
-Go to your **Cyclr Console > Connectors > Connector Library > Facebook Marketing API > Setup**
+## Authenticating your Facebook Cyclr Connector
+
+Go to your Cyclr Console > Connectors > Connector Library > Facebook Marketing API > Setup
 
 **Client ID**: This is the App ID displayed after you create the Facebook app
 
 **Client Secret**: This is the App Secret displayed after you create the Facebook app
 
+
 Your Facebook Marketing API connector is now set up! You can test it by installing it in one of your user accounts.
 
-### Official Facebook Documentation
+## Official Facebook Documentation
 
 [https://developers.facebook.com/docs/apps/register](https://developers.facebook.com/docs/apps/register)
 
-### Create Ad Set "Promoted Object"
+## Create Ad Set "Promoted Object"
 
-The **Promoted Object** is required for certain campaign objectives. The below table outlines the required Promoted Object fields based on the Optimization Goal.
+The "Promoted Object" is required for certain campaign objectives. The below table outlines the required Promoted Object fields based on the Optimization Goal.
 
 | Optimization Goal     | Promoted Object Field |
 | :-------------------- | :-------------------- |

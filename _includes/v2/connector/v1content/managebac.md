@@ -27,7 +27,7 @@ Setup your ManageBac App within Cyclr:
 
 Enter the following values:
 
-**API Key**: The API token that we retrieved from the previous step.
+**API Key**:  The API token that we retrieved from the previous step.
 
 
 Your ManageBac Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
