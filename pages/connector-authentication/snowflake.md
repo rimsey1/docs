@@ -34,6 +34,8 @@ create or replace security integration
 
 **Note**: The `OAUTH_REDIRECT_URI` field must point to the OAuth redirect URL of your Cyclr account. This has the format: `https://{Your Cyclr service domain e.g. app-h.cyclr.com}/connector/callback`.
 
+Your service domain can be found in your Cyclr console under Settings > General Settings > Service Domain.
+
 <a name="getting-the-client-id-and-client-secret"></a>
 
 ### Getting the client ID and client secret
