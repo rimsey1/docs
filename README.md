@@ -68,6 +68,7 @@ The sidebar menu is implemented with the jekyll-menus plugin. This relies on fro
 See https://github.com/forestryio/jekyll-menus for details.
 
 This implementation includes customisations :
+
 | customisation | where | description |
 | --- | --- | --- |
 | externalurl | front matter | Use externalurl instead of url to open the page in a new tab or window |
@@ -76,6 +77,7 @@ This implementation includes customisations :
 
 
 ## Pages and front matter
+
 All v2 pages are defined in the pages/v2 folder.
 The pages should be organised in sub folders which reflect the relationship between pages and group them logically. 
 

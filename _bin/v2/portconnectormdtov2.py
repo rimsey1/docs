@@ -9,7 +9,7 @@ import os;
 import glob;
 
 md_dict = {
-"3DCart":"3dcart",
+"3DCart":"3d-cart",
 "access_crm_setup":"access-crm",
 "adestra_setup":"adestra",
 "Amadeus":"amadeus",

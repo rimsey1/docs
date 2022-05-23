@@ -1,6 +1,24 @@
 
-# Administrate
+<section class="authentication" markdown="1">
+
+## Authentication
+
+| Type      | Basic  |
+| Description |  |
+{: .table .vheader}
+
+</section>
+
+<section class="setup partner" markdown="1">
 
 ## Partner Setup
 
-To authenticate the Administrate connector, all you will need is your username and password.
+<div class="section-content required" markdown="1">
+
+To authenticate the Administrate connector, you need 
+- username
+- password
+
+</div>
+
+</section>
