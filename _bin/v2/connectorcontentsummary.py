@@ -22,7 +22,6 @@ if response.status_code == 200 :
 		connector_description = item['Description']
 		connector_category = 'All'
 		connector_categories = ",".join(item['Categories'])
-		# file_name = re.sub("[^a-zA-Z0-9]", "", connector_name).lower()
 		file_name = connector_slug
 		file_md = '../../pages/v2/connectors/connector-'+file_name+'.md'
 		file_md_full = os.path.join(os.path.dirname(__file__), file_md)

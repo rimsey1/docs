@@ -747,10 +747,9 @@ div {
 
 section {
     .section-title {
-
-    }
-    &.required {
-        .section-content {
+    }    
+    .section-content {
+        &.required {
             @include highlight-required();
         }
     }

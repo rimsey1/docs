@@ -1,12 +1,23 @@
 
-# Act!
+<section class="setup partner" markdown="1">
 
 ## Partner Setup
 
-To authenticate the Act! connector, you will need your:
+### Domain
 
-* Username and Password
-* Database name (found by clicking your username in the top right of your Act! console, and selecting User Management).
-* Act Domain
-  * Cloud: Enter your Act address changing app to api - so if your address bar reads appeu.act.com, enter apieu.act.com
-  * Self-Hosted: Enter your instance domain, including your database name with the addition of "-api" e.g. {Act Domain Name}.com/{Act Database Name}-api
+| Domain | Value | Example | 
+| --- | --- | --- | 
+| Cloud | Your Act address, substituting **api** for **app** | ``appeu.act.com``  enter ``apieu.act.com `` |
+| Self-Hosted | Your instance domain, including your database name with the suffix **-api** |``{act-domain-name}.com/{db-name}-api``|
+
+<div class="section-content required" markdown="1">
+
+Enter your account and other details:
+
+- Username and Password
+- Database name: click your username in the top right of your Act! console, and select **User Management**.
+- Enter the relevant domain values as summarised in the domain table.
+ 
+</div>
+
+</section>

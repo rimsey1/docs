@@ -1,8 +1,18 @@
 
-# ActiveCampaign
+
+<section class="setup partner" markdown="1">
 
 ## Partner Setup
 
-To authenticate the ActiveCampaign connector, you will need your API key.
+<div class="section-content required" markdown="1">
 
-This can be found in your ActiveCampaign account on the Settings page under the "Developer" tab. Each user in your ActiveCampaign account has their own unique API key.
+To authenticate the ActiveCampaign connector, get your API key.
+
+- Login to your ActiveCampaign account.
+- Go to the **Settings** page.
+- Click the **Developer** tab. 
+- Each user in your ActiveCampaign account has a unique API key.
+
+</div>
+
+</section>
