@@ -1,10 +1,10 @@
 {
     "Description": "HubSpot is an inbound marketing and sales platform that helps companies attract visitors, convert leads, and close customers.",
-    "Id": 17112,
+    "Id": 17189,
     "Name": "HubSpot",
     "Version": "1.0",
     "Status": "Approved",
-    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17112",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17189",
     "Categories": [
         "CRMs",
         "Email Marketing",
@@ -12,275 +12,8 @@
     ],
     "MethodCategories": [
         {
-            "Category": "Blogs",
-            "Methods": [
-                {
-                    "Name": "List Blog Posts",
-                    "Description": "Lists all blog posts for a HubSpot account.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Blog Post By ID",
-                    "Description": "Gets a blog post by ID.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Blogs",
-                    "Description": "Lists all of the blogs for an account.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Blog By ID",
-                    "Description": "Gets a blog by ID.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Forms",
-            "Methods": [
-                {
-                    "Name": "List Form Submissions Since Last Run",
-                    "Description": "Returns a list of submissions for the specified form since the last successful run.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Form Fields",
-                    "Description": "Returns a list of fields for the specified form.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Form Submissions",
-                    "Description": "Returns a list of submissions for the specified form.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Forms",
-                    "Description": "Returns a list of all forms.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Deal Properties",
-            "Methods": [
-                {
-                    "Name": "Update Deal Property",
-                    "Description": "Update a deal property.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Deal Property Groups",
-                    "Description": "Returns all of the deal property groups for a given portal.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Create Deal Property",
-                    "Description": "Create a deal property.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Delete Deal Property",
-                    "Description": "Delete a deal property.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Deal Property",
-                    "Description": "Get a deal property.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Deal Custom Properties",
-                    "Description": "List deal custom properties.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Deal Properties",
-                    "Description": "List deal properties.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Custom Objects",
-            "Methods": [
-                {
-                    "Name": "Create Custom Object",
-                    "Description": "Create a custom object.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Custom Object Schema",
-                    "Description": "Get a custom object schema.",
-                    "MethodType": "Action",
-                    "Subcategory": "Schema"
-                },
-                {
-                    "Name": "Create Custom Object Schema",
-                    "Description": "Create a custom object schema.",
-                    "MethodType": "Action",
-                    "Subcategory": "Schema"
-                }
-            ]
-        },
-        {
-            "Category": "Deals",
-            "Methods": [
-                {
-                    "Name": "Delete Deal",
-                    "Description": "Delete a Deal.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Search Deals",
-                    "Description": "Returns a list of Deals that match the name.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Company's Associated Deals",
-                    "Description": "Lists all deals associated with the specified company. Only the Deal ID's are returned, use the Get Deal method to retrieve the full deal details.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Associate Deal With Company",
-                    "Description": "Associate a Deal with a Company.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Deal",
-                    "Description": "Get the details of the specified Deal.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Update Deal",
-                    "Description": "Update the details of a Deal.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Create Deal",
-                    "Description": "Create a deal inside HubSpot.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List New Deals",
-                    "Description": "List all deals that have been created since last run.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Deals",
-                    "Description": "Returns a list of Deals.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Associate Deal With Contact",
-                    "Description": "Associate a Deal with a Contact.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Search Deals V3",
-                    "Description": "Search through deals.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Updated Deals",
-                    "Description": "List modified deals from HubSpot since last successful run.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Contact Lists",
-            "Methods": [
-                {
-                    "Name": "Create Static Contact List",
-                    "Description": "Creates a new Static Contact List.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Delete Contact List",
-                    "Description": "Delete a list in a given HubSpot account, identified by its unique ID.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Add Filters To List",
-                    "Description": "Adds filters to a Contact List, used to define which Contacts are included in the list.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Add Contacts To List",
-                    "Description": "Adds one or more Contacts to a Contact List.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Create Dynamic Contact List",
-                    "Description": "Creates a new Dynamic Contact List.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Remove Contacts From List",
-                    "Description": "Removes one or more Contacts from a Contact List.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Contact Lists",
-                    "Description": "Gets all Contact Lists from this HubSpot portal.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Contact List Members",
-                    "Description": "Gets the members of a Contact List.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List New Contact List Members",
-                    "Description": "Gets the members of a Contact List added since the last run.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Contact List",
-                    "Description": "Gets the details of a single Contact List from the supplied ID.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Pipelines",
-            "Methods": [
-                {
-                    "Name": "List Deal Pipelines",
-                    "Description": "Get deal pipelines from HubSpot.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Ticket Pipelines",
-                    "Description": "Get ticket Pipelines from HubSpot.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Deal Pipeline Stages",
-                    "Description": "List the Stages of a particular Deal Pipeline",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
             "Category": "Contacts",
             "Methods": [
-                {
-                    "Name": "List Updated Contacts",
-                    "Description": "Gets a list of recently updated or created Contacts.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Contact By ID",
-                    "Description": "Gets a Contact by ID.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Search Contacts",
-                    "Description": "Gets all the Contacts matching the search term. Searches on email address, first and last name, phone number, or company.",
-                    "MethodType": "Action"
-                },
                 {
                     "Name": "List New Contacts By Owner ID",
                     "Description": "Gets a list of newly created Contacts specific to an Owner ID.",
@@ -307,6 +40,11 @@
                     "MethodType": "Action"
                 },
                 {
+                    "Name": "Get Contact By User Token",
+                    "Description": "Get a contact by its user token.",
+                    "MethodType": "Action"
+                },
+                {
                     "Name": "Update Contact",
                     "Description": "Updates a Contact.",
                     "MethodType": "Action"
@@ -322,8 +60,8 @@
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Get Contact By User Token",
-                    "Description": "Get a contact by its user token.",
+                    "Name": "List Updated Contacts",
+                    "Description": "Gets a list of recently updated or created Contacts.",
                     "MethodType": "Action"
                 },
                 {
@@ -332,24 +70,141 @@
                     "MethodType": "Action"
                 },
                 {
+                    "Name": "Search Contacts",
+                    "Description": "Gets all the Contacts matching the search term. Searches on email address, first and last name, phone number, or company.",
+                    "MethodType": "Action"
+                },
+                {
                     "Name": "Delete Contact",
                     "Description": "Deletes an existing contact from a particular HubSpot portal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact By ID",
+                    "Description": "Gets a Contact by ID.",
                     "MethodType": "Action"
                 }
             ]
         },
         {
-            "Category": "Webhooks",
+            "Category": "Company Properties",
             "Methods": [
                 {
-                    "Name": "Contact Deleted",
-                    "Description": "Webhook that listens for when a contact is deleted in Hubspot.",
-                    "MethodType": "Webhook"
+                    "Name": "Delete Company Property",
+                    "Description": "Deletes a company property.",
+                    "MethodType": "Action"
                 },
                 {
-                    "Name": "Contact Created",
-                    "Description": "Webhook that listens for when a contact is created in Hubspot.",
-                    "MethodType": "Webhook"
+                    "Name": "Create Company Property",
+                    "Description": "Creates a company property.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Company Properties",
+                    "Description": "Lists company properties.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Company Property",
+                    "Description": "Gets a company property.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Company Property Groups",
+                    "Description": "Lists company property groups.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Company Property",
+                    "Description": "Updates a company property.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Company Custom Properties",
+                    "Description": "Lists company custom properties.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Deal Properties",
+            "Methods": [
+                {
+                    "Name": "List Deal Custom Properties",
+                    "Description": "List deal custom properties.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Deal Property",
+                    "Description": "Update a deal property.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Deal Property",
+                    "Description": "Get a deal property.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Deal Property",
+                    "Description": "Delete a deal property.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Deal Property",
+                    "Description": "Create a deal property.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Deal Property Groups",
+                    "Description": "Returns all of the deal property groups for a given portal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Deal Properties",
+                    "Description": "List deal properties.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Custom Objects",
+            "Methods": [
+                {
+                    "Name": "Create Custom Object",
+                    "Description": "Create a custom object.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Custom Object Schema",
+                    "Description": "Create a custom object schema.",
+                    "MethodType": "Action",
+                    "Subcategory": "Schema"
+                },
+                {
+                    "Name": "Get Custom Object Schema",
+                    "Description": "Get a custom object schema.",
+                    "MethodType": "Action",
+                    "Subcategory": "Schema"
+                }
+            ]
+        },
+        {
+            "Category": "Campaigns",
+            "Methods": [
+                {
+                    "Name": "List Campaigns With Recent Activity",
+                    "Description": "For a given portal, return all email campaign IDs sorted by recent activity associated with the portal. ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Campaigns",
+                    "Description": "For a given portal, return all email campaign IDs associated with the portal. ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Campaign",
+                    "Description": "Gets the details of the specified Campaign.",
+                    "MethodType": "Action"
                 }
             ]
         },
@@ -362,28 +217,8 @@
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Get Product Property",
-                    "Description": "Gets a product property.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Delete Product Property",
-                    "Description": "Deletes a product property.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Product Properties",
-                    "Description": "Lists product properties.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Create Product Property",
-                    "Description": "Creates a product property.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Product Custom Properties",
-                    "Description": "Lists product custom properties.",
+                    "Name": "Update Product Property",
+                    "Description": "Updates a product property.",
                     "MethodType": "Action"
                 },
                 {
@@ -392,8 +227,28 @@
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Update Product Property",
-                    "Description": "Updates a product property.",
+                    "Name": "List Product Custom Properties",
+                    "Description": "Lists product custom properties.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Product Properties",
+                    "Description": "Lists product properties.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Product Property",
+                    "Description": "Deletes a product property.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Product Property",
+                    "Description": "Gets a product property.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Product Property",
+                    "Description": "Creates a product property.",
                     "MethodType": "Action"
                 }
             ]
@@ -402,18 +257,8 @@
             "Category": "Tickets",
             "Methods": [
                 {
-                    "Name": "Delete Ticket",
-                    "Description": "Delete a Ticket.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Create Ticket",
-                    "Description": "Create a new Ticket.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Update Ticket",
-                    "Description": "Update a Ticket.",
+                    "Name": "Get Ticket",
+                    "Description": "Get the details of a Ticket.",
                     "MethodType": "Action"
                 },
                 {
@@ -422,123 +267,43 @@
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Get Ticket",
-                    "Description": "Get the details of a Ticket.",
+                    "Name": "Update Ticket",
+                    "Description": "Update a Ticket.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Ticket",
+                    "Description": "Create a new Ticket.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Ticket",
+                    "Description": "Delete a Ticket.",
                     "MethodType": "Action"
                 }
             ]
         },
         {
-            "Category": "Campaigns",
+            "Category": "Forms",
             "Methods": [
                 {
-                    "Name": "Get Campaign",
-                    "Description": "Gets the details of the specified Campaign.",
+                    "Name": "List Form Submissions",
+                    "Description": "Returns a list of submissions for the specified form.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "List Campaigns",
-                    "Description": "For a given portal, return all email campaign IDs associated with the portal. ",
+                    "Name": "List Form Fields",
+                    "Description": "Returns a list of fields for the specified form.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "List Campaigns With Recent Activity",
-                    "Description": "For a given portal, return all email campaign IDs sorted by recent activity associated with the portal. ",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Owners",
-            "Methods": [
-                {
-                    "Name": "Get Owner by Email",
-                    "Description": "Get an owner by Email.",
+                    "Name": "List Form Submissions Since Last Run",
+                    "Description": "Returns a list of submissions for the specified form since the last successful run.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "List Owners",
-                    "Description": "List all the owners from this HubSpot portal.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Updated Owners",
-                    "Description": "Get all the owners from this HubSpot portal since last ran.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Owner",
-                    "Description": "Get an owner by ID.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get New Owners",
-                    "Description": "Get all the owners from this HubSpot portal since last ran.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Products",
-            "Methods": [
-                {
-                    "Name": "List Products",
-                    "Description": "Lists all Products.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Update Product",
-                    "Description": "Update the details of a Product.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Create Product",
-                    "Description": "Create a new Product.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Product",
-                    "Description": "Get the details of a Product.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Product For Deal",
-                    "Description": "Get a product from HubSpot as it existed when added to deal.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Contact Properties",
-            "Methods": [
-                {
-                    "Name": "List Contact Properties",
-                    "Description": "Lists contact properties.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Delete Contact Property",
-                    "Description": "Deletes a contact property.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Create Contact Property",
-                    "Description": "Creates a contact property.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Update Contact Property",
-                    "Description": "Updates a contact property.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "List Contact Custom Properties",
-                    "Description": "Lists contact custom  properties.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Contact Property",
-                    "Description": "Gets a contact property.",
+                    "Name": "List Forms",
+                    "Description": "Returns a list of all forms.",
                     "MethodType": "Action"
                 }
             ]
@@ -582,6 +347,11 @@
                     "MethodType": "Action"
                 },
                 {
+                    "Name": "Create Email Engagement",
+                    "Description": "Create Email engagement in this HubSpot portal.",
+                    "MethodType": "Action"
+                },
+                {
                     "Name": "List Updated Engagements",
                     "Description": "Get updated Engagements.",
                     "MethodType": "Action"
@@ -612,18 +382,158 @@
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "List Call Dispositions",
-                    "Description": "List the possible dispositions (outcomes) for engagements (sales calls).",
-                    "MethodType": "Action"
-                },
-                {
                     "Name": "Update Meeting Engagement",
                     "Description": "Update Meeting engagement in this HubSpot portal.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Create Email Engagement",
-                    "Description": "Create Email engagement in this HubSpot portal.",
+                    "Name": "List Call Dispositions",
+                    "Description": "List the possible dispositions (outcomes) for engagements (sales calls).",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Deals",
+            "Methods": [
+                {
+                    "Name": "List Updated Deals",
+                    "Description": "List modified deals from HubSpot since last successful run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Deal",
+                    "Description": "Delete a Deal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Company's Associated Deals",
+                    "Description": "Lists all deals associated with the specified company. Only the Deal ID's are returned, use the Get Deal method to retrieve the full deal details.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Deals",
+                    "Description": "Returns a list of Deals that match the name.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Deals",
+                    "Description": "List all deals that have been created since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Deals",
+                    "Description": "Returns a list of Deals.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Associate Deal With Contact",
+                    "Description": "Associate a Deal with a Contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Deals V3",
+                    "Description": "Search through deals.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Deal",
+                    "Description": "Get the details of the specified Deal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Deal",
+                    "Description": "Create a deal inside HubSpot.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Associate Deal With Company",
+                    "Description": "Associate a Deal with a Company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Deal",
+                    "Description": "Update the details of a Deal.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Pipelines",
+            "Methods": [
+                {
+                    "Name": "List Ticket Pipelines",
+                    "Description": "Get ticket Pipelines from HubSpot.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Deal Pipeline Stages",
+                    "Description": "List the Stages of a particular Deal Pipeline",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Deal Pipelines",
+                    "Description": "Get deal pipelines from HubSpot.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Company Members",
+            "Methods": [
+                {
+                    "Name": "Disassociate Contact From Company",
+                    "Description": "Removes the association between a Contact and a Company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Associate Contact With Company",
+                    "Description": "Associates a Contact with a Company. If a Contact is already associated with a different Company, the Contact will be added to the new Company. A Contact can only be associated with one Company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Company Association For Contact",
+                    "Description": "Checks which Company (if any) is associated with a Contact.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Associations",
+            "Methods": [
+                {
+                    "Name": "Create Batch Association",
+                    "Description": "Create a batch association.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Products",
+            "Methods": [
+                {
+                    "Name": "Get Product For Deal",
+                    "Description": "Get a product from HubSpot as it existed when added to deal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Product",
+                    "Description": "Create a new Product.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Product",
+                    "Description": "Update the details of a Product.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Product",
+                    "Description": "Get the details of a Product.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Products",
+                    "Description": "Lists all Products.",
                     "MethodType": "Action"
                 }
             ]
@@ -659,6 +569,101 @@
             ]
         },
         {
+            "Category": "Blogs",
+            "Methods": [
+                {
+                    "Name": "Get Blog Post By ID",
+                    "Description": "Gets a blog post by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Blog Posts",
+                    "Description": "Lists all blog posts for a HubSpot account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Blog By ID",
+                    "Description": "Gets a blog by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Blogs",
+                    "Description": "Lists all of the blogs for an account.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Webhooks",
+            "Methods": [
+                {
+                    "Name": "Contact Created",
+                    "Description": "Webhook that listens for when a contact is created in Hubspot.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Contact Deleted",
+                    "Description": "Webhook that listens for when a contact is deleted in Hubspot.",
+                    "MethodType": "Webhook"
+                }
+            ]
+        },
+        {
+            "Category": "Contact Lists",
+            "Methods": [
+                {
+                    "Name": "Create Static Contact List",
+                    "Description": "Creates a new Static Contact List.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Contact List",
+                    "Description": "Delete a list in a given HubSpot account, identified by its unique ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Filters To List",
+                    "Description": "Adds filters to a Contact List, used to define which Contacts are included in the list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Contacts To List",
+                    "Description": "Adds one or more Contacts to a Contact List.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Remove Contacts From List",
+                    "Description": "Removes one or more Contacts from a Contact List.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Dynamic Contact List",
+                    "Description": "Creates a new Dynamic Contact List.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contact Lists",
+                    "Description": "Gets all Contact Lists from this HubSpot portal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contact List Members",
+                    "Description": "Gets the members of a Contact List.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Contact List Members",
+                    "Description": "Gets the members of a Contact List added since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact List",
+                    "Description": "Gets the details of a single Contact List from the supplied ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
             "Category": "Account",
             "Methods": [
                 {
@@ -669,41 +674,66 @@
             ]
         },
         {
-            "Category": "Company Properties",
+            "Category": "Contact Properties",
             "Methods": [
                 {
-                    "Name": "Create Company Property",
-                    "Description": "Creates a company property.",
+                    "Name": "Get Contact Property",
+                    "Description": "Gets a contact property.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "List Company Properties",
-                    "Description": "Lists company properties.",
+                    "Name": "List Contact Properties",
+                    "Description": "Lists contact properties.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Get Company Property",
-                    "Description": "Gets a company property.",
+                    "Name": "Delete Contact Property",
+                    "Description": "Deletes a contact property.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "List Company Property Groups",
-                    "Description": "Lists company property groups.",
+                    "Name": "Create Contact Property",
+                    "Description": "Creates a contact property.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Delete Company Property",
-                    "Description": "Deletes a company property.",
+                    "Name": "Update Contact Property",
+                    "Description": "Updates a contact property.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Update Company Property",
-                    "Description": "Updates a company property.",
+                    "Name": "List Contact Custom Properties",
+                    "Description": "Lists contact custom  properties.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Owners",
+            "Methods": [
+                {
+                    "Name": "List Owners",
+                    "Description": "List all the owners from this HubSpot portal.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "List Company Custom Properties",
-                    "Description": "Lists company custom properties.",
+                    "Name": "Get Updated Owners",
+                    "Description": "Get all the owners from this HubSpot portal since last ran.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New Owners",
+                    "Description": "Get all the owners from this HubSpot portal since last ran.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Owner by Email",
+                    "Description": "Get an owner by Email.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Owner",
+                    "Description": "Get an owner by ID.",
                     "MethodType": "Action"
                 }
             ]
@@ -717,13 +747,28 @@
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "List Updated Companies",
-                    "Description": "List all companies created or modified since last run.",
+                    "Name": "Get Company By Domain",
+                    "Description": "Gets a company by domain.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "List Companies",
-                    "Description": "Returns a list of all Companies.",
+                    "Name": "Search Companies",
+                    "Description": "Returns companies that matches the search name.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Company",
+                    "Description": "Creates a new Company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Company",
+                    "Description": "Updates a company in HubSpot.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Company",
+                    "Description": "Deletes a Company.",
                     "MethodType": "Action"
                 },
                 {
@@ -737,58 +782,13 @@
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Update Company",
-                    "Description": "Updates a company in HubSpot.",
+                    "Name": "List Companies",
+                    "Description": "Returns a list of all Companies.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Create Company",
-                    "Description": "Creates a new Company.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Search Companies",
-                    "Description": "Returns companies that matches the search name.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Company By Domain",
-                    "Description": "Gets a company by domain.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Delete Company",
-                    "Description": "Deletes a Company.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Associations",
-            "Methods": [
-                {
-                    "Name": "Create Batch Association",
-                    "Description": "Create a batch association.",
-                    "MethodType": "Action"
-                }
-            ]
-        },
-        {
-            "Category": "Company Members",
-            "Methods": [
-                {
-                    "Name": "Disassociate Contact From Company",
-                    "Description": "Removes the association between a Contact and a Company.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Associate Contact With Company",
-                    "Description": "Associates a Contact with a Company. If a Contact is already associated with a different Company, the Contact will be added to the new Company. A Contact can only be associated with one Company.",
-                    "MethodType": "Action"
-                },
-                {
-                    "Name": "Get Company Association For Contact",
-                    "Description": "Checks which Company (if any) is associated with a Contact.",
+                    "Name": "List Updated Companies",
+                    "Description": "List all companies created or modified since last run.",
                     "MethodType": "Action"
                 }
             ]

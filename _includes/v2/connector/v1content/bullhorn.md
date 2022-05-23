@@ -1,5 +1,5 @@
 
-<section class="setup partner" markdown="1">
+# Bullhorn
 
 ## Partner Setup
 
@@ -7,17 +7,11 @@ To authenticate the Bullhorn connector you will need a Client ID and Client Secr
 
 If asked for a callback URI during this process, give
 
-<div class="highlight code" markdown="1">
 https://``Your Service Domain``/connector/callback 
-</div>
 
 Your service domain can be found in your Cyclr console under Settings > General Settings > Service Domain.
 
 Once you have your Client ID and Secret, you will be able to use these details to authenticate the connector.
-
-</section>
-
-<section class="faq" markdown="1">
 
 ## FAQ
 
@@ -28,10 +22,6 @@ After you are redirected to Bullhorn during the authentication process, sometime
 ![Bullhorn Redirect Error](./images/bullhorn-redirect-error.png)
 
 This is a known issue with Bullhorn. The solution is to clear the Bullhorn cookies in your browser, or open Cyclr and authenticate the connector in a private window.
-
-</section>
-
-<section class="userguide" markdown="1">
 
 ## User Guide
 
@@ -52,4 +42,3 @@ To retrieve custom object fields with your Job Order requests the steps to do so
 3. Add the custom object name and field names to the Custom Objects parameter when making the request. The format must be ObjectName(FieldName,FieldName,FieldName). For example:
 
    ![Add Query](./images/bullhorn_cf_3.png)
-</section>

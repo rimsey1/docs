@@ -1,5 +1,5 @@
 
-## Wordpress Connector Setup
+## Wordpress setup
 
 ### Authentication
 

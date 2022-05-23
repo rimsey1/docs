@@ -3,7 +3,7 @@ title: Salesforce
 sidebar: cyclr_sidebar
 permalink: salesforce-connector
 tags: [connector]
-icon: https://my.cyclr.com/api/ConnectorIcon/17123
+icon: https://my.cyclr.com/api/ConnectorIcon/17159
 default_header: false
 category: CRMs
 categories: [CRMs]

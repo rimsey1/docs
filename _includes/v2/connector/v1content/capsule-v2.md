@@ -11,7 +11,7 @@ Here is the official documentation for creating a Capsule OAuth 2 app:
 [https://developer.capsulecrm.com/v2/overview/authentication#oauth-2](https://developer.capsulecrm.com/v2/overview/authentication#oauth-2)
 
 1. Register a free Capsule account; or log into your existing account if you already have one.
-2. Go to [https://developer.capsulecrm.com/clients/new](https://developer.capsulecrm.com/clients/new)
+2. Go to [https://developer.capsulecrm.com/clients/new ](https://developer.capsulecrm.com/clients/new)
 
     Below are the details you should provide:
 

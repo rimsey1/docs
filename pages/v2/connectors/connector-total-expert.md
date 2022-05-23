@@ -3,7 +3,7 @@ title: Total Expert
 sidebar: cyclr_sidebar
 permalink: total-expert-connector
 tags: [connector]
-icon: https://my.cyclr.com/api/ConnectorIcon/16242
+icon: https://my.cyclr.com/api/ConnectorIcon/17175
 default_header: false
 category: Marketing
 categories: [Marketing,Sales]

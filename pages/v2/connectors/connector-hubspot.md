@@ -3,7 +3,7 @@ title: HubSpot
 sidebar: cyclr_sidebar
 permalink: hubspot-connector
 tags: [connector]
-icon: https://my.cyclr.com/api/ConnectorIcon/17112
+icon: https://my.cyclr.com/api/ConnectorIcon/17189
 default_header: false
 category: CRMs
 categories: [CRMs,Email Marketing,Support]

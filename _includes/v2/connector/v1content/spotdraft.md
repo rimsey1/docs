@@ -13,7 +13,7 @@ Setup your SpotDraft Connector within Cyclr:
 
 Enter the following values:
 
-**Client ID**: Please contact SpotDraft to obtain the client ID.
+**Client ID**:  Please contact SpotDraft to obtain the client ID.
 
 **Client Secret**:  Please contact SpotDraft to obtain the client secret.
 

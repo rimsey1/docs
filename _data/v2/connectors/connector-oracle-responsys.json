@@ -1,14 +1,11 @@
 {
     "Description": "Leading email marketing and cross-channel orchestration solution.",
-    "Id": 11870,
+    "Id": 17229,
     "Name": "Oracle Responsys",
     "Version": "v1.3",
     "Status": "Approved",
-    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11870",
-    "Categories": [
-        "Marketing",
-        "Email Marketing"
-    ],
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17229",
+    "Categories": [],
     "MethodCategories": [
         {
             "Category": "Profile List Recipients",
@@ -19,13 +16,13 @@
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Merge List Recipient",
-                    "Description": "New members can be added to an existing profile list and existing members in a profile list can be updated.",
+                    "Name": "Merge member and Trigger Email",
+                    "Description": "Merge Members to a Profile List and Send Responsys Email Campaigns to them.",
                     "MethodType": "Action"
                 },
                 {
-                    "Name": "Merge member and Trigger Email",
-                    "Description": "Merge Members to a Profile List and Send Responsys Email Campaigns to them.",
+                    "Name": "Merge List Recipient",
+                    "Description": "New members can be added to an existing profile list and existing members in a profile list can be updated.",
                     "MethodType": "Action"
                 }
             ]

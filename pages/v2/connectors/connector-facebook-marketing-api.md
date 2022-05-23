@@ -3,7 +3,7 @@ title: Facebook Marketing API
 sidebar: cyclr_sidebar
 permalink: facebook-marketing-api-connector
 tags: [connector]
-icon: https://my.cyclr.com/api/ConnectorIcon/17120
+icon: https://my.cyclr.com/api/ConnectorIcon/17208
 default_header: false
 category: Social Media
 categories: [Social Media]

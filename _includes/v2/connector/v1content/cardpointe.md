@@ -1,18 +1,16 @@
 
-<section class="required" markdown="1">
 ## Partner Setup
-<div class="section-content" markdown="1">
+
 First, login to your existing Cardpointe account or [sign up for one.](https://cardpointe.com/account/registration#/registration)
 
-### Retrieving Login Details
+
+#### Retrieving Login Details
 
 *   [Login](https://accounts.cardconnect.com/auth/realms/cardconnect/protocol/openid-connect/auth?response_type=code&client_id=cardpointe&redirect_uri=https%3A%2F%2Fcardpointe.com%2Faccount%2Fsso%2Flogin&state=d5709227-41e8-4ae3-8a7d-41ec3bcd8536&login=true&scope=openid) to your Cardpointe Account.
 *   You will need your Site URL to be able to interact with your data.
-</div>
-</section>
-<section class="setup cyclr" markdown="1">
-## Cyclr Setup
-<div class="required" markdown="1">
+
+### Cyclr Setup
+
 Setup your Cardpointe App within Cyclr:
 
 *   Go to **Cyclr Console**
@@ -31,5 +29,3 @@ Enter the following values:
 
 
 The Cardpointe Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
-</div>
-</section>

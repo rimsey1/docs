@@ -1,8 +1,8 @@
 
+<section class="required" markdown="1">
 ## Partner Setup
-
 ### oAuth Application Creation
-
+<div class="section-content" markdown="1">
 You will need to provide your Cyclr Partner **Service Domain** as part of the process of setting up access so best to have that information to hand before starting. This is specific to your instance of Cyclr and it can be found from the Cyclr Partner Console under: Settings > General Settings > Service Domain.
 
 In Asana Register an oAuth Application
@@ -21,6 +21,9 @@ You must supply your new application with:
 Once you have created an app, the details view will include a Client ID, needed to uniquely identify your app to the Asana API, as well as a Client Secret.
 
 Note Your Client Secret is a secret, it should never be shared with anyone or checked into source code that others could gain access to.
+</div>
+</section>
+<section class="setup cyclr" markdown="1">
 
 ### Cyclr Setup
 
@@ -37,3 +40,4 @@ Enter the following values:
 - **Client Secret**: The client secret obtained from registering an application.
 
 Your Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+</section>

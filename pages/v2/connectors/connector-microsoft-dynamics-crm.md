@@ -3,7 +3,7 @@ title: Microsoft Dynamics CRM
 sidebar: cyclr_sidebar
 permalink: microsoft-dynamics-crm-connector
 tags: [connector]
-icon: https://my.cyclr.com/api/ConnectorIcon/17025
+icon: https://my.cyclr.com/api/ConnectorIcon/17228
 default_header: false
 category: CRMs
 categories: [CRMs]
