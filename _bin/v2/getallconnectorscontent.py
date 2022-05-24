@@ -7,7 +7,6 @@
 # Confirm permalinks
 # windows cli : python getconnectorscontent.py
 
-import argparse
 import requests
 import re
 import os
@@ -15,23 +14,9 @@ import json
 import array as arr
 from slugify import slugify
 
-parser = argparse.ArgumentParser(description='Get connector content')
-parser.add_argument("-c", "--connectorid", help="Get connector for given ID",type=int)
-args = parser.parse_args()
-json_data = []
-response = False
-
-if args.connectorid is not None:
-	connectorsapiurl = 'https://my.cyclr.com/api/connectors/'+str(args.connectorid)
-	response = requests.get(connectorsapiurl)
-else:
-	response = requests.get('https://my.cyclr.com/api/connectors?pageSize=1000&details=true')
-
+response = requests.get('https://my.cyclr.com/api/connectors?pageSize=1000&details=true')
 if response.status_code == 200 :
-	if args.connectorid is not None:
-		json_data = [response.json()]
-	else:
-		json_data = response.json()
+	json_data = response.json()
 
 	template_md = os.path.join(os.path.dirname(__file__), './assets/templateconnector.md')
 	# print(__file__)
