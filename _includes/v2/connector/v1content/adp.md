@@ -1,9 +1,22 @@
 
+<section class="setup partner" markdown="1">
+
 ## Partner Setup
 
-You will need to retrieve your client ID and secret. The client ID is set during account creation, and the secret is the password to the created account.
+<div class="section-content required" markdown="1">
 
-You will need to contact ADP support if you are not able to retrieve these details.
+To authenticate the Adobe Campaign connector, you  need the following:
+
+- Client ID : set during account creation
+- Client Secret : password to the created account
+
+Contact ADP support if you cannot retrieve these details.
+
+</div>
+
+</section>
+
+<section class="setup partner" markdown="1">
 
 ### Cyclr Setup
 
@@ -23,3 +36,5 @@ Enter the following values:
 
 
 Your ADP Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+
+</section>

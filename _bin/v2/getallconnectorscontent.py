@@ -53,7 +53,7 @@ if response.status_code == 200 :
 			connector_category = item['Categories'][0]
 		# inject the connector name into the md template
 		# open the template file and the new file
-		with open(template_md,'r') as fromfile, open(file_md_full,'a') as tofile:
+		with open(template_md,'r') as fromfile, open(file_md_full,'w') as tofile:
 			for line in fromfile:
 				# omit description from front matter if no value
 				if "connectordescription" in line and connector_description is None:

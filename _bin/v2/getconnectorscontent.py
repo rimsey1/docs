@@ -5,7 +5,11 @@
 # Add temp section to append placeholder json until fields added and populated in the connectors db/API response
 # Confirm naming conventions
 # Confirm permalinks
-# windows cli : python getconnectorscontent.py
+# windows cli 
+# help : python getconnectorscontent.py --help
+# for single connector : python getconnectorscontent.py --connectorid 99999
+# for all connectors: python getconnectorscontent.py --connectorid 99999
+
 
 import argparse
 import requests
@@ -68,7 +72,7 @@ if response.status_code == 200 :
 			connector_category = item['Categories'][0]
 		# inject the connector name into the md template
 		# open the template file and the new file
-		with open(template_md,'r') as fromfile, open(file_md_full,'a') as tofile:
+		with open(template_md,'r') as fromfile, open(file_md_full,'w') as tofile:
 			for line in fromfile:
 				# omit description from front matter if no value
 				if "connectordescription" in line and connector_description is None:
@@ -97,7 +101,7 @@ if response.status_code == 200 :
 						connector_content_dict["nocontent"][connector_name] = connector_slug
 				else:
 					newline = line
-				# append to new md
+				# write to new md
 				tofile.write(newline), 
 			tofile.close()
 			fromfile.close()

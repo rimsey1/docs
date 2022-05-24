@@ -1,10 +1,19 @@
 
-# Aircall
+<section class="setup partner" markdown="1">
 
 ## Partner Setup
 
-To authenticate the Aircall connector, you will need an ``api_id`` and an ``api_token``.
+<div class="section-content required" markdown="1">
 
-To obtain these, go to your Company's Settings page in Aircall. In the API Keys section, click on **Add a new API key** and get your ``api_id`` and ``api_token``.
+-  ``api_id`` 
+-  ``api_token``
 
-You can now use these to authenticate the connector, passing the API ID and API Token as username and password respectively.
+Go to your Company's Settings page in Aircall. 
+
+In the API Keys section, click on **Add a new API key** and get your ``api_id`` and ``api_token``.
+
+</div>
+
+To authenticate the connector, pass the ``api_id`` and ``api_token`` as username and password respectively.
+
+</section>

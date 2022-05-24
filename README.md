@@ -323,7 +323,11 @@ Creates the md files for each connector category . The md files provide the sour
   - subsitutes the category text from the JSON array item for the placeholder text in the new yml file
 
 
-#### getconnectorscontent.py
+#### getallconnectorscontent.py
+
+Use this to create md and associated json for all live connectors. 
+
+The process overwrites any existing files. If you need to retain any existing md or json from the target folders, back up to another folder before running the script.
 
 - Makes API call https://my.cyclr.com/api/connectors?pageSize=1000&details=true
 - Parses the returned JSON array:
@@ -334,6 +338,30 @@ Creates the md files for each connector category . The md files provide the sour
   - if the version 1 md files exists, sets the new md content to include that file
   - creates **\_data/v2/connectors/connector-name-slugified.json**
   - writes the connector json object to the new json file
+
+
+#### getconnectorscontent.py
+
+Use this to create the files for a single connector, supplying the connector id as an argument. 
+
+The process overwrites any existing files.
+
+For each new connector or new release, run this to create the new connector content or update to include new release content.
+
+```
+c:\cyclr_docs\_bin\v2> python .\getconnectorscontent.py --help 
+usage: getconnectorscontent.py [-h] [-c CONNECTORID]
+
+Get connector content
+
+options:
+  -h, --help            show this help message and exit
+  -c CONNECTORID, --connectorid CONNECTORID
+                        Get connector for given ID
+
+
+```
+The JSON response is processed in the same way as detailed getallconnectorscontent.py
 
 
 #### jekyll build
@@ -363,10 +391,13 @@ The current Bootstrap source is version 3: in order to incorporte Bootstrap 5 fl
 #### Accordion 
 
 The connector guides render the methods in collapsible accordions. See https://getbootstrap.com/docs/5.0/components/accordion/ for the markup.
+
 The methods content is defined in the connector's json in  **\_data/v2/connectors**, and that content is parsed in **\_includes/v2/connector/connector.html** to create the accordion content. 
 
 #### Tables
 
 Some connector connect is presented in tables: no id or class attributes are required to apply the default style to tables rendered in the  **main.content** element. 
 
-All  the document pages use the same layout, so the content is always rendered in **main.content**. To apply alternative table styles, the style rules must be added to the scss, and the corresponding attributes defined where appropriate in **\_includes/v2/connector/connector.html**
+All  the document pages use the same layout, so the content is always rendered in **main.content**. 
+
+To apply alternative table styles, the style rules must be added to the scss, and the corresponding attributes defined where appropriate in **\_includes/v2/connector/connector.html**
