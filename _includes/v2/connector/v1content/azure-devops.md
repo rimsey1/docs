@@ -1,9 +1,15 @@
 
+<section class="authentication" markdown="1">
+
+## Authentication
+
+<div class="section-content" markdown="1">
+
 For reference, Microsoft's full Azure DevOps Authentication documentation can be found [here](https://docs.microsoft.com/en-us/azure/devops/integrate/get-started/authentication/oauth?view=azure-devops).
 
 The **Microsoft Azure DevOps** Connector is authenticated using OAuth2.0.
 
-## Preparation
+### Preparation
 
 Either your or your end-users will need to [register an application with Microsoft](https://app.vsaex.visualstudio.com/app/register) and provide its details to Cyclr.
 
@@ -13,7 +19,7 @@ If your users will require different Authorized scopes, either they or you can r
 
 When authenticating the Connector, the Scopes parameter used **must** match the Authorized scopes specified on the application being used.  If they are different, you will see an `InvalidScope` error from Microsoft's API.
 
-## Registering an Application
+### Registering an Application
 
 Registering an application is done [here](https://app.vsaex.visualstudio.com/app/register)
 
@@ -34,10 +40,13 @@ We suggest at least adding "Work items (full)" as it is required for most method
 After registering your application your **App ID**, **App Secret** and **Client Secret** are displayed.
 
 Keep a note of these details to refer to.
+</div>
+</section>
 
-
+<section class="setup partner" markdown="1">
 ## Partner Setup
 
+<div class="section-content" markdown="1">
 **If you plan to use the same Scopes for all your users:**
 
 In your Cyclr Console, go to Connectors > Application Connector Library and locate the entry for **Microsoft Azure DevOps**.
@@ -49,7 +58,14 @@ Enter your **App ID** into the *Client ID* box, your **Client Secret** into the 
 You should leave the Application Connector Library entry blank.  Doing this requires the user to provide all the details when installing the Connector.  This also allows different application details and related Scopes to be used that meet each user's requirements.
 
 
-## Connector Setup
+</div>
+</section>
+
+<div class="section-content" markdown="1">
+
+## Cyclr Setup
+
+<div class="section-content" markdown="1">
 
 When installing the Connector the **Organization ID** and **Project Name** to work with are needed.
 
@@ -61,15 +77,18 @@ These details can be found by logging in to the [DevOps portal](https://aex.dev.
 
 1. Begin installation of the **Microsoft Azure DevOps** Connector and enter the **Organization ID** and **Project Name** values.
 
-2. Click 'Sign In' and a new window will open prompting you to log in.
+2. Click **Sign In** and a new window will open prompting you to log in.
 
 3. Select your Azure account and authorize access.
 
 The Connector is now authenticated and ready for use.
 
 
-## Setting Scopes/InvalidScope Error
+### Setting Scopes/InvalidScope Error
 
 The list of permissions you set for the **Scopes** Connector parameter must *exactly* match the **Authorized scopes** you set when registering your App at [https://app.vsaex.visualstudio.com/app/register](https://app.vsaex.visualstudio.com/app/register).
 
 If they are different you will see an `InvalidScope` error when authenticating the Connector.
+
+</div>
+</section>

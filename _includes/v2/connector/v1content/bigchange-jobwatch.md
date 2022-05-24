@@ -1,13 +1,24 @@
 
-# Partner setup
+<section class="setup partner" markdown="1">
 
-## Getting your BigChange JobWatch API key
+## Partner Setup
 
-You will need to obtain your BigChange JobWatch API key to give Cyclr access to the BigChange JobWatch API. Contact your customer service representative to get this.
+<div class="section-content" markdown="1">
 
+### API Key
+
+Contact your customer service representative to get your BigChange JobWatch API Key.
 # Cyclr setup
 
-## Connector installation
+</div>
+
+</section>
+
+<section class="setup cyclr" markdown="1">
+
+## Cyclr Setup
+
+<div class="section-content" markdown="1">
 
 To set up the BigChange JobWatch connector within Cyclr:
 
@@ -24,9 +35,19 @@ To set up the BigChange JobWatch connector within Cyclr:
 
 Your BigChange JobWatch connector is now set up! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
 
+</div>
+
+</section>
+
+<section class="other" markdown="1">
+
 ## Custom fields
 
-You can add custom fields to contacts, contact notes, and jobs in the following methods:
+<div class="section-content" markdown="1">
+
+### Methods with custom fields
+
+Add custom fields to contacts, contact notes, and jobs in the following methods:
 
 -   Create Contact
 -   Update Contact
@@ -34,7 +55,7 @@ You can add custom fields to contacts, contact notes, and jobs in the following 
 -   Create Job
 -   Update Job
 
-You can view custom fields for contacts, contact notes, and jobs in the following methods:
+View custom fields for contacts, contact notes, and jobs in the following methods:
 
 -   Get Contact
 -   Get Contact Note
@@ -50,16 +71,26 @@ You can view custom fields for contacts, contact notes, and jobs in the followin
 -   Search Contacts By Phone Number
 -   Search Contacts By Postcode
 
-You can add custom fields to the above methods in the following way:
+### How to add custom fields
 
 1. Go to the **Edit Connector** page for the BigChange JobWatch connector.
 2. Under the **Methods & Fields** heading, locate the required method by expanding out the categories and method name.
 3. Click the pink **+** button to add a method field.
-4. Enter the following, repeating this for each BigChange JobWatch custom field you want to add:
-    - **Field Location**: The custom field location, which must have the format "cust\_&lt;field name&gt;".
+4. Rpeating these steps for each BigChange JobWatch custom field:
+    - **Field Location**: The custom field location, which must have the format ``cust\_&lt;field name&gt;``.
     - **Display Name**: The custom field display name.
     - **Description**: The custom field description.
     - **Data Type**: Text.
 5. Click **Create**.
 
-You must ensure the **Field Location** matches exactly for this to function. You can confirm that the custom fields are enabled by dragging the required method(s) into a cycle and viewing the **Step Settings**. You can find the custom fields at the bottom of the **Mappings** list.
+**NB** The **Field Location** ``cust\_&lt;field name&gt;`` value must match an existing field name.
+
+### Custom fields enabled
+
+To confirm that custom fields are enabled, drag the required method(s) into a cycle and view  the **Step Settings**. 
+
+The custom fields are displayed at the bottom of the **Mappings** list.
+
+</div>
+
+</section>

@@ -1,5 +1,9 @@
 
-## Authentication
+<section class="setup partner" markdown="1">
+
+## Partner Setup
+
+<div class="section-content" markdown="1">
 
 The Microsoft Azure Active Directory connector is authenticated with the OAuth2.0 protocol. You will need to register an application and provide the connector with that application's Client ID (Application ID) and Client Secret.
 
@@ -37,7 +41,16 @@ To add these permissions in Azure Active Directory:
 7. You must then **Grant admin consent for _organization_**
    ![grant admin consent](./images/permissions_3.png)
 
-### Connector Setup
+</div>
+
+</section>
+
+<section class="setup cyclr" markdown="1">
+
+## Cyclr Setup
+
+<div class="section-content" markdown="1">
+
 
 To allow your clients to access their own data through your Active Directory App, you must save the Client ID and Client Secret values in your Cyclr Console.
 
@@ -51,3 +64,6 @@ To allow your clients to access their own data through your Active Directory App
 
 
 The Microsoft Azure Active Directory Connector can now be installed and the user will only be asked to authenticate your App.
+
+</div>
+</section>
