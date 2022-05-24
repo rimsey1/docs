@@ -1,27 +1,63 @@
 
+<section class="authentication" markdown="1">
+
+## Authentication
+
+| Type      | OAuth2 |
+| Description |  |
+| OAuth 2 Type |  |
+| API Key Header | Authorization |
+| Authorise URL | https://app.asana.com/-/oauth_authorize |
+| Access Token URL | https://app.asana.com/-/oauth_token |
+{: .table .vheader}
+
+</section>
+
+<section class="setup partner" markdown="1">
+
 ## Partner Setup
 
-### oAuth Application Creation
 
-You will need to provide your Cyclr Partner 'Service Domain' as part of the process of setting up access so best to have that information to hand before starting. This is specific to your instance of Cyclr and it can be found from the Cyclr Partner Console under: Settings > General Settings > Service Domain.
+<div class="section-content required" markdown="1">
 
-In Asana Register an oAuth Application
+**Cyclr Service Domain**
 
-You must first register your application with Asana to receive a client ID and client secret. 
+Required to register an oAuth Application in Asana.
 
-Visit your Account Settings dialog, click the Apps tab, and "Add New Application".
+- Login to the Cyclr Partner Console 
+- Go to Settings > General Settings > Service Domain
+- Note the domain
 
-You must supply your new application with:
+</div>
 
-- App Name : A name for your application. 
-- App URL : This is url of your company
-- Redirect URL : https://[Your Cyclr Service Domain]/connector/callback
+<div class="section-content" markdown="1">
 
-Once you have created an app, the details view will include a Client ID, needed to uniquely identify your app to the Asana API, as well as a Client Secret.
+To register an oAuth Applicationin Asana:
 
-Note Your Client Secret is a secret, it should never be shared with anyone or checked into source code that others could gain access to.
+- [Login](https://app.asana.com/-/login) or [sign up](https://asana.com/create-account) to an Asana account
+- Go to **Account Settings** dialog
+- Click the **Apps** tab
+- Click **Add New Application**
+- Enter the required details:
+	| App Name      | A name for your application |
+	| App URL | The url of your company website |
+	| Redirect URL |  https://[Your Cyclr Service Domain]/connector/callback |
+	{: .table }
+
+
+The created app details include:
+- ``Client ID`` : to uniquely identify your app to the Asana API 
+- ``Client Secret`` : do not share or include in source code accessible outside your organisation.
+
+</div>
+
+</section>
+
+<section class="setup partner" markdown="1">
 
 ## Cyclr Setup
+
+<div class="section-content" markdown="1">
 
 - Go to your **Cyclr Console**
 - Click the **Connectors** menu along the top
@@ -31,8 +67,10 @@ Note Your Client Secret is a secret, it should never be shared with anyone or ch
 
 Enter the following values:
 
-- **Client ID**: Client ID obtained from registering an application
+- **Client ID**: obtained from registering an application
 
-- **Client Secret**: The client secret obtained from registering an application.
+- **Client Secret**: obtained from registering an application.
 
 Your Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+
+</div>
