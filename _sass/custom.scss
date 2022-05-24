@@ -751,6 +751,7 @@ section {
     .section-content {
         &.required {
             @include highlight-required();
+            margin-bottom: 30px;
         }
     }
 }
