@@ -19,7 +19,7 @@ md_dict = {
 "azure_ad_connector_docs":"azure-ad",
 "azure-devops-connector":"azure-devops",
 "bamboohr_setup":"bamboohr",
-"bntouch_docs":"bntouch",
+"bntouch_docs":"bntouch-mortgage-crm",
 "breathehr":"breathe-hr",
 "calendly_setup":"calendly",
 "CampusIvy":"campusivy",
