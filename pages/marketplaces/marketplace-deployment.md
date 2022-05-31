@@ -39,6 +39,8 @@ curl -X POST
 }' "https://yourCyclrInstance/v1.0/accounts/CYCLR_ACCOUNT_API_ID/marketplace"
 ```
 
+**All PartnerConnector Property Values must be passed as strings, even if they are numbers.**
+
 In the example above, replace *yourCyclrInstance* with your [**API Domain** according to where your Cyclr Console is located](./testing-cyclr-api) (e.g. "api.cyclr.com"), or your own domain if your Cyclr instance is self-hosted.
 
 When [obtaining a Cyclr API Access Token](./cyclr-api-authentication) for this call, you should *not* use an Account Restricted Token.
