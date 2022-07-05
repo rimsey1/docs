@@ -8,7 +8,7 @@ tags: [managing-cyclr]
 
 These settings allow you to change the appearance of Cyclr when in Accounts, using LAUNCH or Marketplaces.
 
-*Due to caching in Cyclr it will take a minute until the changes take effect.*
+*Due to caching within Cyclr, allow 1 minute before the changes take effect.*
 
 ## Application LESS Variables
 
