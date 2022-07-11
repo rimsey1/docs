@@ -39,17 +39,18 @@ To set up your **Stripe (OAuth)** connector within your Cyclr console:
 4. Select the **Setup Required** icon.
 5. Enter the below values, omitting this step will allow you to use different settings for each account on installation:
 
-| Value | Description |
-| :---------------- | :---------------------------------------- |
-| **Client ID** | The client ID of your Stripe account. |
+| Value             | Description                               |
+| ----------------- | ----------------------------------------- |
+| **Client ID**     | The client ID of your Stripe account.     |
 | **Client Secret** | The client secret of your Stripe account. |
+
 6. Select **Save Changes**.
 
 ### Account setup
 
 You will be asked for the following values when installing the **Stripe (OAuth)** connector within an account:
 
-| Value | Description |
-| :---------------- | :----------------------------------------------------------------------------------- |
-| **Client ID** | The client ID of your Stripe account, if you did not enter this in step 5 above. |
+| Value             | Description                                                                          |
+| ----------------- | ------------------------------------------------------------------------------------ |
+| **Client ID**     | The client ID of your Stripe account, if you did not enter this in step 5 above.     |
 | **Client Secret** | The client secret of your Stripe account, if you did not enter this in step 5 above. |
