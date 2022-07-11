@@ -31,23 +31,25 @@ From the [API settings](https://dashboard.stripe.com/apikeys) page of your Strip
 
 ### Console setup
 
-To set up your Stripe (OAuth) connector within your Cyclr console:
+To set up your **Stripe (OAuth)** connector within your Cyclr console:
 
 1. Go to your **Cyclr Console**.
 2. Select **Connectors** > **Application Connector Library** at the top of the page.
-3. Use the search box to find the Stripe (OAuth) connector.
+3. Use the search box to find the **Stripe (OAuth)** connector.
 4. Select the **Setup Required** icon.
 5. Enter the below values, omitting this step will allow you to use different settings for each account on installation:
-   | Value | Description |
-   | :---------------- | :---------------------------------------- |
-   | **Client ID** | The client ID of your Stripe account. |
-   | **Client Secret** | The client secret of your Stripe account. |
+
+| Value | Description |
+| :---------------- | :---------------------------------------- |
+| **Client ID** | The client ID of your Stripe account. |
+| **Client Secret** | The client secret of your Stripe account. |
 6. Select **Save Changes**.
 
 ### Account setup
 
-You will be asked for the following values when installing the Stripe (OAuth) connector within an account:
+You will be asked for the following values when installing the **Stripe (OAuth)** connector within an account:
+
 | Value | Description |
 | :---------------- | :----------------------------------------------------------------------------------- |
-| **Client ID** | The client ID of you Stripe account, if you did not enter this in step 5 above. |
+| **Client ID** | The client ID of your Stripe account, if you did not enter this in step 5 above. |
 | **Client Secret** | The client secret of your Stripe account, if you did not enter this in step 5 above. |
