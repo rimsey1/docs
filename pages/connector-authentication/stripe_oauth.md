@@ -14,7 +14,7 @@ From the [Connect settings](https://dashboard.stripe.com/settings/applications) 
 1. Locate the **Integration** section.
 2. Under **OAuth settings**, enable **OAuth for Standard accounts**.
 3. Under **Redirects**, select **+ Add URI**.
-4. Enter your Cyclr redirect URL as the **Redirect URI**. This has the format: `https://{{Your Service Domain}}/connector/callback`.
+4. Enter your Cyclr redirect URL as the **Redirect URI**. This has the format: `https://Your-Cyclr-Service-Domain/connector/callback`.
 5. Select **Add URI**.
 6. Make note of the **Live mode client ID**, this will be required to set the connector up in Cyclr. If testing mode is enabled, this field will be labelled as **Test mode client ID**.
 
