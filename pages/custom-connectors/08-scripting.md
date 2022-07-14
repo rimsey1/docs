@@ -82,8 +82,9 @@ All other events (such as after_action):
 	Connector -> Method -> Builder Step
 
 
-### Global Objects
+### General Objects
 
+*   **script_execution_context**: Contains a string value that can be used to identify the context your Script is being executed in.  Its value will be "RUNNING_TRANSACTION", "CONNECTOR_TESTING" or "STEP_TESTING" depending on where it's being executed.
 *   **method_response_fields**: Array containing a Method's Response Fields.
 *   **method_response_fields_in_use**: Array containing the connector field names of a Method's response fields used in subsequent steps.
 
