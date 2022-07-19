@@ -37,8 +37,8 @@ Use custom objects to set the Simitive ABC-HE period version per group of method
 This will create a new method category. Inside this category, all methods will have the same period version. To set up a custom object:
 
 1. Go to the Simitive ABC-HE connector Settings page:
-    - For template connectors: **Cyclr Console** > **Templates** > **Template Connectors** > **Simitive ABC-HE ** > **Edit Connector**.
-    - For connectors within a cycle: **Cycle Builder** > **Application Connectors** > **Simitive ABC-HE ** > **Settings**.
+    - For template connectors: **Cyclr Console** > **Templates** > **Template Connectors** > **Simitive ABC-HE** > **Edit Connector**.
+    - For connectors within a cycle: **Cycle Builder** > **Application Connectors** > **Simitive ABC-HE** > **Settings**.
 2. Under the **Methods and Fields** heading, expand the **Custom Object (Period Version)** category.
 3. Select the red **Copy this Category to create a Custom Object Category** icon.
 4. Enter the period version into **Specify object name**.
